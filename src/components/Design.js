@@ -6,7 +6,8 @@ import React, { Component } from 'react';
 
 // ============ Image Imports =============
 
-import iPad from '../assets/ipad.png';
+import iPad1 from '../assets/ipad.png';
+import iPad from '../assets/ipad_image_2.jpeg';
 import iPhone from '../assets/iphone.png';
 
 // ============ Design Component ==========

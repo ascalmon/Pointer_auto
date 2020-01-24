@@ -6,7 +6,7 @@ html {
   scroll-behavior: smooth; }
 
 .app-header {
-  background: url("./assets/eagle.png") no-repeat center center/cover;
+  background: url("./assets/front-page.jpg") no-repeat center center/cover;
   display: block;
   font-family: 'Montserrat', sans-serif;
   height: 100vh;
@@ -307,6 +307,10 @@ html {
 
 .about-images {
   margin-bottom: 5.5rem; }
+
+.about-text-header {
+  margin-left: auto;
+  margin-right: auto; }
 
 .overlay-div {
   position: relative;

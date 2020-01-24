@@ -6,7 +6,7 @@ import React, { Component } from 'react';
 
 // ============ Image Imports =============
 
-import what from '../assets/what_we_do.png';
+import what from '../assets/what_image_1.jpeg';
 
 // ============ What Component ==========
 
@@ -34,7 +34,7 @@ class What extends Component {
                         <button className="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                           <span className="iconify picture-icon" data-inline="false"></span>
                         </button>
-                        <a className="accordion-toggle dropdown-button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-label="Photography">PHOTOGRAPHY</a>
+                        <a className="accordion-toggle dropdown-button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-label="Cloud Based Services">CLOUD BASED SERVICES</a>
                       </div>
                       <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                         <div className="card-body">
@@ -48,7 +48,7 @@ class What extends Component {
                           <button className="btn btn-link collapsed dropdown-button" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             <span className="iconify sliders-icon" data-inline="false"></span>
                           </button>
-                            <a className="accordion-toggle dropdown-button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-label="Creativity">CREATIVITY</a>
+                            <a className="accordion-toggle dropdown-button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-label="Solutions">CUSTOMIZED OEM AUTO SOLUTIONS</a>
                         </h5>
                       </div>
                       <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
@@ -63,7 +63,7 @@ class What extends Component {
                           <button className="btn btn-link collapsed dropdown-button" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             <span className="iconify target-icon" data-inline="false"></span>
                           </button>
-                          <a className="accordion-toggle dropdown-button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-label="Web Design">WEB DESIGN</a>
+                          <a className="accordion-toggle dropdown-button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-label="App Design">APP / SYSTEM DESIGN</a>
                         </h5>
                       </div>
                       <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">

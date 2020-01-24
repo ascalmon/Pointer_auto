@@ -6,13 +6,13 @@ import React, { Component } from 'react';
 
 // ============ Image Imports =============
 
-import image1 from '../assets/image1.png';
-import image2 from '../assets/image2.png';
-import image3 from '../assets/image3.png';
-import image4 from '../assets/image4.png';
-import image5 from '../assets/image5.png';
-import image6 from '../assets/image6.png';
-import image7 from '../assets/image7.png';
+import image1 from '../assets/work_image_1.jpeg';
+import image2 from '../assets/work_image_2.jpeg';
+import image3 from '../assets/work_image_3.jpeg';
+import image4 from '../assets/work_image_4.jpeg';
+import image5 from '../assets/work_image_5.jpeg';
+import image6 from '../assets/work_image_6.jpeg';
+import image7 from '../assets/work_image_7.jpeg';
 
 // ============ Work Component ==========
 
@@ -31,19 +31,19 @@ class Work extends Component {
           </div>
           <div className="row-work">
             <div className="column-work">
-              <img src={image1} style={{width:'100%'}} alt="Man on Beach"/>
-              <img src={image5} style={{width:'100%'}} alt="Bridge"/>
+              <img src={image1} style={{width:'100%'}} alt="Vehicle 1"/>
+              <img src={image5} style={{width:'100%'}} alt="Vehicle 2"/>
             </div>
             <div className="column-work">
-              <img src={image2} style={{width:'100%'}} alt="Building"/>
-              <img src={image6} style={{width:'100%'}} alt="Building Ceiling"/>
+              <img src={image2} style={{width:'100%'}} alt="Vehicle 3"/>
+              <img src={image6} style={{width:'100%'}} alt="Vehicle 4"/>
             </div>
             <div className="column-work">
-              <img src={image3} style={{width:'100%'}} alt="Jellyfish"/>
+              <img src={image3} style={{width:'100%'}} alt="Vehicle 5"/>
             </div>
             <div className="column-work">
-              <img src={image4} style={{width:'100%'}} alt="Dome"/>
-              <img src={image7} style={{width:'100%'}} alt="Building"/>
+              <img src={image4} style={{width:'100%'}} alt="Vehicle 6"/>
+              <img src={image7} style={{width:'100%'}} alt="Vehicle 7"/>
             </div>
           </div>
         </section>

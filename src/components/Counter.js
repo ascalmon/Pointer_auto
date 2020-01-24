@@ -78,7 +78,7 @@ class Counter extends Component {
               <div className="counter-div">
                 <Timer counterChange={this.onCounterChangeWeb} show={this.state.show}/>
                 <p className="counter-number">{this.state.counter_base_web}</p>
-                <p>WEB DESIGN PROJECTS</p>
+                <p>OEM DESIGN PROJECTS</p>
               </div>
               <div className="counter-div">
                 <p className="counter-number">{this.state.counter_base_client}</p>
