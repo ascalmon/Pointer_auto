@@ -473,12 +473,13 @@ html {
   z-index: 10; }
 
 .iphone {
-  bottom: -60px;
+  bottom: -25px;
   left: 50%;
   margin-left: 110px;
   position: absolute;
-  width: 220px;
-  z-index: 12; }
+  width: 13%;
+  z-index: 12;
+  border-radius: 5px; }
 
 @media only screen and (max-width: 768px) {
   .ipad {

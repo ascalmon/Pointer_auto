@@ -8,8 +8,8 @@ import React, { Component } from 'react';
 
 import iPad1 from '../assets/ipad.png';
 import iPad from '../assets/ipad_image_2.jpeg';
-import iPhone from '../assets/iphone.png';
-
+import iPhone from '../assets/hpe_app.png';
+import iPhone1 from '../assets/iphone.png';
 // ============ Design Component ==========
 
 class Design extends Component {
@@ -20,7 +20,7 @@ class Design extends Component {
           <p className="design-heading">For all devices</p>
           <p className="design-subheading">UNIQUE DESIGN</p>
           <hr className="design-red-line"></hr>
-          <img className="img-fluid ipad" src={iPad} alt="iPad"/>
+          <img className="img-fluid ipad" src={iPad} style={{width: '30%'}}alt="iPad"/>
           <img className="img-fluid iphone" src={iPhone} alt="iPhone"/>
         </div>
       </React.Fragment>
