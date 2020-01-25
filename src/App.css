@@ -166,7 +166,8 @@ html {
   font-family: 'Montserrat', sans-serif;
   font-size: 110px;
   font-weight: bold;
-  margin: -1vh; }
+  margin: -1vh;
+  color: #394e6f; }
 
 @media screen and (max-width: 1024px) {
   .title {
