@@ -60,17 +60,17 @@ html {
 
 @media screen and (max-width: 1024px) {
   .nav-link {
-    font-size: 1.5vh;
+    font-size: 2.5vh;
     margin: 0 1vh; } }
 
 @media screen and (max-width: 768px) {
   .nav-link {
-    font-size: 1.3vh;
+    font-size: 2.3vh;
     margin: 0 1.3vh; } }
 
 @media screen and (max-width: 375px) {
   .nav-link {
-    font-size: 1vh;
+    font-size: 2vh;
     margin: 0 .5vh; } }
 
 .icon {
