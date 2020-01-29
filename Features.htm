@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>HPE PoC Features</title>
+<style>
+.wrapper-header {
+  display:grid;
+  grid-template-columns: 1fr 3fr 1fr 1fr 2fr 1fr;
+  grid-auto-rows: minmax(15px,auto);
+}
+.wrapper-header > div {
+  background: #120b7a;
+  padding: 1em;
+  color: #fff;
+  border: 1px #fff solid;
+}
+
+.wrapper {
+  display:grid;
+  grid-template-columns: 1fr 3fr 1fr 1fr 2fr 1fr;
+  grid-auto-rows: minmax(50px,auto);
+}
+.wrapper > div {
+  background: #eee;
+  padding: 0.2em;
+}
+.wrapper > div:nth-child(2n+1) {
+  background: #ddd;
+}
+.text-color {
+  color: #120b7a;
+  text-align: left;
+  font-size: 1.0em;
+  border: 1px #120b7a solid;
+}
+.text-header {
+  color: #120b7a;
+  text-align: center;
+
+}
+.report-id {
+  font-size: 10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="text-header">
+  <h1>OEM Project - HPE - Pointer - Harman</h1>
+</div>
+<span class="report-id">Report: P_Auto:1.2 ASC</span>
+
+<hr />
+<div class="text-header">
+  <h2>Feature List available for PoC</h2>
+</div>
+
+<!-- Title of the report -->
+
+<div class="wrapper-header">
+  <div class="text-header">
+    Feature Part Number
+  </div>
+  <div class="text-header">
+    Feature Description
+  </div>
+  <div class="text-header">
+    Feature Category
+  </div>
+  <div class="text-header">
+    PoC Availability
+  </div>
+  <div class="text-header">
+    App Ready - Page
+  </div>
+  <div class="text-header">
+    Data Available
+  </div>
+</div>
+
+<!-- Features of the report -->
+
+<div class="wrapper">
+  <div class="text-color">
+    PHCON1-1.1
+  </div>
+  <div class="text-color">
+    Maintenance Information
+  </div>
+  <div class="text-color">
+    Notifications
+  </div>
+  <div class="text-color">
+    Partially implemented
+  </div>
+  <div class="text-color">
+    App Page - Notifications
+  </div>
+  <div class="text-color">
+    Implemented as a notification to the customer
+  </div>
+
+  <div class="text-color">
+    PHCON1-1.1.1
+  </div>
+  <div class="text-color">
+    Kilometer / Miles to next programmed maintenance
+  </div>
+  <div class="text-color">
+    Notifications
+  </div>
+  <div class="text-color">
+    Partially implemented
+  </div>
+  <div class="text-color">
+    App Page - Notifications
+  </div>
+  <div class="text-color">
+    Implemented as a notification to the customer
+  </div>
+
+  <div class="text-color">
+    PHCON1-1.1.2
+  </div>
+  <div class="text-color">
+    Months / days to next programmed maintenance
+  </div>
+  <div class="text-color">
+    Notifications
+  </div>
+  <div class="text-color">
+    Partially implemented
+  </div>
+  <div class="text-color">
+    App Page - Notifications
+  </div>
+  <div class="text-color">
+    Implemented as a notification to the customer
+  </div>
+
+  <div class="text-color">
+    PHCON1-2.1
+  </div>
+  <div class="text-color">
+    Battery level
+  </div>
+  <div class="text-color">
+    Indicators
+  </div>
+  <div class="text-color">
+    PoC Available
+  </div>
+  <div class="text-color">
+    App Page - Indicators / My car
+  </div>
+  <div class="text-color">
+    Data available
+  </div>
+
+  <div class="text-color">
+    PHCON1-2.2
+  </div>
+  <div class="text-color">
+    Odometer
+  </div>
+  <div class="text-color">
+    Indicators
+  </div>
+  <div class="text-color">
+    Partially implemented
+  </div>
+  <div class="text-color">
+    App Page - Indicators / My car
+  </div>
+  <div class="text-color">
+    Dongles not ready for CAN. Data entered manually
+  </div>
+
+  <div class="text-color">
+    PHCON1-2.3
+  </div>
+  <div class="text-color">
+    DTC
+  </div>
+  <div class="text-color">
+    Notifications
+  </div>
+  <div class="text-color">
+    PoC available
+  </div>
+  <div class="text-color">
+    App Page - Indicators / Notifications
+  </div>
+  <div class="text-color">
+    Data available
+  </div>
+
+  <div class="text-color">
+    PHCON1-2.4
+  </div>
+  <div class="text-color">
+    Airbag status
+  </div>
+  <div class="text-color">
+    Indicators
+  </div>
+  <div class="text-color">
+    Partially implemented
+  </div>
+  <div class="text-color">
+    App Page - Indicators
+  </div>
+  <div class="text-color">
+    Ignite not provide Airbag status. Dongle not ready for CAN
+  </div>
+
+  <div class="text-color">
+    PHCON1-2.5
+  </div>
+  <div class="text-color">
+    Seat Belt Status
+  </div>
+  <div class="text-color">
+    Indicators
+  </div>
+  <div class="text-color">
+    No
+  </div>
+  <div class="text-color">
+    App Page - Indicators
+  </div>
+  <div class="text-color">
+    Dongles not ready for CAN
+  </div>
+
+  <div class="text-color">
+    PHCON1-2.6
+  </div>
+  <div class="text-color">
+    Radiator Coolant temperature & level
+  </div>
+  <div class="text-color">
+    Indicators
+  </div>
+  <div class="text-color">
+    Partially implemented
+  </div>
+  <div class="text-color">
+    App Page - Indicators
+  </div>
+  <div class="text-color">
+    Dongles not ready for CAN
+  </div>
+
+  <div class="text-color">
+    PHCON1-2.7
+  </div>
+  <div class="text-color">
+    Engine Oil temperature & level alarm
+  </div>
+  <div class="text-color">
+    Indicators
+  </div>
+  <div class="text-color">
+    Partially implemented
+  </div>
+  <div class="text-color">
+    App Page - Indicators
+  </div>
+  <div class="text-color">
+    Dongles not ready for CAN
+  </div>
+
+  <div class="text-color">
+    PHCON1-2.8
+  </div>
+  <div class="text-color">
+    Battery critical level
+  </div>
+  <div class="text-color">
+    Notifications
+  </div>
+  <div class="text-color">
+    No
+  </div>
+  <div class="text-color">
+    App Page - Notifications
+  </div>
+  <div class="text-color">
+    Data shoul be calculated - PConnect
+  </div>
+
+  <div class="text-color">
+    PHCON1-2.9
+  </div>
+  <div class="text-color">
+    Fuel Level
+  </div>
+  <div class="text-color">
+    Indicators
+  </div>
+  <div class="text-color">
+    Partially implemented
+  </div>
+  <div class="text-color">
+    App Page - Indicators
+  </div>
+  <div class="text-color">
+    Dongles not ready for CAN
+  </div>
+
+  <div class="text-color">
+    PHCON1-2.10
+  </div>
+  <div class="text-color">
+    Remote Dashboard
+  </div>
+  <div class="text-color">
+    Dashboard
+  </div>
+  <div class="text-color">
+    No
+  </div>
+  <div class="text-color">
+    App Page - Dashboard
+  </div>
+  <div class="text-color">
+    Page with all vehicle health not implemented
+  </div>
+
+  <div class="text-color">
+    PHCON1-3.1
+  </div>
+  <div class="text-color">
+    Airbag / CAS deployment alert
+  </div>
+  <div class="text-color">
+    Notifications
+  </div>
+  <div class="text-color">
+    No
+  </div>
+  <div class="text-color">
+    App Page - Notifications
+  </div>
+  <div class="text-color">
+    Dongles not ready for CAN and data not available at Ignite
+  </div>
+
+  <div class="text-color">
+    PHCON1-3.2
+  </div>
+  <div class="text-color">
+    Collision Call Center Service
+  </div>
+  <div class="text-color">
+    Menu
+  </div>
+  <div class="text-color">
+    Partially implemented
+  </div>
+  <div class="text-color">
+    App Page - Menu
+  </div>
+  <div class="text-color">
+    Airbag status not availabe. Dongles not ready for CAN and data not available at Ignite
+  </div>
+
+  <div class="text-color">
+    PHCON1-4.1
+  </div>
+  <div class="text-color">
+    MES - Medical Emergency Service
+  </div>
+  <div class="text-color">
+    Menu
+  </div>
+  <div class="text-color">
+    Partially implemented
+  </div>
+  <div class="text-color">
+    App Page - Menu
+  </div>
+  <div class="text-color">
+    Triggered by Airbag status. Information not availabe. Dongles not ready for CAN and data not available at Ignite
+  </div>
+
+  <div class="text-color">
+    PHCON1-5.1.1
+  </div>
+  <div class="text-color">
+    SVR - Standard
+  </div>
+  <div class="text-color">
+    Menu
+  </div>
+  <div class="text-color">
+    Partially implemented
+  </div>
+  <div class="text-color">
+    App Page - Menu
+  </div>
+  <div class="text-color">
+    CRM not running with customer data available for the Call Center agent.
+  </div>
+
+  <div class="text-color">
+    PHCON1-5.1.2
+  </div>
+  <div class="text-color">
+    SVR - Region / Risk Area
+  </div>
+  <div class="text-color">
+    Menu
+  </div>
+  <div class="text-color">
+    No
+  </div>
+  <div class="text-color">
+    App Page - Menu
+  </div>
+  <div class="text-color">
+    Not implemented. Geo fences not available.
+  </div>
+
+  <div class="text-color">
+    PHCON1-5.1.3
+  </div>
+  <div class="text-color">
+    SVR - Borders
+  </div>
+  <div class="text-color">
+    Menu
+  </div>
+  <div class="text-color">
+    No
+  </div>
+  <div class="text-color">
+    App Page - Menu
+  </div>
+  <div class="text-color">
+    Not implemented. Geo fences not available.
+  </div>
+
+  <div class="text-color">
+    PHCON1-5.1.4
+  </div>
+  <div class="text-color">
+    SVR - End of event
+  </div>
+  <div class="text-color">
+    Menu
+  </div>
+  <div class="text-color">
+    No
+  </div>
+  <div class="text-color">
+    App Page - Menu
+  </div>
+  <div class="text-color">
+    Not implemented.
+  </div>
+
+  <div class="text-color">
+    PHCON1-7.1
+  </div>
+  <div class="text-color">
+    Vehicle Location
+  </div>
+  <div class="text-color">
+    Home, Map
+  </div>
+  <div class="text-color">
+    PoC available
+  </div>
+  <div class="text-color">
+    App Page - Home, Map
+  </div>
+  <div class="text-color">
+    Data Ok
+  </div>
+
+  <div class="text-color">
+    PHCON1-7.2
+  </div>
+  <div class="text-color">
+    Vehicle finder
+  </div>
+  <div class="text-color">
+    Map
+  </div>
+  <div class="text-color">
+    PoC available
+  </div>
+  <div class="text-color">
+    App Page - Map
+  </div>
+  <div class="text-color">
+    Data Ok
+  </div>
+
+  <div class="text-color">
+    PHCON1-10.1
+  </div>
+  <div class="text-color">
+    WiFi Service activation controlled by HPE - on / off
+  </div>
+  <div class="text-color">
+    Setup
+  </div>
+  <div class="text-color">
+    Partially implemented
+  </div>
+  <div class="text-color">
+    App Page - Setup
+  </div>
+  <div class="text-color">
+    Ignite has APIs to control the WiFi - need some development towards TCU end. OBD-II already support this feature.
+  </div>
+
+  <div class="text-color">
+    PHCON1-12.1
+  </div>
+  <div class="text-color">
+    Push notification due DTC analysis
+  </div>
+  <div class="text-color">
+    Notifications
+  </div>
+  <div class="text-color">
+    PoC Available
+  </div>
+  <div class="text-color">
+    App Page - Notifications
+  </div>
+  <div class="text-color">
+    Ignite has APIs to control the WiFi - need some development towards TCU end. OBD-II already support this feature.
+  </div>
+
+  <div class="text-color">
+    PHCON1-12.1
+  </div>
+  <div class="text-color">
+    Maintenance push notification or active call - Due date of maintenance
+  </div>
+  <div class="text-color">
+    Notifications
+  </div>
+  <div class="text-color">
+    PoC Available
+  </div>
+  <div class="text-color">
+    App Page - Notifications
+  </div>
+  <div class="text-color">
+    Maintenance page not ready.
+  </div>
+
+  <div class="text-color">
+    PHCON1-19.1
+  </div>
+  <div class="text-color">
+    Max Speed setup
+  </div>
+  <div class="text-color">
+    Setup
+  </div>
+  <div class="text-color">
+    Partially implemented
+  </div>
+  <div class="text-color">
+    App Page - Setup
+  </div>
+  <div class="text-color">
+    Setup page not ready. Data entered manually by PConnect.
+  </div>
+
+  <div class="text-color">
+    PHCON1-19.2
+  </div>
+  <div class="text-color">
+    Risk Areas entrance - Geo-fences
+  </div>
+  <div class="text-color">
+    Setup
+  </div>
+  <div class="text-color">
+    No
+  </div>
+  <div class="text-color">
+    App Page - Setup
+  </div>
+  <div class="text-color">
+    Setup page not ready.
+  </div>
+
+  <div class="text-color">
+    PHCON1-19.5
+  </div>
+  <div class="text-color">
+    POIs - setup
+  </div>
+  <div class="text-color">
+    Setup
+  </div>
+  <div class="text-color">
+    No
+  </div>
+  <div class="text-color">
+    App Page - Setup
+  </div>
+  <div class="text-color">
+    Setup page not ready.Partially implemented	Some HPE POIs set by our team not available for PoC customer setup
+  </div>
+
+  <div class="text-color">
+    PHCON1-19.6
+  </div>
+  <div class="text-color">
+    Geo-fences setup
+  </div>
+  <div class="text-color">
+    Setup
+  </div>
+  <div class="text-color">
+    No
+  </div>
+  <div class="text-color">
+    App Page - Setup
+  </div>
+  <div class="text-color">
+    Setup page not ready.
+  </div>
+
+</div>
+
+</body>
+</html>

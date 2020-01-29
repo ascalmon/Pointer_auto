@@ -27,7 +27,17 @@ class Navbar extends Component {
                 <a className="nav-link" href="#about">About<span className="sr-only">(current)</span></a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#service">Services</a>
+              <div class="dropdown">
+
+                <a className="nav-link" data-toggle="dropdown" href="#">Services</a>
+                <div class="dropdown-menu">
+
+                  <a class="dropdown-item" href="#artificial_intelligence">Artificial Intelligence</a>
+                  <a class="dropdown-item" href="#machine_learning">Machine Learning</a>
+                  <a class="dropdown-item" href="VH">Vehicle Harmonization</a>
+                </div>
+              </div>
+
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#work">Work</a>

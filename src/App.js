@@ -25,6 +25,8 @@ import Counter from './components/Counter';
 import What from './components/What';
 import Testimonial from './components/Testimonial';
 import Work from './components/Work';
+import Artificial_intelligence from './components/Artificial_intelligence';
+import Machine_learning from './components/Machine_learning';
 
 // ============ CSS =============
 
@@ -66,6 +68,8 @@ class App extends Component {
         </div>
         <Testimonial/>
         <Work/>
+        <Artificial_intelligence/>
+        <Machine_learning/>
       </div>
     );
   }

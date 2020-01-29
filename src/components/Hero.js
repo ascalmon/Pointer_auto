@@ -36,7 +36,7 @@ class Hero extends Component {
                     <h1 className="description">Cloud Based Services</h1>
 
                     <a className="navbar-brand" id="home" href="#home">
-                      <span className="title">Pointer </span><img alt="Pointer Logo" src={logo_notext} width= "40"  /><span className="title"> AUTO</span>
+                      <span className="title">Pointer </span><img alt="Pointer Logo" src={logo_notext} width= "40"  /><span className="title"> OEM</span>
                     </a>
                     <hr className="white-line"></hr>
                     <div className="learn-more-div row">
@@ -51,7 +51,7 @@ class Hero extends Component {
                     <h1 className="description">App taylored to your vehicle</h1>
 
                     <a className="navbar-brand" id="home" href="#home">
-                      <span className="title">Pointer </span><img alt="Pointer Logo" src={logo_notext} width= "40"  /><span className="title"> AUTO</span>
+                      <span className="title">Pointer </span><img alt="Pointer Logo" src={logo_notext} width= "40"  /><span className="title"> Automotive</span>
                     </a>
                     <hr className="white-line"></hr>
                     <div className="learn-more-div row">
@@ -66,7 +66,7 @@ class Hero extends Component {
                     <h1 className="description">Third Parties Integration</h1>
 
                     <a className="navbar-brand" id="home" href="#home">
-                      <span className="title">Pointer </span><img alt="Pointer Logo" src={logo_notext} width= "40"  /><span className="title"> AUTO</span>
+                      <span className="title">Pointer </span><img alt="Pointer Logo" src={logo_notext} width= "40"  /><span className="title"> OEM Auto</span>
                     </a>
                     <hr className="white-line"></hr>
                     <div className="learn-more-div row">
