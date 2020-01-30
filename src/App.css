@@ -175,6 +175,12 @@ html {
   display: block;
   width: 25%; }
 
+.topic-header-about {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center; }
+
 @media screen and (max-width: 1024px) {
   .title {
     font-family: 'Montserrat', sans-serif;
@@ -561,6 +567,9 @@ html {
   color: #FFFFFF;
   font-size: 14px;
   font-weight: lighter; }
+
+.pointer-map {
+  width: 50%; }
 
 .card-header {
   background-color: transparent; }

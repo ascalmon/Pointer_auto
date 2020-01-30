@@ -29,9 +29,9 @@ class Navbar extends Component {
               <li className="nav-item">
               <div class="dropdown">
 
-                <a className="nav-link dropdown-nav" data-toggle="dropdown" href="#">Services</a>
+                <a className="nav-link dropdown-nav" data-toggle="dropdown" href="#">Solutions</a>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#service">General Services</a>
+                  <a class="dropdown-item" href="#service">Services</a>
                   <a class="dropdown-item" href="#artificial_intelligence">Artificial Intelligence</a>
                   <a class="dropdown-item" href="#machine_learning">Machine Learning</a>
                   <a class="dropdown-item" href="VH">Vehicle Harmonization</a>

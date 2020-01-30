@@ -11,7 +11,7 @@ import vehicle1 from '../assets/image_about_1.jpeg';
 import vehicle2 from '../assets/image_about_2.jpeg';
 import vehicle3 from '../assets/image_about_3.jpeg';
 
-
+import pointer_map from '../assets/pointer_map.png';
 // ============ About Component ==========
 
 class About extends Component {
@@ -21,8 +21,11 @@ class About extends Component {
         <section id="about">
           <div className="row">
             <div className="about">
+            <div class="topic-header-about">
               <p className="about-heading">What we do</p>
+              <img class="pointer-map" src={pointer_map} alt="About us"/>
               <p className="about-subheading">STORY ABOUT US</p>
+            </div>
               <hr className="about-red-line"></hr>
               <div className="row about-text">
                 <p className="text-center lorem">
