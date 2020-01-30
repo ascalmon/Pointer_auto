@@ -11,7 +11,7 @@ import ml1 from '../assets/ml_image_1.jpeg';
 import ml2 from '../assets/ml_image_2.jpeg';
 import ml3 from '../assets/ml_image_3.jpeg';
 
-
+import arrow_up from '../assets/up-arrow.svg';
 // ============ About Component ==========
 
 class Machine_learning extends Component {
@@ -90,7 +90,9 @@ class Machine_learning extends Component {
                   <img className="col-md-4 img-fluid" src={ml3} alt="Vehicle 3"/>
                 </div>
                 <a href="#" class="float">
-                  <i class="fa fa-plus my-float"></i>
+                  <i class= "my-float">
+                   <img src={arrow_up} />
+                  </i>
                 </a>
               </div>
             </div>
