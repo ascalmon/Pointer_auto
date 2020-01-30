@@ -724,16 +724,20 @@ $pointer: #394e6f;
   }
 }
 
+//Dropdown at menu show items on hover
 .dropdown:hover>.dropdown-menu {
   display: block;
 }
 
+//Background  of the dropdown items transparent
 .dropdown-menu {
   background:transparent;
 }
 
 .dropdown-item {
   color: $white;
+  font-size: 14px;
+  font-weight: lighter;
 }
 
 

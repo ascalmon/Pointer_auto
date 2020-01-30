@@ -63,12 +63,7 @@ class Machine_learning extends Component {
                 Teaching a vehicle the most commonly used routes and points of
                 interest with artificial intelligence in automotive.</p>
                 </p>
-                <p className="lorem">
-                  It’s our commitment and market-focused approach that allows us
-                   to help our customers reduce costs, protect assets, gain
-                   efficiencies, improve resource utilization, minimize fraud
-                   and most importantly: save lives by preventing accidents.
-                </p>
+              
                 <p className="lorem">
                 Pointer is part of the global Industrial Internet of Things company
                 PowerFleet ® Inc (NASDAQ: PWFL).

@@ -558,7 +558,9 @@ html {
   background: transparent; }
 
 .dropdown-item {
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: lighter; }
 
 .card-header {
   background-color: transparent; }
