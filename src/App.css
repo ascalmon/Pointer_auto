@@ -21,7 +21,7 @@ html {
 .navbar-dark {
   background: none;
   border: 1px solid transparent;
-  color: #ffffff;
+  color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 20px;
   min-height: 50px;
@@ -35,7 +35,7 @@ html {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
 
 .navbar-brand {
-  color: #ffffff;
+  color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 700;
@@ -46,7 +46,7 @@ html {
 
 .nav-link {
   border-bottom: 3px solid transparent;
-  color: #ffffff !important;
+  color: #FFFFFF !important;
   display: block;
   font-size: 14px;
   font-weight: 500;
@@ -75,7 +75,7 @@ html {
 
 .icon {
   border-bottom: 3px solid transparent;
-  color: #ffffff;
+  color: #FFFFFF;
   display: block;
   font-size: 25px;
   font-weight: 500;
@@ -112,7 +112,7 @@ html {
 
 .carousel-hero {
   background-color: none;
-  color: #ffffff;
+  color: #FFFFFF;
   height: 85vh;
   left: 50%;
   margin-top: -10vh;
@@ -193,14 +193,14 @@ html {
   margin-bottom: 40px; }
 
 .white-line {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   height: 3px;
   margin-bottom: 40px;
   width: 60px; }
 
 .learn-more {
-  border: 3px solid #ffffff;
-  color: #ffffff;
+  border: 3px solid #FFFFFF;
+  color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   font-weight: bold;
@@ -219,20 +219,20 @@ html {
 
 @media screen and (max-width: 768px) {
   .learn-more {
-    border: 0.2vh solid #ffffff;
+    border: 0.2vh solid #FFFFFF;
     font-size: 1.3vh;
     margin-top: .5vh;
     padding: s 0.6vh; } }
 
 @media screen and (max-width: 375px) {
   .learn-more {
-    border: 0.5vh solid #ffffff;
+    border: 0.5vh solid #FFFFFF;
     font-size: 1.6vh;
     margin-top: -.5vh;
     padding: .6vh; } }
 
 .inner {
-  border-top: 1px solid #ffffff;
+  border-top: 1px solid #FFFFFF;
   color: #faf3e0;
   font-size: 2vh;
   margin: 0 0vh 0 0vh;
@@ -256,8 +256,8 @@ html {
   position: static; }
 
 .carousel-indicators li {
-  border-top: 1px solid #ffffff;
-  color: #ffffff;
+  border-top: 1px solid #FFFFFF;
+  color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
   font-size: 2vh;
   font-weight: bold;
@@ -272,14 +272,14 @@ html {
   filter: invert(0.5) sepia(1) saturate(5) hue-rotate(360deg); }
 
 .progress {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   border-radius: 0;
   font-size: 0;
   height: 3px;
   width: 25%; }
 
 .progress-bar {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   height: 3px; }
 
 .about-text {
@@ -371,7 +371,7 @@ html {
     top: 49%; } }
 
 .users-super-team {
-  color: #ffffff;
+  color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: bold;
@@ -397,7 +397,7 @@ html {
 
 .counter {
   background-color: #97e1d3;
-  color: #ffffff;
+  color: #FFFFFF;
   font-family: 'Montserrat';
   font-size: 14px;
   padding: 0 5px; }
@@ -545,11 +545,20 @@ html {
   width: 60px; }
 
 .dropdown-button {
-  color: #000000;
+  color: #FFFFFF;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px; }
   .dropdown-button:hover {
     color: #000000; }
+
+.dropdown:hover > .dropdown-menu {
+  display: block; }
+
+.dropdown-menu {
+  background: transparent; }
+
+.dropdown-item {
+  color: #FFFFFF; }
 
 .card-header {
   background-color: transparent; }
