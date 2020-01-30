@@ -27,8 +27,10 @@ class Navbar extends Component {
                 <a className="nav-link" href="#about">About<span className="sr-only">(current)</span></a>
               </li>
               <li className="nav-item">
+                <a className="nav-link" href="#work">Work</a>
+              </li>
+              <li className="nav-item">
               <div class="dropdown">
-
                 <a className="nav-link dropdown-nav" data-toggle="dropdown" href="#">Solutions</a>
                 <div class="dropdown-menu">
                   <a class="dropdown-item" href="#service">Services</a>
@@ -39,9 +41,7 @@ class Navbar extends Component {
               </div>
 
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#work">Work</a>
-              </li>
+
               <li className="nav-item">
                 <a className="nav-link" href="#home">Contact</a>
               </li>

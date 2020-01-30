@@ -5,7 +5,7 @@
 import React, { Component } from 'react';
 
 import logo_notext from '../assets/pointer_logo_notext.svg';
-
+import logo_o_pointer from '../assets/logo_o_pointer.svg';
 // ============ Hero Component ==========
 
 class Hero extends Component {
@@ -19,7 +19,7 @@ class Hero extends Component {
               <div className="carousel-item item active">
                 <div className="hero">
                   <div className="greeting">
-                    <h1 className="description">Creative OEM Auto Solutions</h1>
+                    <h1 className="description">Creative Auto Solutions</h1>
                     <a className="navbar-brand" id="home" href="#home">
                       <span className="title">Pointer </span><img alt="Pointer Logo" src={logo_notext} width= "40"  /><span className="title"> AUTO</span>
                     </a>
