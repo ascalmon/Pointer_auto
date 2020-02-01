@@ -14,7 +14,7 @@ class Timer extends Component {
     let base_time_random = 3000;
 
     this.state = {
-      tick: [Math.ceil(base_time / 42), Math.ceil(base_time / 123), Math.ceil(base_time / 16), Math.ceil(base_time / 99), Math.ceil(base_time / 24)],
+      tick: [Math.ceil(base_time / 8), Math.ceil(base_time / 123), Math.ceil(base_time / 4), Math.ceil(base_time / 99), Math.ceil(base_time / 24)],
       secondsElapsed: 0,
       secondsElapsed0: 0,
       secondsElapsed1: 0,
