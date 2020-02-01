@@ -66,8 +66,7 @@ function Navbar() {
                   <a className="dropdown-item" onClick={()=>handleClick('pt-BR')}href="#">{i18n.t(k.PORTUGUESE)} - 🇧🇷</a>
                   <a className="dropdown-item" onClick={()=>handleClick('he')}href="#">{i18n.t(k.HEBREW)} - 🇮🇱</a>
                   <a className="dropdown-item" onClick={()=>handleClick('es')}href="#">{i18n.t(k.SPANISH)} - 🇪🇸</a>
-                  <a className="dropdown-item" onClick={()=>handleClick('zh-Hans')}href="#">{i18n.t(k.CHINESE)} - 🇨🇳</a>
-
+            
                 </div>
               </small>
               </div>
