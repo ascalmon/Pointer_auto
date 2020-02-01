@@ -76,7 +76,7 @@ module.exports = {
   [k.AWARD_WINNERS]: `PROJETOS PREMIADOS`,
   [k.CUPS_OF_COFFEE]: `XÍCARAS DE CAFÉ`,
   [k.MEMBERS]: `DESENVOLVEDORES`,
-  [k.FOR_ALL_DEVICES]: `PARA TODOS OS DISPOSITIVOS`,
+  [k.FOR_ALL_DEVICES]: `Para Todos os Dispositivos`,
   [k.UNIQUE_DESIGN]: `DESIGN ÚNICO`,
   [k.CREATIVE_AUTO_SOLUTIONS]: `Soluções Criativas Auto`,
   [k.POINTER]: `Pointer`,
@@ -90,20 +90,18 @@ module.exports = {
   [k.OEM_AUTO]: `OEM Auto`,
   [k.MACHINE_LEARNING]: `Aprendizado de Máquinas`,
   [k.IN_THE_AUTOMOTIVE_INDUSTRY_MA]: `Na indústria automotiva, o aprendizado de
-                  máquina (ML) é mais
-                  frequentemente associado a inovações de produtos, como
-                  carros autônomos, assistência em estacionamento e mudança de
-                  faixa e sistemas de energia inteligentes. Mas ML também está
-                  tendo um significativo efeito sobre a função de marketing,
-                  de como os profissionais de marketing do setor automotivo
-                  estabelecem metas e medem retornos sobre seus investimentos
-                  e em como eles se conectam com os consumidores.
-                  O ML está prestes a se tornar tanto um princípio organizador
-                  quanto um ingrediente analítico para campanhas de marketing
-                  sofisticadas entre indústrias. Isto é especialmente verdade
-                  no setor automotivo.
-                  Um setor de alta tecnologia e de Capital intensivo voltado
-                  a soluções disruptivas`,
+                  máquina (ML) é mais frequentemente associado a inovações de
+                  produtos, como carros autônomos, assistência em estacionamento
+                  e mudança de faixa e sistemas de energia inteligentes.
+                  Mas ML também está tendo um significativo efeito sobre a
+                  função de marketing, de como os profissionais de marketing
+                  do setor automotivo estabelecem metas e medem retornos sobre
+                  seus investimentos e em como eles se conectam com os
+                  consumidores. O ML está prestes a se tornar tanto um princípio
+                  organizador quanto um ingrediente analítico para campanhas
+                  de marketing sofisticadas entre indústrias. Isto é
+                  especialmente verdade no setor automotivo. Um setor de alta
+                  tecnologia e de Capital intensivo voltado a soluções disruptivas.`,
   [k.MACHINE_LEARNING_FOR_THE_OEM_W]: `Aprendizado de Máquina para o mundo OEM`,
   [k.MOST_MANUFACTURING_OPERATIONS]: `A maioria das operações de fabricação na
                 indústria automotiva ainda é em grande parte dependente de
