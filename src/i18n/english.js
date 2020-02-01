@@ -135,5 +135,12 @@ module.exports = {
   [k.LOREM_IPSUM_DOLOR_SIT_AMET_CO1]: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
   [k.CUSTOMIZED_OEM_AUTO_SOLUTIONS]: `CUSTOMIZED OEM AUTO SOLUTIONS`,
   [k.APP_SYSTEM_DESIGN]: `APP / SYSTEM DESIGN`,
-  [k.SOME_OF_OUR_WORK]: `SOME OF OUR WORK`
+  [k.SOME_OF_OUR_WORK]: `SOME OF OUR WORK`,
+  [k.LANGUAGES]: 'Lang',
+  [k.ENGLISH]: 'en',
+  [k.PORTUGUESE]: 'pt-BR',
+  [k.HEBREW]: 'he',
+  [k.SPANISH]: 'es',
+  [k.CHINESE]: 'zh-Hans',
+
 };

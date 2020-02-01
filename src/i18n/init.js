@@ -7,7 +7,7 @@ const hebrew = require('./hebrew');
 const spanish = require('./spanish');
 
 i18next.init({
-  lng: localStorage.getItem('lng') || 'he',
+  lng: localStorage.getItem('lng') || 'en',
   debug: true,
   resources: {
     en: { translation: english },

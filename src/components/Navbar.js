@@ -50,6 +50,20 @@ function Navbar() {
                   <span className="iconify icon search-icon" data-inline="false"></span>
                 </a>
               </li>
+              <div className="dropdown">
+              <small>
+                <a className="nav-link dropdown-nav" data-toggle="dropdown" href="">{i18n.t(k.LANGUAGES)}</a>
+                <div className="dropdown-menu">
+
+                  <a className="dropdown-item" href="#service">{i18n.t(k.ENGLISH)} - 🇺🇸</a>
+                  <a className="dropdown-item" href="#artificial_intelligence">{i18n.t(k.PORTUGUESE)} - 🇧🇷</a>
+                  <a className="dropdown-item" href="#machine_learning">{i18n.t(k.HEBREW)} - 🇮🇱</a>
+                  <a className="dropdown-item" href="VH">{i18n.t(k.SPANISH)} - 🇪🇸</a>
+                  <a className="dropdown-item" href="VH">{i18n.t(k.CHINESE)} - 🇨🇳</a>
+
+                </div>
+              </small>
+              </div>
             </ul>
           </div>
         </nav>
