@@ -11,6 +11,13 @@ import logo from '../assets/pointer_logo.svg';
 
 function Navbar() {
 
+  function handleClick(lang){
+    i18n.changeLanguage(lang);
+    localStorage.setItem('lng', lang);
+    localStorage.getItem('lng');
+     window.location.reload();
+  }
+
   return (
     <React.Fragment>
         <nav className="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-faded ml-4">
@@ -55,11 +62,11 @@ function Navbar() {
                 <a className="nav-link dropdown-nav" data-toggle="dropdown" href="">{i18n.t(k.LANGUAGES)}</a>
                 <div className="dropdown-menu">
 
-                  <a className="dropdown-item" href="#service">{i18n.t(k.ENGLISH)} - 🇺🇸</a>
-                  <a className="dropdown-item" href="#artificial_intelligence">{i18n.t(k.PORTUGUESE)} - 🇧🇷</a>
-                  <a className="dropdown-item" href="#machine_learning">{i18n.t(k.HEBREW)} - 🇮🇱</a>
-                  <a className="dropdown-item" href="VH">{i18n.t(k.SPANISH)} - 🇪🇸</a>
-                  <a className="dropdown-item" href="VH">{i18n.t(k.CHINESE)} - 🇨🇳</a>
+                  <a className="dropdown-item" onClick={()=>handleClick('en')} href="#">{i18n.t(k.ENGLISH)} - 🇺🇸</a>
+                  <a className="dropdown-item" onClick={()=>handleClick('pt-BR')}href="#">{i18n.t(k.PORTUGUESE)} - 🇧🇷</a>
+                  <a className="dropdown-item" onClick={()=>handleClick('he')}href="#">{i18n.t(k.HEBREW)} - 🇮🇱</a>
+                  <a className="dropdown-item" onClick={()=>handleClick('es')}href="#">{i18n.t(k.SPANISH)} - 🇪🇸</a>
+                  <a className="dropdown-item" onClick={()=>handleClick('zh-Hans')}href="#">{i18n.t(k.CHINESE)} - 🇨🇳</a>
 
                 </div>
               </small>

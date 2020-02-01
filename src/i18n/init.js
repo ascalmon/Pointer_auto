@@ -13,8 +13,8 @@ i18next.init({
     en: { translation: english },
     'zh-Hans': { translation: chinese },
     'pt-BR': {translation: portuguese},
-    'he': {translation: hebrew},
-    'es': {translation: spanish},
+    he: {translation: hebrew},
+    es: {translation: spanish},
   },
 });
 
