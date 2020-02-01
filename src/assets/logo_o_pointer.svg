@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 504 732" style="enable-background:new 0 0 504 732;" xml:space="preserve">
+	 viewBox="0 0 504 481" style="enable-background:new 0 0 504 481;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#3C5275;}
 	.st1{opacity:0.21;clip-path:url(#SVGID_3_);}
 	.st2{fill:#FFFFFF;}
-	.st3{fill:#707070;}
-	.st4{font-family:'Montserrat-Regular';}
-	.st5{font-size:601.3969px;}
-	.st6{opacity:0;}
+	.st3{enable-background:new    ;}
+	.st4{fill:#141447;}
+	.st5{opacity:0;}
 </style>
 <symbol  id="pointer" viewBox="-158 -154.5 316 309">
 	<g id="כלב_1_" transform="translate(-3.595 -55.5)">
@@ -277,8 +276,12 @@ DAaDwfiE+D8BBgA3bxDpwMpabQAAAABJRU5ErkJggg==" transform="matrix(0.9968 0 0 -0.99
 		</g>
 	</g>
 </symbol>
-<text transform="matrix(0.9977 0 0 1 5 702.1232)" class="st3 st4 st5">O</text>
-<g id="Group_16" class="st6">
+<g class="st3">
+	<path class="st4" d="M36.2,240.6C36.2,118,129.8,26.5,257,26.5c126,0,220.2,90.8,220.2,214.1c0,123.3-94.2,214.1-220.2,214.1
+		C129.8,454.7,36.2,363.3,36.2,240.6z M432.8,240.6c0-100.4-75-174.4-175.8-174.4c-101.4,0-177,74-177,174.4S155.6,415,257,415
+		C357.8,415,432.8,341.1,432.8,240.6z"/>
+</g>
+<g id="Group_16" class="st5">
 	
 		<image style="overflow:visible;enable-background:new    ;" width="317" height="310" id="Rectangle_3" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATwAAAE2CAYAAAD8ni5gAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAMkFJREFUeNrsnYtuIk2wpLMaPO//
@@ -507,8 +510,8 @@ YG+jjy1gRoAj6BgE3gfaXES1ZUBXAV6k9lD1VrWsrMAyCLwPA9/Mfd7P0wKA9ACAGYsaKTmqOgaB
 +yDwIbY3gtvM86InPu7FryPoGAQe/14piCGQq1raKgAJOgaBxyhDL3Nf5fuiCw+ir6nMtxJ0DAKP
 f7vw39uDnwt90f2EHYPAY0B/w7bgOdAm4TNbVSXkGAQeYyn8Vjw3+h99HoNB4PFv+jTPgX7y5zMY
 BB7/vg//2hlQEXIMAo/x1n9rQo5B4DHe+u9OyDEIPMbbPR8INgaDwWAwGAwGg8FgMBgMBoPBYDAY
-DAaDwWAwGAwGg8FgMBiMN4n/K8AAl7MWkxPcHiEAAAAASUVORK5CYII=" transform="matrix(0.9968 0 0 0.9968 94.0113 352.1231)">
+DAaDwWAwGAwGg8FgMBiMN4n/K8AAl7MWkxPcHiEAAAAASUVORK5CYII=" transform="matrix(0.9968 0 0 0.9968 94.0113 101.1231)">
 	</image>
 </g>
-<use xlink:href="#pointer"  width="316" height="309" x="-158" y="-154.5" transform="matrix(1 0 0 -1.0012 257 506.6231)" style="overflow:visible;"/>
+<use xlink:href="#pointer"  width="316" height="309" x="-158" y="-154.5" transform="matrix(1 0 0 -1.0012 257 255.6232)" style="overflow:visible;"/>
 </svg>

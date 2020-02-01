@@ -2,19 +2,18 @@
 
 // ============ React Dependencies ========
 
-import React, { Component } from 'react';
+import React from 'react';
+
 
 import logo from '../assets/pointer_logo.svg';
 
 // ============ Navbar Component ==========
 
-class Navbar extends Component {
+function Navbar() {
 
-  render() {
     return(
       <React.Fragment>
         <nav className="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-faded ml-4">
-
           <a className="navbar-brand" id="home" href="#home">
             <img alt="Pointer Logo" src={logo} width= "100"  />
           </a>
@@ -30,20 +29,21 @@ class Navbar extends Component {
                 <a className="nav-link" href="#work">Work</a>
               </li>
               <li className="nav-item">
-              <div class="dropdown">
-                <a className="nav-link dropdown-nav" data-toggle="dropdown" href="#">Solutions</a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#service">Services</a>
-                  <a class="dropdown-item" href="#artificial_intelligence">Artificial Intelligence</a>
-                  <a class="dropdown-item" href="#machine_learning">Machine Learning</a>
-                  <a class="dropdown-item" href="VH">Vehicle Harmonization</a>
+              <div className="dropdown">
+                <a className="nav-link dropdown-nav" data-toggle="dropdown" href="">Solutions</a>
+                <div className="dropdown-menu">
+                  <a className="dropdown-item" href="#service">Services</a>
+                  <a className="dropdown-item" href="#artificial_intelligence">Artificial Intelligence</a>
+                  <a className="dropdown-item" href="#machine_learning">Machine Learning</a>
+                  <a className="dropdown-item" href="VH">Vehicle Harmonization</a>
+
                 </div>
               </div>
 
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="#home">Contact</a>
+                <a className="nav-link" href="#contact">Contact</a>
               </li>
               <li className="nav-item">
                 <a href="#Search">
@@ -55,7 +55,6 @@ class Navbar extends Component {
         </nav>
       </React.Fragment>
     )
-  }
 }
 
 export default Navbar;

@@ -4,6 +4,7 @@
 
 import React, { Component } from 'react';
 
+
 // ============ Image Imports =============
 
 
@@ -16,14 +17,15 @@ import pointer_map from '../assets/pointer_map.png';
 
 class About extends Component {
   render() {
+
     return(
       <React.Fragment>
         <section id="about">
           <div className="row">
             <div className="about">
-            <div class="topic-header-about">
-              <p className="about-heading">What we do</p>
-              <img class="pointer-map" src={pointer_map} alt="About us"/>
+            <div className="topic-header-about">
+              <p className="about-heading">What We Do</p>
+              <img className="pointer-map" src={pointer_map} alt="About us"/>
               <p className="about-subheading">STORY ABOUT US</p>
             </div>
               <hr className="about-red-line"></hr>

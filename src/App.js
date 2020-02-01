@@ -13,7 +13,8 @@
 
 
 
-import React, { Component } from 'react';
+import React from 'react';
+
 
 // ============ Components =============
 
@@ -25,9 +26,9 @@ import Counter from './components/Counter';
 import What from './components/What';
 import Testimonial from './components/Testimonial';
 import Work from './components/Work';
-import Artificial_intelligence from './components/Artificial_intelligence';
-import Machine_learning from './components/Machine_learning';
-
+import ArtificialIntelligence from './components/ArtificialIntelligence';
+import MachineLearning from './components/MachineLearning';
+import Contact from './components/Contact';
 // ============ CSS =============
 
 import './Normalize.css';
@@ -35,25 +36,15 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './App.scss';
 
 // ============ APP =============
-
-class App extends Component {
-  constructor(props) {
-  super(props);
-
-    this.state = {
-      imageStatus: 'Loading'
-    }
-  }
-
-  render() {
-
+function App() {
 
     return (
       <div className="App" id="home">
         <header className="app-header">
           <div className="header-inner">
             <div className="container">
-              <Navbar />
+
+              <Navbar handle='handleClick(lang)' />
               <Hero />
             </div>
           </div>
@@ -68,11 +59,11 @@ class App extends Component {
         </div>
         <Testimonial/>
         <Work/>
-        <Artificial_intelligence/>
-        <Machine_learning/>
+        <ArtificialIntelligence/>
+        <MachineLearning/>
+        <Contact />
       </div>
     );
   }
-}
 
 export default App;

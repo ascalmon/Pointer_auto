@@ -21,7 +21,7 @@ class Artificial_intelligence extends Component {
         <section id="artificial_intelligence">
           <div className="row">
             <div className="about">
-            <div class="topic-header">
+            <div className="topic-header">
               <p className="about-heading">What we do</p>
               <img src={ai_header} alt="Artificial Intelligence"/>
               <p className="about-subheading">Artificial Intelligence</p>

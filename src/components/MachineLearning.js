@@ -21,7 +21,7 @@ class Machine_learning extends Component {
         <section id="machine_learning">
           <div className="row">
             <div className="about">
-            <div class="topic-header">
+            <div className="topic-header">
               <p className="about-heading">What we do</p>
               <img src={ml_header} alt="Machine Learning"/>
               <p className="about-subheading">Machine Learning</p>
@@ -42,7 +42,7 @@ class Machine_learning extends Component {
                   industry, a capital-intensive, high-tech sector riven
                   by disruption.</strong>
                 </p>
-                <p className="lorem">
+                <div className="lorem">
                 <p><strong>Machine-Learning for the OEM world </strong>
                 Most manufacturing operations in automotive industries are still
                 largely dependent on experience-based human decisions.
@@ -62,13 +62,13 @@ class Machine_learning extends Component {
                 <p><strong>Smart routing and POI optimization </strong>
                 Teaching a vehicle the most commonly used routes and points of
                 interest with artificial intelligence in automotive.</p>
-                </p>
-              
-                <p className="lorem">
+                </div>
+
+                <div className="lorem">
                 Pointer is part of the global Industrial Internet of Things company
                 PowerFleet ® Inc (NASDAQ: PWFL).
-                </p>
-                <p className="lorem">
+                </div>
+                <div className="lorem">
                   PowerFleet is a worldwide leader and provider of subscription-based wireless
                   IoT and Machine to Machine solutions for securing, controlling, tracking,
                   and managing high-value enterprise assets such as industrial trucks,
@@ -76,7 +76,7 @@ class Machine_learning extends Component {
                   PowerFleet’s patented technologies address the needs of organizations to
                   monitor and analyze their assets to increase efficiency and productivity,
                   reduce costs, and improve profitability.
-                </p>
+                </div>
               </div>
                 <div className="row justify-content-between about-images">
                   <div className="overlay-div">
@@ -84,9 +84,9 @@ class Machine_learning extends Component {
                   <img className="col-md-4 img-fluid" src={ml2} alt="Vehicle 2"/>
                   <img className="col-md-4 img-fluid" src={ml3} alt="Vehicle 3"/>
                 </div>
-                <a href="#" class="float">
-                  <i class= "my-float">
-                   <img src={arrow_up} />
+                <a href="" className="float">
+                  <i className= "my-float">
+                   <img src={arrow_up} alt="Arrow up"/>
                   </i>
                 </a>
               </div>

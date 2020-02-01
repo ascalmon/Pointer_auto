@@ -6,10 +6,10 @@ import React, { Component } from 'react';
 
 // ============ Image Imports =============
 
-import iPad1 from '../assets/ipad.png';
+
 import iPad from '../assets/ipad_image_2.jpeg';
 import iPhone from '../assets/hpe_app.png';
-import iPhone1 from '../assets/iphone.png';
+
 // ============ Design Component ==========
 
 class Design extends Component {
