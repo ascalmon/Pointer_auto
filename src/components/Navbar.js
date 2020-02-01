@@ -11,12 +11,41 @@ import logo from '../assets/pointer_logo.svg';
 
 function Navbar() {
 
+  const flag_en = "\ud83c\uddfa" + "\ud83c\uddf8";
+  const flag_he = "\ud83c\uddee" + "\ud83c\uddf1";
+  const flag_es = "\ud83c\uddea" + "\ud83c\uddf8";
+  const flag_br = "\ud83c\uddE7" + "\ud83c\uddF7";
+  const flag_un = "\ud83c\uddfa" + "\ud83c\uddf3";
+
+  let current_flag = '';
+  switch (localStorage.getItem('lng')) {
+    case 'pt-BR':
+      current_flag = flag_br;
+    break;
+    case 'he':
+      current_flag = flag_he;
+    break;
+    case 'es':
+      current_flag = flag_es;
+    break;
+    case 'en':
+      current_flag = flag_en;
+    break;
+    default:
+    current_flag = flag_un;
+  }
+    localStorage.setItem('flag', current_flag);
+
   function handleClick(lang){
     i18n.changeLanguage(lang);
     localStorage.setItem('lng', lang);
-    localStorage.getItem('lng');
-     window.location.reload();
+    window.location.reload();
   }
+
+
+
+
+
 
   return (
     <React.Fragment>
@@ -30,7 +59,7 @@ function Navbar() {
           <div className="collapse navbar-collapse navbar-center" id="navbarSupportedContent">
             <ul className="navbar-nav flex-row ml-auto justify-content-betwee">
               <li className="nav-item active">
-                <a className="nav-link" href="#about">{i18n.t(k.ABOUT)}<span className="sr-only">{i18n.t(k.CURRENT)}</span></a>
+                <a className="nav-link" href="#about">{i18n.t(k.ABOUT)}<span className="sr-only">{i18n.t(k.CURRENT)} </span></a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#work">{i18n.t(k.WORK)}</a>
@@ -59,14 +88,14 @@ function Navbar() {
               </li>
               <div className="dropdown">
               <small>
-                <a className="nav-link dropdown-nav" data-toggle="dropdown" href="">{i18n.t(k.LANGUAGES)}</a>
+                <a className="nav-link dropdown-nav" data-toggle="dropdown" href="">{i18n.t(k.LANGUAGES)} {localStorage.getItem('flag')}</a>
                 <div className="dropdown-menu">
 
                   <a className="dropdown-item" onClick={()=>handleClick('en')} href="#">{i18n.t(k.ENGLISH)} - 🇺🇸</a>
                   <a className="dropdown-item" onClick={()=>handleClick('pt-BR')}href="#">{i18n.t(k.PORTUGUESE)} - 🇧🇷</a>
                   <a className="dropdown-item" onClick={()=>handleClick('he')}href="#">{i18n.t(k.HEBREW)} - 🇮🇱</a>
                   <a className="dropdown-item" onClick={()=>handleClick('es')}href="#">{i18n.t(k.SPANISH)} - 🇪🇸</a>
-            
+
                 </div>
               </small>
               </div>

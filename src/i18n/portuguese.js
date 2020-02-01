@@ -149,5 +149,8 @@ module.exports = {
   [k.PORTUGUESE]: 'pt-BR',
   [k.HEBREW]: 'he',
   [k.SPANISH]: 'es',
-  [k.CHINESE]: 'zh-Hans',
+  [k.INTEGRATION]: 'Integração',
+  [k.SOLUTIONS1]: 'Soluções',
+  [k.APPS]: 'Apps',
+  [k.CLOUD]: 'Nuvem',
 };

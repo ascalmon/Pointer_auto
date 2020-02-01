@@ -141,5 +141,8 @@ module.exports = {
   [k.PORTUGUESE]: 'pt-BR',
   [k.HEBREW]: 'he',
   [k.SPANISH]: 'es',
-  [k.CHINESE]: 'zh-Hans',
+  [k.INTEGRATION]: ' שילוב',
+  [k.SOLUTIONS1]: ' פתרונות',
+  [k.APPS]: ' אפליקציות',
+  [k.CLOUD]: ' ענן',
 };

@@ -141,6 +141,9 @@ module.exports = {
   [k.PORTUGUESE]: 'pt-BR',
   [k.HEBREW]: 'he',
   [k.SPANISH]: 'es',
-  [k.CHINESE]: 'zh-Hans',
+  [k.INTEGRATION]: ' Integration',
+  [k.SOLUTIONS1]: ' Solutions',
+  [k.APPS]: ' Apps',
+  [k.CLOUD]: ' Cloud',
 
 };

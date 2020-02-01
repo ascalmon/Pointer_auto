@@ -82,7 +82,7 @@ class Hero extends Component {
                 <div className="progress-bar" role="progressbar" style={{ width: '100%' }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
                 <span className="inner-number">{"01"}</span>
-                <span className="inner-text">{" Solutions"}</span>
+                <span className="inner-text">{i18n.t(k.SOLUTIONS1)}</span>
               </li>
 
               <li className=" carousel-indicators-numbers " data-target="#carouselIndicator" data-slide-to="1">
@@ -90,7 +90,7 @@ class Hero extends Component {
                 <div className="progress-bar" role="progressbar" style={{ width: '100%' }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
                 <span className="inner-number">{"02"}</span>
-                <span className="inner-text">{" Cloud"}</span>
+                <span className="inner-text">{i18n.t(k.CLOUD)}</span>
               </li>
 
               <li className=" carousel-indicators-numbers " data-target="#carouselIndicator" data-slide-to="2">
@@ -98,14 +98,14 @@ class Hero extends Component {
                 <div className="progress-bar" role="progressbar" style={{ width: '100%' }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
                 <span className="inner-number">{"03"}</span>
-                <span className="inner-text">{" Apps"}</span>
+                <span className="inner-text">{i18n.t(k.APPS)}</span>
               </li>
               <li className=" carousel-indicators-numbers " data-target="#carouselIndicator" data-slide-to="3">
               <div className="progress">
                 <div className="progress-bar" role="progressbar" style={{ width: '100%' }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
                 <span className="inner-number">{"04"}</span>
-                <span className="inner-text">{" Integration"}</span>
+                <span className="inner-text">{i18n.t(k.INTEGRATION)}</span>
               </li>
             </ol>
           </div>

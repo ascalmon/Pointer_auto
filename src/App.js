@@ -37,7 +37,9 @@ import './App.scss';
 
 // ============ APP =============
 function App() {
-
+  if (!'lng'in localStorage){
+    localStorage.setItem('lng', 'en');
+  }
   return (
     <div className="App" id="home">
         <header className="app-header">
