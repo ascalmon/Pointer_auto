@@ -1,4 +1,4 @@
-// React Component - Design
+import i18n from 'i18next';import k from "./../i18n/keys"; // React Component - Design
 
 // ============ React Dependencies ========
 
@@ -14,18 +14,18 @@ import iPhone from '../assets/hpe_app.png';
 
 class Design extends Component {
   render() {
-    return(
+    return (
       <React.Fragment>
         <div className="design-div">
-          <p className="design-heading">For all devices</p>
-          <p className="design-subheading">UNIQUE DESIGN</p>
+          <p className="design-heading">{i18n.t(k.FOR_ALL_DEVICES)}</p>
+          <p className="design-subheading">{i18n.t(k.UNIQUE_DESIGN)}</p>
           <hr className="design-red-line"></hr>
-          <img className="img-fluid ipad" src={iPad} style={{width: '30%'}}alt="iPad"/>
-          <img className="img-fluid iphone" src={iPhone} alt="iPhone"/>
+          <img className="img-fluid ipad" src={iPad} style={{ width: '30%' }} alt="iPad" />
+          <img className="img-fluid iphone" src={iPhone} alt="iPhone" />
         </div>
-      </React.Fragment>
-    )
-  }
-}
+      </React.Fragment>);
+
+  }}
+
 
 export default Design;

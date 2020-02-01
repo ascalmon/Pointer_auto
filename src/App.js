@@ -38,12 +38,11 @@ import './App.scss';
 // ============ APP =============
 function App() {
 
-    return (
-      <div className="App" id="home">
+  return (
+    <div className="App" id="home">
         <header className="app-header">
           <div className="header-inner">
             <div className="container">
-
               <Navbar handle='handleClick(lang)' />
               <Hero />
             </div>
@@ -52,18 +51,18 @@ function App() {
         <div className="container">
           <About />
         </div>
-        <Counter/>
+        <Counter />
         <Design />
         <div className="container">
           <What />
         </div>
-        <Testimonial/>
-        <Work/>
-        <ArtificialIntelligence/>
-        <MachineLearning/>
+        <Testimonial />
+        <Work />
+        <ArtificialIntelligence />
+        <MachineLearning />
         <Contact />
-      </div>
-    );
-  }
+      </div>);
+
+}
 
 export default App;

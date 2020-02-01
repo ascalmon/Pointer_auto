@@ -1,4 +1,4 @@
-// React Component - Artificial Intelligence
+import i18n from 'i18next';import k from "./../i18n/keys"; // React Component - Artificial Intelligence
 
 // ============ React Dependencies ========
 
@@ -16,86 +16,63 @@ import arrow_up from '../assets/up-arrow.svg';
 
 class Machine_learning extends Component {
   render() {
-    return(
+    return (
       <React.Fragment>
         <section id="machine_learning">
           <div className="row">
             <div className="about">
             <div className="topic-header">
-              <p className="about-heading">What we do</p>
-              <img src={ml_header} alt="Machine Learning"/>
-              <p className="about-subheading">Machine Learning</p>
+              <p className="about-heading">{i18n.t(k.WHAT_WE_DO1)}</p>
+              <img src={ml_header} alt="Machine Learning" />
+              <p className="about-subheading">{i18n.t(k.MACHINE_LEARNING)}</p>
             </div>
               <hr className="about-red-line"></hr>
               <div className="row about-text">
                 <p className="text-center lorem"><strong>
-                  In the automotive industry, machine learning (ML) is most
-                  often associated with product innovations, such as
-                  self-driving cars, parking and lane-change assists, and
-                  smart energy systems. But ML is also having a significant
-                  effect on the marketing function, from how marketers in the
-                  automotive sector establish goals and measure returns on
-                  their investments to how they connect with consumers.
-                  ML is poised to become as much an organizing principle as an
-                  analytic ingredient for sophisticated marketing campaigns
-                  across industries. This is especially true in the automotive
-                  industry, a capital-intensive, high-tech sector riven
-                  by disruption.</strong>
+                  {i18n.t(k.IN_THE_AUTOMOTIVE_INDUSTRY_MA)}
+                  </strong>
                 </p>
                 <div className="lorem">
-                <p><strong>Machine-Learning for the OEM world </strong>
-                Most manufacturing operations in automotive industries are still
-                largely dependent on experience-based human decisions.
-                The emergence of Big Data, in conjunction with machine learning
-                in automotive companies, has paved a way that is helping bring
-                operational and business transformations, thereby leading to
-                an increased level of accuracy in decision-making and improved
-                performance.</p>
-                <p><strong>In-vehicle intelligence </strong>
-                Reinforcing communication among navigation systems, human
-                machine interfaces, and location platforms to inform drivers
-                about hazardous road situations.</p>
-                <p><strong>Predictive vehicle maintenance </strong>
-                Collecting data from in-vehicle units and applying predictive
-                analytics to alert drivers about urgent or planned maintenance.
-                </p>
-                <p><strong>Smart routing and POI optimization </strong>
-                Teaching a vehicle the most commonly used routes and points of
-                interest with artificial intelligence in automotive.</p>
-                </div>
-
-                <div className="lorem">
-                Pointer is part of the global Industrial Internet of Things company
-                PowerFleet ® Inc (NASDAQ: PWFL).
+                <p><strong>{i18n.t(k.MACHINE_LEARNING_FOR_THE_OEM_W)} </strong>
+                {i18n.t(k.MOST_MANUFACTURING_OPERATIONS)}
+                  </p>
+                <p><strong>{i18n.t(k.IN_VEHICLE_INTELLIGENCE)} </strong>
+                {i18n.t(k.REINFORCING_COMMUNICATION_AMON)}
+                  </p>
+                <p><strong>{i18n.t(k.PREDICTIVE_VEHICLE_MAINTENANCE)} </strong>
+                {i18n.t(k.COLLECTING_DATA_FROM_IN_VEHICL)}
+                  </p>
+                <p><strong>{i18n.t(k.SMART_ROUTING_AND_POI_OPTIMIZA)} </strong>
+                {i18n.t(k.TEACHING_A_VEHICLE_THE_MOST_CO)}
+                  </p>
                 </div>
                 <div className="lorem">
-                  PowerFleet is a worldwide leader and provider of subscription-based wireless
-                  IoT and Machine to Machine solutions for securing, controlling, tracking,
-                  and managing high-value enterprise assets such as industrial trucks,
-                  tractor trailers, containers, cargo, and vehicles and truck fleets.
-                  PowerFleet’s patented technologies address the needs of organizations to
-                  monitor and analyze their assets to increase efficiency and productivity,
-                  reduce costs, and improve profitability.
+                {i18n.t(k.POINTER_IS_PART_OF_THE_GLOBAL)}
+                </div>
+                  <br/>
+                  <br/>
+                <div className="lorem">
+                  {i18n.t(k.POWERFLEET_IS_A_WORLDWIDE_LEAD)}
                 </div>
               </div>
                 <div className="row justify-content-between about-images">
                   <div className="overlay-div">
-                  <img className="col-md-4 img-fluid" src={ml1} alt="Vehicle 1"/>
-                  <img className="col-md-4 img-fluid" src={ml2} alt="Vehicle 2"/>
-                  <img className="col-md-4 img-fluid" src={ml3} alt="Vehicle 3"/>
+                  <img className="col-md-4 img-fluid" src={ml1} alt="Vehicle 1" />
+                  <img className="col-md-4 img-fluid" src={ml2} alt="Vehicle 2" />
+                  <img className="col-md-4 img-fluid" src={ml3} alt="Vehicle 3" />
                 </div>
                 <a href="" className="float">
-                  <i className= "my-float">
-                   <img src={arrow_up} alt="Arrow up"/>
+                  <i className="my-float">
+                   <img src={arrow_up} alt="Arrow up" />
                   </i>
                 </a>
               </div>
             </div>
           </div>
         </section>
-      </React.Fragment>
-    )
-  }
-}
+      </React.Fragment>);
+
+  }}
+
 
 export default Machine_learning;

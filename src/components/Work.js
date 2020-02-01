@@ -1,4 +1,4 @@
-// React Component - Work
+import i18n from 'i18next';import k from "./../i18n/keys"; // React Component - Work
 
 // ============ React Dependencies ======
 
@@ -18,38 +18,38 @@ import image7 from '../assets/work_image_7.jpeg';
 
 class Work extends Component {
   render() {
-    return(
+    return (
       <React.Fragment>
         <section id="work">
           <div className="container">
-            <p className="work-heading">What we do</p>
-            <p className="work-subheading">SOME OF OUR WORK</p>
+            <p className="work-heading">{i18n.t(k.WHAT_WE_DO1)}</p>
+            <p className="work-subheading">{i18n.t(k.SOME_OF_OUR_WORK)}</p>
             <hr className="work-red-line"></hr>
             <div className="row work-text">
-              <p className="text-center lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <p className="text-center lorem">{i18n.t(k.LOREM_IPSUM_DOLOR_SIT_AMET_CO)}</p>
             </div>
           </div>
           <div className="row-work">
             <div className="column-work">
-              <img src={image1} style={{width:'100%'}} alt="Vehicle 1"/>
-              <img src={image5} style={{width:'100%'}} alt="Vehicle 2"/>
+              <img src={image1} style={{ width: '100%' }} alt="Vehicle 1" />
+              <img src={image5} style={{ width: '100%' }} alt="Vehicle 2" />
             </div>
             <div className="column-work">
-              <img src={image2} style={{width:'100%'}} alt="Vehicle 3"/>
-              <img src={image6} style={{width:'100%'}} alt="Vehicle 4"/>
+              <img src={image2} style={{ width: '100%' }} alt="Vehicle 3" />
+              <img src={image6} style={{ width: '100%' }} alt="Vehicle 4" />
             </div>
             <div className="column-work">
-              <img src={image3} style={{width:'100%'}} alt="Vehicle 5"/>
+              <img src={image3} style={{ width: '100%' }} alt="Vehicle 5" />
             </div>
             <div className="column-work">
-              <img src={image4} style={{width:'100%'}} alt="Vehicle 6"/>
-              <img src={image7} style={{width:'100%'}} alt="Vehicle 7"/>
+              <img src={image4} style={{ width: '100%' }} alt="Vehicle 6" />
+              <img src={image7} style={{ width: '100%' }} alt="Vehicle 7" />
             </div>
           </div>
         </section>
-      </React.Fragment>
-    )
-  }
-}
+      </React.Fragment>);
+
+  }}
+
 
 export default Work;

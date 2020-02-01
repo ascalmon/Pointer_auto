@@ -1,4 +1,4 @@
-// React Component - Testimonial
+import i18n from 'i18next';import k from "./../i18n/keys"; // React Component - Testimonial
 
 // ============ React Dependencies ========
 
@@ -12,7 +12,7 @@ import speechbubble from '../assets/speechbubble.png';
 
 class Testimonial extends Component {
   render() {
-    return(
+    return (
       <React.Fragment>
         <div className="testimonial-div">
           <div className="container">
@@ -23,10 +23,10 @@ class Testimonial extends Component {
                     <img className="speech-bubble img-fluid" src={speechbubble} alt="Speech Bubble"></img>
                     <div className="testimonial-text-div col-10">
                       <p className="d-block w-100 testimonial-text" src="..." alt="First slide">
-                        “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”
+                        {i18n.t(k.LOREM_IPSUM_DOLOR_SIT_AMET_C)}
                       </p>
                       <hr className="red-line-testimonial"></hr>
-                      <p className="testimonial-name">Jon Doe</p>
+                      <p className="testimonial-name">{i18n.t(k.JON_DOE)}</p>
                     </div>
                   </div>
                 </div>
@@ -35,28 +35,28 @@ class Testimonial extends Component {
                     <img className="speech-bubble img-fluid" src={speechbubble} alt="Speech Bubble"></img>
                     <div className="testimonial-text-div col-10">
                       <p className="d-block w-100 testimonial-text" src="..." alt="First slide">
-                        “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”
+                        {i18n.t(k.LOREM_IPSUM_DOLOR_SIT_AMET_C)}
                       </p>
                       <hr className="red-line-testimonial"></hr>
-                      <p className="testimonial-name">Jane Doe</p>
+                      <p className="testimonial-name">{i18n.t(k.JANE_DOE)}</p>
                     </div>
                   </div>
                 </div>
               </div>
               <a className="carousel-control-prev" href="#carouselTestimonialControls" role="button" data-slide="prev">
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="sr-only">Previous</span>
+                <span className="sr-only">{i18n.t(k.PREVIOUS)}</span>
               </a>
               <a className="carousel-control-next" href="#carouselTestimonialControls" role="button" data-slide="next">
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="sr-only">Next</span>
+                <span className="sr-only">{i18n.t(k.NEXT)}</span>
               </a>
             </div>
           </div>
         </div>
-      </React.Fragment>
-    )
-  }
-}
+      </React.Fragment>);
+
+  }}
+
 
 export default Testimonial;

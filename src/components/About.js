@@ -1,4 +1,4 @@
-// React Component - About
+import i18n from 'i18next';import k from "./../i18n/keys"; // React Component - About
 
 // ============ React Dependencies ========
 
@@ -18,71 +18,71 @@ import pointer_map from '../assets/pointer_map.png';
 class About extends Component {
   render() {
 
-    return(
+    return (
       <React.Fragment>
         <section id="about">
           <div className="row">
             <div className="about">
             <div className="topic-header-about">
-              <p className="about-heading">What We Do</p>
-              <img className="pointer-map" src={pointer_map} alt="About us"/>
-              <p className="about-subheading">STORY ABOUT US</p>
+              <p className="about-heading">{i18n.t(k.WHAT_WE_DO)}</p>
+              <img className="pointer-map" src={pointer_map} alt="About us" />
+              <p className="about-subheading">{i18n.t(k.STORY_ABOUT_US)}</p>
             </div>
               <hr className="about-red-line"></hr>
               <div className="row about-text">
                 <p className="text-center lorem">
-                  More than 25 years of rewriting MRM rules.
+                  {i18n.t(k.MORE_THAN_YEARS_OF_REWRITIN)}
                 </p>
                 <p className="lorem">
-                  More than 25 years of rewriting MRM rules.
-                  Our innovative and reliable cloud-based software platform extracts and captures
-                  all of your organization’s critical data points – from your office, drivers,
-                  routes, points-of-interest, logistic-network, vehicles, trailers, containers,
-                  and cargo. It then takes the next and most important step, and analyzes it,
-                  converting raw data into valuable information. What you get are actionable
-                  insights. The kind that substantially impact your bottom line to help you not
-                  only sustain your business, but profitably grow it.
+                  {i18n.t(k.MORE_THAN_YEARS_OF_REWRITIN1)}
+                
+
+
+
+
+
+
                 </p>
                 <p className="lorem">
-                  We understand that no two fleets are alike. And that every customer of ours is
-                   unique and treated as such. They are our partners and assigned their own
-                   dedicate analyst whose singular task is to enhance the value of their
-                   business. That enables us to deliver precisely the information they require
-                   and that makes a real impact.
+                  {i18n.t(k.WE_UNDERSTAND_THAT_NO_TWO_FLEE)}
+                
+
+
+
                 </p>
                 <p className="lorem">
-                  It’s our commitment and market-focused approach that allows us to help our
-                  customers reduce costs, protect assets, gain efficiencies, improve resource
-                  utilization, minimize fraud and most importantly: save lives by preventing
-                  accidents.
+                  {i18n.t(k.IT_S_OUR_COMMITMENT_AND_MARKET)}
+                
+
+
                 </p>
                 <p className="lorem">
-                Pointer is part of the global Industrial Internet of Things company
-                PowerFleet ® Inc (NASDAQ: PWFL).
+                {i18n.t(k.POINTER_IS_PART_OF_THE_GLOBAL)}
+                
                 </p>
                 <p className="lorem">
-                  PowerFleet is a worldwide leader and provider of subscription-based wireless
-                  IoT and Machine to Machine solutions for securing, controlling, tracking,
-                  and managing high-value enterprise assets such as industrial trucks,
-                  tractor trailers, containers, cargo, and vehicles and truck fleets.
-                  PowerFleet’s patented technologies address the needs of organizations to
-                  monitor and analyze their assets to increase efficiency and productivity,
-                  reduce costs, and improve profitability.
+                  {i18n.t(k.POWERFLEET_IS_A_WORLDWIDE_LEAD)}
+                
+
+
+
+
+
                 </p>
               </div>
                 <div className="row justify-content-between about-images">
                   <div className="overlay-div">
-                  <img className="col-md-4 img-fluid" src={vehicle1} alt="Vehicle 1"/>
-                  <img className="col-md-4 img-fluid" src={vehicle2} alt="Vehicle 2"/>
-                  <img className="col-md-4 img-fluid" src={vehicle3} alt="Vehicle 3"/>
+                  <img className="col-md-4 img-fluid" src={vehicle1} alt="Vehicle 1" />
+                  <img className="col-md-4 img-fluid" src={vehicle2} alt="Vehicle 2" />
+                  <img className="col-md-4 img-fluid" src={vehicle3} alt="Vehicle 3" />
                 </div>
               </div>
             </div>
           </div>
         </section>
-      </React.Fragment>
-    )
-  }
-}
+      </React.Fragment>);
+
+  }}
+
 
 export default About;

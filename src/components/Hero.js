@@ -1,4 +1,4 @@
-// React Component - Hero
+import i18n from 'i18next';import k from "./../i18n/keys"; // React Component - Hero
 
 // ============ React Dependencies ======
 
@@ -11,7 +11,7 @@ import logo_notext from '../assets/pointer_logo_notext.svg';
 class Hero extends Component {
 
   render() {
-    return(
+    return (
       <React.Fragment>
         <div className="container">
           <div id="carouselIndicator" className="carousel slide carousel-hero" data-ride="carousel">
@@ -19,13 +19,13 @@ class Hero extends Component {
               <div className="carousel-item item active">
                 <div className="hero">
                   <div className="greeting">
-                    <h1 className="description">Creative Auto Solutions</h1>
+                    <h1 className="description">{i18n.t(k.CREATIVE_AUTO_SOLUTIONS)}</h1>
                     <a className="navbar-brand" id="home" href="#home">
-                      <span className="title">Pointer </span><img alt="Pointer Logo" src={logo_notext} width= "40"  /><span className="title"> AUTO</span>
+                      <span className="title">{i18n.t(k.POINTER)} </span><img alt="Pointer Logo" src={logo_notext} width="40" /><span className="title"> {i18n.t(k.AUTO)}</span>
                     </a>
                     <hr className="white-line"></hr>
                     <div className="learn-more-div row">
-                      <a className="learn-more" href="/">Learn More</a>
+                      <a className="learn-more" href="/">{i18n.t(k.LEARN_MORE)}</a>
                     </div>
                   </div>
                 </div>
@@ -33,14 +33,14 @@ class Hero extends Component {
               <div className="carousel-item item ">
                 <div className="hero">
                   <div className="greeting">
-                    <h1 className="description">Cloud Based Services</h1>
+                    <h1 className="description">{i18n.t(k.CLOUD_BASED_SERVICES)}</h1>
 
                     <a className="navbar-brand" id="home" href="#home">
-                      <span className="title">Pointer </span><img alt="Pointer Logo" src={logo_notext} width= "40"  /><span className="title"> OEM</span>
+                      <span className="title">{i18n.t(k.POINTER)} </span><img alt="Pointer Logo" src={logo_notext} width="40" /><span className="title"> {i18n.t(k.OEM)}</span>
                     </a>
                     <hr className="white-line"></hr>
                     <div className="learn-more-div row">
-                      <a className="learn-more" href="/">Learn More</a>
+                      <a className="learn-more" href="/">{i18n.t(k.LEARN_MORE)}</a>
                     </div>
                   </div>
                 </div>
@@ -48,14 +48,14 @@ class Hero extends Component {
               <div className="carousel-item item">
                 <div className="hero">
                   <div className="greeting">
-                    <h1 className="description">App taylored to your vehicle</h1>
+                    <h1 className="description">{i18n.t(k.APP_TAYLORED_TO_YOUR_VEHICLE)}</h1>
 
                     <a className="navbar-brand" id="home" href="#home">
-                      <span className="title">Pointer </span><img alt="Pointer Logo" src={logo_notext} width= "40"  /><span className="title"> Automotive</span>
+                      <span className="title">{i18n.t(k.POINTER)} </span><img alt="Pointer Logo" src={logo_notext} width="40" /><span className="title"> {i18n.t(k.AUTOMOTIVE)}</span>
                     </a>
                     <hr className="white-line"></hr>
                     <div className="learn-more-div row">
-                      <a className="learn-more" href="/">Learn More</a>
+                      <a className="learn-more" href="/">{i18n.t(k.LEARN_MORE)}</a>
                     </div>
                   </div>
                 </div>
@@ -63,14 +63,14 @@ class Hero extends Component {
               <div className="carousel-item item">
                 <div className="hero">
                   <div className="greeting">
-                    <h1 className="description">Third Parties Integration</h1>
+                    <h1 className="description">{i18n.t(k.THIRD_PARTIES_INTEGRATION)}</h1>
 
                     <a className="navbar-brand" id="home" href="#home">
-                      <span className="title">Pointer </span><img alt="Pointer Logo" src={logo_notext} width= "40"  /><span className="title"> OEM Auto</span>
+                      <span className="title">{i18n.t(k.POINTER)} </span><img alt="Pointer Logo" src={logo_notext} width="40" /><span className="title"> {i18n.t(k.OEM_AUTO)}</span>
                     </a>
                     <hr className="white-line"></hr>
                     <div className="learn-more-div row">
-                      <a className="learn-more" href="/">Learn More</a>
+                      <a className="learn-more" href="/">{i18n.t(k.LEARN_MORE)}</a>
                     </div>
                   </div>
                 </div>
@@ -79,7 +79,7 @@ class Hero extends Component {
             <ol className="carousel-indicators">
               <li className=" carousel-indicators-numbers " data-target="#carouselIndicator" data-slide-to="0">
               <div className="progress">
-                <div className="progress-bar" role="progressbar" style={{width: '100%'}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                <div className="progress-bar" role="progressbar" style={{ width: '100%' }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
                 <span className="inner-number">{"01"}</span>
                 <span className="inner-text">{" Solutions"}</span>
@@ -87,7 +87,7 @@ class Hero extends Component {
 
               <li className=" carousel-indicators-numbers " data-target="#carouselIndicator" data-slide-to="1">
               <div className="progress">
-                <div className="progress-bar" role="progressbar" style={{width: '100%'}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                <div className="progress-bar" role="progressbar" style={{ width: '100%' }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
                 <span className="inner-number">{"02"}</span>
                 <span className="inner-text">{" Cloud"}</span>
@@ -95,14 +95,14 @@ class Hero extends Component {
 
               <li className=" carousel-indicators-numbers " data-target="#carouselIndicator" data-slide-to="2">
               <div className="progress">
-                <div className="progress-bar" role="progressbar" style={{width: '100%'}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                <div className="progress-bar" role="progressbar" style={{ width: '100%' }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
                 <span className="inner-number">{"03"}</span>
                 <span className="inner-text">{" Apps"}</span>
               </li>
               <li className=" carousel-indicators-numbers " data-target="#carouselIndicator" data-slide-to="3">
               <div className="progress">
-                <div className="progress-bar" role="progressbar" style={{width: '100%'}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                <div className="progress-bar" role="progressbar" style={{ width: '100%' }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
                 <span className="inner-number">{"04"}</span>
                 <span className="inner-text">{" Integration"}</span>
@@ -110,9 +110,9 @@ class Hero extends Component {
             </ol>
           </div>
         </div>
-      </React.Fragment>
-    )
-  }
-}
+      </React.Fragment>);
+
+  }}
+
 
 export default Hero;
