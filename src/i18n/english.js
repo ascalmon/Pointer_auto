@@ -118,6 +118,7 @@ const english = {
   [k.TEACHING_A_VEHICLE_THE_MOST_CO]: `Teaching a vehicle the most commonly used routes and points of
                 interest with artificial intelligence in automotive.`,
   [k.ABOUT]: `About`,
+  [k.ABOUT_US]: 'About us',
   [k.CURRENT]: `(current)`,
   [k.WORK]: `Work`,
   [k.SOLUTIONS]: `Solutions`,
@@ -151,5 +152,10 @@ const english = {
   [k.ELECTRICALS]: 'Electrical Vehicles',
   [k.SEND_MESSAGE]: 'Send your message',
   [k.COMPANY_NAME]: 'Pointer Automotive',
+  [k.INDUSTRIES]: 'Industries',
+  [k.INVESTOR_RELATIONS]: 'Investor relations',
+  [k.PRIVACY_POLICY]: 'Privacy Policy',
+  [k.COOKIES_POLICY]: 'Cookies Policy',
+  [k.TERMS_OF_SERVICE]: 'Terms of Service',
 }
 export { english };

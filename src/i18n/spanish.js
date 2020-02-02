@@ -132,6 +132,7 @@ const spanish = {
                 de interés más utilizado a través de la inteligencia artificial
                 en el sector automotriz`,
   [k.ABOUT]: `Acerca`,
+  [k.ABOUT_US]: 'Sobre nosotros',
   [k.CURRENT]: `(current)`,
   [k.WORK]: `Trabajo`,
   [k.SOLUTIONS]: `Soluciones`,
@@ -165,5 +166,10 @@ const spanish = {
   [k.ELECTRICALS]: 'Vehículos eléctricos',
   [k.SEND_MESSAGE]: 'Envía tu mensaje',
   [k.COMPANY_NAME]: 'Pointer Automotive',
+  [k.INDUSTRIES]: 'Industrias',
+  [k.INVESTOR_RELATIONS]: 'Relaciones con inversionistas',
+  [k.PRIVACY_POLICY]: 'Política de privacidad',
+  [k.COOKIES_POLICY]: 'Política de Cookies',
+  [k.TERMS_OF_SERVICE]: 'Términos de servicio',
 };
 export { spanish };

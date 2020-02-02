@@ -117,6 +117,7 @@ const hebrew = {
   [k.TEACHING_A_VEHICLE_THE_MOST_CO]: `Teaching a vehicle the most commonly used routes and points of
                 interest with artificial intelligence in automotive.`,
   [k.ABOUT]: `עלינו`,
+  [k.ABOUT_US]: `עלינו`,
   [k.CURRENT]: `(current)`,
   [k.WORK]: `עבודה`,
   [k.SOLUTIONS]: `פתרונות`,
@@ -150,5 +151,10 @@ const hebrew = {
   [k.ELECTRICALS]: 'כלי רכב חשמליים',
   [k.SEND_MESSAGE]: 'שלח את ההודעה שלך',
   [k.COMPANY_NAME]: 'Pointer Automotive',
+  [k.INDUSTRIES]: 'תעשיות',
+  [k.INVESTOR_RELATIONS]: 'יחסי משקיעים',
+  [k.PRIVACY_POLICY]: 'מדיניות פרטיות',
+  [k.COOKIES_POLICY]: 'מדיניות עוגיות',
+  [k.TERMS_OF_SERVICE]: 'תנאי השירות',
 };
 export { hebrew };
