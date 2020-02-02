@@ -738,6 +738,7 @@ $pointer: #394e6f;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
 
+
   &:hover {
     color: $black;
   }
@@ -757,6 +758,13 @@ $pointer: #394e6f;
   color: white;
   font-size: 14px;
   font-weight: lighter;
+  background: none;
+  border: none;
+}
+
+.dropdown-nav {
+  background: none;
+  border: none;
 }
 
 .pointer-map {

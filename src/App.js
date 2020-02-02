@@ -39,7 +39,8 @@ import './App.scss';
 
 // ============ APP =============
 function App() {
-  if (!'lng'in localStorage){
+  if ('lng' in localStorage){
+  } else{
     localStorage.setItem('lng', 'en');
   }
   return (

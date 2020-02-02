@@ -11,11 +11,16 @@ import logo from '../assets/pointer_logo.svg';
 
 function Navbar() {
 
-  const flag_en = "\ud83c\uddfa" + "\ud83c\uddf8";
-  const flag_he = "\ud83c\uddee" + "\ud83c\uddf1";
-  const flag_es = "\ud83c\uddea" + "\ud83c\uddf8";
-  const flag_br = "\ud83c\uddE7" + "\ud83c\uddF7";
-  const flag_un = "\ud83c\uddfa" + "\ud83c\uddf3";
+  const a = "\ud83c\uddfa";
+  const b = "\ud83c\uddee";
+  const c = "\ud83c\uddea";
+  const d = "\ud83c\uddE7";
+  const e = "\ud83c\uddfa";
+  const flag_en = a + "\ud83c\uddf8";
+  const flag_he = b + "\ud83c\uddf1";
+  const flag_es = c + "\ud83c\uddf8";
+  const flag_br = d + "\ud83c\uddF7";
+  const flag_un = e + "\ud83c\uddf3";
 
   let current_flag = '';
   switch (localStorage.getItem('lng')) {
@@ -66,7 +71,7 @@ function Navbar() {
               </li>
               <li className="nav-item">
               <div className="dropdown">
-                <a className="nav-link dropdown-nav" data-toggle="dropdown" href="">{i18n.t(k.SOLUTIONS)}</a>
+                <button className="nav-link dropdown-nav" data-toggle="dropdown">{i18n.t(k.SOLUTIONS)}</button>
                 <div className="dropdown-menu">
                   <a className="dropdown-item drop-item" href="#service">{i18n.t(k.SERVICES)}</a>
                   <a className="dropdown-item drop-item" href="#design">{i18n.t(k.DESIGN)}</a>
@@ -90,12 +95,12 @@ function Navbar() {
               </li>
               <div className="dropdown">
               <small>
-                <a className="nav-link dropdown-nav" data-toggle="dropdown" href="">{i18n.t(k.LANGUAGES)} {localStorage.getItem('flag')}</a>
+                <button className="nav-link dropdown-nav" data-toggle="dropdown" href="#">{i18n.t(k.LANGUAGES)} {localStorage.getItem('flag')}</button>
                 <div className="dropdown-menu">
-                  <a className="dropdown-item" onClick={()=>handleClick('en')} href="#">{i18n.t(k.ENGLISH)} - 🇺🇸</a>
-                  <a className="dropdown-item" onClick={()=>handleClick('pt-BR')}href="#">{i18n.t(k.PORTUGUESE)} - 🇧🇷</a>
-                  <a className="dropdown-item" onClick={()=>handleClick('he')}href="#">{i18n.t(k.HEBREW)} - 🇮🇱</a>
-                  <a className="dropdown-item" onClick={()=>handleClick('es')}href="#">{i18n.t(k.SPANISH)} - 🇪🇸</a>
+                  <button className="dropdown-item" onClick={()=>handleClick('en')}>{i18n.t(k.ENGLISH)} - <span role="img" aria-label="USA">🇺🇸</span></button>
+                  <button className="dropdown-item" onClick={()=>handleClick('pt-BR')}>{i18n.t(k.PORTUGUESE)} - <span role="img" aria-label="Brazil">🇧🇷</span></button>
+                  <button className="dropdown-item" onClick={()=>handleClick('he')}>{i18n.t(k.HEBREW)} - <span role="img" aria-label="Israel">🇮🇱</span></button>
+                  <button className="dropdown-item" onClick={()=>handleClick('es')}>{i18n.t(k.SPANISH)} - <span role="img" aria-label="Spain">🇪🇸</span></button>
                 </div>
               </small>
               </div>

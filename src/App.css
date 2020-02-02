@@ -571,7 +571,13 @@ html {
 .dropdown-item {
   color: white;
   font-size: 14px;
-  font-weight: lighter; }
+  font-weight: lighter;
+  background: none;
+  border: none; }
+
+.dropdown-nav {
+  background: none;
+  border: none; }
 
 .pointer-map {
   width: 50%; }
