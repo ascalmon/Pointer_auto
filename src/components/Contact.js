@@ -32,7 +32,7 @@ class Contact extends Component {
               <div className="row about-text">
 
                 <header>
-	<h1>{i18n.t(k.CONTACT_US1)}</h1>
+	                 <h1 class='contact-header'>{i18n.t(k.CONTACT_US1)}</h1>
                 </header>
 
                 <div id="form">
