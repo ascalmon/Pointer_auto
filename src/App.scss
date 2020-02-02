@@ -393,7 +393,10 @@ $pointer: #394e6f;
 .about-text {
   margin: auto;
   margin-bottom: 3.5rem;
-  //width: 83%;
+}
+
+.about{
+  width: 100%;
 }
 
 .about-heading {
@@ -1032,6 +1035,23 @@ $pointer: #394e6f;
 	width: 500px;
 	color: $pointer;
 	text-align: center;
+}
+
+.contact-input {
+  border: solid 1px $pointer;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 6fr 6fr
+}
+
+.contact-text {
+  text-align: center;
+}
+
+hr {
+  width: 50%;
 }
 
 // Footer

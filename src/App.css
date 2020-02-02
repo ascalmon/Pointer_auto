@@ -294,6 +294,9 @@ html {
   margin: auto;
   margin-bottom: 3.5rem; }
 
+.about {
+  width: 100%; }
+
 .about-heading {
   font-family: 'Kaushan Script', cursive;
   font-size: 24px;
@@ -783,6 +786,19 @@ html {
   width: 500px;
   color: #394e6f;
   text-align: center; }
+
+.contact-input {
+  border: solid 1px #394e6f; }
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 6fr 6fr; }
+
+.contact-text {
+  text-align: center; }
+
+hr {
+  width: 50%; }
 
 .footer {
   display: grid;
