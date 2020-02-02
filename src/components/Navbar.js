@@ -68,11 +68,13 @@ function Navbar() {
               <div className="dropdown">
                 <a className="nav-link dropdown-nav" data-toggle="dropdown" href="">{i18n.t(k.SOLUTIONS)}</a>
                 <div className="dropdown-menu">
-                  <a className="dropdown-item" href="#service">{i18n.t(k.SERVICES)}</a>
-                  <a className="dropdown-item" href="#artificial_intelligence">{i18n.t(k.ARTIFICIAL_INTELLIGENCE)}</a>
-                  <a className="dropdown-item" href="#machine_learning">{i18n.t(k.MACHINE_LEARNING)}</a>
-                  <a className="dropdown-item" href="VH">{i18n.t(k.VEHICLE_HARMONIZATION)}</a>
-
+                  <a className="dropdown-item drop-item" href="#service">{i18n.t(k.SERVICES)}</a>
+                  <a className="dropdown-item drop-item" href="#design">{i18n.t(k.DESIGN)}</a>
+                  <a className="dropdown-item drop-item" href="#electricals">{i18n.t(k.ELECTRICALS)}</a>
+                  <a className="dropdown-item drop-item" href="#artificial_intelligence">{i18n.t(k.ARTIFICIAL_INTELLIGENCE)}</a>
+                  <a className="dropdown-item drop-item" href="#machine_learning">{i18n.t(k.MACHINE_LEARNING)}</a>
+                  <a className="dropdown-item drop-item" href="VH">{i18n.t(k.VEHICLE_HARMONIZATION)}</a>
+                  <a className="dropdown-item drop-item" href="#certifications">{i18n.t(k.CERTIFICATIONS)}</a>
                 </div>
               </div>
 
@@ -90,12 +92,10 @@ function Navbar() {
               <small>
                 <a className="nav-link dropdown-nav" data-toggle="dropdown" href="">{i18n.t(k.LANGUAGES)} {localStorage.getItem('flag')}</a>
                 <div className="dropdown-menu">
-
                   <a className="dropdown-item" onClick={()=>handleClick('en')} href="#">{i18n.t(k.ENGLISH)} - 🇺🇸</a>
                   <a className="dropdown-item" onClick={()=>handleClick('pt-BR')}href="#">{i18n.t(k.PORTUGUESE)} - 🇧🇷</a>
                   <a className="dropdown-item" onClick={()=>handleClick('he')}href="#">{i18n.t(k.HEBREW)} - 🇮🇱</a>
                   <a className="dropdown-item" onClick={()=>handleClick('es')}href="#">{i18n.t(k.SPANISH)} - 🇪🇸</a>
-
                 </div>
               </small>
               </div>

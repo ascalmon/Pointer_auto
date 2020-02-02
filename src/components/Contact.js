@@ -25,14 +25,12 @@ class Contact extends Component {
             <div className="about">
             <div className="topic-header">
               <p className="about-heading">{i18n.t(k.WHAT_WE_DO1)}</p>
-              <img className="pointer-map" src={contact} alt="About us" />
-              <p className="about-subheading">{i18n.t(k.CONTACT_US)}</p>
+              <img className="pointer-map" src={contact} alt="CONTACT_US1" />
+
             </div>
               <hr className="about-red-line"></hr>
               <div className="row about-text">
-                <p className="text-center lorem">
-                  {i18n.t(k.IT_S_A_PLEASURE_TO_HEAR_FROM_Y)}
-                </p>
+
                 <header>
 	<h1>{i18n.t(k.CONTACT_US1)}</h1>
                 </header>
@@ -56,17 +54,11 @@ class Contact extends Component {
     <textarea id="message" name="message"></textarea>
                     </div>
 
-	<input type="submit" value="Send your message!" />
+	<input type="submit" value={i18n.t(k.SEND_MESSAGE)} />
                   </form>
                 </div>
               </div>
-                <div className="row justify-content-between about-images">
-                  <div className="overlay-div">
-                  <img className="col-md-4 img-fluid" src={vehicle1} alt="Vehicle 1" />
-                  <img className="col-md-4 img-fluid" src={vehicle2} alt="Vehicle 2" />
-                  <img className="col-md-4 img-fluid" src={vehicle3} alt="Vehicle 3" />
-                </div>
-              </div>
+
             </div>
           </div>
         </section>

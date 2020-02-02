@@ -29,6 +29,8 @@ import Work from './components/Work';
 import ArtificialIntelligence from './components/ArtificialIntelligence';
 import MachineLearning from './components/MachineLearning';
 import Contact from './components/Contact';
+import Certifications from './components/Certifications';
+import Electricals from './components/Electricals';
 // ============ CSS =============
 
 import './Normalize.css';
@@ -60,8 +62,10 @@ function App() {
         </div>
         <Testimonial />
         <Work />
+        <Electricals/>
         <ArtificialIntelligence />
         <MachineLearning />
+        <Certifications/>
         <Contact />
       </div>);
 

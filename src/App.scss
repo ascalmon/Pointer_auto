@@ -206,6 +206,7 @@ $pointer: #394e6f;
   font-size: 6vh;
   margin-bottom: 1vh;
   margin-top: 25vh;
+  color: $pointer;
 }
 
 @media screen and (max-width: 1024px) {
@@ -651,29 +652,39 @@ $pointer: #394e6f;
   width: 60px;
 }
 
-.ipad {
-  bottom: 0;
-  left: 50%;
-  margin-left: -200px;
-  margin-top: -50px;
+.our-app {
+  //bottom: 20px;
+  left: 70%;
+  //margin-left: -200px;
+  top: 26%;
   position: absolute;
-  width: 400px;
-  z-index: 10;
+  //width: 400px;
+  z-index: 15;
 }
 
-.iphone {
-  bottom: -25px;
-  left: 50%;
-  margin-left: 110px;
+.connected-car {
+  bottom:30px;
+  left: 15%;
+  margin-left: 0;
   position: absolute;
-  width: 13%;
-  z-index: 12;
-  border-radius: 5px;
+  //width: 13%;
+  z-index: 8;
+  border-radius: 15px 15px;
+}
+.connected-car1 {
+  bottom: -45px;
+  left: 45%;
+  margin-left: 0;
+  position: absolute;
+  //width: 13%;
+  z-index: 10;
+
 }
 
 @media only screen and (max-width: 768px) {
-  .ipad {
-    margin-left: -130px;
+  .our-app {
+    //margin-left: -130px;
+    top: 46%;
     width: 250px;
   } .iphone {
     bottom: -38px;
@@ -743,7 +754,7 @@ $pointer: #394e6f;
 }
 
 .dropdown-item {
-  color: $white;
+  color: white;
   font-size: 14px;
   font-weight: lighter;
 }
@@ -992,16 +1003,25 @@ $pointer: #394e6f;
 }
 
 
-h1{
+// Contact
+//
+//
+.contact-greeting {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 44px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-header h1{
 	font-weight: normal;
 	font-size: 4em;
 	font-family: 'Raleway', sans-serif;
 	margin: 0 auto;
 	margin-top: 30px;
 	width: 500px;
-	color: #F90;
+	color: $pointer;
 	text-align: center;
-
 }
 
 /* Animation webkit */
@@ -1051,17 +1071,20 @@ h1{
 // }
 
 #form{
-	height: 100%;
-	background-color: #98d4f3;
+
+	background-color: white;
 	overflow: hidden;
 	position: relative;
-
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 form{
 	margin: 0 auto;
 	width: 500px;
 	padding-top: 40px;
-	color: white;
+	color: $pointer;
 	position: relative;
 
 
@@ -1072,25 +1095,27 @@ label, input, textarea{
 input, textarea{
 	width: 500px;
 	border: none;
-	border-radius: 20px;
+	border-radius: 5px;
 	outline: none;
 	padding: 10px;
-	font-family: 'Sniglet', cursive;
-	font-size: 1em;
-	color: #676767;
+	font-family: 'Sniglet';
+	font-size: 1.5em;
+	color: $pointer;
 	transition: border 0.5s;
 	-webkit-transition: border 0.5s;
 	-moz-transition: border 0.5s;
 	-o-transition: border 0.5s;
-	border: solid 3px #98d4f3;
+	border: solid 3px $pointer;
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 
 }
 input:focus, textarea:focus{
-	border: solid 3px #77bde0;
+	//border: solid 3px #77bde0;
 }
+
+
 
 textarea{
 	height: 100px;
@@ -1098,21 +1123,21 @@ textarea{
 	overflow: auto;
 }
 input[type="submit"]{
-	background-color: #F90;
+	background-color: $pointer;
 	color: white;
 	height: 50px;
 	cursor: pointer;
 	margin-top: 30px;
 	font-size: 1.29em;
-	font-family: 'Sniglet', cursive;
+	//font-family: 'Sniglet', cursive;
 	-webkit-transition: background-color 0.5s;
 	-moz-transition: background-color 0.5s;
 	-o-transition: background-color 0.5s;
 	transition: background-color 0.5s;
 }
 input[type="submit"]:hover{
-	background-color: #e58f0e;
-
+	background-color: lightgray;
+  color: $pointer;
 }
 label{
 	font-size: 1.5em;

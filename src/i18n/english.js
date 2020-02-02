@@ -145,5 +145,8 @@ module.exports = {
   [k.SOLUTIONS1]: ' Solutions',
   [k.APPS]: ' Apps',
   [k.CLOUD]: ' Cloud',
-
+  [k.DESIGN]: 'Design',
+  [k.CERTIFICATIONS]: 'Certifications',
+  [k.ELECTRICALS]: 'Electrical Vehicles',
+  [k.SEND_MESSAGE]: 'Send your message',
 };

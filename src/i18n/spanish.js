@@ -160,4 +160,8 @@ module.exports = {
   [k.SOLUTIONS1]: 'Soluciones',
   [k.APPS]: 'Apps',
   [k.CLOUD]: 'Nube',
+  [k.DESIGN]: 'Diseño',
+  [k.CERTIFICATIONS]: 'Certificationes',
+  [k.ELECTRICALS]: 'Vehículos eléctricos',
+  [k.SEND_MESSAGE]: 'Envía tu mensaje',
 };
