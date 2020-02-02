@@ -1,6 +1,6 @@
 const k = require('./keys');
 
-module.exports = {
+const spanish = {
   [k.WHAT_WE_DO]: `Que hacemos`,
   [k.STORY_ABOUT_US]: `Nuestra historia`,
   [k.MORE_THAN_YEARS_OF_REWRITIN]: `Más de 25 años reescribiendo las reglas MRM.`,
@@ -164,4 +164,6 @@ module.exports = {
   [k.CERTIFICATIONS]: 'Certificationes',
   [k.ELECTRICALS]: 'Vehículos eléctricos',
   [k.SEND_MESSAGE]: 'Envía tu mensaje',
+  [k.COMPANY_NAME]: 'Pointer Automotive',
 };
+export { spanish };

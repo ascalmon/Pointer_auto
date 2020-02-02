@@ -292,8 +292,7 @@ html {
 
 .about-text {
   margin: auto;
-  margin-bottom: 3.5rem;
-  width: 83%; }
+  margin-bottom: 3.5rem; }
 
 .about-heading {
   font-family: 'Kaushan Script', cursive;
@@ -577,7 +576,8 @@ html {
 
 .dropdown-nav {
   background: none;
-  border: none; }
+  border: none;
+  outline-style: none; }
 
 .pointer-map {
   width: 50%; }
@@ -783,6 +783,19 @@ html {
   width: 500px;
   color: #394e6f;
   text-align: center; }
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  width: 100%;
+  text-align: center;
+  font-family: serif;
+  background-color: #394e6f;
+  color: white; }
+
+.footer-text {
+  font-size: 25px; }
 
 /* Animation webkit */
 @-webkit-keyframes myfirst {

@@ -31,6 +31,7 @@ import MachineLearning from './components/MachineLearning';
 import Contact from './components/Contact';
 import Certifications from './components/Certifications';
 import Electricals from './components/Electricals';
+import Footer from './components/Footer';
 // ============ CSS =============
 
 import './Normalize.css';
@@ -68,6 +69,7 @@ function App() {
         <MachineLearning />
         <Certifications/>
         <Contact />
+        <Footer/>
       </div>);
 
 }

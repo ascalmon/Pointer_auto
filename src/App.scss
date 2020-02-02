@@ -393,7 +393,7 @@ $pointer: #394e6f;
 .about-text {
   margin: auto;
   margin-bottom: 3.5rem;
-  width: 83%;
+  //width: 83%;
 }
 
 .about-heading {
@@ -762,9 +762,11 @@ $pointer: #394e6f;
   border: none;
 }
 
-.dropdown-nav {
+
+.dropdown-nav{
   background: none;
   border: none;
+  outline-style: none;
 }
 
 .pointer-map {
@@ -1031,6 +1033,25 @@ $pointer: #394e6f;
 	color: $pointer;
 	text-align: center;
 }
+
+// Footer
+//
+//
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  width: 100%;
+  text-align: center;
+  font-family: serif;
+  background-color: $pointer;
+  color: white
+}
+
+.footer-text {
+  font-size: 25px;;
+}
+
 
 /* Animation webkit */
 @-webkit-keyframes myfirst

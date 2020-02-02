@@ -1,6 +1,6 @@
 const k = require('./keys');
 
-module.exports = {
+const hebrew = {
   [k.WHAT_WE_DO]: `מה אנחנו עושים`,
   [k.STORY_ABOUT_US]: `סיפור על ארה"ב`,
   [k.MORE_THAN_YEARS_OF_REWRITIN]: `More than 25 years of rewriting MRM rules.`,
@@ -149,4 +149,6 @@ module.exports = {
   [k.CERTIFICATIONS]: 'הסמכות',
   [k.ELECTRICALS]: 'כלי רכב חשמליים',
   [k.SEND_MESSAGE]: 'שלח את ההודעה שלך',
+  [k.COMPANY_NAME]: 'Pointer Automotive',
 };
+export { hebrew };
