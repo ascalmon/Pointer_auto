@@ -3,8 +3,13 @@ import i18n from 'i18next';import k from "./../i18n/keys"; // React Component - 
 // ============ React Dependencies ========
 
 import React, { Component } from 'react';
-
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faYoutube,
+  faFacebook,
+  faTwitter,
+  faInstagram
+} from "@fortawesome/free-brands-svg-icons";
 // ============ Image Imports =============
 
 import logo_notext from '../assets/pointer_logo_notext.svg';
@@ -38,6 +43,21 @@ class Footer extends Component {
               <p> <a className="nav-link" href="#home">{i18n.t(k.PRIVACY_POLICY)}</a> </p>
               <p> <a className="nav-link" href="#home">{i18n.t(k.COOKIES_POLICY)}</a> </p>
               <p> <a className="nav-link" href="#home">{i18n.t(k.TERMS_OF_SERVICE)}</a> </p>
+            </div>
+            <div></div>
+            <div>
+            <a href="https://www.youtube.com/watch?v=eL9iHmtv5fw" className="youtube social">
+               <FontAwesomeIcon icon={faYoutube} size="2x"/>
+            </a>
+            <a href="https://www.facebook.com/" className="facebook social">
+              <FontAwesomeIcon icon={faFacebook} size="2x" />
+            </a>
+            <a href="https://www.twitter.com" className="twitter social">
+              <FontAwesomeIcon icon={faTwitter} size="2x" />
+            </a>
+            <a href="https://www.instagram.com" className="instagram social">
+              <FontAwesomeIcon icon={faInstagram} size="2x" />
+            </a>
             </div>
 
             </div>
