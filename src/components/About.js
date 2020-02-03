@@ -1,5 +1,5 @@
 import i18n from 'i18next';
-import k from "./../i18n/keys"; 
+import k from "./../i18n/keys";
 
 // React Component - About
 
@@ -54,9 +54,9 @@ class About extends Component {
               </div>
                 <div className="row justify-content-between about-images">
                   <div className="overlay-div">
-                  <img className="col-md-4 img-fluid" src={vehicle1} alt="Vehicle 1" />
-                  <img className="col-md-4 img-fluid" src={vehicle2} alt="Vehicle 2" />
-                  <img className="col-md-4 img-fluid" src={vehicle3} alt="Vehicle 3" />
+
+                  <img className="col-md-4 img-fluid image-page" src={vehicle2} alt="Vehicle 2" />
+                  
                 </div>
               </div>
             </div>

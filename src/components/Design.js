@@ -18,13 +18,12 @@ class Design extends Component {
     return (
       <React.Fragment>
         <section id="design">
-          <div className="design-div">
-            <p className="design-heading">{i18n.t(k.FOR_ALL_DEVICES)}</p>
-            <p className="design-subheading">{i18n.t(k.UNIQUE_DESIGN)}</p>
-            <hr className="design-red-line"></hr>
-            <img className="img-fluid connected-car" src={connectedCar} style={{ width: '60%' }} alt="iPad" />
-            <img className="img-fluid connected-car1" src={connectedCar1} style={{ width: '40%' }} alt="iPad" />
-            <img className="img-fluid our-app" src={iPhone} style={{ width: '17%' }} alt="App" />
+          <div className="grid-design-container design-div">
+              <p className="grid-design-item0 design-heading">{i18n.t(k.FOR_ALL_DEVICES)}</p>
+              <p className="grid-design-item1 design-subheading">{i18n.t(k.UNIQUE_DESIGN)}</p>
+              <img className="img-fluid grid-design-item2 connected-car" src={connectedCar}  alt="iPad" />
+              <img className="img-fluid  grid-design-item3 connected-car1" src={connectedCar1}  alt="iPad" />
+              <img className="img-fluid grid-design-item4 our-app" src={iPhone}  alt="App" />
           </div>
         </section>
       </React.Fragment>);

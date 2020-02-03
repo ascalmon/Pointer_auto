@@ -31,6 +31,10 @@ $pointer: #394e6f;
   font-family: 'Montserrat', sans-serif;
   height: 100vh;
   position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header-inner {
@@ -90,7 +94,8 @@ $pointer: #394e6f;
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 700;
-  margin-left: 0;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
 
   &:hover {
@@ -479,8 +484,8 @@ $pointer: #394e6f;
 }
 
 .lorem {
-  color: white;
-  text-shadow: 1px 1px 2px #000000;
+  color: $pointer;
+  //text-shadow: 1px 1px 2px #000000;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   width: 90%;
@@ -500,8 +505,8 @@ $pointer: #394e6f;
 }
 
 .lorem2 {
-  color: white;
-  text-shadow: 1px 1px 2px #834C6D;
+  color: $pointer;
+  text-shadow: 1px 1px 2px #000000;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   width: 90%;
@@ -520,6 +525,13 @@ $pointer: #394e6f;
 
 .about-images {
   margin-bottom: 5.5rem;
+}
+
+.image-page {
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .about-text-header {
@@ -709,12 +721,23 @@ $pointer: #394e6f;
 // ============ DESIGN =============
 
 .design-div {
-  background: url('./assets/forest.png') no-repeat center center / cover;
-  background-size: cover;
-  height: 92vh;
+  background: url('./assets/front-page.jpg') no-repeat center center / cover;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  //background: url('./assets/design_image_3.jpeg') repeat center 300%;
+  //background-size: cover;
+  height: auto;
   padding: 30px;
   position: relative;
+  display: block;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  //background-size: cover;
 }
+
+
 
 @media only screen and (max-width: 768px) {
   .design-div {
@@ -745,32 +768,63 @@ $pointer: #394e6f;
   width: 60px;
 }
 
-.our-app {
-  left: 70%;
-  //top: 26%;
-  position: absolute;
-  z-index: 15;
-  bottom: 2em;
+// Design section
+//
+//
+.grid-design-item0 {
+  grid-area: text1;
+}
+.grid-design-item1 {
+  grid-area: text2;
+}
+.grid-design-item2 {
+  grid-area: image1;
+}
+.grid-design-item3 {
+  grid-area: image2;
+}
+.grid-design-item4 {
+  grid-area: image3;
+}
+
+.grid-design-container {
+  display: grid;
+  grid-template-areas:
+  "text1"
+  "text2"
+  "image1"
+  "image2"
+  "image3";
+  grid-gap: 10px;
+}
+
+.grid-design-cointainer > div {
+  text-align: center;
 }
 
 
 .connected-car {
-  bottom:30px;
-  left: 15%;
-  margin-left: 0;
-  position: absolute;
-  //width: 13%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
   z-index: 8;
   border-radius: 15px 15px;
 }
-.connected-car1 {
-  bottom: 1em;
-  left: 45%;
-  margin-left: 0;
-  position: absolute;
-  //width: 13%;
-  z-index: 10;
 
+.connected-car1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  z-index: 8;
+  border-radius: 15px 15px;
+}
+
+.our-app {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  z-index: 8;
+  border-radius: 15px 15px;
 }
 
 
@@ -850,13 +904,6 @@ $pointer: #394e6f;
   border: none;
   outline-style: none;
 }
-
-// @media only screen and (max-width: 768px) {
-//   .design-div {
-//     height: 75vh;
-//   }
-// }
-
 
 
 .pointer-map {
@@ -1106,6 +1153,14 @@ $pointer: #394e6f;
 // Contact
 //
 //
+//
+.contact-card {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+}
+
+
 .contact-greeting {
   font-family: 'Kaushan Script', cursive;
   font-size: 44px;

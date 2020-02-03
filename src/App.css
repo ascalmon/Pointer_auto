@@ -10,7 +10,11 @@ html {
   display: block;
   font-family: 'Montserrat', sans-serif;
   height: 100vh;
-  position: relative; }
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .header-inner {
   height: 100vh;
@@ -57,7 +61,8 @@ html {
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: 700;
-  margin-left: 0;
+  margin-left: auto;
+  margin-right: auto;
   position: relative; }
   .navbar-brand:hover {
     color: #fbe28f !important; }
@@ -358,8 +363,7 @@ html {
   width: 60px; }
 
 .lorem {
-  color: white;
-  text-shadow: 1px 1px 2px #000000;
+  color: #394e6f;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   width: 90%;
@@ -376,8 +380,8 @@ html {
   margin-right: auto; }
 
 .lorem2 {
-  color: white;
-  text-shadow: 1px 1px 2px #834C6D;
+  color: #394e6f;
+  text-shadow: 1px 1px 2px #000000;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   width: 90%;
@@ -393,6 +397,12 @@ html {
 
 .about-images {
   margin-bottom: 5.5rem; }
+
+.image-page {
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
 
 .about-text-header {
   margin-left: auto;
@@ -533,11 +543,17 @@ html {
     font-size: 40px; } }
 
 .design-div {
-  background: url("./assets/forest.png") no-repeat center center/cover;
-  background-size: cover;
-  height: 92vh;
+  background: url("./assets/front-page.jpg") no-repeat center center/cover;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  height: auto;
   padding: 30px;
-  position: relative; }
+  position: relative;
+  display: block;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat; }
 
 @media only screen and (max-width: 768px) {
   .design-div {
@@ -563,26 +579,49 @@ html {
   margin-top: 1.5rem;
   width: 60px; }
 
-.our-app {
-  left: 70%;
-  position: absolute;
-  z-index: 15;
-  bottom: 2em; }
+.grid-design-item0 {
+  grid-area: text1; }
+
+.grid-design-item1 {
+  grid-area: text2; }
+
+.grid-design-item2 {
+  grid-area: image1; }
+
+.grid-design-item3 {
+  grid-area: image2; }
+
+.grid-design-item4 {
+  grid-area: image3; }
+
+.grid-design-container {
+  display: grid;
+  grid-template-areas: "text1" "text2" "image1" "image2" "image3";
+  grid-gap: 10px; }
+
+.grid-design-cointainer > div {
+  text-align: center; }
 
 .connected-car {
-  bottom: 30px;
-  left: 15%;
-  margin-left: 0;
-  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
   z-index: 8;
   border-radius: 15px 15px; }
 
 .connected-car1 {
-  bottom: 1em;
-  left: 45%;
-  margin-left: 0;
-  position: absolute;
-  z-index: 10; }
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  z-index: 8;
+  border-radius: 15px 15px; }
+
+.our-app {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  z-index: 8;
+  border-radius: 15px 15px; }
 
 .what-we-do {
   align-items: center;
@@ -830,6 +869,11 @@ html {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%; } }
+
+.contact-card {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px; }
 
 .contact-greeting {
   font-family: 'Kaushan Script', cursive;

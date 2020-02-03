@@ -8,6 +8,7 @@ import React, { Component } from 'react';
 
 
 import contact from '../assets/contact_image_1.jpeg';
+import office_image from '../assets/contact_image_2.png';
 
 
 // ============ About Component ==========
@@ -18,7 +19,7 @@ class Contact extends Component {
       <React.Fragment>
         <section id="contact">
           <div className="row">
-            <div className="about">
+            <div className="about design-div">
             <div className="topic-header">
               <p className="about-heading">{i18n.t(k.WHAT_WE_DO1)}</p>
               <img className="pointer-map" style={{width: '15%'}} src={contact} alt="CONTACT_US1" />
@@ -42,7 +43,7 @@ class Contact extends Component {
                     <div className="formgroup" id="selection-form">
                       <div class="form-group">
                         <label for="sel1">{i18n.t(k.REASON_FOR_YOUR_CONTACT)}</label>
-                        
+
                         <select class="form-control contact-input" id="sel1">
                           <option className="contact-input" active></option>
                           <option className="contact-input">Quotation</option>
@@ -59,19 +60,27 @@ class Contact extends Component {
                   	<input type="submit" value={i18n.t(k.SEND_MESSAGE)} />
                   </form>
                 </div>
-                <div class="contact-text">
 
-                  <hr></hr>
-                  <p className='contact-header'>{i18n.t(k.COMPANY_NAME)}</p>
-                  <p className='contact-header'>{i18n.t(k.COMPANY_ADDRESS)}</p>
-                  <p className='contact-header'>{i18n.t(k.CITY)}</p>
-                  <p className='contact-header'>{i18n.t(k.STATE)}</p>
-                  <p className='contact-header'>{i18n.t(k.ZIP)}</p>
-                  <hr></hr>
-                  <p className='contact-header'>{i18n.t(k.PHONE)}</p>
-                  <p className='contact-header'>{i18n.t(k.WHATS)}</p>
-                  <p className='contact-header'>{i18n.t(k.EMAIL)}</p>
+
+                <div className="card contact-card" style={{width: '25rem', height: '38rem'}}>
+                  <img className="card-img-top" src={office_image} alt="Card image cap"/>
+                  <div className="card-body">
+                  <div className="contact-text">
+
+                    <hr></hr>
+                    <p className='contact-header'>{i18n.t(k.COMPANY_NAME)}</p>
+                    <p className='contact-header'>{i18n.t(k.COMPANY_ADDRESS)}</p>
+                    <p className='contact-header'>{i18n.t(k.CITY)}</p>
+                    <p className='contact-header'>{i18n.t(k.STATE)}</p>
+                    <p className='contact-header'>{i18n.t(k.ZIP)}</p>
+                    <hr></hr>
+                    <p className='contact-header'>{i18n.t(k.PHONE)}</p>
+                    <p className='contact-header'>{i18n.t(k.WHATS)}</p>
+                    <p className='contact-header'>{i18n.t(k.EMAIL)}</p>
+                  </div>
+                  </div>
                 </div>
+
               </div>
             </div>
           </div>
