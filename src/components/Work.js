@@ -29,23 +29,34 @@ class Work extends Component {
               <p className="text-center lorem">{i18n.t(k.LOREM_IPSUM_DOLOR_SIT_AMET_CO)}</p>
             </div>
           </div>
-          <div className="row-work">
-            <div className="column-work">
-              <img src={image1} style={{ width: '100%' }} alt="Vehicle 1" />
-              <img src={image5} style={{ width: '100%' }} alt="Vehicle 2" />
+
+          <div class="grid-work-container design-div">
+            <div class="grid-work-item1 work-heading">Fleet Management</div>
+            <div class="grid-work-item2 work-heading">Driver Behavior</div>
+            <div class="grid-work-item3 work-heading">Road Conditions</div>
+            <div class="grid-work-item4">
+              <img src={image1} alt="Vehicle 1" />
             </div>
-            <div className="column-work">
-              <img src={image2} style={{ width: '100%' }} alt="Vehicle 3" />
-              <img src={image6} style={{ width: '100%' }} alt="Vehicle 4" />
+            <div class="grid-work-item5">
+              <img src={image2} alt="Vehicle 3" />
             </div>
-            <div className="column-work">
-              <img src={image3} style={{ width: '100%' }} alt="Vehicle 5" />
+            <div class="grid-work-item6">
+              <img src={image3} alt="Vehicle 5" />
             </div>
-            <div className="column-work">
-              <img src={image4} style={{ width: '100%' }} alt="Vehicle 6" />
-              <img src={image7} style={{ width: '100%' }} alt="Vehicle 7" />
+            <div class="grid-work-item7 work-heading">Smart Apps</div>
+            <div class="grid-work-item8 work-heading">Predictive Maintenace</div>
+            <div class="grid-work-item9 work-heading">Car Sharing</div>
+            <div class="grid-work-item10">
+              <img src={image4} alt="Vehicle 6" />
+            </div>
+            <div class="grid-work-item11">
+              <img src={image5} alt="Vehicle 2" />
+            </div>
+            <div class="grid-work-item12">
+              <img src={image6} alt="Vehicle 4" />
             </div>
           </div>
+
         </section>
       </React.Fragment>);
 

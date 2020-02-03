@@ -814,6 +814,58 @@ html {
   .testimonial-name {
     font-size: 18px; } }
 
+.grd-work-item1 {
+  grid-area: text1; }
+
+.grd-work-item2 {
+  grid-area: text2; }
+
+.grd-work-item3 {
+  grid-area: text3; }
+
+.grd-work-item4 {
+  grid-area: img1; }
+
+.grd-work-item5 {
+  grid-area: img2; }
+
+.grd-work-item6 {
+  grid-area: img3; }
+
+.grd-work-item7 {
+  grid-area: text4; }
+
+.grd-work-item8 {
+  grid-area: text5; }
+
+.grd-work-item9 {
+  grid-area: text6; }
+
+.grd-work-item10 {
+  grid-area: img4; }
+
+.grd-work-item11 {
+  grid-area: img5; }
+
+.grd-work-item12 {
+  grid-area: img6; }
+
+div.grid-work-container {
+  width: max-content; }
+
+.grid-work-container {
+  display: grid;
+  grid-template-areas: 'text1 text2 text3' 'img1 img2 img3 ' 'text4 text5 text6' 'img4 img5 img6';
+  grid-gap: 0;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.grid-work-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px; }
+
 .work-text {
   margin: auto;
   margin-bottom: 3.5rem;
@@ -822,7 +874,7 @@ html {
 .work-heading {
   font-family: 'Kaushan Script', cursive;
   font-size: 24px;
-  margin-top: 4.5rem;
+  margin-top: .5rem;
   text-align: center; }
 
 .work-subheading {
