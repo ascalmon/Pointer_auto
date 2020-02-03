@@ -157,5 +157,15 @@ const english = {
   [k.PRIVACY_POLICY]: 'Privacy Policy',
   [k.COOKIES_POLICY]: 'Cookies Policy',
   [k.TERMS_OF_SERVICE]: 'Terms of Service',
+  [k.COMPANY_NAME]: 'Pointer Automotive',
+  [k.COMPANY_ADDRESS]: 'Avenida Andromeda, 723 - Cj 2902',
+  [k.CITY]: 'Barueri',
+  [k.STATE]: 'Sao Paulo',
+  [k.COUNTRY]: 'Brazil',
+  [k.ZIP]: '06473-000',
+  [k.PHONE]: '+55 11-5555-5555',
+  [k.WHATS]: '+55 11-95555=5555',
+  [k.EMAIL]: 'contato@pointer.com.br',
+
 }
 export { english };

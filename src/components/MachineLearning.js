@@ -23,7 +23,7 @@ class Machine_learning extends Component {
             <div className="about">
             <div className="topic-header">
               <p className="about-heading">{i18n.t(k.WHAT_WE_DO1)}</p>
-              <img src={ml_header} alt="Machine Learning" />
+              <img src={ml_header} style={{width: '30%'}} alt="Machine Learning" />
               <p className="about-subheading">{i18n.t(k.MACHINE_LEARNING)}</p>
             </div>
               <hr className="about-red-line"></hr>
@@ -46,12 +46,12 @@ class Machine_learning extends Component {
                 {i18n.t(k.TEACHING_A_VEHICLE_THE_MOST_CO)}
                   </p>
                 </div>
-                <div className="lorem">
+                <div className="lorem2">
                 {i18n.t(k.POINTER_IS_PART_OF_THE_GLOBAL)}
                 </div>
                   <br/>
                   <br/>
-                <div className="lorem">
+                <div className="lorem2">
                   {i18n.t(k.POWERFLEET_IS_A_WORLDWIDE_LEAD)}
                 </div>
               </div>

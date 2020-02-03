@@ -23,56 +23,30 @@ class Artificial_intelligence extends Component {
             <div className="about">
             <div className="topic-header">
               <p className="about-heading">{i18n.t(k.WHAT_WE_DO1)}</p>
-              <img src={ai_header} alt="Artificial Intelligence" />
+              <img src={ai_header} style={{width: '30%'}} alt="Artificial Intelligence" />
               <p className="about-subheading">{i18n.t(k.ARTIFICIAL_INTELLIGENCE)}</p>
             </div>
               <hr className="about-red-line"></hr>
               <div className="row about-text">
                 <p className="text-center lorem"><strong>
                   {i18n.t(k.SOFTWARE_HARDWARE_AND_SERVIC)}
-
-
                   </strong>
                 </p>
                 <p className="lorem">
                   {i18n.t(k.ARTIFICIAL_INTELLIGENCE_AI_S)}
-                
-
-
-
-
-
-
-
-
-
                 </p>
                 <p className="lorem">
                   {i18n.t(k.BEYOND_SELF_DRIVING_VEHICLES)}
-                
-
-
-
-
-
-
-
-
-
                 </p>
                 <p className="lorem">
                   {i18n.t(k.IT_S_OUR_COMMITMENT_AND_MARKET1)}
-                
-
-
                 </p>
-                <p className="lorem">
+                <p className="lorem2">
                 {i18n.t(k.POINTER_IS_PART_OF_THE_GLOBAL)}
-                
                 </p>
-                <p className="lorem">
+                <p className="lorem2">
                   {i18n.t(k.POWERFLEET_IS_A_WORLDWIDE_LEAD)}
-                
+
 
 
 

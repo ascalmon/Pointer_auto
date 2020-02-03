@@ -21,7 +21,7 @@ class Contact extends Component {
             <div className="about">
             <div className="topic-header">
               <p className="about-heading">{i18n.t(k.WHAT_WE_DO1)}</p>
-              <img className="pointer-map" src={contact} alt="CONTACT_US1" />
+              <img className="pointer-map" style={{width: '15%'}} src={contact} alt="CONTACT_US1" />
               <hr className="about-red-line"></hr>
               <header>
                  <h1 className='contact-header'>{i18n.t(k.CONTACT_US1)}</h1>
@@ -59,18 +59,17 @@ class Contact extends Component {
                   </form>
                 </div>
                 <div class="contact-text">
-
-                  <h1> Contact Us </h1>
+                  
                   <hr></hr>
-                  <h1> Pointer Automotive Ldta </h1>
-                  <h1> Av Andromedra 723, Cj 2902 </h1>
-                  <h1> Barueri </h1>
-                  <h1> sao Paulo </h1>
-                  <h1> 06500 </h1>
+                  <p className='contact-header'>{i18n.t(k.COMPANY_NAME)}</p>
+                  <p className='contact-header'>{i18n.t(k.COMPANY_ADDRESS)}</p>
+                  <p className='contact-header'>{i18n.t(k.CITY)}</p>
+                  <p className='contact-header'>{i18n.t(k.STATE)}</p>
+                  <p className='contact-header'>{i18n.t(k.ZIP)}</p>
                   <hr></hr>
-                  <h1> Phone:     +55-11-5555-5555 </h1>
-                  <h1> WhatsApp:  +55-11-95555-5555 </h1>
-                  <h1> Email:     contact@pointer.com </h1>
+                  <p className='contact-header'>{i18n.t(k.PHONE)}</p>
+                  <p className='contact-header'>{i18n.t(k.WHATS)}</p>
+                  <p className='contact-header'>{i18n.t(k.EMAIL)}</p>
                 </div>
               </div>
             </div>

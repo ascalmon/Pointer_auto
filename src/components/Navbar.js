@@ -90,7 +90,7 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <a href="#Search">
-                  <span className="iconify icon search-icon" data-inline="false"></span>
+                  <span className="iconify icon-nav icon search-icon" data-inline="false"></span>
                 </a>
               </li>
               <div className="dropdown">

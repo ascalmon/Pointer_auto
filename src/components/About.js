@@ -35,39 +35,18 @@ class About extends Component {
                 </p>
                 <p className="lorem">
                   {i18n.t(k.MORE_THAN_YEARS_OF_REWRITIN1)}
-                
-
-
-
-
-
-
                 </p>
                 <p className="lorem">
                   {i18n.t(k.WE_UNDERSTAND_THAT_NO_TWO_FLEE)}
-                
-
-
-
                 </p>
                 <p className="lorem">
                   {i18n.t(k.IT_S_OUR_COMMITMENT_AND_MARKET)}
-                
-
-
                 </p>
-                <p className="lorem">
+                <p className="lorem2">
                 {i18n.t(k.POINTER_IS_PART_OF_THE_GLOBAL)}
-                
                 </p>
-                <p className="lorem">
+                <p className="lorem2">
                   {i18n.t(k.POWERFLEET_IS_A_WORLDWIDE_LEAD)}
-                
-
-
-
-
-
                 </p>
               </div>
                 <div className="row justify-content-between about-images">

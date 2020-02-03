@@ -92,22 +92,42 @@ $pointer: #394e6f;
 
 @media screen and (max-width: 1024px) {
   .nav-link {
-    font-size: 2.5vh;
+    font-size: 2vh;
     margin: 0 1vh;
   }
 }
 
 @media screen and (max-width: 768px) {
   .nav-link {
-    font-size: 2.3vh;
-    margin: 0 1.3vh;
+    font-size: 1.2vh;
+    margin: 0 1vh;
   }
 }
 
 @media screen and (max-width: 375px) {
   .nav-link {
-    font-size: 2vh;
+    padding: 5px 5px 5px;
+    font-size: 1.2vh;
     margin: 0 .5vh;
+  }
+}
+
+.icon-nav {
+  width: 1em;
+  margin-top: -5px;
+}
+
+@media screen and (max-width: 768px) {
+  .icon-nav {
+    width: 0.7em;
+    margin-top: -5px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .icon-nav {
+    width: 0.5em;
+    margin-top: -5px;
   }
 }
 
@@ -242,10 +262,6 @@ $pointer: #394e6f;
 }
 
 .topic-header {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  width: 25%;
   text-align: center;
 }
 
@@ -423,9 +439,35 @@ $pointer: #394e6f;
 }
 
 .lorem {
-  color: $gray;
+  color: white;
+  text-shadow: 1px 1px 2px #000000;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.lorem1 {
+  color: white;
+  text-shadow: 1px 1px 2px #639499;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lorem2 {
+  color: white;
+  text-shadow: 1px 1px 2px #834C6D;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .about-images {
@@ -656,14 +698,13 @@ $pointer: #394e6f;
 }
 
 .our-app {
-  //bottom: 20px;
   left: 70%;
-  //margin-left: -200px;
-  top: 26%;
+  //top: 26%;
   position: absolute;
-  //width: 400px;
   z-index: 15;
+  bottom: 2em;
 }
+
 
 .connected-car {
   bottom:30px;
@@ -675,7 +716,7 @@ $pointer: #394e6f;
   border-radius: 15px 15px;
 }
 .connected-car1 {
-  bottom: -45px;
+  bottom: 1em;
   left: 45%;
   margin-left: 0;
   position: absolute;
@@ -684,17 +725,7 @@ $pointer: #394e6f;
 
 }
 
-@media only screen and (max-width: 768px) {
-  .our-app {
-    //margin-left: -130px;
-    top: 46%;
-    width: 250px;
-  } .iphone {
-    bottom: -38px;
-    margin-left: 62px;
-    width: 138px;
-  }
-}
+
 // ============ WHAT WE DO =============
 
 .what-we-do {
@@ -771,6 +802,14 @@ $pointer: #394e6f;
   border: none;
   outline-style: none;
 }
+
+// @media only screen and (max-width: 768px) {
+//   .design-div {
+//     height: 75vh;
+//   }
+// }
+
+
 
 .pointer-map {
   width: 50%;
@@ -1039,14 +1078,32 @@ $pointer: #394e6f;
 
 .contact-input {
   border: solid 1px $pointer;
+  //width: 500px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-input {
+    width: 360px;
+    margin-left: 20px;
+  }
 }
 
 .contact-grid {
   display: grid;
-  grid-template-columns: 6fr 6fr
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 800px) {
+  .contact-grid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
 }
 
 .contact-text {
+  //background: url('./assets/forest.png') no-repeat center center / cover;
   text-align: center;
 }
 
@@ -1070,6 +1127,32 @@ hr {
 
 .footer-text {
   font-size: 25px;;
+}
+
+.title-footer {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 90px;
+  font-weight: bold;
+  margin: -1vh;
+  color: $pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .title-footer {
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.logo-footer {
+  width: 15%;
+}
+
+@media screen and (max-width: 800px) {
+  .logo-footer {
+  width: 10%;
+  }
 }
 
 

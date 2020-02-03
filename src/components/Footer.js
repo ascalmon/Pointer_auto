@@ -24,9 +24,9 @@ class Footer extends Component {
         <section id="footer">
           <div className="row">
             <div className="row about-text">
-              <span className="title">{i18n.t(k.POINTER)}&nbsp;</span>
-              <img alt="Pointer Logo" src={logo_notext} width="100" />
-              <span className="title"> &nbsp;{i18n.t(k.AUTO)}</span>
+              <span className="title-footer">{i18n.t(k.POINTER)}&nbsp;</span>
+              <img className="logo-footer" alt="Pointer Logo" src={logo_notext} width="100" />
+              <span className="title-footer"> &nbsp;{i18n.t(k.AUTO)}</span>
             </div>
             <div class="footer">
             <div class="footer-text">
@@ -40,7 +40,9 @@ class Footer extends Component {
               <p>  </p>
             </div>
             <div class="footer-text">
-              <p> <a className="nav-link" href="#home">{i18n.t(k.PRIVACY_POLICY)}</a> </p>
+              <p> <a className="nav-link"
+               href="https://www.pointer.com/privacy-policy/">Privacy Policy>
+               {i18n.t(k.PRIVACY_POLICY)}</a> </p>
               <p> <a className="nav-link" href="#home">{i18n.t(k.COOKIES_POLICY)}</a> </p>
               <p> <a className="nav-link" href="#home">{i18n.t(k.TERMS_OF_SERVICE)}</a> </p>
             </div>
