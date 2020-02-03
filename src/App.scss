@@ -396,12 +396,14 @@ $pointer: #394e6f;
   font-size: 2vh;
   font-weight: bold;
   position: sticky;
+  color: $pointer;
 }
 
 .inner-text {
   font-size: 2vh;
   font-weight: 500;
   text-transform: uppercase;
+  color: $pointer;
 }
 
 .carousel-indicators {
@@ -892,7 +894,7 @@ $pointer: #394e6f;
 
 .dropdown-item {
   color: white;
-  font-size: 2vh;
+  font-size: 1.2vh;
   font-weight: lighter;
   background: none;
   border: none;
@@ -903,6 +905,8 @@ $pointer: #394e6f;
   background: none;
   border: none;
   outline-style: none;
+  outline-color: none;
+  outline-width: 0px;
 }
 
 

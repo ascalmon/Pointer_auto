@@ -292,12 +292,14 @@ html {
 .inner-number {
   font-size: 2vh;
   font-weight: bold;
-  position: sticky; }
+  position: sticky;
+  color: #394e6f; }
 
 .inner-text {
   font-size: 2vh;
   font-weight: 500;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #394e6f; }
 
 .carousel-indicators {
   display: flex;
@@ -671,7 +673,7 @@ html {
 
 .dropdown-item {
   color: white;
-  font-size: 2vh;
+  font-size: 1.2vh;
   font-weight: lighter;
   background: none;
   border: none; }
@@ -679,7 +681,9 @@ html {
 .dropdown-nav {
   background: none;
   border: none;
-  outline-style: none; }
+  outline-style: none;
+  outline-color: none;
+  outline-width: 0px; }
 
 .pointer-map {
   width: 50%; }
