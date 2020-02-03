@@ -56,7 +56,7 @@ function Navbar() {
     <React.Fragment>
         <nav className="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-faded ml-4">
           <a className="navbar-brand" id="home" href="#home">
-            <img alt="Pointer Logo" src={logo} width="100" />
+            <img className="nav-logo" alt="Pointer Logo" src={logo} />
           </a>
           <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>

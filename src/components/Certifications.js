@@ -35,10 +35,10 @@ class Certifications extends Component {
                   {i18n.t(k.LOREM_IPSUM_DOLOR_SIT_AMET_CO1)}
                 </p>
 
-                <p className="lorem">
+                <p className="lorem2">
                 {i18n.t(k.POINTER_IS_PART_OF_THE_GLOBAL)}
                 </p>
-                <p className="lorem">
+                <p className="lorem2">
                   {i18n.t(k.POWERFLEET_IS_A_WORLDWIDE_LEAD)}
                 </p>
               </div>

@@ -41,7 +41,8 @@ class Contact extends Component {
                     </div>
                     <div className="formgroup" id="selection-form">
                       <div class="form-group">
-                        <label for="sel1">Reason for your contact</label>
+                        <label for="sel1">{i18n.t(k.REASON_FOR_YOUR_CONTACT)}</label>
+                        
                         <select class="form-control contact-input" id="sel1">
                           <option className="contact-input" active></option>
                           <option className="contact-input">Quotation</option>
@@ -59,7 +60,7 @@ class Contact extends Component {
                   </form>
                 </div>
                 <div class="contact-text">
-                  
+
                   <hr></hr>
                   <p className='contact-header'>{i18n.t(k.COMPANY_NAME)}</p>
                   <p className='contact-header'>{i18n.t(k.COMPANY_ADDRESS)}</p>
