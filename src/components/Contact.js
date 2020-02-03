@@ -25,7 +25,7 @@ class Contact extends Component {
               <img className="pointer-map" style={{width: '15%'}} src={contact} alt="CONTACT_US1" />
               <hr className="about-red-line"></hr>
               <header>
-                 <h1 className='contact-header'>{i18n.t(k.CONTACT_US1)}</h1>
+                 <div className='contact-header'>{i18n.t(k.CONTACT_US1)}</div>
               </header>
             </div>
 
@@ -67,7 +67,6 @@ class Contact extends Component {
                   <div className="card-body">
                   <div className="contact-text">
 
-                    <hr></hr>
                     <p className='contact-header'>{i18n.t(k.COMPANY_NAME)}</p>
                     <p className='contact-header'>{i18n.t(k.COMPANY_ADDRESS)}</p>
                     <p className='contact-header'>{i18n.t(k.CITY)}</p>

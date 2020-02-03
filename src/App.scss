@@ -1158,6 +1158,8 @@ $pointer: #394e6f;
   margin-left: auto;
   margin-right: auto;
   margin-top: 70px;
+  background-color: transparent;
+
 }
 
 
@@ -1168,15 +1170,25 @@ $pointer: #394e6f;
   margin-bottom: 40px;
 }
 
-.contact-header h1{
-	font-weight: normal;
+div.contact-header {
+	//font-weight: normal;
 	font-size: 4em;
 	font-family: 'Raleway', sans-serif;
-	margin: 0 auto;
-	margin-top: 30px;
-	width: 500px;
+	//margin: 0 auto;
+	//margin-top: 0px;
+	//width: 50px;
+	//color: $pointer;
+	//text-align: center;
+}
+
+p.contact-header {
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	//margin: 0 auto;
+	//margin-top: 30px;
+	width: auto;
 	color: $pointer;
-	text-align: center;
+	text-align: left;
 }
 
 .contact-input {
@@ -1339,7 +1351,7 @@ a.instagram {
 
 #form{
 
-	background-color: white;
+	background-color: transparent;
 	overflow: hidden;
 	position: relative;
   height: 100%;
