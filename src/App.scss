@@ -1206,6 +1206,11 @@ div.grid-work-container {
 
 }
 
+.contact-label {
+  color: $black;
+  font-size: 1.5em;
+}
+
 
 .contact-greeting {
   font-family: 'Kaushan Script', cursive;
@@ -1216,22 +1221,22 @@ div.grid-work-container {
 
 div.contact-header {
 	//font-weight: normal;
-	font-size: 4em;
+	font-size: 3em;
 	font-family: 'Raleway', sans-serif;
 	//margin: 0 auto;
 	//margin-top: 0px;
 	//width: 50px;
-	//color: $pointer;
+	color: $black;
 	//text-align: center;
 }
 
 p.contact-header {
-	font-size: 18px;
+	font-size: 1.2em;
 	font-family: 'Raleway', sans-serif;
 	//margin: 0 auto;
 	//margin-top: 30px;
 	width: auto;
-	color: $pointer;
+	color: $black;
 	text-align: left;
 }
 
