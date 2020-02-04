@@ -63,7 +63,7 @@ class Contact extends Component {
 
 
                 <div className="card contact-card" style={{width: '25rem', height: '38rem'}}>
-                  <img className="card-img-top" src={office_image} alt="Card image cap"/>
+                  <img className="card-img-top" src={office_image} alt="Company address"/>
                   <div className="card-body">
                   <div className="contact-text">
 

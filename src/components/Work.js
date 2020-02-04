@@ -12,7 +12,6 @@ import image3 from '../assets/work_image_3.jpeg';
 import image4 from '../assets/work_image_4.jpeg';
 import image5 from '../assets/work_image_5.jpeg';
 import image6 from '../assets/work_image_6.jpeg';
-import image7 from '../assets/work_image_7.jpeg';
 
 // ============ Work Component ==========
 

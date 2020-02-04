@@ -11,9 +11,7 @@ import React, { Component } from 'react';
 // ============ Image Imports =============
 
 
-import vehicle1 from '../assets/image_about_1.jpeg';
-import vehicle2 from '../assets/image_about_2.jpeg';
-import vehicle3 from '../assets/image_about_3.jpeg';
+import vehicle1 from '../assets/image_about_2.jpeg';
 
 import pointer_map from '../assets/pointer_map.png';
 // ============ About Component ==========
@@ -55,8 +53,8 @@ class About extends Component {
                 <div className="row justify-content-between about-images">
                   <div className="overlay-div">
 
-                  <img className="col-md-4 img-fluid image-page" src={vehicle2} alt="Vehicle 2" />
-                  
+                  <img className="col-md-4 img-fluid image-page" src={vehicle1} alt="Vehicle 2" />
+
                 </div>
               </div>
             </div>
