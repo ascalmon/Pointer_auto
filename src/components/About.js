@@ -23,7 +23,6 @@ class About extends Component {
   render() {
     window.addEventListener('scroll', function() {
       if(window.scrollY < 100) {
-        console.log(window.scrollY);
         document.getElementsByClassName('float')[0].style.display = 'none';
       } else {
         document.getElementsByClassName('float')[0].style.display = 'block';
