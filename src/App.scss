@@ -566,11 +566,15 @@ $pointer: #394e6f;
 	height:30px;
 	bottom:20px;
 	right:20px;
-	background-color: $pointer;
-	color:#FFF;
-	border-radius:50px;
+	background-color: transparent;
+	//color:#000;
+	//border-radius:10px;
 	text-align:center;
-	box-shadow: 2px 2px 3px #999;
+
+	//box-shadow: 2px 2px 3px #999;
+  &:hover{
+    box-shadow: 2px 2px 6px #999;
+  }
 }
 
 .my-float{

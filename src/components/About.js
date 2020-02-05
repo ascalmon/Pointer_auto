@@ -17,13 +17,24 @@ import pointer_map from '../assets/pointer_map.png';
 // ============ About Component ==========
 
 class About extends Component {
+
+
+
   render() {
+    window.addEventListener('scroll', function() {
+      if(window.scrollY < 100) {
+        console.log(window.scrollY);
+        document.getElementsByClassName('float')[0].style.display = 'none';
+      } else {
+        document.getElementsByClassName('float')[0].style.display = 'block';
+      }
+    });
 
     return (
       <React.Fragment>
         <section id="about">
           <div className="row">
-            <div className="about">
+            <div className="about" >
             <div className="topic-header-about">
               <p className="about-heading">{i18n.t(k.WHAT_WE_DO)}</p>
               <img className="pointer-map" src={pointer_map} alt="About us" />
@@ -59,6 +70,7 @@ class About extends Component {
               </div>
             </div>
           </div>
+
         </section>
       </React.Fragment>);
 

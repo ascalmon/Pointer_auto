@@ -39,14 +39,17 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './App.scss';
 
 // ============ APP =============
+//
+
 function App() {
   if ('lng' in localStorage){
   } else{
     localStorage.setItem('lng', 'en');
   }
+
   return (
     <div className="App" id="home">
-        <header className="app-header">
+        <header className="app-header" >
           <div className="header-inner">
             <div className="container">
               <Navbar handle='handleClick(lang)' />

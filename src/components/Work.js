@@ -29,29 +29,29 @@ class Work extends Component {
             </div>
           </div>
 
-          <div class="grid-work-container design-div">
-            <div class="grid-work-item1 work-heading">Fleet Management</div>
-            <div class="grid-work-item2 work-heading">Driver Behavior</div>
-            <div class="grid-work-item3 work-heading">Road Conditions</div>
-            <div class="grid-work-item4">
+          <div className="grid-work-container design-div">
+            <div className="grid-work-item1 work-heading">Fleet Management</div>
+            <div className="grid-work-item2 work-heading">Driver Behavior</div>
+            <div className="grid-work-item3 work-heading">Road Conditions</div>
+            <div className="grid-work-item4">
               <img src={image1} alt="Vehicle 1" />
             </div>
-            <div class="grid-work-item5">
+            <div className="grid-work-item5">
               <img src={image2} alt="Vehicle 3" />
             </div>
-            <div class="grid-work-item6">
+            <div className="grid-work-item6">
               <img src={image3} alt="Vehicle 5" />
             </div>
-            <div class="grid-work-item7 work-heading">Smart Apps</div>
-            <div class="grid-work-item8 work-heading">Predictive Maintenace</div>
-            <div class="grid-work-item9 work-heading">Car Sharing</div>
-            <div class="grid-work-item10">
+            <div className="grid-work-item7 work-heading">Smart Apps</div>
+            <div className="grid-work-item8 work-heading">Predictive Maintenace</div>
+            <div className="grid-work-item9 work-heading">Car Sharing</div>
+            <div className="grid-work-item10">
               <img src={image4} alt="Vehicle 6" />
             </div>
-            <div class="grid-work-item11">
+            <div className="grid-work-item11">
               <img src={image5} alt="Vehicle 2" />
             </div>
-            <div class="grid-work-item12">
+            <div className="grid-work-item12">
               <img src={image6} alt="Vehicle 4" />
             </div>
           </div>

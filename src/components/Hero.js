@@ -10,16 +10,21 @@ import logo_notext from '../assets/pointer_logo_notext.svg';
 
 class Hero extends Component {
 
+  // constructor(props) {
+  //  super(props);
+  // }
+  //
   render() {
+
     return (
       <React.Fragment>
-        <div className="container">
+        <div className="container" >
           <div id="carouselIndicator" className="carousel slide carousel-hero" data-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item item active">
                 <div className="hero">
                   <div className="greeting">
-                    <h1 className="description">{i18n.t(k.CREATIVE_AUTO_SOLUTIONS)}</h1>
+                    <h1 className="description" >{i18n.t(k.CREATIVE_AUTO_SOLUTIONS)}</h1>
                     <a className="navbar-brand" id="home" href="#home">
                       <span className="title">{i18n.t(k.POINTER)} </span><img alt="Pointer Logo" className='logo' src={logo_notext} /><span className="title"> {i18n.t(k.AUTO)}</span>
                     </a>
@@ -111,6 +116,7 @@ class Hero extends Component {
           </div>
         </div>
       </React.Fragment>);
+
 
   }}
 

@@ -12,6 +12,7 @@ import ml2 from '../assets/ml_image_2.jpeg';
 import ml3 from '../assets/ml_image_3.jpeg';
 
 import arrow_up from '../assets/up-arrow.svg';
+//import arrow_up1 from '../assets/arrow_up_blue.png';
 // ============ About Component ==========
 
 class Machine_learning extends Component {
@@ -64,7 +65,7 @@ class Machine_learning extends Component {
                 <section id="here">
                 <a href="#home" className="float">
                   <i className="my-float">
-                   <img src={arrow_up} alt="Arrow up" />
+                   <img src={arrow_up} alt="Arrow up" style={{width: '100%'}}/>
                   </i>
                 </a>
                 </section>
