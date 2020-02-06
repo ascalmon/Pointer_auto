@@ -66,25 +66,30 @@ function Navbar() {
               <li className="nav-item active">
                 <a className="nav-link" href="#about">{i18n.t(k.ABOUT)}<span className="sr-only">{i18n.t(k.CURRENT)} </span></a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#work">{i18n.t(k.WORK)}</a>
-              </li>
+
               <li className="nav-item">
               <div className="dropdown">
                 <button className="nav-link dropdown-nav" data-toggle="dropdown">{i18n.t(k.SOLUTIONS)}</button>
                 <div className="dropdown-menu">
-                  <a className="dropdown-item drop-item" href="#service">{i18n.t(k.SERVICES)}</a>
-                  <a className="dropdown-item drop-item" href="#design">{i18n.t(k.DESIGN)}</a>
-                  <a className="dropdown-item drop-item" href="#electricals">{i18n.t(k.ELECTRICALS)}</a>
-                  <a className="dropdown-item drop-item" href="#artificial_intelligence">{i18n.t(k.ARTIFICIAL_INTELLIGENCE)}</a>
-                  <a className="dropdown-item drop-item" href="#machine_learning">{i18n.t(k.MACHINE_LEARNING)}</a>
-                  <a className="dropdown-item drop-item" href="VH">{i18n.t(k.VEHICLE_HARMONIZATION)}</a>
-                  <a className="dropdown-item drop-item" href="#certifications">{i18n.t(k.CERTIFICATIONS)}</a>
+                  <a className="dropdown-item drop-item" href="#service">{i18n.t(k.CONNECTED_VEHICLES)}</a>
+                  <a className="dropdown-item drop-item" href="#design">{i18n.t(k.MOBILITY_SERVICES)}</a>
+                  <a className="dropdown-item drop-item" href="#electricals">{i18n.t(k.DESIGN_TECHNOLOGY)}</a>
+                  <a className="dropdown-item drop-item" href="#artificial_intelligence">{i18n.t(k.CUSTOMIZATION)}</a>
+                  <a className="dropdown-item drop-item" href="#machine_learning">{i18n.t(k.TELEMATICS)}</a>
+
                 </div>
               </div>
 
               </li>
-
+              <div className="dropdown">
+                <button className="nav-link dropdown-nav" data-toggle="dropdown">{i18n.t(k.SERVICES)}</button>
+                <div className="dropdown-menu">
+                  <a className="dropdown-item drop-item" href="#service">{i18n.t(k.PROFESSIONAL)}</a>
+                  <a className="dropdown-item drop-item" href="#design">{i18n.t(k.CONSULTING)}</a>
+                  <a className="dropdown-item drop-item" href="#electricals">{i18n.t(k.INTELLIGENCE)}</a>
+                  <a className="dropdown-item drop-item" href="#artificial_intelligence">{i18n.t(k.CORPORATE_FLEET)}</a>
+                </div>
+              </div>
               <li className="nav-item">
                 <a className="nav-link" href="#contact">{i18n.t(k.CONTACT)}</a>
               </li>
@@ -94,15 +99,13 @@ function Navbar() {
                 </a>
               </li>
               <div className="dropdown">
-              <small>
-                <button className="nav-link dropdown-nav" data-toggle="dropdown" href="#">{i18n.t(k.LANGUAGES)} {localStorage.getItem('flag')}</button>
+                <button className="nav-link dropdown-nav dropdown-lang" data-toggle="dropdown" href="#">{i18n.t(k.LANGUAGES)} {localStorage.getItem('flag')}</button>
                 <div className="dropdown-menu">
                   <button className="dropdown-item" onClick={()=>handleClick('en')}>{i18n.t(k.ENGLISH)} - <span role="img" aria-label="USA">🇺🇸</span></button>
                   <button className="dropdown-item" onClick={()=>handleClick('pt-BR')}>{i18n.t(k.PORTUGUESE)} - <span role="img" aria-label="Brazil">🇧🇷</span></button>
                   <button className="dropdown-item" onClick={()=>handleClick('he')}>{i18n.t(k.HEBREW)} - <span role="img" aria-label="Israel">🇮🇱</span></button>
                   <button className="dropdown-item" onClick={()=>handleClick('es')}>{i18n.t(k.SPANISH)} - <span role="img" aria-label="Spain">🇪🇸</span></button>
                 </div>
-              </small>
               </div>
             </ul>
           </div>

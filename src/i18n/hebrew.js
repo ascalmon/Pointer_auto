@@ -166,5 +166,15 @@ const hebrew = {
   [k.PHONE]: '+55 11-5555-5555',
   [k.WHATS]: '+55 11-95555=5555',
   [k.EMAIL]: 'contato@pointer.com.br',
+  [k.PROFESSIONAL]: 'שירותים מקצועיים',
+  [k.CONSULTING]: 'שירותי ייעוץ',
+  [k.INTELLIGENCE]: 'שירותי מודיעין',
+  [k.CORPORATE_FLEET]: 'צי חברות',
+  [k.CONNECTED_VEHICLES]: 'רכבים מחוברים',
+  [k.MOBILITY_SERVICES]: 'שירותי ניידות',
+  [k.DESIGN_TECHNOLOGY]: 'עיצוב וטכנולוגיה',
+  [k.CUSTOMIZATION]: 'התאמות אישיות',
+  [k.TELEMATICS]: 'טלמטיקה',
+
 };
 export { hebrew };

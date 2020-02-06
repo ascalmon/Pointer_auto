@@ -8,7 +8,7 @@ html {
 .app-header {
   background: url("./assets/front-page.jpg") no-repeat center center/cover;
   display: block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "DIN W01 Bold";
   height: 100vh;
   position: relative;
   background-attachment: fixed;
@@ -30,11 +30,15 @@ html {
 
 @media screen and (max-width: 768px) {
   .nav-logo {
-    width: 60%; } }
+    width: 30%; } }
+
+@media screen and (max-width: 472px) {
+  .nav-logo {
+    width: 40%; } }
 
 @media screen and (max-width: 375px) {
   .nav-logo {
-    width: 50%; } }
+    width: 20%; } }
 
 .logo {
   width: 10%; }
@@ -44,7 +48,7 @@ html {
   background: none;
   border: 1px solid transparent;
   color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "DIN W01 Bold";
   margin-bottom: 20px;
   min-height: 50px;
   opacity: 1;
@@ -58,32 +62,52 @@ html {
 
 .navbar-brand {
   color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "DIN W01 Bold";
   font-size: 30px;
   font-weight: 700;
   margin-left: auto;
   margin-right: auto;
   position: relative; }
   .navbar-brand:hover {
-    color: #fbe28f !important; }
+    color: #394e6f !important; }
+
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    width: 30%;
+    margin-left: 0;
+    margin-right: 0; } }
+
+@media screen and (max-width: 472px) {
+  .navbar-brand {
+    width: 40%;
+    margin-left: 0;
+    margin-right: 0; } }
+
+@media screen and (max-width: 375px) {
+  .navbar-brand {
+    width: 70%;
+    margin-left: 0;
+    margin-right: 0; } }
 
 .nav-link {
   border-bottom: 3px solid transparent;
-  color: #FFFFFF !important;
+  color: #394e6f !important;
   display: block;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 20px;
   margin: 0 12px;
   padding: 15px 5px 5px;
   text-transform: uppercase;
-  width: inherit; }
+  width: inherit;
+  font-family: "DIN W01 Bold";
+  font-weight: normal;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4); }
   .nav-link:hover {
-    border-bottom: 4px solid #fbe28f;
-    color: #fbe28f !important; }
+    border-bottom: 4px solid #FFFFFF;
+    color: #FFFFFF !important; }
 
 @media screen and (max-width: 1024px) {
   .nav-link {
-    font-size: 1.6vh;
+    font-size: 3vh;
     margin: 0 0.6vh; } }
 
 @media screen and (max-width: 768px) {
@@ -94,7 +118,7 @@ html {
 @media screen and (max-width: 375px) {
   .nav-link {
     padding: 5px 5px 5px;
-    font-size: 1.0vh;
+    font-size: 2.0vh;
     margin: 0 .4vh; } }
 
 .icon-nav {
@@ -177,32 +201,32 @@ html {
 
 .description {
   display: block;
-  font-family: 'Kaushan Script', cursive;
-  font-size: 6vh;
+  font-family: "DIN W01 Bold";
+  font-size: 8vh;
   margin-bottom: 1vh;
-  margin-top: 25vh;
+  margin-top: 35vh;
   color: #394e6f; }
 
 @media screen and (max-width: 1024px) {
   .description {
     font-size: 5.5vh;
     margin-bottom: 1vh;
-    margin-top: 9vh; } }
+    margin-top: 30vh; } }
 
 @media screen and (max-width: 768px) {
   .description {
-    font-size: 4.5vh;
+    font-size: 5.5vh;
     margin-bottom: 1vh;
-    margin-top: 2vh; } }
+    margin-top: 20vh; } }
 
 @media screen and (max-width: 375px) {
   .description {
-    font-size: 4vh;
+    font-size: 3.5vh;
     margin-bottom: -1vh;
-    margin-top: 0vh; } }
+    margin-top: 15vh; } }
 
 .title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "DIN W01 Bold";
   font-size: 90px;
   font-weight: bold;
   margin: -1vh;
@@ -210,24 +234,15 @@ html {
 
 @media screen and (max-width: 1024px) {
   .title {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 8vh;
-    font-weight: bold;
-    margin: -1vh; } }
+    font-size: 8vh; } }
 
 @media screen and (max-width: 768px) {
   .title {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 6.5vh;
-    font-weight: bold;
-    margin: -1vh; } }
+    font-size: 8.5vh; } }
 
 @media screen and (max-width: 375px) {
   .title {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 5.5vh;
-    font-weight: bold;
-    margin: -1vh; } }
+    font-size: 6.5vh; } }
 
 .title:nth-child(3) {
   margin-bottom: 40px; }
@@ -248,9 +263,9 @@ html {
   width: 60px; }
 
 .learn-more {
-  border: 3px solid #FFFFFF;
-  color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
+  border: 1px solid #FFFFFF;
+  color: #394e6f;
+  font-family: "DIN W01 Bold";
   font-size: 15px;
   font-weight: bold;
   margin: 2vh auto 2vh auto;
@@ -258,8 +273,7 @@ html {
   text-align: center;
   text-transform: uppercase; }
   .learn-more:hover {
-    border: 3px solid #fbe28f;
-    color: #fbe28f;
+    color: #FFFFFF;
     text-decoration: none; }
 
 @media screen and (max-width: 1024px) {
@@ -269,14 +283,14 @@ html {
 @media screen and (max-width: 768px) {
   .learn-more {
     border: 0.2vh solid #FFFFFF;
-    font-size: 1.3vh;
+    font-size: 2.3vh;
     margin-top: .5vh;
-    padding: s 0.6vh; } }
+    padding: .6vh; } }
 
 @media screen and (max-width: 375px) {
   .learn-more {
     border: 0.5vh solid #FFFFFF;
-    font-size: 1.6vh;
+    font-size: 1.8vh;
     margin-top: -.5vh;
     padding: .6vh; } }
 
@@ -293,13 +307,13 @@ html {
   font-size: 2vh;
   font-weight: bold;
   position: sticky;
-  color: #394e6f; }
+  color: #FFFFFF; }
 
 .inner-text {
-  font-size: 2vh;
-  font-weight: 500;
+  font-size: 1.8vh;
+  font-weight: bold;
   text-transform: uppercase;
-  color: #394e6f; }
+  color: #FFFFFF; }
 
 .carousel-indicators {
   display: flex;
@@ -313,7 +327,7 @@ html {
 .carousel-indicators li {
   border-top: 1px solid #FFFFFF;
   color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "DIN W01 Bold";
   font-size: 2vh;
   font-weight: bold;
   line-height: 35px;
@@ -345,13 +359,13 @@ html {
   width: 100%; }
 
 .about-heading {
-  font-family: 'Kaushan Script', cursive;
-  font-size: 24px;
+  font-family: "DIN W01 Bold";
+  font-size: 34px;
   margin-top: 4.5rem;
   text-align: center; }
 
 .about-subheading {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "DIN W01 Bold";
   font-size: 30px;
   font-weight: bold;
   margin-top: 1rem;
@@ -366,7 +380,7 @@ html {
 
 .lorem {
   color: #394e6f;
-  font-family: 'Roboto', sans-serif;
+  font-family: "DIN W01 Bold";
   font-size: 15px;
   width: 90%;
   margin-left: auto;
@@ -375,7 +389,7 @@ html {
 .lorem1 {
   color: white;
   text-shadow: 1px 1px 2px #639499;
-  font-family: 'Roboto', sans-serif;
+  font-family: "DIN W01 Bold";
   font-size: 15px;
   width: 90%;
   margin-left: auto;
@@ -384,7 +398,7 @@ html {
 .lorem2 {
   color: #394e6f;
   text-shadow: 1px 1px 2px #000000;
-  font-family: 'Roboto', sans-serif;
+  font-family: "DIN W01 Bold";
   font-size: 15px;
   width: 90%;
   text-align: center;
@@ -462,7 +476,7 @@ html {
 
 .users-super-team {
   color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "DIN W01 Bold";
   font-size: 18px;
   font-weight: bold;
   left: 12%;
@@ -488,7 +502,7 @@ html {
 .counter {
   background-color: #97e1d3;
   color: #FFFFFF;
-  font-family: 'Montserrat';
+  font-family: "DIN W01 Bold";
   font-size: 14px;
   padding: 0 5px; }
 
@@ -546,7 +560,7 @@ html {
 .design-div {
   background: url("./assets/front-page.jpg") no-repeat center center/cover;
   display: block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "DIN W01 Bold";
   height: 100vh;
   height: auto;
   padding: 30px;
@@ -561,13 +575,13 @@ html {
     height: 75vh; } }
 
 .design-heading {
-  font-family: 'Kaushan Script', cursive;
+  font-family: "DIN W01 Bold";
   font-size: 24px;
   margin-top: 2rem;
   text-align: center; }
 
 .design-subheading {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "DIN W01 Bold";
   font-size: 30px;
   font-weight: bold;
   margin-top: 1rem;
@@ -638,13 +652,13 @@ html {
   width: 83%; }
 
 .what-heading {
-  font-family: 'Kaushan Script', cursive;
+  font-family: "DIN W01 Bold";
   font-size: 24px;
   margin-top: 4.5rem;
   text-align: center; }
 
 .what-subheading {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "DIN W01 Bold";
   font-size: 30px;
   font-weight: bold;
   margin-top: 1rem;
@@ -659,23 +673,30 @@ html {
 
 .dropdown-button {
   color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "DIN W01 Bold";
   font-size: 14px; }
   .dropdown-button:hover {
     color: #000000; }
 
+.dropdown-lang {
+  font-size: 2vh;
+  padding-top: 2vh; }
+
 .dropdown:hover > .dropdown-menu {
-  display: block; }
+  display: block;
+  border: 1px solid "DIN W01 Bold";
+  background-color: #FFFFFF; }
 
 .dropdown-menu {
   background: transparent; }
 
 .dropdown-item {
-  color: white;
-  font-size: 1.2vh;
+  color: #394e6f;
+  font-size: 3.0vh;
   font-weight: lighter;
   background: none;
-  border: none; }
+  border: none;
+  font-family: "DIN W01 Bold"; }
 
 .dropdown-nav {
   background: none;
@@ -692,7 +713,7 @@ html {
 
 .card-body {
   color: #999;
-  font-family: 'Roboto';
+  font-family: "DIN W01 Bold";
   font-size: 15px;
   font-style: italic;
   height: 168px;
@@ -782,7 +803,7 @@ html {
   color: #999;
   display: inline-block;
   float: right;
-  font-family: 'Roboto', sans-serif;
+  font-family: "DIN W01 Bold";
   font-size: 1.25vw;
   font-style: italic; }
 
@@ -807,7 +828,7 @@ html {
 .testimonial-name {
   bottom: 10px;
   display: inline;
-  font-family: 'Kaushan Script', cursive;
+  font-family: "DIN W01 Bold";
   font-size: 24px;
   left: 10px;
   margin-bottom: 5px;
@@ -875,13 +896,13 @@ div.grid-work-container {
   width: 83%; }
 
 .work-heading {
-  font-family: 'Kaushan Script', cursive;
+  font-family: "DIN W01 Bold";
   font-size: 24px;
   margin-top: .5rem;
   text-align: center; }
 
 .work-subheading {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "DIN W01 Bold";
   font-size: 30px;
   font-weight: bold;
   margin-top: 1rem;
@@ -936,19 +957,19 @@ div.grid-work-container {
   font-size: 1.5em; }
 
 .contact-greeting {
-  font-family: 'Kaushan Script', cursive;
+  font-family: "DIN W01 Bold";
   font-size: 44px;
   text-align: center;
   margin-bottom: 40px; }
 
 div.contact-header {
   font-size: 3em;
-  font-family: 'Raleway', sans-serif;
+  font-family: "DIN W01 Bold";
   color: #000000; }
 
 p.contact-header {
   font-size: 1.2em;
-  font-family: 'Raleway', sans-serif;
+  font-family: "DIN W01 Bold";
   width: auto;
   color: #000000;
   text-align: left; }
@@ -984,7 +1005,7 @@ hr {
   grid-template-rows: auto;
   width: 100%;
   text-align: center;
-  font-family: serif;
+  font-family: "DIN W01 Bold";
   background-color: #394e6f;
   color: white; }
 
@@ -992,7 +1013,7 @@ hr {
   font-size: 25px; }
 
 .title-footer {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "DIN W01 Bold";
   font-size: 90px;
   font-weight: bold;
   margin: -1vh;
@@ -1077,7 +1098,7 @@ input, textarea {
   border-radius: 5px;
   outline: none;
   padding: 10px;
-  font-family: 'Sniglet';
+  font-family: "DIN W01 Bold";
   font-size: 1.5em;
   color: #394e6f;
   transition: border 0.5s;

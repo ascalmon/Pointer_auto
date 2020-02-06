@@ -51,9 +51,11 @@ function App() {
     <div className="App" id="home">
         <header className="app-header" >
           <div className="header-inner">
-            <div className="container">
-              <Navbar handle='handleClick(lang)' />
-              <Hero />
+            <div className="container-wrap">
+              <div className="container">
+                <Navbar handle='handleClick(lang)' />
+                <Hero />
+              </div>
             </div>
           </div>
         </header>

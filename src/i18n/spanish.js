@@ -181,5 +181,14 @@ const spanish = {
   [k.PHONE]: '+55 11-5555-5555',
   [k.WHATS]: '+55 11-95555=5555',
   [k.EMAIL]: 'contato@pointer.com.br',
+  [k.PROFESSIONAL]: 'Servicios profesionales',
+  [k.CONSULTING]: 'Servicios de Consultoria',
+  [k.INTELLIGENCE]: 'Servicios de Inteligencia',
+  [k.CORPORATE_FLEET]: 'Flota corporativa',
+  [k.CONNECTED_VEHICLES]: 'Vehículos conectados',
+  [k.MOBILITY_SERVICES]: 'Servicios de movilidad',
+  [k.DESIGN_TECHNOLOGY]: 'Tecnología y diseño',
+  [k.CUSTOMIZATION]: 'Personalizaciones',
+  [k.TELEMATICS]: 'Telemática',
 };
 export { spanish };

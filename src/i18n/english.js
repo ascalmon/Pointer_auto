@@ -85,7 +85,7 @@ const english = {
   [k.OEM]: `OEM`,
   [k.APP_TAYLORED_TO_YOUR_VEHICLE]: `App taylored to your vehicle`,
   [k.AUTOMOTIVE]: `Automotive`,
-  [k.THIRD_PARTIES_INTEGRATION]: `Third Parties Integration`,
+  [k.THIRD_PARTIES_INTEGRATION]: `Third Party Integration`,
   [k.OEM_AUTO]: `OEM Auto`,
   [k.MACHINE_LEARNING]: `Machine Learning`,
   [k.IN_THE_AUTOMOTIVE_INDUSTRY_MA]: `In the automotive industry, machine learning (ML) is most
@@ -167,6 +167,15 @@ const english = {
   [k.PHONE]: '+55 11-5555-5555',
   [k.WHATS]: '+55 11-95555=5555',
   [k.EMAIL]: 'contato@pointer.com.br',
+  [k.PROFESSIONAL]: 'Professional Services',
+  [k.CONSULTING]: 'Consulting Services',
+  [k.INTELLIGENCE]: 'Intelligence Services',
+  [k.CORPORATE_FLEET]: 'Corporate Fleet',
+  [k.CONNECTED_VEHICLES]: 'Connected Vehicles',
+  [k.MOBILITY_SERVICES]: 'Mobility Services',
+  [k.DESIGN_TECHNOLOGY]: 'Design & Technology',
+  [k.CUSTOMIZATION]: 'Customizations',
+  [k.TELEMATICS]: 'Telematics',
 
 }
 export { english };

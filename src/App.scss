@@ -10,6 +10,13 @@ html {
   scroll-behavior: smooth;
 }
 
+// Text VARIABLES
+//
+//
+
+$powerfleet_font: "DIN W01 Bold";
+
+
 // ============ COLOUR VARIABLES =============
 
 $lightgreen: #eafed2;
@@ -28,7 +35,7 @@ $pointer: #394e6f;
 .app-header {
   background: url('./assets/front-page.jpg') no-repeat center center / cover;
   display: block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: $powerfleet_font;
   height: 100vh;
   position: relative;
   background-attachment: fixed;
@@ -56,13 +63,19 @@ $pointer: #394e6f;
 
 @media screen and (max-width: 768px) {
   .nav-logo {
-    width: 60%
+    width: 30%
+  }
+}
+
+@media screen and (max-width: 472px) {
+  .nav-logo {
+    width: 40%
   }
 }
 
 @media screen and (max-width: 375px) {
   .nav-logo {
-    width: 50%
+    width: 20%
   }
 }
 
@@ -75,7 +88,7 @@ $pointer: #394e6f;
   background: none;
   border: 1px solid transparent;
   color: $white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: $powerfleet_font;
   margin-bottom: 20px;
   min-height: 50px;
   opacity: 1;
@@ -91,7 +104,7 @@ $pointer: #394e6f;
 
 .navbar-brand {
   color: $white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: $powerfleet_font;
   font-size: 30px;
   font-weight: 700;
   margin-left: auto;
@@ -99,30 +112,57 @@ $pointer: #394e6f;
   position: relative;
 
   &:hover {
-    color: $yellow !important;
+    color: $pointer !important;
   }
 }
 
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    width: 30%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 472px) {
+  .navbar-brand {
+    width: 40%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .navbar-brand {
+    width: 70%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+
 .nav-link {
   border-bottom: 3px solid transparent;
-  color: $white !important;
+  color: $pointer !important;
   display: block;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 20px;
   margin: 0 12px;
   padding: 15px 5px 5px;
   text-transform: uppercase;
   width: inherit;
+  font-family: $powerfleet_font;
+  font-weight: normal;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
 
   &:hover {
-    border-bottom: 4px solid $yellow;
-    color: $yellow !important;
+    border-bottom: 4px solid $white;
+    color: $white !important;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .nav-link {
-    font-size: 1.6vh;
+    font-size: 3vh;
     margin: 0 0.6vh;
   }
 }
@@ -137,7 +177,7 @@ $pointer: #394e6f;
 @media screen and (max-width: 375px) {
   .nav-link {
     padding: 5px 5px 5px;
-    font-size: 1.0vh;
+    font-size: 2.0vh;
     margin: 0 .4vh;
   }
 }
@@ -252,10 +292,10 @@ $pointer: #394e6f;
 
 .description {
   display: block;
-  font-family: 'Kaushan Script', cursive;
-  font-size: 6vh;
+  font-family: $powerfleet_font;
+  font-size: 8vh;
   margin-bottom: 1vh;
-  margin-top: 25vh;
+  margin-top: 35vh;
   color: $pointer;
 }
 
@@ -263,28 +303,28 @@ $pointer: #394e6f;
   .description {
     font-size: 5.5vh;
     margin-bottom: 1vh;
-    margin-top: 9vh;
+    margin-top: 30vh;
   }
 }
 
 @media screen and (max-width: 768px) {
   .description {
-    font-size: 4.5vh;
+    font-size: 5.5vh;
     margin-bottom: 1vh;
-    margin-top: 2vh;
+    margin-top: 20vh;
   }
 }
 
 @media screen and (max-width: 375px) {
   .description {
-    font-size: 4vh;
+    font-size: 3.5vh;
     margin-bottom: -1vh;
-    margin-top: 0vh;
+    margin-top: 15vh;
   }
 }
 
 .title {
-  font-family: 'Montserrat', sans-serif;
+  font-family: $powerfleet_font;
   font-size: 90px;
   font-weight: bold;
   margin: -1vh;
@@ -293,28 +333,19 @@ $pointer: #394e6f;
 
 @media screen and (max-width: 1024px) {
   .title {
-    font-family: 'Montserrat', sans-serif;
     font-size: 8vh;
-    font-weight: bold;
-    margin: -1vh;
   }
 }
 
 @media screen and (max-width: 768px) {
   .title {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 6.5vh;
-    font-weight: bold;
-    margin: -1vh;
+    font-size: 8.5vh;
   }
 }
 
 @media screen and (max-width: 375px) {
   .title {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 5.5vh;
-    font-weight: bold;
-    margin: -1vh;
+    font-size: 6.5vh;
   }
 }
 
@@ -341,9 +372,9 @@ $pointer: #394e6f;
 }
 
 .learn-more {
-  border: 3px solid $white;
-  color: $white;
-  font-family: 'Montserrat', sans-serif;
+  border: 1px solid $white;
+  color: $pointer;
+  font-family: $powerfleet_font;
   font-size: 15px;
   font-weight: bold;
   margin: 2vh auto 2vh auto;
@@ -352,8 +383,8 @@ $pointer: #394e6f;
   text-transform: uppercase;
 
   &:hover {
-    border: 3px solid $yellow;
-    color: $yellow;
+
+    color: $white;
     text-decoration: none;
   }
 }
@@ -367,16 +398,16 @@ $pointer: #394e6f;
 @media screen and (max-width: 768px) {
   .learn-more {
     border: .2vh solid $white;
-    font-size: 1.3vh;
+    font-size: 2.3vh;
     margin-top: .5vh;
-    padding: s.6vh;
+    padding: .6vh;
   }
 }
 
 @media screen and (max-width: 375px) {
   .learn-more {
     border: .5vh solid $white;
-    font-size: 1.6vh;
+    font-size: 1.8vh;
     margin-top: -.5vh;
     padding: .6vh;
   }
@@ -396,14 +427,14 @@ $pointer: #394e6f;
   font-size: 2vh;
   font-weight: bold;
   position: sticky;
-  color: $pointer;
+  color: $white;
 }
 
 .inner-text {
-  font-size: 2vh;
-  font-weight: 500;
+  font-size: 1.8vh;
+  font-weight: bold;
   text-transform: uppercase;
-  color: $pointer;
+  color: $white;
 }
 
 .carousel-indicators {
@@ -422,7 +453,7 @@ $pointer: #394e6f;
   li {
     border-top: 1px solid $white;
     color: $white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $powerfleet_font;
     font-size: 2vh;
     font-weight: bold;
     line-height: 35px;
@@ -463,14 +494,14 @@ $pointer: #394e6f;
 }
 
 .about-heading {
-  font-family: 'Kaushan Script', cursive;
-  font-size: 24px;
+  font-family: $powerfleet_font;
+  font-size: 34px;
   margin-top: 4.5rem;
   text-align: center;
 }
 
 .about-subheading {
-  font-family: 'Montserrat', sans-serif;
+  font-family: $powerfleet_font;
   font-size: 30px;
   font-weight: bold;
   margin-top: 1rem;
@@ -488,7 +519,7 @@ $pointer: #394e6f;
 .lorem {
   color: $pointer;
   //text-shadow: 1px 1px 2px #000000;
-  font-family: 'Roboto', sans-serif;
+  font-family: $powerfleet_font;
   font-size: 15px;
   width: 90%;
   margin-left: auto;
@@ -499,7 +530,7 @@ $pointer: #394e6f;
 .lorem1 {
   color: white;
   text-shadow: 1px 1px 2px #639499;
-  font-family: 'Roboto', sans-serif;
+  font-family: $powerfleet_font;
   font-size: 15px;
   width: 90%;
   margin-left: auto;
@@ -509,7 +540,7 @@ $pointer: #394e6f;
 .lorem2 {
   color: $pointer;
   text-shadow: 1px 1px 2px #000000;
-  font-family: 'Roboto', sans-serif;
+  font-family: $powerfleet_font;
   font-size: 15px;
   width: 90%;
   text-align: center;
@@ -611,7 +642,7 @@ $pointer: #394e6f;
 
 .users-super-team {
   color: $white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: $powerfleet_font;
   font-size: 18px;
   font-weight: bold;
   left: 12%;
@@ -646,7 +677,7 @@ $pointer: #394e6f;
 .counter {
   background-color: $green;
   color: $white;
-  font-family: 'Montserrat';
+  font-family: $powerfleet_font;
   font-size: 14px;
   //width: 100%;
   padding: 0 5px;
@@ -729,7 +760,7 @@ $pointer: #394e6f;
 .design-div {
   background: url('./assets/front-page.jpg') no-repeat center center / cover;
   display: block;
-  font-family: 'Montserrat', sans-serif;
+  font-family: $powerfleet_font;
   height: 100vh;
   //background: url('./assets/design_image_3.jpeg') repeat center 300%;
   //background-size: cover;
@@ -752,14 +783,14 @@ $pointer: #394e6f;
 }
 
 .design-heading {
-  font-family: 'Kaushan Script', cursive;
+  font-family: $powerfleet_font;
   font-size: 24px;
   margin-top: 2rem;
   text-align: center;
 }
 
 .design-subheading {
-  font-family: 'Montserrat', sans-serif;
+  font-family: $powerfleet_font;
   font-size: 30px;
   font-weight: bold;
   margin-top: 1rem;
@@ -853,14 +884,14 @@ $pointer: #394e6f;
 }
 
 .what-heading {
-  font-family: 'Kaushan Script', cursive;
+  font-family: $powerfleet_font;
   font-size: 24px;
   margin-top: 4.5rem;
   text-align: center;
 }
 
 .what-subheading {
-  font-family: 'Montserrat', sans-serif;
+  font-family: $powerfleet_font;
   font-size: 30px;
   font-weight: bold;
   margin-top: 1rem;
@@ -875,9 +906,12 @@ $pointer: #394e6f;
   width: 60px;
 }
 
+
+// DROPDOWN MENU
+
 .dropdown-button {
   color: $white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: $powerfleet_font;
   font-size: 14px;
 
 
@@ -886,9 +920,16 @@ $pointer: #394e6f;
   }
 }
 
+.dropdown-lang {
+  font-size: 2vh;
+  padding-top: 2vh;
+}
+
 //Dropdown at menu show items on hover
 .dropdown:hover>.dropdown-menu {
   display: block;
+  border:  1px solid $powerfleet_font;
+  background-color: $white;
 }
 
 //Background  of the dropdown items transparent
@@ -897,11 +938,12 @@ $pointer: #394e6f;
 }
 
 .dropdown-item {
-  color: white;
-  font-size: 1.2vh;
+  color: $pointer;
+  font-size: 3.0vh;
   font-weight: lighter;
   background: none;
   border: none;
+  font-family: $powerfleet_font
 }
 
 
@@ -925,7 +967,7 @@ $pointer: #394e6f;
 
 .card-body {
   color: $gray;
-  font-family: 'Roboto';
+  font-family: $powerfleet_font;
   font-size: 15px;
   font-style: italic;
   height: 168px;
@@ -1040,7 +1082,7 @@ $pointer: #394e6f;
   color: $gray;
   display: inline-block;
   float: right;
-  font-family: 'Roboto', sans-serif;
+  font-family: $powerfleet_font;
   font-size: 1.25vw;
   font-style: italic;
 }
@@ -1073,7 +1115,7 @@ $pointer: #394e6f;
 .testimonial-name {
   bottom: 10px;
   display: inline;
-  font-family: 'Kaushan Script', cursive;
+  font-family: $powerfleet_font;
   font-size: 24px;
   left: 10px;
   margin-bottom: 5px;
@@ -1135,14 +1177,14 @@ div.grid-work-container {
 }
 
 .work-heading {
-  font-family: 'Kaushan Script', cursive;
+  font-family: $powerfleet_font;
   font-size: 24px;
   margin-top: .5rem;
   text-align: center;
 }
 
 .work-subheading {
-  font-family: 'Montserrat', sans-serif;
+  font-family: $powerfleet_font;
   font-size: 30px;
   font-weight: bold;
   margin-top: 1rem;
@@ -1217,7 +1259,7 @@ div.grid-work-container {
 
 
 .contact-greeting {
-  font-family: 'Kaushan Script', cursive;
+  font-family: $powerfleet_font;
   font-size: 44px;
   text-align: center;
   margin-bottom: 40px;
@@ -1226,7 +1268,7 @@ div.grid-work-container {
 div.contact-header {
 	//font-weight: normal;
 	font-size: 3em;
-	font-family: 'Raleway', sans-serif;
+	font-family: $powerfleet_font;
 	//margin: 0 auto;
 	//margin-top: 0px;
 	//width: 50px;
@@ -1236,7 +1278,7 @@ div.contact-header {
 
 p.contact-header {
 	font-size: 1.2em;
-	font-family: 'Raleway', sans-serif;
+	font-family: $powerfleet_font;
 	//margin: 0 auto;
 	//margin-top: 30px;
 	width: auto;
@@ -1288,7 +1330,7 @@ hr {
   grid-template-rows: auto;
   width: 100%;
   text-align: center;
-  font-family: serif;
+  font-family: $powerfleet_font;
   background-color: $pointer;
   color: white
 }
@@ -1298,7 +1340,7 @@ hr {
 }
 
 .title-footer {
-  font-family: 'Montserrat', sans-serif;
+  font-family: $powerfleet_font;
   font-size: 90px;
   font-weight: bold;
   margin: -1vh;
@@ -1430,7 +1472,7 @@ input, textarea{
 	border-radius: 5px;
 	outline: none;
 	padding: 10px;
-	font-family: 'Sniglet';
+	font-family: $powerfleet_font;
 	font-size: 1.5em;
 	color: $pointer;
 	transition: border 0.5s;
