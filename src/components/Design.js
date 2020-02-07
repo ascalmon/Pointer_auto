@@ -18,13 +18,35 @@ class Design extends Component {
     return (
       <React.Fragment>
         <section id="design">
-          <div className="grid-design-container design-div">
+          <div className="grid-design-container">
               <p className="grid-design-item0 design-heading">{i18n.t(k.FOR_ALL_DEVICES)}</p>
               <p className="grid-design-item1 design-subheading">{i18n.t(k.UNIQUE_DESIGN)}</p>
-              <img className="img-fluid grid-design-item2 connected-car" src={connectedCar}  alt="iPad" />
-              <img className="img-fluid  grid-design-item3 connected-car1" src={connectedCar1}  alt="iPad" />
-              <img className="img-fluid grid-design-item4 our-app" src={iPhone}  alt="App" />
+              <div className="grid-design-item2">
+                <div>
+                <p className="design-textarea">{i18n.t(k.LOREM_IPSUM_DOLOR_SIT_AMET_C)}</p>
+                </div>
+                <div>
+                <img className="img-fluid connected-car" src={connectedCar}  alt="iPad" />
+                </div>
+              </div>
+              <div className="grid-design-item3">
+                <div>
+                <img className="img-fluid connected-car1" src={connectedCar1}  alt="iPad" />
+                </div>
+                <div>
+                <p className="design-textarea">{i18n.t(k.LOREM_IPSUM_DOLOR_SIT_AMET_C)}</p>
+                </div>
+              </div>
+              <div className="grid-design-item4">
+                <div>
+                <p className="design-textarea">{i18n.t(k.LOREM_IPSUM_DOLOR_SIT_AMET_C)}</p>
+                </div>
+                <div>
+                <img className="img-fluid our-app" src={iPhone}  alt="iPad" />
+                </div>
+              </div>
           </div>
+          <hr/>
         </section>
       </React.Fragment>);
 

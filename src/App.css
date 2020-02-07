@@ -26,7 +26,7 @@ html {
 
 @media screen and (max-width: 1024px) {
   .nav-logo {
-    width: 10vh; } }
+    width: 30%; } }
 
 @media screen and (max-width: 768px) {
   .nav-logo {
@@ -41,7 +41,23 @@ html {
     width: 20%; } }
 
 .logo {
-  width: 10%; }
+  width: 5%; }
+
+@media screen and (max-width: 1440px) {
+  .logo {
+    width: 5%; } }
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    width: 6%; } }
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 7%; } }
+
+@media screen and (max-width: 375px) {
+  .logo {
+    width: 8%; } }
 
 .navbar,
 .navbar-dark {
@@ -61,15 +77,15 @@ html {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
 
 .navbar-brand {
-  color: #FFFFFF;
-  font-family: "DIN W01 Bold";
-  font-size: 30px;
-  font-weight: 700;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative; }
-  .navbar-brand:hover {
-    color: #394e6f !important; }
+  width: 10%;
+  margin-left: 0;
+  margin-right: 0; }
+
+@media screen and (max-width: 1024px) {
+  .navbar-brand {
+    width: 30%;
+    margin-left: 0;
+    margin-right: 0; } }
 
 @media screen and (max-width: 768px) {
   .navbar-brand {
@@ -95,7 +111,7 @@ html {
   display: block;
   font-size: 20px;
   margin: 0 12px;
-  padding: 15px 5px 5px;
+  padding: 5px 5px 5px;
   text-transform: uppercase;
   width: inherit;
   font-family: "DIN W01 Bold";
@@ -112,8 +128,8 @@ html {
 
 @media screen and (max-width: 768px) {
   .nav-link {
-    font-size: 1.8vh;
-    margin: 0 0.8vh; } }
+    font-size: 2.5vh;
+    margin: 0 2.3vh; } }
 
 @media screen and (max-width: 375px) {
   .nav-link {
@@ -227,22 +243,26 @@ html {
 
 .title {
   font-family: "DIN W01 Bold";
-  font-size: 90px;
+  font-size: 15vh;
   font-weight: bold;
   margin: -1vh;
   color: #394e6f; }
 
+@media screen and (max-width: 1440px) {
+  .title {
+    font-size: 13vh; } }
+
 @media screen and (max-width: 1024px) {
   .title {
-    font-size: 8vh; } }
+    font-size: 11vh; } }
 
 @media screen and (max-width: 768px) {
   .title {
-    font-size: 8.5vh; } }
+    font-size: 10vh; } }
 
 @media screen and (max-width: 375px) {
   .title {
-    font-size: 6.5vh; } }
+    font-size: 5.5vh; } }
 
 .title:nth-child(3) {
   margin-bottom: 40px; }
@@ -278,7 +298,7 @@ html {
 
 @media screen and (max-width: 1024px) {
   .learn-more {
-    font-size: 1.3vh; } }
+    font-size: 2.3vh; } }
 
 @media screen and (max-width: 768px) {
   .learn-more {
@@ -381,16 +401,16 @@ html {
 .lorem {
   color: #394e6f;
   font-family: "DIN W01 Bold";
-  font-size: 15px;
+  font-size: 20px;
   width: 90%;
   margin-left: auto;
   margin-right: auto; }
 
 .lorem1 {
-  color: white;
-  text-shadow: 1px 1px 2px #639499;
+  color: #394e6f;
   font-family: "DIN W01 Bold";
-  font-size: 15px;
+  font-weight: bold;
+  font-size: 25px;
   width: 90%;
   margin-left: auto;
   margin-right: auto; }
@@ -399,7 +419,7 @@ html {
   color: #394e6f;
   text-shadow: 1px 1px 2px #000000;
   font-family: "DIN W01 Bold";
-  font-size: 15px;
+  font-size: 20px;
   width: 90%;
   text-align: center;
   margin-left: auto;
@@ -446,6 +466,7 @@ html {
   bottom: 20px;
   right: 20px;
   background-color: transparent;
+  display: none;
   text-align: center; }
   .float:hover {
     box-shadow: 2px 2px 6px #999; }
@@ -500,7 +521,7 @@ html {
     top: 52%; } }
 
 .counter {
-  background-color: #97e1d3;
+  background-color: #394e6f;
   color: #FFFFFF;
   font-family: "DIN W01 Bold";
   font-size: 14px;
@@ -578,14 +599,16 @@ html {
   font-family: "DIN W01 Bold";
   font-size: 24px;
   margin-top: 2rem;
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase; }
 
 .design-subheading {
   font-family: "DIN W01 Bold";
   font-size: 30px;
   font-weight: bold;
   margin-top: 1rem;
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase; }
 
 .design-red-line {
   background-color: #f18283;
@@ -601,13 +624,25 @@ html {
   grid-area: text2; }
 
 .grid-design-item2 {
-  grid-area: image1; }
+  grid-area: image1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 .grid-design-item3 {
-  grid-area: image2; }
+  grid-area: image2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 .grid-design-item4 {
-  grid-area: image3; }
+  grid-area: image3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+  margin-bottom: 80px; }
 
 .grid-design-container {
   display: grid;
@@ -618,25 +653,31 @@ html {
   text-align: center; }
 
 .connected-car {
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
-  z-index: 8;
-  border-radius: 15px 15px; }
+  width: 90%;
+  z-index: 8; }
 
 .connected-car1 {
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
-  z-index: 8;
-  border-radius: 15px 15px; }
+  width: 90%;
+  z-index: 8; }
 
 .our-app {
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
-  z-index: 8;
-  border-radius: 15px 15px; }
+  width: 40%;
+  z-index: 8; }
+
+.design-textarea {
+  border: 1px solid transparent;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto; }
 
 .what-we-do {
   align-items: center;
@@ -662,7 +703,8 @@ html {
   font-size: 30px;
   font-weight: bold;
   margin-top: 1rem;
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase; }
 
 .what-red-line {
   background-color: #f18283;
@@ -684,8 +726,8 @@ html {
 
 .dropdown:hover > .dropdown-menu {
   display: block;
-  border: 1px solid "DIN W01 Bold";
-  background-color: #FFFFFF; }
+  background-color: #FFFFFF;
+  opacity: 0.8; }
 
 .dropdown-menu {
   background: transparent; }
@@ -698,12 +740,12 @@ html {
   border: none;
   font-family: "DIN W01 Bold"; }
 
-.dropdown-nav {
+button.dropdown-nav {
   background: none;
   border: none;
   outline-style: none;
   outline-color: none;
-  outline-width: 0px; }
+  outline-width: 0; }
 
 .pointer-map {
   width: 50%; }

@@ -73,23 +73,24 @@ function Navbar() {
                 <div className="dropdown-menu">
                   <a className="dropdown-item drop-item" href="#service">{i18n.t(k.CONNECTED_VEHICLES)}</a>
                   <a className="dropdown-item drop-item" href="#design">{i18n.t(k.MOBILITY_SERVICES)}</a>
-                  <a className="dropdown-item drop-item" href="#electricals">{i18n.t(k.DESIGN_TECHNOLOGY)}</a>
+                  <a className="dropdown-item drop-item" href="#design">{i18n.t(k.DESIGN_TECHNOLOGY)}</a>
                   <a className="dropdown-item drop-item" href="#artificial_intelligence">{i18n.t(k.CUSTOMIZATION)}</a>
                   <a className="dropdown-item drop-item" href="#machine_learning">{i18n.t(k.TELEMATICS)}</a>
-
                 </div>
               </div>
 
               </li>
-              <div className="dropdown">
-                <button className="nav-link dropdown-nav" data-toggle="dropdown">{i18n.t(k.SERVICES)}</button>
-                <div className="dropdown-menu">
-                  <a className="dropdown-item drop-item" href="#service">{i18n.t(k.PROFESSIONAL)}</a>
-                  <a className="dropdown-item drop-item" href="#design">{i18n.t(k.CONSULTING)}</a>
-                  <a className="dropdown-item drop-item" href="#electricals">{i18n.t(k.INTELLIGENCE)}</a>
-                  <a className="dropdown-item drop-item" href="#artificial_intelligence">{i18n.t(k.CORPORATE_FLEET)}</a>
+              <li className="nav-item">
+                <div className="dropdown">
+                  <button className="nav-link dropdown-nav" data-toggle="dropdown">{i18n.t(k.SERVICES)}</button>
+                  <div className="dropdown-menu">
+                    <a className="dropdown-item drop-item" href="#service">{i18n.t(k.PROFESSIONAL)}</a>
+                    <a className="dropdown-item drop-item" href="#design">{i18n.t(k.CONSULTING)}</a>
+                    <a className="dropdown-item drop-item" href="#electricals">{i18n.t(k.INTELLIGENCE)}</a>
+                    <a className="dropdown-item drop-item" href="#artificial_intelligence">{i18n.t(k.CORPORATE_FLEET)}</a>
+                  </div>
                 </div>
-              </div>
+              </li>
               <li className="nav-item">
                 <a className="nav-link" href="#contact">{i18n.t(k.CONTACT)}</a>
               </li>
@@ -98,15 +99,17 @@ function Navbar() {
                   <span className="iconify icon-nav icon search-icon" data-inline="false"></span>
                 </a>
               </li>
-              <div className="dropdown">
-                <button className="nav-link dropdown-nav dropdown-lang" data-toggle="dropdown" href="#">{i18n.t(k.LANGUAGES)} {localStorage.getItem('flag')}</button>
-                <div className="dropdown-menu">
-                  <button className="dropdown-item" onClick={()=>handleClick('en')}>{i18n.t(k.ENGLISH)} - <span role="img" aria-label="USA">🇺🇸</span></button>
-                  <button className="dropdown-item" onClick={()=>handleClick('pt-BR')}>{i18n.t(k.PORTUGUESE)} - <span role="img" aria-label="Brazil">🇧🇷</span></button>
-                  <button className="dropdown-item" onClick={()=>handleClick('he')}>{i18n.t(k.HEBREW)} - <span role="img" aria-label="Israel">🇮🇱</span></button>
-                  <button className="dropdown-item" onClick={()=>handleClick('es')}>{i18n.t(k.SPANISH)} - <span role="img" aria-label="Spain">🇪🇸</span></button>
+              <li className="nav-item">
+                <div className="dropdown">
+                  <button className="nav-link dropdown-nav dropdown-lang" data-toggle="dropdown" href="#">{i18n.t(k.LANGUAGES)} {localStorage.getItem('flag')}</button>
+                  <div className="dropdown-menu">
+                    <button className="dropdown-item" onClick={()=>handleClick('en')}>{i18n.t(k.ENGLISH)} - <span role="img" aria-label="USA">🇺🇸</span></button>
+                    <button className="dropdown-item" onClick={()=>handleClick('pt-BR')}>{i18n.t(k.PORTUGUESE)} - <span role="img" aria-label="Brazil">🇧🇷</span></button>
+                    <button className="dropdown-item" onClick={()=>handleClick('he')}>{i18n.t(k.HEBREW)} - <span role="img" aria-label="Israel">🇮🇱</span></button>
+                    <button className="dropdown-item" onClick={()=>handleClick('es')}>{i18n.t(k.SPANISH)} - <span role="img" aria-label="Spain">🇪🇸</span></button>
+                  </div>
                 </div>
-              </div>
+              </li>
             </ul>
           </div>
         </nav>

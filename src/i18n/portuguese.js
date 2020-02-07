@@ -3,8 +3,8 @@ const k = require('./keys');
 const portuguese =  {
   [k.WHAT_WE_DO]: `O que Fazemos`,
   [k.STORY_ABOUT_US]: `Nossa História`,
-  [k.MORE_THAN_YEARS_OF_REWRITIN]: `Mais de 25 anos reescrevendo regras MRM.`,
-  [k.MORE_THAN_YEARS_OF_REWRITIN1]: `Mais de 25 anos reescrevendo regras MRM.
+  [k.ABOUT_PART_1]: `Mais de 25 anos reescrevendo regras MRM.`,
+  [k.ABOUT_PART_2]: `Mais de 25 anos reescrevendo regras MRM.
                   Nossa inovadora e confiável plataforma de software, baseada em nuvem, extrai e captura
                   todos os dados de pontos de críticos da sua organização - do seu escritório, motoristas,
                   rotas, pontos de interesse, rede logística, veículos, reboques, contêineres,
@@ -12,16 +12,17 @@ const portuguese =  {
                   converter dados brutos em informações valiosas. O que você recebe é valioso e intuitivo
                   . O tipo de informação que afeta substancialmente seus resultados, para ajudá-lo a não
                   apenas sustentar o seu negócio, mas aumenta-lo lucrativamente.`,
-  [k.WE_UNDERSTAND_THAT_NO_TWO_FLEE]: `Entendemos que não existem duas frotas iguais. E que cada cliente nosso é
+  [k.ABOUT_PART_3]: `Entendemos que não existem duas frotas iguais. E que cada cliente nosso é
                    único e tratado como tal. São nossos parceiros e recebem seus próprios
                    analistas dedicados a tarefa singular que é aumentar o valor de seus
                    negócios. Isso nos permite fornecer com precisão as informações necessárias
                    e isso causa um impacto real e positivo.`,
-  [k.IT_S_OUR_COMMITMENT_AND_MARKET]: `É o nosso compromisso e abordagem focada no mercado
+  [k.ABOUT_PART_4]: `É o nosso compromisso e abordagem focada no mercado
                   que nos permite ajudar nossos clientes a reduzirem custos,
                   proteger ativos, ganhar eficiência, melhorar recursos na
                   utilização, minimizar fraudes e, o mais importante: salvar vidas, impedindo
                   acidentes.`,
+  [k.ABOUT_PART_5]: `ABOUT_PART_5`,
   [k.POINTER_IS_PART_OF_THE_GLOBAL]: `Pointer faz parte da empresa global de Internet Industrial das Coisas
                 PowerFleet ® Inc (NASDAQ: PWFL).`,
   [k.POWERFLEET_IS_A_WORLDWIDE_LEAD]: `A PowerFleet é líder e fornecedora mundial de sistemas sem fio baseados

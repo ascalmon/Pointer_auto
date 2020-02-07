@@ -16,8 +16,8 @@ class What extends Component {
       <React.Fragment>
         <section id="service">
           <div className="what-we-do row">
-            <p className="what-heading">{i18n.t(k.SERVICE)}</p>
-            <p className="what-subheading">{i18n.t(k.WHAT_WE_DO2)}</p>
+            <p className="what-subheading">{i18n.t(k.CONNECTED_VEHICLES)}</p>
+
             <hr className="what-red-line"></hr>
             <div className="row what-text">
               <p className="text-center lorem">{i18n.t(k.LOREM_IPSUM_DOLOR_SIT_AMET_CO)}</p>

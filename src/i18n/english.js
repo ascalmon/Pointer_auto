@@ -4,24 +4,42 @@ const k = require('./keys');
 const english = {
   [k.WHAT_WE_DO]: `What We Do`,
   [k.STORY_ABOUT_US]: `STORY ABOUT US`,
-  [k.MORE_THAN_YEARS_OF_REWRITIN]: `More than 25 years of rewriting MRM rules.`,
-  [k.MORE_THAN_YEARS_OF_REWRITIN1]: `More than 25 years of rewriting MRM rules.
-                  Our innovative and reliable cloud-based software platform extracts and captures
-                  all of your organization’s critical data points – from your office, drivers,
-                  routes, points-of-interest, logistic-network, vehicles, trailers, containers,
-                  and cargo. It then takes the next and most important step, and analyzes it,
-                  converting raw data into valuable information. What you get are actionable
-                  insights. The kind that substantially impact your bottom line to help you not
-                  only sustain your business, but profitably grow it.`,
-  [k.WE_UNDERSTAND_THAT_NO_TWO_FLEE]: `We understand that no two fleets are alike. And that every customer of ours is
+  [k.ABOUT_PART_1]: `Pointer Automotive is part of Power Fleet, a worldwide leader
+                  and provider of subscription-based wireless IoT and Machine-to-Machine
+                  solutions for securing, controlling, tracking, and managing
+                  enterprise assets.`,
+  [k.ABOUT_PART_2]: `Power Fleet and Pointer have over 25 years of experience
+                  delivering innovative and reliable products and solutions for
+                  different industries.
+                  Pointer Automotive provides specialized and customized solutions
+                  and services to the OEMs in the Automotive Industry with focus
+                  in Connected Vehicles and Mobility Services.`,
+  [k.ABOUT_PART_3]: `We understand that no two fleets are alike. And that every customer of ours is
                    unique and treated as such. They are our partners and assigned their own
                    dedicate analyst whose singular task is to enhance the value of their
                    business. That enables us to deliver precisely the information they require
                    and that makes a real impact.`,
-  [k.IT_S_OUR_COMMITMENT_AND_MARKET]: `It’s our commitment and market-focused approach that allows us to help our
+  [k.ABOUT_PART_4]: `It’s our commitment and market-focused approach that allows us to help our
                   customers reduce costs, protect assets, gain efficiencies, improve resource
                   utilization, minimize fraud and most importantly: save lives by preventing
                   accidents.`,
+  [k.ABOUT_PART_5]: `•	Customer Digital Services through a comprehensive package
+                  of services to cover vehicle health, vehicle maintenance remind
+                  automation, recalls information, digital vehicle manual,
+                  24 x 7 hs customer support in case of accident, stolen vehicle
+                  recovery and other customer support services.`,
+  [k.ABOUT_PART_6]: `•	Customer Connectivity Experience through embedded vehicle
+                  high speed internet access, enabling the extension of online
+                  services & entertainment during individual and family trips.`,
+  [k.ABOUT_PART_7]: `•	In-Vehicle Marketing, enabling Auto OEMs to expand their
+                  market access through Connected Vehicle technology.`,
+  [k.ABOUT_PART_8]:  `•	Customer Loyalty by enabling a new Automotive Service Ecosystem
+                  Creation by connecting 3rd part Service Providers in a single platform.`,
+  [k.ABOUT_PART_9]: `•	Auto OEM Private Fleet Management, capturing from the
+                  installed vehicle base in real time vehicle diagnosis´ data,
+                  helping OEMs to manage actionable insights that substantially
+                  impact the business, the time to market for solutions and the
+                  enhancement of future vehicle´s development.`,
   [k.POINTER_IS_PART_OF_THE_GLOBAL]: `Pointer is part of the global Industrial Internet of Things company
                 PowerFleet ® Inc (NASDAQ: PWFL).`,
   [k.POWERFLEET_IS_A_WORLDWIDE_LEAD]: `PowerFleet is a worldwide leader and provider of subscription-based wireless
@@ -172,10 +190,11 @@ const english = {
   [k.INTELLIGENCE]: 'Intelligence Services',
   [k.CORPORATE_FLEET]: 'Corporate Fleet',
   [k.CONNECTED_VEHICLES]: 'Connected Vehicles',
-  [k.MOBILITY_SERVICES]: 'Mobility Services',
+  [k.MOBILITY_SERVICES]: 'Mobility',
   [k.DESIGN_TECHNOLOGY]: 'Design & Technology',
   [k.CUSTOMIZATION]: 'Customizations',
   [k.TELEMATICS]: 'Telematics',
+  
 
 }
 export { english };

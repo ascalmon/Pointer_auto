@@ -12,7 +12,8 @@ import React, { Component } from 'react';
 
 
 import vehicle1 from '../assets/image_about_2.jpeg';
-
+import about from '../assets/about_image_2.jpeg';
+import logo from '../assets/pointer_logo_notext.svg'
 import pointer_map from '../assets/pointer_map.png';
 // ============ About Component ==========
 
@@ -35,20 +36,38 @@ class About extends Component {
           <div className="row">
             <div className="about" >
             <div className="topic-header-about">
-              <p className="about-heading">{i18n.t(k.WHAT_WE_DO)}</p>
-              <img className="pointer-map" src={pointer_map} alt="About us" />
               <p className="about-subheading">{i18n.t(k.STORY_ABOUT_US)}</p>
+              <p className="text-center lorem1">
+                {i18n.t(k.ABOUT_PART_1)}
+              </p>
+              <img className="pointer-map" src={about} alt="About us" />
+              <p className="about-heading">{i18n.t(k.WHAT_WE_DO)}</p>
             </div>
               <hr className="about-red-line"></hr>
               <div className="row about-text">
-                <p className="text-center lorem">
-                  {i18n.t(k.MORE_THAN_YEARS_OF_REWRITIN)}
+                <p className="lorem">
+                  {i18n.t(k.ABOUT_PART_2)}
                 </p>
                 <p className="lorem">
-                  {i18n.t(k.MORE_THAN_YEARS_OF_REWRITIN1)}
+                  {i18n.t(k.ABOUT_PART_3)}
                 </p>
                 <p className="lorem">
-                  {i18n.t(k.WE_UNDERSTAND_THAT_NO_TWO_FLEE)}
+                  {i18n.t(k.ABOUT_PART_4)}
+                </p>
+                <p className="lorem">
+                  {i18n.t(k.ABOUT_PART_5)}
+                </p>
+                <p className="lorem">
+                  {i18n.t(k.ABOUT_PART_6)}
+                </p>
+                <p className="lorem">
+                  {i18n.t(k.ABOUT_PART_7)}
+                </p>
+                <p className="lorem">
+                  {i18n.t(k.ABOUT_PART_8)}
+                </p>
+                <p className="lorem">
+                  {i18n.t(k.ABOUT_PART_9)}
                 </p>
                 <p className="lorem">
                   {i18n.t(k.IT_S_OUR_COMMITMENT_AND_MARKET)}
@@ -69,7 +88,7 @@ class About extends Component {
               </div>
             </div>
           </div>
-
+          <hr/>
         </section>
       </React.Fragment>);
 

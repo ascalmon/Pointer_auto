@@ -117,9 +117,12 @@ class Timer extends Component {
   render() {
     window.onscroll = this.start_count;
     return (
-      <div>
 
-      </div>);
+      <div>
+    
+      </div>
+
+    );
 
   }}
 

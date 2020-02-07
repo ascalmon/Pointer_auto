@@ -3,8 +3,8 @@ const k = require('./keys');
 const spanish = {
   [k.WHAT_WE_DO]: `Que hacemos`,
   [k.STORY_ABOUT_US]: `Nuestra historia`,
-  [k.MORE_THAN_YEARS_OF_REWRITIN]: `Más de 25 años reescribiendo las reglas MRM.`,
-  [k.MORE_THAN_YEARS_OF_REWRITIN1]: `Más de 25 años reescribiendo las reglas MRM.
+  [k.ABOUT_PART_1]: `Más de 25 años reescribiendo las reglas MRM.`,
+  [k.ABOUT_PART_2]: `Más de 25 años reescribiendo las reglas MRM.
                   Nuestra innovadora y confiable plataforma de software basada
                   en la nube extrae y captura todos los datos críticos para su
                   organización: desde su oficina, controladores, rutas, puntos
@@ -14,17 +14,18 @@ const spanish = {
                   Lo que obtienes es valioso e intuitivo. El tipo de información
                   que afecta sustancialmente sus resultados, para ayudarlo a no 
                   solo mantenga su negocio, pero increméntelo de manera rentable.`,
-  [k.WE_UNDERSTAND_THAT_NO_TWO_FLEE]: `Entendemos que no hay dos flotas iguales.
+  [k.ABOUT_PART_3]: `Entendemos que no hay dos flotas iguales.
                   Y que cada uno de nuestros clientes es único y es tratado
                   como tal. Son nuestros socios y reciben sus propios analistas
                   dedicados a la tarea única de aumentar el valor de su negocio.
                   Esto nos permite proporcionar con precisión la información
                   necesaria y esto tiene un impacto real y positivo.`,
-  [k.IT_S_OUR_COMMITMENT_AND_MARKET]: `Es nuestro compromiso y enfoque centrado
+  [k.ABOUT_PART_4]: `Es nuestro compromiso y enfoque centrado
                   en el mercado lo que nos permite ayudar a nuestros clientes
                   a reducir costos, proteger activos, ganar eficiencia, mejorar
                   los recursos en uso, minimizar el fraude y, lo más importante:
                   salvar vidas, prevenir accidentes.`,
+  [k.ABOUT_PART_5]: `ABOUT_PART_5`,
   [k.POINTER_IS_PART_OF_THE_GLOBAL]: `Pointer es parte de la compañía global
                   de Internet industrial de las cosas PowerFleet® Inc (NASDAQ: PWFL).`,
   [k.POWERFLEET_IS_A_WORLDWIDE_LEAD]: `PowerFleet es líder mundial y proveedor

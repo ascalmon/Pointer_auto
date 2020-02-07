@@ -25,7 +25,7 @@ class Hero extends Component {
                 <div className="hero">
                   <div className="greeting">
                     <h1 className="description" >{i18n.t(k.CREATIVE_AUTO_SOLUTIONS)}</h1>
-                    <a className="navbar-brand" id="home" href="#home">
+                    <a id="home" href="#home">
                       <span className="title">{i18n.t(k.POINTER)} </span><img alt="Pointer Logo" className='logo' src={logo_notext} /><span className="title"> {i18n.t(k.AUTOMOTIVE)}</span>
                     </a>
                     <hr className="white-line"></hr>
@@ -40,7 +40,7 @@ class Hero extends Component {
                   <div className="greeting">
                     <h1 className="description">{i18n.t(k.CLOUD_BASED_SERVICES)}</h1>
 
-                    <a className="navbar-brand" id="home" href="#home">
+                    <a id="home" href="#home">
                       <span className="title">{i18n.t(k.POINTER)} </span><img alt="Pointer Logo" className='logo' src={logo_notext}  /><span className="title"> {i18n.t(k.AUTOMOTIVE)}</span>
                     </a>
                     <hr className="white-line"></hr>
@@ -55,7 +55,7 @@ class Hero extends Component {
                   <div className="greeting">
                     <h1 className="description">{i18n.t(k.APP_TAYLORED_TO_YOUR_VEHICLE)}</h1>
 
-                    <a className="navbar-brand" id="home" href="#home">
+                    <a id="home" href="#home">
                       <span className="title">{i18n.t(k.POINTER)} </span><img alt="Pointer Logo" className='logo' src={logo_notext} /><span className="title"> {i18n.t(k.AUTOMOTIVE)}</span>
                     </a>
                     <hr className="white-line"></hr>
@@ -70,7 +70,7 @@ class Hero extends Component {
                   <div className="greeting">
                     <h1 className="description">{i18n.t(k.THIRD_PARTIES_INTEGRATION)}</h1>
 
-                    <a className="navbar-brand" id="home" href="#home">
+                    <a id="home" href="#home">
                       <span className="title">{i18n.t(k.POINTER)} </span><img alt="Pointer Logo" className='logo' src={logo_notext}/><span className="title"> {i18n.t(k.AUTOMOTIVE)}</span>
                     </a>
                     <hr className="white-line"></hr>
