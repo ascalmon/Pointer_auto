@@ -840,8 +840,8 @@ html {
     color: #000000; }
 
 .dropdown-lang {
-  font-size: 2vh;
-  padding-top: 2vh; }
+  font-size: 1.5vh;
+  padding-top: 1.3vh; }
 
 .dropdown:hover > .dropdown-menu {
   display: block;

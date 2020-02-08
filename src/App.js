@@ -28,6 +28,7 @@ import Testimonial from './components/Testimonial';
 import Work from './components/Work';
 import ArtificialIntelligence from './components/ArtificialIntelligence';
 import MachineLearning from './components/MachineLearning';
+import Telematics from './components/Telematics';
 import Contact from './components/Contact';
 import Certifications from './components/Certifications';
 import Electricals from './components/Electricals';
@@ -59,7 +60,7 @@ function App() {
             </div>
           </div>
         </header>
-        <div className="container-warp">
+        <div className="container-wrap">
           <About />
         </div>
         <Counter />
@@ -72,6 +73,7 @@ function App() {
         <Testimonial />
         <Work />
         <Electricals/>
+        <Telematics />
         <Certifications/>
         <Contact />
         <Footer/>

@@ -32,7 +32,7 @@ class Machine_learning extends Component {
 
             <hr className="about-red-line"></hr>
 
-            <div className="row about-text">
+            
               <p className="text-center lorem"><strong>
                 {i18n.t(k.IN_THE_AUTOMOTIVE_INDUSTRY_MA)}
                 </strong>
@@ -55,7 +55,7 @@ class Machine_learning extends Component {
                   </div>
                 </div>
               </div>
-            </div>
+
             <section id="here">
               <a href="#home" className="float">
                 <i className="my-float">
