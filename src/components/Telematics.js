@@ -8,8 +8,8 @@ import React, { Component } from 'react';
 
 
 
-import iPhone from '../assets/hpe_app.png';
-import connectedCar from '../assets/design_image_1.png';
+// import iPhone from '../assets/hpe_app.png';
+// import connectedCar from '../assets/design_image_1.png';
 import pconnect from '../assets/Pconnect.jpg';
 import tcu from '../assets/TCU.jpg';
 import dongles from '../assets/Dongles.jpg';

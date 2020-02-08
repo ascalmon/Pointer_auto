@@ -6,10 +6,10 @@ import React, { Component } from 'react';
 
 // ============ Image Imports =============
 
-import ml_header from '../assets/ml_image_header.jpeg';
-import ml1 from '../assets/ml_image_1.jpeg';
+// import ml_header from '../assets/ml_image_header.jpeg';
+// import ml1 from '../assets/ml_image_1.jpeg';
 import ml2 from '../assets/ml_image_2.jpeg';
-import ml3 from '../assets/ml_image_3.jpeg';
+// import ml3 from '../assets/ml_image_3.jpeg';
 import ml4 from '../assets/ml_image_4.jpeg';
 
 import arrow_up from '../assets/up-arrow.svg';
@@ -32,7 +32,7 @@ class Machine_learning extends Component {
 
             <hr className="about-red-line"></hr>
 
-            
+
               <p className="text-center lorem"><strong>
                 {i18n.t(k.IN_THE_AUTOMOTIVE_INDUSTRY_MA)}
                 </strong>

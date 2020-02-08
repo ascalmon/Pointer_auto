@@ -7,9 +7,9 @@ import React, { Component } from 'react';
 // ============ Image Imports =============
 
 import ai_header from '../assets/ia_image_header.jpeg';
-import ai1 from '../assets/ia_image_1.jpeg';
-import ai2 from '../assets/ia_image_2.jpeg';
-import ai3 from '../assets/ia_image_3.jpeg';
+// import ai1 from '../assets/ia_image_1.jpeg';
+// import ai2 from '../assets/ia_image_2.jpeg';
+// import ai3 from '../assets/ia_image_3.jpeg';
 import ai4 from '../assets/ia_image_4.jpeg';
 import focus from '../assets/focus.svg';
 

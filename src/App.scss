@@ -861,6 +861,21 @@ $pointer: #394e6f;
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 768px) {
+  .grid-design-item2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .grid-design-item2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
 .grid-design-item3 {
   grid-area: image2;
   display: grid;
@@ -868,12 +883,41 @@ $pointer: #394e6f;
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 768px) {
+  .grid-design-item3 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .grid-design-item3 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
 .grid-design-item4 {
   grid-area: image3;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 20px;
   margin-bottom: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+  .grid-design-item4 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .grid-design-item4 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 .grid-design-container {
@@ -911,6 +955,10 @@ $pointer: #394e6f;
   //border-radius: 15px 15px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .design-textarea {
   font-family: $powerfleet_font;
   font-size: 1.5em;
@@ -946,8 +994,10 @@ $pointer: #394e6f;
   margin-left:20px;
   margin-right: 20px;
   width: 99%;
+  height:  auto;
   box-shadow: 1px 1px 10px $pointer;
 }
+
 
 
 .design-our-app {
