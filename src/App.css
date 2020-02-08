@@ -731,6 +731,7 @@ html {
 
 .design-textarea {
   font-family: "DIN W01 Bold";
+  color: #394e6f;
   font-size: 1.5em;
   border: 1px solid transparent;
   width: 80%;
@@ -819,6 +820,7 @@ html {
 .what-textarea {
   font-family: "DIN W01 Bold";
   font-size: 1.5em;
+  color: #394e6f;
   border: 1px solid transparent;
   width: 80%;
   margin-left: 20px; }
@@ -847,6 +849,7 @@ html {
 .ai-textarea {
   font-family: "DIN W01 Bold";
   font-size: 1.4em;
+  color: #394e6f;
   border: 1px solid transparent;
   width: 80%;
   margin-left: 20px; }
@@ -864,6 +867,7 @@ html {
 .ml-textarea {
   font-family: "DIN W01 Bold";
   font-size: 1.4em;
+  color: #394e6f;
   border: 1px solid transparent;
   width: 80%;
   margin-left: 20px; }
@@ -942,8 +946,11 @@ button.dropdown-nav {
   outline-color: none;
   outline-width: 0; }
 
-.pointer-map {
-  width: 50%; }
+.contact-image {
+  width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
 .card-header {
   background-color: transparent; }
@@ -1228,11 +1235,10 @@ p.contact-header {
   display: grid;
   grid-template-columns: 1fr 1fr; }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1400px) {
   .contact-grid {
-    display: block;
-    margin-left: auto;
-    margin-right: auto; } }
+    display: grid;
+    grid-template-columns: 1fr; } }
 
 .contact-text {
   text-align: center; }

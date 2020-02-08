@@ -998,6 +998,7 @@ $pointer: #394e6f;
 
 .design-textarea {
   font-family: $powerfleet_font;
+  color: $pointer;
   font-size: 1.5em;
   border: 1px solid transparent;
   width: 80%;
@@ -1124,6 +1125,7 @@ $pointer: #394e6f;
 .what-textarea {
   font-family: $powerfleet_font;
   font-size: 1.5em;
+  color: $pointer;
   border: 1px solid transparent;
   width: 80%;
   margin-left: 20px;
@@ -1160,6 +1162,7 @@ $pointer: #394e6f;
 .ai-textarea {
   font-family: $powerfleet_font;
   font-size: 1.4em;
+  color: $pointer;
   border: 1px solid transparent;
   width: 80%;
   margin-left: 20px;
@@ -1182,6 +1185,7 @@ $pointer: #394e6f;
 .ml-textarea {
   font-family: $powerfleet_font;
   font-size: 1.4em;
+  color: $pointer;
   border: 1px solid transparent;
   width: 80%;
   margin-left: 20px;
@@ -1298,8 +1302,11 @@ button.dropdown-nav {
 }
 
 
-.pointer-map {
-  width: 50%;
+.contact-image {
+  width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -1649,11 +1656,12 @@ p.contact-header {
   grid-template-columns: 1fr 1fr;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1400px) {
   .contact-grid {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  // margin-left: auto;
+  // margin-right: auto;
   }
 }
 

@@ -20,7 +20,7 @@ class Contact extends Component {
         <section id="contact">
           <div className="container-wrap">
             <div className='contact-header'>{i18n.t(k.CONTACT_US1)}</div>
-              <img className="pointer-map" style={{width: '35%'}} src={contact} alt="CONTACT_US1" />
+              <img className="contact-image" src={contact} alt="CONTACT_US1" />
               <hr className="about-red-line"></hr>
             </div>
             <div className="row contact-grid about-text">
