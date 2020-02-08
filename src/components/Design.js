@@ -15,7 +15,10 @@ import focus from '../assets/focus.svg';
 // ============ Design Component ==========
 
 class Design extends Component {
+
+
   render() {
+
     return (
       <React.Fragment>
         <section id="design">

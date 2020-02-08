@@ -8,9 +8,9 @@ import React, { Component } from 'react';
 // ============ Image Imports =============
 
 
-import vehicle1 from '../assets/electricals_image_2.jpeg';
-import vehicle2 from '../assets/electricals_image_3.jpeg';
-import vehicle3 from '../assets/electricals_image_4.jpeg';
+// import vehicle1 from '../assets/electricals_image_2.jpeg';
+// import vehicle2 from '../assets/electricals_image_3.jpeg';
+// import vehicle3 from '../assets/electricals_image_4.jpeg';
 
 import electrical from '../assets/electricals_image_1.png';
 
@@ -36,13 +36,7 @@ class Electricals extends Component {
                 </p>
 
               </div>
-                <div className="row justify-content-between about-images">
-                  <div className="overlay-div">
-                  <img className="col-md-4 img-fluid" src={vehicle1} alt="Vehicle 1" />
-                  <img className="col-md-4 img-fluid" src={vehicle2} alt="Vehicle 2" />
-                  <img className="col-md-4 img-fluid" src={vehicle3} alt="Vehicle 3" />
-                </div>
-              </div>
+                
             </div>
           </div>
         </section>

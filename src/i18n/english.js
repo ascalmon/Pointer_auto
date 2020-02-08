@@ -306,5 +306,6 @@ const english = {
 [k.DONGLES6]: `DONGLES 6`,
 [k.DONGLES7]: `DONGLES 7`,
 [k.DONGLES8]: `DONGLES 8`,
+
 }
 export { english };

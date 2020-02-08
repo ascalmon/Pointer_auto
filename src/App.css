@@ -5,6 +5,13 @@ html {
   overflow-x: hidden;
   scroll-behavior: smooth; }
 
+.bar {
+  height: 2vh;
+  background-color: #394e6f;
+  width: 100%;
+  display: block;
+  margin: 10px 0 0 0; }
+
 .container-wrap {
   padding-left: 40px;
   padding-right: 40px; }
@@ -633,6 +640,11 @@ html {
   margin-top: 20px;
   margin-bottom: 20px; }
 
+@media only screen and (max-width: 1024px) {
+  .grid-design-item2 {
+    display: grid;
+    grid-template-columns: 1fr; } }
+
 @media only screen and (max-width: 768px) {
   .grid-design-item2 {
     display: grid;
@@ -650,6 +662,11 @@ html {
   margin-top: 20px;
   margin-bottom: 20px; }
 
+@media only screen and (max-width: 1024px) {
+  .grid-design-item3 {
+    display: grid;
+    grid-template-columns: 1fr; } }
+
 @media only screen and (max-width: 768px) {
   .grid-design-item3 {
     display: grid;
@@ -666,6 +683,11 @@ html {
   grid-template-columns: 1fr 1fr;
   margin-top: 20px;
   margin-bottom: 80px; }
+
+@media only screen and (max-width: 1024px) {
+  .grid-design-item4 {
+    display: grid;
+    grid-template-columns: 1fr; } }
 
 @media only screen and (max-width: 768px) {
   .grid-design-item4 {
@@ -710,13 +732,9 @@ html {
   width: 80%;
   margin-left: 20px; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1440px) {
   .design-textarea {
-    font-size: 0.65em; } }
-
-@media only screen and (max-width: 375px) {
-  .design-textarea {
-    font-size: 0.55em; } }
+    font-size: 1em; } }
 
 .design-tablets {
   width: 99%;
@@ -749,12 +767,42 @@ html {
   margin-top: 20px;
   margin-bottom: 20px; }
 
+@media only screen and (max-width: 1024px) {
+  .grid-what-item1 {
+    display: grid;
+    grid-template-columns: 1fr; } }
+
+@media only screen and (max-width: 768px) {
+  .grid-what-item1 {
+    display: grid;
+    grid-template-columns: 1fr; } }
+
+@media only screen and (max-width: 375px) {
+  .grid-what-item1 {
+    display: grid;
+    grid-template-columns: 1fr; } }
+
 .grid-what-item2 {
   grid-area: image2;
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 20px;
   margin-bottom: 20px; }
+
+@media only screen and (max-width: 1024px) {
+  .grid-what-item2 {
+    display: grid;
+    grid-template-columns: 1fr; } }
+
+@media only screen and (max-width: 768px) {
+  .grid-what-item2 {
+    display: grid;
+    grid-template-columns: 1fr; } }
+
+@media only screen and (max-width: 375px) {
+  .grid-what-item2 {
+    display: grid;
+    grid-template-columns: 1fr; } }
 
 .grid-what-container {
   display: grid;
@@ -771,13 +819,9 @@ html {
   width: 80%;
   margin-left: 20px; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1440px) {
   .what-textarea {
-    font-size: 0.65em; } }
-
-@media only screen and (max-width: 375px) {
-  .what-textarea {
-    font-size: 0.55em; } }
+    font-size: 1em; } }
 
 .what-image {
   display: block;
@@ -803,13 +847,9 @@ html {
   width: 80%;
   margin-left: 20px; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1440px) {
   .ai-textarea {
-    font-size: 0.65em; } }
-
-@media only screen and (max-width: 375px) {
-  .ai-textarea {
-    font-size: 0.55em; } }
+    font-size: 1em; } }
 
 .ml-tablets {
   width: 99%;
@@ -824,13 +864,9 @@ html {
   width: 80%;
   margin-left: 20px; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1440px) {
   .ml-textarea {
-    font-size: 0.65em; } }
-
-@media only screen and (max-width: 375px) {
-  .ml-textarea {
-    font-size: 0.55em; } }
+    font-size: 1em; } }
 
 .what-we-do {
   align-items: center;

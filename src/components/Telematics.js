@@ -13,6 +13,8 @@ import React, { Component } from 'react';
 import pconnect from '../assets/Pconnect.jpg';
 import tcu from '../assets/TCU.jpg';
 import dongles from '../assets/Dongles.jpg';
+import telematics from '../assets/telematics_image_1.jpg';
+
 import focus from '../assets/focus.svg';
 // ============ Design Component ==========
 
@@ -22,8 +24,10 @@ class Telematics extends Component {
       <React.Fragment>
         <section id="telematics">
         <div className="container-wrap">
+
           <div className="grid-design-container">
             <p className="grid-design-item0 design-subheading">{i18n.t(k.TELEMATICS)}</p>
+            <img className="img-fluid what-image" src={telematics} alt="Man in Office"></img>
             <div className="grid-design-item2">
               <div className="card design-tablets">
                 <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.TELEMATICS1)}</p>

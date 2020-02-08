@@ -32,6 +32,7 @@ import Telematics from './components/Telematics';
 import Contact from './components/Contact';
 import Certifications from './components/Certifications';
 import Electricals from './components/Electricals';
+import Bar from './components/Bar';
 import Footer from './components/Footer';
 // ============ CSS =============
 
@@ -65,16 +66,21 @@ function App() {
         </div>
         <Counter />
         <Design />
+        <Bar text="Design"/>
         <ArtificialIntelligence />
         <MachineLearning />
-        <div className="container-warp">
-          <What />
-        </div>
+        <Bar text="Technology"/>
+        <What />
+        <Bar text="Connected Vehicles"/>
         <Testimonial />
         <Work />
+        <Bar text="Features"/>
         <Electricals/>
+        <Bar text="Eletrical Vehicles"/>
         <Telematics />
+        <Bar text="Telematics"/>
         <Certifications/>
+        <Bar text="Certifications"/>
         <Contact />
         <Footer/>
       </div>);
