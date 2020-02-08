@@ -13,8 +13,8 @@ import React, { Component } from 'react';
 
 import vehicle1 from '../assets/image_about_2.jpeg';
 import about from '../assets/about_image_2.jpeg';
-import logo from '../assets/pointer_logo_notext.svg'
-import pointer_map from '../assets/pointer_map.png';
+//import logo from '../assets/pointer_logo_notext.svg'
+//import pointer_map from '../assets/pointer_map.png';
 // ============ About Component ==========
 
 class About extends Component {

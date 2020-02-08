@@ -48,10 +48,6 @@ function Navbar() {
   }
 
 
-
-
-
-
   return (
     <React.Fragment>
         <nav className="navbar navbar-expand-lg navbar-fixed-top navbar-dark bg-faded ml-4">
@@ -62,11 +58,10 @@ function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse navbar-center" id="navbarSupportedContent">
-            <ul className="navbar-nav flex-row ml-auto justify-content-betwee">
+            <ul className="navbar-nav flex-row ml-auto justify-content-between">
               <li className="nav-item active">
-                <a className="nav-link" href="#about">{i18n.t(k.ABOUT)}<span className="sr-only">{i18n.t(k.CURRENT)} </span></a>
+                <a className="nav-link" href="#about">{i18n.t(k.ABOUT)}</a>
               </li>
-
               <li className="nav-item">
               <div className="dropdown">
                 <button className="nav-link dropdown-nav" data-toggle="dropdown">{i18n.t(k.SOLUTIONS)}</button>
@@ -78,7 +73,6 @@ function Navbar() {
                   <a className="dropdown-item drop-item" href="#machine_learning">{i18n.t(k.TELEMATICS)}</a>
                 </div>
               </div>
-
               </li>
               <li className="nav-item">
                 <div className="dropdown">

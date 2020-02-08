@@ -5,6 +5,10 @@ html {
   overflow-x: hidden;
   scroll-behavior: smooth; }
 
+.container-wrap {
+  padding-left: 40px;
+  padding-right: 40px; }
+
 .app-header {
   background: url("./assets/front-page.jpg") no-repeat center center/cover;
   display: block;
@@ -582,7 +586,6 @@ html {
   background: url("./assets/front-page.jpg") no-repeat center center/cover;
   display: block;
   font-family: "DIN W01 Bold";
-  height: 100vh;
   height: auto;
   padding: 30px;
   position: relative;
@@ -590,10 +593,6 @@ html {
   background-attachment: fixed;
   background-position: center;
   background-repeat: repeat; }
-
-@media only screen and (max-width: 768px) {
-  .design-div {
-    height: 75vh; } }
 
 .design-heading {
   font-family: "DIN W01 Bold";
@@ -616,6 +615,10 @@ html {
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
   width: 60px; }
+
+.focus-icon {
+  width: 4%;
+  margin-right: 10px; }
 
 .grid-design-item0 {
   grid-area: text1; }
@@ -659,25 +662,88 @@ html {
   width: 90%;
   z-index: 8; }
 
-.connected-car1 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  z-index: 8; }
-
 .our-app {
-  display: block;
-  margin-left: auto;
+  display: inline-block;
+  margin-left: 20px;
   margin-right: auto;
-  width: 40%;
-  z-index: 8; }
+  width: 30%;
+  z-index: 8;
+  box-shadow: 1px 1px 10px #394e6f; }
 
 .design-textarea {
+  font-family: "DIN W01 Bold";
+  font-size: 1.5em;
   border: 1px solid transparent;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto; }
+  width: 80%;
+  margin-left: 20px; }
+
+@media only screen and (max-width: 768px) {
+  .design-textarea {
+    font-size: 0.65em; } }
+
+@media only screen and (max-width: 375px) {
+  .design-textarea {
+    font-size: 0.55em; } }
+
+.design-tablets {
+  width: 99%;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 25px;
+  box-shadow: 1px 1px 10px #394e6f; }
+
+.design-tablets-image {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 99%;
+  box-shadow: 1px 1px 10px #394e6f; }
+
+.design-our-app {
+  width: 99%;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 25px;
+  box-shadow: 1px 1px 10px #394e6f; }
+
+.grid-what-item0 {
+  grid-area: text1; }
+
+.grid-what-item1 {
+  grid-area: image1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.grid-what-item2 {
+  grid-area: image2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.grid-what-container {
+  display: grid;
+  grid-template-areas: "text1" "image1" "image2";
+  grid-gap: 10px; }
+
+.grid-what-cointainer > div {
+  text-align: center; }
+
+.what-textarea {
+  font-family: "DIN W01 Bold";
+  font-size: 1.5em;
+  border: 1px solid transparent;
+  width: 80%;
+  margin-left: 20px; }
+
+@media only screen and (max-width: 768px) {
+  .what-textarea {
+    font-size: 0.65em; } }
+
+@media only screen and (max-width: 375px) {
+  .what-textarea {
+    font-size: 0.55em; } }
 
 .what-we-do {
   align-items: center;

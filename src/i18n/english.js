@@ -194,7 +194,47 @@ const english = {
   [k.DESIGN_TECHNOLOGY]: 'Design & Technology',
   [k.CUSTOMIZATION]: 'Customizations',
   [k.TELEMATICS]: 'Telematics',
-  
+  [k.HEADUNITS]: 'Integration with OEM Head units - Infotainment devices.',
+  [k.TABLETS]: 'Tablets for professional monitoring of your vehicles.',
+  [k.SPECIAL]: 'Special devices and OS integration to support your project.',
+  [k.OS]: 'Operating Systems: iOS and Android ready.',
+  [k.DESIGN1]: "Connection with In-Vehicle WiFi - Hotspot.",
+  [k.DESIGN2]: "OEM's `Look and Feel` HMI customizations.",
+  [k.DESIGN3]: "UX, UI, HMI customized by OEM vehicle personality.",
+  [k.DESIGN4]: "Modularity, Flexibility, Scalability.",
+  [k.APPS]: "APPS",
+  [k.DESIGN_APP1]: "Design App 1",
+  [k.DESIGN_APP2]: "Design App 2",
+  [k.DESIGN_APP3]: "Design App 3",
+  [k.DESIGN_APP4]: "Design App 4",
+  [k.DESIGN_APP5]: "Design App 5",
+  [k.DESIGN_APP6]: "Design App 6",
+  [k.DESIGN_APP7]: "Design App 7",
+  [k.DESIGN_APP8]: "Design App 8",
+  [k.OUR_APP]: "Our App",
+  [k.DESIGN_OUR_APP1]: "UX, UI Taylored according to OEMs specifications.",
+  [k.DESIGN_OUR_APP2]: "Look and Feel based on vehicles category;",
+  [k.DESIGN_OUR_APP3]: "On-board marketing toll for services and support.",
+  [k.DESIGN_OUR_APP4]: "Operating Systems: iOS and Android ready.",
+  [k.DESIGN_OUR_APP5]: "Vehicle Health available at your hands.",
+  [k.DESIGN_OUR_APP6]: "Group information for safety, information and fun.",
+  [k.DESIGN_OUR_APP7]: "Service support at your service.",
+  [k.DESIGN_OUR_APP8]: "Breakdown, Medical, Safety Emergencies.",
+  [k.CONNECTED_HEADER]: `Pointer Automotive is working hard in the process of
+                        contibute for the Universal definition of 'Connected Vehicle'.
+                        Technology is at the heart of the OEM Automotive Industry
+                        and the it grows at a pace that is not yet clear where
+                        'Connected car' definition will be defined.
+                        Automotive manufacturers are selling ‘Connected cars’
+                        from a simply connected to the internet
+                        cellular connection, with limited feature set, to a fully
+                        connected vehicle necessary in all stages of self-driving
+                        technology.
+                        A real Connected Car, must be much more than a simple
+                        WiFi hotspot and become part of peoples life, conneted
+                        all times, and sharing information as it is desired
+                        in a real connecte world.`,
+
 
 }
 export { english };
