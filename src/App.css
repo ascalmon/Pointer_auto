@@ -745,6 +745,23 @@ html {
   .what-textarea {
     font-size: 0.55em; } }
 
+.what-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.what-tablets {
+  width: 99%;
+  margin-left: 20px;
+  padding: 110px 0 110px 20px;
+  box-shadow: 1px 1px 10px #394e6f; }
+
+.ia-tablets {
+  width: 99%;
+  margin-left: 20px;
+  padding: 5px 0 0px 20px;
+  box-shadow: 1px 1px 10px #394e6f; }
+
 .what-we-do {
   align-items: center;
   display: table-cell;

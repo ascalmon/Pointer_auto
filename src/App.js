@@ -64,14 +64,14 @@ function App() {
         </div>
         <Counter />
         <Design />
+        <ArtificialIntelligence />
+        <MachineLearning />
         <div className="container-warp">
           <What />
         </div>
         <Testimonial />
         <Work />
         <Electricals/>
-        <ArtificialIntelligence />
-        <MachineLearning />
         <Certifications/>
         <Contact />
         <Footer/>

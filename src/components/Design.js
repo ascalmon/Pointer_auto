@@ -21,9 +21,7 @@ class Design extends Component {
         <section id="design">
         <div className="container-wrap">
           <div className="grid-design-container">
-            <p className="grid-design-item0 design-heading">{i18n.t(k.FOR_ALL_DEVICES)}</p>
-            <p className="grid-design-item1 design-subheading">{i18n.t(k.UNIQUE_DESIGN)}</p>
-
+            <p className="grid-design-item0 design-subheading">{i18n.t(k.FOR_ALL_DEVICES)} - {i18n.t(k.UNIQUE_DESIGN)}</p>
             <div className="grid-design-item2">
               <div className="card design-tablets">
                 <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.HEADUNITS)}</p>

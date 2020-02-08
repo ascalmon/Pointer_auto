@@ -4,7 +4,7 @@ const k = require('./keys');
 const english = {
   [k.WHAT_WE_DO]: `What We Do`,
   [k.STORY_ABOUT_US]: `STORY ABOUT US`,
-  [k.ABOUT_PART_1]: `Pointer Automotive is part of Power Fleet, a worldwide leader
+  [k.ABOUT_PART_1]: `Pointer Automotive is part of PowerFleet, a worldwide leader
                   and provider of subscription-based wireless IoT and Machine-to-Machine
                   solutions for securing, controlling, tracking, and managing
                   enterprise assets.`,
@@ -192,6 +192,7 @@ const english = {
   [k.CONNECTED_VEHICLES]: 'Connected Vehicles',
   [k.MOBILITY_SERVICES]: 'Mobility',
   [k.DESIGN_TECHNOLOGY]: 'Design & Technology',
+  [k.TECHNOLOGY]: 'Technology',
   [k.CUSTOMIZATION]: 'Customizations',
   [k.TELEMATICS]: 'Telematics',
   [k.HEADUNITS]: 'Integration with OEM Head units - Infotainment devices.',
@@ -228,12 +229,29 @@ const english = {
                         Automotive manufacturers are selling ‘Connected cars’
                         from a simply connected to the internet
                         cellular connection, with limited feature set, to a fully
-                        connected vehicle necessary in all stages of self-driving
+                        connected vehicle necessary in all stages of Autonomous-driving
                         technology.
                         A real Connected Car, must be much more than a simple
                         WiFi hotspot and become part of peoples life, conneted
                         all times, and sharing information as it is desired
                         in a real connecte world.`,
+[k.WHAT1]: `For the Vehicle users:`,
+[k.WHAT2]: `   -  Connected to Internet All times.`,
+[k.WHAT3]: `   -  Smooth transition - House / Office lifestyle to 'Connected car'.`,
+[k.WHAT4]: `   -  User interaction with Digital world in a seamless way.`,
+[k.WHAT5]: `For the Vehicle manufacturers:`,
+[k.WHAT6]: `   -  Reliable Telematics Units for a seamless connection.`,
+[k.WHAT7]: `   -  Easy installation with 'Plug and Play' connection to Cloud.`,
+[k.WHAT8]: `   -  Diagnosis, BI, Data analysis, FOTA/OTA in one tool.`,
+[k.AI1]: `Data & algorithms mimic the cognitive functions of the human mind`,
+[k.AI2]: `Ability to learn and solve problems independently.`,
+[k.AI3]: `Deployed across a variety of industries and use cases.`,
+[k.AI4]: `Leveraging the advanced reaction times - precision of machine-based systems`,
+[k.AI5]: `The automotive industry using AI for:`,
+[k.AI6]: `   -  To mimic, augment, and support the actions of humans`,
+[k.AI7]: `   -  Make driver's life in the car more convenient and safer.`,
+[k.AI8]: `   -  In-car assistants, driven by natural language processing.`,
+[k.AI9]: `   -  Vehicle’s systems to respond to voice commands and infer what actions to take.`,
 
 
 }

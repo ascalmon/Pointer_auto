@@ -19,37 +19,29 @@ class What extends Component {
         <section id="service">
         <div className="container-wrap">
           <p className="what-subheading">{i18n.t(k.CONNECTED_VEHICLES)}</p>
-          <img className="img-fluid" src={what1} alt="Man in Office"></img>
+          <img className="img-fluid what-image" src={what1} alt="Man in Office"></img>
           <hr className="what-red-line"></hr>
           <p className="text-center lorem">{i18n.t(k.CONNECTED_HEADER)}</p>
           <hr className="what-red-line"></hr>
           <div className="grid-what-container">
-
-
-
-At its most basic level, a connected car should have the following attributes:
-
-It must be connected to the internet at all times
-It must be able to function as a participant in our digital lifestyle similar to an internet of things (IoT) or smart home device
-It must allow the user to interact with their digital lifestyle in a functional and usable way
-
             <div className="grid-what-item1">
-              <div className="card design-tablets">
-                <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.HEADUNITS)}</p>
-                <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.TABLETS)}</p>
-                <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.SPECIAL)}</p>
-                <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.OS)}</p>
-                <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.DESIGN1)}</p>
-                <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.DESIGN2)}</p>
-                <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.DESIGN3)}</p>
-                <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.DESIGN4)}</p>
-              </div>
-              <div>
-                <img className="img-fluid card design-tablets-image" src={what}  alt="iPad" />
+            <div>
+              <img className="img-fluid card design-tablets-image" src={what}  alt="iPad" />
+            </div>
+              <div className="card what-tablets ">
+                <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.WHAT1)}</p>
+                <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.WHAT2)}</p>
+                <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.WHAT3)}</p>
+                <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.WHAT4)}</p>
+                <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.WHAT5)}</p>
+                <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.WHAT6)}</p>
+                <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.WHAT7)}</p>
+                <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.WHAT8)}</p>
               </div>
             </div>
           </div>
         </div>
+        <hr/>
         </section>
       </React.Fragment>);
 

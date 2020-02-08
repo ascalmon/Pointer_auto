@@ -174,8 +174,66 @@ const hebrew = {
   [k.CONNECTED_VEHICLES]: 'רכבים מחוברים',
   [k.MOBILITY_SERVICES]: 'שירותי ניידות',
   [k.DESIGN_TECHNOLOGY]: 'עיצוב וטכנולוגיה',
+  [k.TECHNOLOGY]: 'טכנולוגיה',
   [k.CUSTOMIZATION]: 'התאמות אישיות',
   [k.TELEMATICS]: 'טלמטיקה',
+  [k.HEADUNITS]: 'Integration with OEM Head units - Infotainment devices.',
+  [k.TABLETS]: 'Tablets for professional monitoring of your vehicles.',
+  [k.SPECIAL]: 'Special devices and OS integration to support your project.',
+  [k.OS]: 'Operating Systems: iOS and Android ready.',
+  [k.DESIGN1]: "Connection with In-Vehicle WiFi - Hotspot.",
+  [k.DESIGN2]: "OEM's `Look and Feel` HMI customizations.",
+  [k.DESIGN3]: "UX, UI, HMI customized by OEM vehicle personality.",
+  [k.DESIGN4]: "Modularity, Flexibility, Scalability.",
+  [k.APPS]: "APPS",
+  [k.DESIGN_APP1]: "Design App 1",
+  [k.DESIGN_APP2]: "Design App 2",
+  [k.DESIGN_APP3]: "Design App 3",
+  [k.DESIGN_APP4]: "Design App 4",
+  [k.DESIGN_APP5]: "Design App 5",
+  [k.DESIGN_APP6]: "Design App 6",
+  [k.DESIGN_APP7]: "Design App 7",
+  [k.DESIGN_APP8]: "Design App 8",
+  [k.OUR_APP]: "Our App",
+  [k.DESIGN_OUR_APP1]: "UX, UI Taylored according to OEMs specifications.",
+  [k.DESIGN_OUR_APP2]: "Look and Feel based on vehicles category;",
+  [k.DESIGN_OUR_APP3]: "On-board marketing toll for services and support.",
+  [k.DESIGN_OUR_APP4]: "Operating Systems: iOS and Android ready.",
+  [k.DESIGN_OUR_APP5]: "Vehicle Health available at your hands.",
+  [k.DESIGN_OUR_APP6]: "Group information for safety, information and fun.",
+  [k.DESIGN_OUR_APP7]: "Service support at your service.",
+  [k.DESIGN_OUR_APP8]: "Breakdown, Medical, Safety Emergencies.",
+  [k.CONNECTED_HEADER]: `Pointer Automotive is working hard in the process of
+                        contibute for the Universal definition of 'Connected Vehicle'.
+                        Technology is at the heart of the OEM Automotive Industry
+                        and the it grows at a pace that is not yet clear where
+                        'Connected car' definition will be defined.
+                        Automotive manufacturers are selling ‘Connected cars’
+                        from a simply connected to the internet
+                        cellular connection, with limited feature set, to a fully
+                        connected vehicle necessary in all stages of self-driving
+                        technology.
+                        A real Connected Car, must be much more than a simple
+                        WiFi hotspot and become part of peoples life, conneted
+                        all times, and sharing information as it is desired
+                        in a real connecte world.`,
+[k.WHAT1]: `For the Vehicle users:`,
+[k.WHAT2]: `   -  Connected to Internet All times.`,
+[k.WHAT3]: `   -  Smooth transition - House / Office lifestyle to 'Connected car'.`,
+[k.WHAT4]: `   -  User interaction with Digital world in a seamless way.`,
+[k.WHAT5]: `For the Vehicle manufacturers:`,
+[k.WHAT6]: `   -  Reliable Telematics Units for a seamless connection.`,
+[k.WHAT7]: `   -  Easy installation with 'Plug and Play' connection to Cloud.`,
+[k.WHAT8]: `   -  Diagnosis, BI, Data analysis, FOTA/OTA in one tool.`,
+[k.AI1]: `Data & algorithms mimic the cognitive functions of the human mind`,
+[k.AI2]: `Ability to learn and solve problems independently.`,
+[k.AI3]: `Deployed across a variety of industries and use cases.`,
+[k.AI4]: `Leveraging the advanced reaction times - precision of machine-based systems`,
+[k.AI5]: `The automotive industry using AI for:`,
+[k.AI6]: `   -  To mimic, augment, and support the actions of humans`,
+[k.AI7]: `   -  Make driver's life in the car more convenient and safer.`,
+[k.AI8]: `   -  In-car assistants, driven by natural language processing.`,
+[k.AI9]: `   -  Vehicle’s systems to respond to voice commands and infer what actions to take.`,
 
 };
 export { hebrew };
