@@ -1030,12 +1030,60 @@ $pointer: #394e6f;
   box-shadow: 1px 1px 10px $pointer;
 }
 
-.ia-tablets {
+.ai-tablets {
   width: 99%;
   margin-left: 20px;
   padding: 5px 0 0px 20px;
 
   box-shadow: 1px 1px 10px $pointer;
+}
+
+.ai-textarea {
+  font-family: $powerfleet_font;
+  font-size: 1.4em;
+  border: 1px solid transparent;
+  width: 80%;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .ai-textarea {
+    font-size: 0.65em;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .ai-textarea {
+    font-size: 0.55em;
+  }
+}
+
+.ml-tablets {
+  width: 99%;
+  margin-left: 20px;
+  padding: 5px 0 0px 20px;
+
+  box-shadow: 1px 1px 10px $pointer;
+}
+
+.ml-textarea {
+  font-family: $powerfleet_font;
+  font-size: 1.4em;
+  border: 1px solid transparent;
+  width: 80%;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .ml-textarea {
+    font-size: 0.65em;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .ml-textarea {
+    font-size: 0.55em;
+  }
 }
 
 .what-we-do {
@@ -1203,7 +1251,7 @@ button.dropdown-nav {
 // ============ TESTIMONIALS =============
 
 .testimonial-div {
-  background-color: $light-gray;
+  background-color: $pointer;
   width: 100%;
 }
 
@@ -1264,7 +1312,7 @@ button.dropdown-nav {
 }
 
 .testimonial-text {
-  color: $gray;
+  color: $white;
   display: inline-block;
   float: right;
   font-family: $powerfleet_font;
@@ -1298,6 +1346,7 @@ button.dropdown-nav {
 }
 
 .testimonial-name {
+  color: $white;
   bottom: 10px;
   display: inline;
   font-family: $powerfleet_font;

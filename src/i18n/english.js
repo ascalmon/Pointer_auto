@@ -145,8 +145,9 @@ const english = {
   [k.VEHICLE_HARMONIZATION]: `Vehicle Harmonization`,
   [k.CONTACT]: `Contact`,
   [k.LOREM_IPSUM_DOLOR_SIT_AMET_C]: `“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”`,
-  [k.JON_DOE]: `Jon Doe`,
-  [k.JANE_DOE]: `Jane Doe`,
+  [k.JON_DOE]: `Phil Martin Jr.`,
+  [k.JANE_DOE]: `Catherine Philipet`,
+  [k.BOB_DOE]: `Leon Rosenthal`,
   [k.PREVIOUS]: `Previous`,
   [k.NEXT]: `Next`,
   [k.SERVICE]: `Service`,
@@ -243,16 +244,44 @@ const english = {
 [k.WHAT6]: `   -  Reliable Telematics Units for a seamless connection.`,
 [k.WHAT7]: `   -  Easy installation with 'Plug and Play' connection to Cloud.`,
 [k.WHAT8]: `   -  Diagnosis, BI, Data analysis, FOTA/OTA in one tool.`,
-[k.AI1]: `Data & algorithms mimic the cognitive functions of the human mind`,
+[k.AI1]: `Data & algorithms mimic the cognitive functions of the human mind.`,
 [k.AI2]: `Ability to learn and solve problems independently.`,
 [k.AI3]: `Deployed across a variety of industries and use cases.`,
-[k.AI4]: `Leveraging the advanced reaction times - precision of machine-based systems`,
-[k.AI5]: `The automotive industry using AI for:`,
-[k.AI6]: `   -  To mimic, augment, and support the actions of humans`,
+[k.AI4]: `Advanced reaction times - precision of machine-based systems`,
+[k.AI5]: `The automotive industry is using AI for:`,
+[k.AI6]: `   -  To mimic, augment, and support the actions of humans.`,
 [k.AI7]: `   -  Make driver's life in the car more convenient and safer.`,
 [k.AI8]: `   -  In-car assistants, driven by natural language processing.`,
-[k.AI9]: `   -  Vehicle’s systems to respond to voice commands and infer what actions to take.`,
+[k.AI9]: `   -  Systems to respond to voice commands and infer what actions to take.`,
+[k.ML1]: `ML is helping to bring operational and business transformations`,
+[k.ML2]: `Big Data and machine learning are remodeling the automotive companies processes.`,
+[k.ML3]: `Increased level of accuracy in decision-making and improved performance.`,
+[k.ML4]: `In-vehicle intelligence Reinforcing communication among navigation systems,
+          human machine interfaces, and location platforms to inform drivers about
+          hazardous road situations.`,
+[k.ML5]: `Predictive vehicle maintenance Collecting data from in-vehicle units and
+          applying predictive analytics to alert drivers about urgent or planned maintenance.`,
+[k.ML6]: `Smart routing and POI optimization Teaching a vehicle the most commonly used
+          routes and points of interest with artificial intelligence in automotive.`,
+[k.ML7]: ``,
+[k.ML8]: ``,
+[k.ML9]: ``,
+[k.TESTIMONIAL1]: `Automakers and dealers want their customers to return to them
+                  so they can raise customer retention throughout a car’s
+                  lifecycle. To accomplish that, they need to know more about
+                  their customers. So dealers need to stay in touch with them,
+                  ” Phil said. “With a connected car, dealers can make personalized
+                   offers or even send important push notifications when they need to.`,
+[k.TESTIMONIAL2]: `An added benefit for dealers who rent or lend cars is that they
+                  can quickly locate and monitor mileage on those connected vehicles.
+                  They can also receive alerts when specific vehicles enter —
+                  or leave — pre-set geographic regions.`,
 
+[k.TESTIMONIAL3]: `Car buyers can get greater value from their investment with a host
+                  of driver-centric features. Connected-car technology make vehicles
+                  more attractive with features like remote car control, car health-check,
+                  vehicle status indicators, smartphone Apps, mobile payments,
+                  and other convenient features.`,
 
 }
 export { english };

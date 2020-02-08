@@ -10,8 +10,10 @@ import ml_header from '../assets/ml_image_header.jpeg';
 import ml1 from '../assets/ml_image_1.jpeg';
 import ml2 from '../assets/ml_image_2.jpeg';
 import ml3 from '../assets/ml_image_3.jpeg';
+import ml4 from '../assets/ml_image_4.jpeg';
 
 import arrow_up from '../assets/up-arrow.svg';
+import focus from '../assets/focus.svg';
 //import arrow_up1 from '../assets/arrow_up_blue.png';
 // ============ About Component ==========
 
@@ -20,58 +22,49 @@ class Machine_learning extends Component {
     return (
       <React.Fragment>
         <section id="machine_learning">
-          <div className="row">
-            <div className="about">
+          <div className="container-wrap">
+
             <div className="topic-header">
-              <p className="about-heading">{i18n.t(k.WHAT_WE_DO1)}</p>
-              <img src={ml_header} style={{width: '30%'}} alt="Machine Learning" />
-              <p className="about-subheading">{i18n.t(k.MACHINE_LEARNING)}</p>
+              <p className="what-subheading">{i18n.t(k.TECHNOLOGY)}</p>
+              <img src={ml4} style={{width: '40%'}} alt="Machine Learning" />
+              <p className="what-subheading">{i18n.t(k.MACHINE_LEARNING)}</p>
             </div>
+
+            <hr className="about-red-line"></hr>
+
+            <div className="row about-text">
+              <p className="text-center lorem"><strong>
+                {i18n.t(k.IN_THE_AUTOMOTIVE_INDUSTRY_MA)}
+                </strong>
+              </p>
+
               <hr className="about-red-line"></hr>
-              <div className="row about-text">
-                <p className="text-center lorem"><strong>
-                  {i18n.t(k.IN_THE_AUTOMOTIVE_INDUSTRY_MA)}
-                  </strong>
-                </p>
-                <div className="lorem">
-                <p><strong>{i18n.t(k.MACHINE_LEARNING_FOR_THE_OEM_W)} </strong>
-                {i18n.t(k.MOST_MANUFACTURING_OPERATIONS)}
-                  </p>
-                <p><strong>{i18n.t(k.IN_VEHICLE_INTELLIGENCE)} </strong>
-                {i18n.t(k.REINFORCING_COMMUNICATION_AMON)}
-                  </p>
-                <p><strong>{i18n.t(k.PREDICTIVE_VEHICLE_MAINTENANCE)} </strong>
-                {i18n.t(k.COLLECTING_DATA_FROM_IN_VEHICL)}
-                  </p>
-                <p><strong>{i18n.t(k.SMART_ROUTING_AND_POI_OPTIMIZA)} </strong>
-                {i18n.t(k.TEACHING_A_VEHICLE_THE_MOST_CO)}
-                  </p>
+
+              <div className="grid-what-container">
+                <div className="grid-what-item1">
+                  <div>
+                    <img className="img-fluid card design-tablets-image" src={ml2}  alt="iPad" />
+                  </div>
+                  <div className="card ml-tablets ">
+                    <p className="ml-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.ML1)}</p>
+                    <p className="ml-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.ML2)}</p>
+                    <p className="ml-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.ML3)}</p>
+                    <p className="ml-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.ML4)}</p>
+                    <p className="ml-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.ML5)}</p>
+                    <p className="ml-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.ML6)}</p>
+                  </div>
                 </div>
-                <div className="lorem2">
-                {i18n.t(k.POINTER_IS_PART_OF_THE_GLOBAL)}
-                </div>
-                  <br/>
-                  <br/>
-                <div className="lorem2">
-                  {i18n.t(k.POWERFLEET_IS_A_WORLDWIDE_LEAD)}
-                </div>
-              </div>
-                <div className="row justify-content-between about-images">
-                  <div className="overlay-div">
-                  <img className="col-md-4 img-fluid" src={ml1} alt="Vehicle 1" />
-                  <img className="col-md-4 img-fluid" src={ml2} alt="Vehicle 2" />
-                  <img className="col-md-4 img-fluid" src={ml3} alt="Vehicle 3" />
-                </div>
-                <section id="here">
-                <a href="#home" className="float">
-                  <i className="my-float">
-                   <img src={arrow_up} alt="Arrow up" style={{width: '100%'}}/>
-                  </i>
-                </a>
-                </section>
               </div>
             </div>
+            <section id="here">
+              <a href="#home" className="float">
+                <i className="my-float">
+                 <img src={arrow_up} alt="Arrow up" style={{width: '100%'}}/>
+                </i>
+              </a>
+            </section>
           </div>
+          <hr />
         </section>
       </React.Fragment>);
 

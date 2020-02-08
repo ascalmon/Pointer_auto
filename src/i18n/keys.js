@@ -65,6 +65,7 @@ module.exports = {
   "LOREM_IPSUM_DOLOR_SIT_AMET_C": "LOREM_IPSUM_DOLOR_SIT_AMET_C",
   "JON_DOE": "JON_DOE",
   "JANE_DOE": "JANE_DOE",
+  "BOB_DOE": "BOB_DOE",
   "PREVIOUS": "PREVIOUS",
   "NEXT": "NEXT",
   "SERVICE": "SERVICE",
@@ -155,6 +156,18 @@ module.exports = {
   "AI7": "AI7",
   "AI8": "AI8",
   "AI9": "AI9",
-  "AI10": "AI10",
+  "ML1": "ML1",
+  "ML2": "ML2",
+  "ML3": "ML3",
+  "ML4": "ML4",
+  "ML5": "ML5",
+  "ML6": "ML6",
+  "ML7": "ML7",
+  "ML8": "ML8",
+  "ML9": "ML9",
+  "TESTIMONIAL1": "TESTIMONIAL1",
+  "TESTIMONIAL2": "TESTIMONIAL2",
+  "TESTIMONIAL3": "TESTIMONIAL3",
+
 
 }

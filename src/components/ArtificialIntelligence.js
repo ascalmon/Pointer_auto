@@ -10,6 +10,7 @@ import ai_header from '../assets/ia_image_header.jpeg';
 import ai1 from '../assets/ia_image_1.jpeg';
 import ai2 from '../assets/ia_image_2.jpeg';
 import ai3 from '../assets/ia_image_3.jpeg';
+import ai4 from '../assets/ia_image_4.jpeg';
 import focus from '../assets/focus.svg';
 
 
@@ -37,24 +38,25 @@ class Artificial_intelligence extends Component {
                 <div className="grid-what-container">
                   <div className="grid-what-item1">
                     <div>
-                      <img className="img-fluid card design-tablets-image" src={ai1}  alt="iPad" />
+                      <img className="img-fluid card design-tablets-image" src={ai4}  alt="iPad" />
                     </div>
-                    <div className="card ia-tablets ">
-                      <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.AI1)}</p>
-                      <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.AI2)}</p>
-                      <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.AI3)}</p>
-                      <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.AI4)}</p>
-                      <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.AI5)}</p>
-                      <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.AI6)}</p>
-                      <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.AI7)}</p>
-                      <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.AI8)}</p>
-                      <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.AI9)}</p>
+                    <div className="card ai-tablets ">
+                      <p className="ai-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.AI1)}</p>
+                      <p className="ai-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.AI2)}</p>
+                      <p className="ai-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.AI3)}</p>
+                      <p className="ai-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.AI4)}</p>
+                      <p className="ai-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.AI5)}</p>
+                      <p className="ai-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.AI6)}</p>
+                      <p className="ai-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.AI7)}</p>
+                      <p className="ai-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.AI8)}</p>
+                      <p className="ai-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.AI9)}</p>
                         </div>
                   </div>
                 </div>
-              
+
             </div>
           </div>
+          <hr />
         </section>
       </React.Fragment>);
 

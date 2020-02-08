@@ -23,9 +23,9 @@ class Testimonial extends Component {
                     <img className="speech-bubble img-fluid" src={speechbubble} alt="Speech Bubble"></img>
                     <div className="testimonial-text-div col-10">
                       <p className="d-block w-100 testimonial-text" src="..." alt="First slide">
-                        {i18n.t(k.LOREM_IPSUM_DOLOR_SIT_AMET_C)}
+                        {i18n.t(k.TESTIMONIAL1)}
                       </p>
-                      <hr className="red-line-testimonial"></hr>
+                  
                       <p className="testimonial-name">{i18n.t(k.JON_DOE)}</p>
                     </div>
                   </div>
@@ -35,10 +35,24 @@ class Testimonial extends Component {
                     <img className="speech-bubble img-fluid" src={speechbubble} alt="Speech Bubble"></img>
                     <div className="testimonial-text-div col-10">
                       <p className="d-block w-100 testimonial-text" src="..." alt="First slide">
-                        {i18n.t(k.LOREM_IPSUM_DOLOR_SIT_AMET_C)}
+                        {i18n.t(k.TESTIMONIAL2)}
                       </p>
-                      <hr className="red-line-testimonial"></hr>
+
                       <p className="testimonial-name">{i18n.t(k.JANE_DOE)}</p>
+                      <br />
+
+                    </div>
+                  </div>
+                </div>
+                <div className="carousel-item">
+                  <div className="testimonial-div row">
+                    <img className="speech-bubble img-fluid" src={speechbubble} alt="Speech Bubble"></img>
+                    <div className="testimonial-text-div col-10">
+                      <p className="d-block w-100 testimonial-text" src="..." alt="First slide">
+                        {i18n.t(k.TESTIMONIAL3)}
+                      </p>
+
+                      <p className="testimonial-name">{i18n.t(k.BOB_DOE)}</p>
                     </div>
                   </div>
                 </div>
@@ -54,6 +68,7 @@ class Testimonial extends Component {
             </div>
           </div>
         </div>
+        <hr />
       </React.Fragment>);
 
   }}
