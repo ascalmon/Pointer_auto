@@ -956,11 +956,11 @@ button.dropdown-nav {
   background-color: transparent; }
 
 .card-body {
-  color: #999;
+  color: #394e6f;
   font-family: "DIN W01 Bold";
   font-size: 15px;
   font-style: italic;
-  height: 168px;
+  height: auto;
   overflow-y: scroll; }
 
 ::-webkit-scrollbar {
@@ -1194,6 +1194,7 @@ div.grid-work-container {
     max-width: 100%; } }
 
 .contact-card {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 70px;
@@ -1230,6 +1231,23 @@ p.contact-header {
   .contact-input {
     width: 360px;
     margin-left: 20px; } }
+
+.grid-contact-item1 {
+  grid-area: form;
+  display: grid;
+  grid-template-columns: auto auto; }
+
+.grid-contact-item2 {
+  grid-area: address; }
+
+.grid-contact-item3 {
+  grid-area: bottom; }
+
+.grid-contact-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-areas: "form" "address" "bottom";
+  grid-gap: 15px; }
 
 .contact-grid {
   display: grid;

@@ -67,7 +67,11 @@ const hebrew = {
   [k.IT_S_A_PLEASURE_TO_HEAR_FROM_Y]: `!תענוג לשמוע ממך`,
   [k.CONTACT_US1]: `צור קשר`,
   [k.YOUR_NAME]: `שם*`,
+  [k.YOUR_LASTNAME]: `שם משפחה *`,
+  [k.YOUR_TITLE]: `כותרת`,
+  [k.YOUR_COMPANY]: `החברה`,
   [k.YOUR_E_MAIL]: `אימייל*`,
+  [k.YOUR_PHONE]: `מכשיר טלפון`,
   [k.REASON_FOR_YOUR_CONTACT]: 'הסיבה ליצירת קשר',
   [k.YOUR_MESSAGE]: `הודעה`,
   [k.OEM_DESIGN_PROJECTS]: `OEM פרויקטים לעיצוב`,
@@ -248,6 +252,7 @@ const hebrew = {
 [k.ML7]: ``,
 [k.ML8]: ``,
 [k.ML9]: ``,
+[k.SELECT_ONE]: `תבחר אחד`,
 
 };
 export { hebrew };

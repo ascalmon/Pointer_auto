@@ -69,8 +69,12 @@ const portuguese =  {
   [k.CONTACT_US]: `ENTRE EM CONTATO`,
   [k.IT_S_A_PLEASURE_TO_HEAR_FROM_Y]: `É sempre um prazer ouvi-lo!`,
   [k.CONTACT_US1]: `ENTRE EM CONTATO`,
-  [k.YOUR_NAME]: `Nome*`,
-  [k.YOUR_E_MAIL]: `E-mail*`,
+  [k.YOUR_NAME]: `Nome *`,
+  [k.YOUR_LASTNAME]: `Sobrenome *`,
+  [k.YOUR_TITLE]: `Cargo`,
+  [k.YOUR_COMPANY]: `Empresa`,
+  [k.YOUR_E_MAIL]: `Your e-mail *`,
+  [k.YOUR_PHONE]: `Telefone`,
   [k.REASON_FOR_YOUR_CONTACT]: 'Motivo do seu contato',
   [k.YOUR_MESSAGE]: `Mensagem`,
   [k.OEM_DESIGN_PROJECTS]: `OEM - PROJETOS EM ANDAMENTO`,
@@ -256,5 +260,7 @@ const portuguese =  {
 [k.ML7]: ``,
 [k.ML8]: ``,
 [k.ML9]: ``,
+[k.SELECT_ONE]: `Selecione uma opção`,
+
 };
 export { portuguese };

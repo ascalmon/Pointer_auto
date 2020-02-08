@@ -78,8 +78,12 @@ const spanish = {
   [k.CONTACT_US]: `ENTRE EN CONTACTO`,
   [k.IT_S_A_PLEASURE_TO_HEAR_FROM_Y]: `¡Siempre es un placer saber de usted!`,
   [k.CONTACT_US1]: `Entre en Contacto`,
-  [k.YOUR_NAME]: `Nombre*`,
-  [k.YOUR_E_MAIL]: `E-mail*`,
+  [k.YOUR_NAME]: `Nombre *`,
+  [k.YOUR_LASTNAME]: `Apellido *`,
+  [k.YOUR_TITLE]: `E-mail *`,
+  [k.YOUR_COMPANY]: `Empresa`,
+  [k.YOUR_E_MAIL]: `E-mail *`,
+  [k.YOUR_PHONE]: `Número de teléfono`,
   [k.REASON_FOR_YOUR_CONTACT]: 'Motivo de su contacto',
   [k.YOUR_MESSAGE]: `Mensaje`,
   [k.OEM_DESIGN_PROJECTS]: `PROYECTOS DE DISEÑO OEM`,
@@ -263,5 +267,7 @@ const spanish = {
 [k.ML7]: ``,
 [k.ML8]: ``,
 [k.ML9]: ``,
+[k.SELECT_ONE]: `Seleccione uno`,
+
 };
 export { spanish };

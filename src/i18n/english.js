@@ -84,8 +84,12 @@ const english = {
   [k.CONTACT_US]: `CONTACT US`,
   [k.IT_S_A_PLEASURE_TO_HEAR_FROM_Y]: `It's a pleasure to hear from you`,
   [k.CONTACT_US1]: `Contact us`,
-  [k.YOUR_NAME]: `Your name*`,
-  [k.YOUR_E_MAIL]: `Your e-mail*`,
+  [k.YOUR_NAME]: `Name *`,
+  [k.YOUR_LASTNAME]: `Lastname *`,
+  [k.YOUR_TITLE]: `Title`,
+  [k.YOUR_COMPANY]: `Company`,
+  [k.YOUR_E_MAIL]: `Your e-mail *`,
+  [k.YOUR_PHONE]: `Phone`,
   [k.REASON_FOR_YOUR_CONTACT]: 'Reason for your contact',
   [k.YOUR_MESSAGE]: `Your message`,
   [k.OEM_DESIGN_PROJECTS]: `OEM DESIGN PROJECTS`,
@@ -306,6 +310,7 @@ const english = {
 [k.DONGLES6]: `DONGLES 6`,
 [k.DONGLES7]: `DONGLES 7`,
 [k.DONGLES8]: `DONGLES 8`,
+[k.SELECT_ONE]: `Select One`,
 
 }
 export { english };
