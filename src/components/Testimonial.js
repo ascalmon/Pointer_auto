@@ -6,7 +6,8 @@ import React, { Component } from 'react';
 
 // ============ Image Imports =============
 
-import speechbubble from '../assets/speechbubble.png';
+// import speechbubble from '../assets/speechbubble.png';
+import chat from '../assets/chat.svg';
 
 // ============ Testimonial Component =====
 
@@ -20,19 +21,19 @@ class Testimonial extends Component {
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <div className="row">
-                    <img className="speech-bubble img-fluid" src={speechbubble} alt="Speech Bubble"></img>
+                    <img className="speech-bubble img-fluid" src={chat} alt="Speech Bubble"></img>
                     <div className="testimonial-text-div col-10">
                       <p className="d-block w-100 testimonial-text" src="..." alt="First slide">
                         {i18n.t(k.TESTIMONIAL1)}
                       </p>
-                  
+
                       <p className="testimonial-name">{i18n.t(k.JON_DOE)}</p>
                     </div>
                   </div>
                 </div>
                 <div className="carousel-item">
                   <div className="testimonial-div row">
-                    <img className="speech-bubble img-fluid" src={speechbubble} alt="Speech Bubble"></img>
+                    <img className="speech-bubble img-fluid" src={chat} alt="Speech Bubble"></img>
                     <div className="testimonial-text-div col-10">
                       <p className="d-block w-100 testimonial-text" src="..." alt="First slide">
                         {i18n.t(k.TESTIMONIAL2)}
@@ -46,7 +47,7 @@ class Testimonial extends Component {
                 </div>
                 <div className="carousel-item">
                   <div className="testimonial-div row">
-                    <img className="speech-bubble img-fluid" src={speechbubble} alt="Speech Bubble"></img>
+                    <img className="speech-bubble img-fluid" src={chat} alt="Speech Bubble"></img>
                     <div className="testimonial-text-div col-10">
                       <p className="d-block w-100 testimonial-text" src="..." alt="First slide">
                         {i18n.t(k.TESTIMONIAL3)}
