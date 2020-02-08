@@ -392,12 +392,14 @@ html {
 .about-heading {
   font-family: "DIN W01 Bold";
   font-size: 34px;
+  color: #394e6f;
   margin-top: 4.5rem;
   text-align: center; }
 
 .about-subheading {
   font-family: "DIN W01 Bold";
   font-size: 30px;
+  color: #394e6f;
   font-weight: bold;
   margin-top: 1rem;
   text-align: center; }
@@ -605,12 +607,14 @@ html {
   font-family: "DIN W01 Bold";
   font-size: 24px;
   margin-top: 2rem;
+  color: #394e6f;
   text-align: center;
   text-transform: uppercase; }
 
 .design-subheading {
   font-family: "DIN W01 Bold";
   font-size: 30px;
+  color: #394e6f;
   font-weight: bold;
   margin-top: 1rem;
   text-align: center;
@@ -884,12 +888,14 @@ html {
 .what-heading {
   font-family: "DIN W01 Bold";
   font-size: 24px;
+  color: #394e6f;
   margin-top: 4.5rem;
   text-align: center; }
 
 .what-subheading {
   font-family: "DIN W01 Bold";
   font-size: 30px;
+  color: #394e6f;
   font-weight: bold;
   margin-top: 1rem;
   text-align: center;
@@ -1130,12 +1136,14 @@ div.grid-work-container {
 .work-heading {
   font-family: "DIN W01 Bold";
   font-size: 24px;
+  color: #394e6f;
   margin-top: .5rem;
   text-align: center; }
 
 .work-subheading {
   font-family: "DIN W01 Bold";
   font-size: 30px;
+  color: #394e6f;
   font-weight: bold;
   margin-top: 1rem;
   text-align: center; }
@@ -1185,7 +1193,7 @@ div.grid-work-container {
   background-color: transparent; }
 
 .contact-label {
-  color: #000000;
+  color: #394e6f;
   font-size: 1.5em; }
 
 .contact-greeting {
@@ -1197,13 +1205,14 @@ div.grid-work-container {
 div.contact-header {
   font-size: 3em;
   font-family: "DIN W01 Bold";
-  color: #000000; }
+  color: #394e6f;
+  text-align: center; }
 
 p.contact-header {
-  font-size: 1.2em;
+  font-size: 1.7em;
   font-family: "DIN W01 Bold";
   width: auto;
-  color: #000000;
+  color: #394e6f;
   text-align: left; }
 
 .contact-input {

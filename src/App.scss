@@ -542,6 +542,7 @@ $pointer: #394e6f;
 .about-heading {
   font-family: $powerfleet_font;
   font-size: 34px;
+  color: $pointer;
   margin-top: 4.5rem;
   text-align: center;
 }
@@ -549,6 +550,7 @@ $pointer: #394e6f;
 .about-subheading {
   font-family: $powerfleet_font;
   font-size: 30px;
+  color: $pointer;
   font-weight: bold;
   margin-top: 1rem;
   text-align: center;
@@ -834,6 +836,7 @@ $pointer: #394e6f;
   font-family: $powerfleet_font;
   font-size: 24px;
   margin-top: 2rem;
+  color: $pointer;
   text-align: center;
   text-transform: uppercase;
 }
@@ -841,6 +844,7 @@ $pointer: #394e6f;
 .design-subheading {
   font-family: $powerfleet_font;
   font-size: 30px;
+  color: $pointer;
   font-weight: bold;
   margin-top: 1rem;
   text-align: center;
@@ -1208,6 +1212,7 @@ $pointer: #394e6f;
 .what-heading {
   font-family: $powerfleet_font;
   font-size: 24px;
+  color: $pointer;
   margin-top: 4.5rem;
   text-align: center;
 }
@@ -1215,6 +1220,7 @@ $pointer: #394e6f;
 .what-subheading {
   font-family: $powerfleet_font;
   font-size: 30px;
+  color: $pointer;
   font-weight: bold;
   margin-top: 1rem;
   text-align: center;
@@ -1516,6 +1522,7 @@ div.grid-work-container {
 .work-heading {
   font-family: $powerfleet_font;
   font-size: 24px;
+  color: $pointer;
   margin-top: .5rem;
   text-align: center;
 }
@@ -1523,6 +1530,7 @@ div.grid-work-container {
 .work-subheading {
   font-family: $powerfleet_font;
   font-size: 30px;
+  color: $pointer;
   font-weight: bold;
   margin-top: 1rem;
   text-align: center;
@@ -1590,7 +1598,7 @@ div.grid-work-container {
 }
 
 .contact-label {
-  color: $black;
+  color: $pointer;
   font-size: 1.5em;
 }
 
@@ -1609,17 +1617,17 @@ div.contact-header {
 	//margin: 0 auto;
 	//margin-top: 0px;
 	//width: 50px;
-	color: $black;
-	//text-align: center;
+	color: $pointer;
+	text-align: center;
 }
 
 p.contact-header {
-	font-size: 1.2em;
+	font-size: 1.7em;
 	font-family: $powerfleet_font;
 	//margin: 0 auto;
 	//margin-top: 30px;
 	width: auto;
-	color: $black;
+	color: $pointer;
 	text-align: left;
 }
 

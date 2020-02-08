@@ -174,7 +174,7 @@ const portuguese =  {
   [k.COUNTRY]: 'Brasil',
   [k.ZIP]: '06473-000',
   [k.PHONE]: '+55 11-5555-5555',
-  [k.WHATS]: '+55 11-95555=5555',
+  [k.WHATS]: '+55 11-95555-5555',
   [k.EMAIL]: 'contato@pointer.com.br',
   [k.PROFESSIONAL]: 'Serviços Profissionais',
   [k.CONSULTING]: 'Serviços de Consultoria',
