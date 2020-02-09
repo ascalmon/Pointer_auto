@@ -507,32 +507,33 @@ const english = {
                       about vehicle information. Our expertize in customizations
                       let you dream with the App your customers deserve.`,
 [k.CORPORATE_TITLE]: 'Corporate Fleet',
-[k.CORPORATE_HEAD]: `The new Era of Connected Vehicles and Services is
-                          transforming customer behavior in an unprecedent
-                          speed. The way you communicate and interact with
-                          you customers makes all difference to continue being
-                          relevant in the future. Our Mobility & Customized
-                          Services helps you to build your own App
-                          (Mobile Applications) in a customized and scalable
-                          way to generate new revenue business opportunities for
-                          data monetization and digital service implementation.`,
-[k.CORPORATE1]: `Some services that can be generated to your customers:`,
-[k.CORPORATE2]: `Vehicle Health: Daily vehicle checklist. Your customer
-                      know vehicle is safety for next trip.`,
-[k.CORPORATE3]: `Curfew: Get alerts if your vehicle starts moving in
-                      forbidden hours independent where you are.`,
-[k.CORPORATE4]: `Driver Behavior: Enhance yearly customer insurance policies
-                      price. Help your customers and families to have safety in
-                      their heart. Provide them last trip drive behavior and
-                      smart drive feedback.`,
-[k.CORPORATE5]: `Estimated Time of Arrival: Calculate your arrival time and
-                      share with your parents or friends using best routing system.`,
-[k.CORPORATE6]: `Preventive Maintenance:  Maintenance Remind. Digital
-                      Vehicle Maintenance Schedule with the Dealers.`,
-[k.CORPORATE7]: `Anchor: Protect your vehicle! Get real time alerts if your
-                      car  start moving. Your insurance know you care about your
-                      assets. `,
-[k.CORPORATE8]: `Group Interaction: Share defined notification to your family
-                      or friend group about you and your car during your trips. `,
+[k.CORPORATE_HEAD]: `Pointer Connect provides secure interface with other
+                     Automotive Partners to aggregate different source of raw
+                     information and build a comprehensive customer service
+                     package via APIs (Cloud interfaces between Service Platforms).`,
+[k.CORPORATE1]: `Brand, Image and reputation are a long journey to be settled by
+                OEM by in customer mind. It’s a key business success in
+                Automotive segment.`,
+[k.CORPORATE2]: `Pointer Connect Platform is hosted in Microsoft Azure Cloud,
+                a secure, reliable, scalable and stable environment to run
+                Automotive Applications. Microsoft Azure Cloud environment is
+                continuously updated to make it even more secure to attend
+                General Data Protection Regulation globally.`,
+[k.CORPORATE3]: `Pointer performs continuous and extensive penetration tests
+                 with specialized 3rd part companies to mitigate risks and to
+                 guarantee continuous evolution. The data is stored on encrypted
+                 Premium and Standard Storage accounts with 3 copies.
+                 Data is also replicated to another backup Disaster Recovery
+                 site located in the USA.
+`,
+[k.CORPORATE4]: `Pointer Intelligence delivers the best BI Graphs and Analytics to
+                  the corporate fleet managers in order to help them to extracts the
+                  best of the fleet, team and resources related to vehicles.`,
+[k.CORPORATE5]: `PConnect architecture is the enabler of the Corporate Fleet Services
+                 necessary for the integrations with third parties services: Fuel,
+                 Parking, Road Conditions, Gas Stations, Dealer network, etc.`,
+[k.CORPORATE6]: ``,
+[k.CORPORATE7]: ``,
+[k.CORPORATE8]: ``,
 }
 export { english };

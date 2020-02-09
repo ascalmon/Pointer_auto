@@ -9,7 +9,7 @@ import React, { Component } from 'react';
 //import mobility from '../assets/mobility_image_1.jpg';
 import corporate from '../assets/corporate_image_gif_1.gif';
 import corporate1 from '../assets/corporate_image_1.jpeg';
-//import customizations2 from '../assets/customizations_image_1.jpg';
+import pconnect from '../assets/Pconnect.png';
 import focus from '../assets/focus.svg';
 
 
@@ -24,7 +24,7 @@ class Corporate extends Component {
             <div className="about">
             <div className="topic-header">
               <p className="what-subheading">{i18n.t(k.CORPORATE_TITLE)}</p>
-              <img src={corporate} style={{width: '50%'}} alt="Artificial Intelligence" />
+              <img src={corporate} style={{width: '50%'}} alt="Corporate Fleet" />
               <p className="what-subheading">{i18n.t(k.SOME_OF_OUR_WORK)}</p>
             </div>
               <hr className="about-red-line"></hr>
@@ -33,6 +33,7 @@ class Corporate extends Component {
                   {i18n.t(k.CORPORATE_HEAD)}
                   </strong>
                 </p>
+                <img src={pconnect} className="corporate-pconnect" style={{width: '8%'}} alt="Corporate Fleet" />
                 <div className="grid-what-container">
                   <div className="grid-what-item1">
                     <div>
@@ -44,9 +45,7 @@ class Corporate extends Component {
                       <p className="corporate-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.CORPORATE3)}</p>
                       <p className="corporate-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.CORPORATE4)}</p>
                       <p className="corporate-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.CORPORATE5)}</p>
-                      <p className="corporate-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.CORPORATE6)}</p>
-                      <p className="corporate-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.CORPORATE7)}</p>
-                      <p className="corporate-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.CORPORATE8)}</p>
+
                         </div>
                   </div>
                 </div>
