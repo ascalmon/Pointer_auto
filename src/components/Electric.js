@@ -22,7 +22,7 @@ class Electric extends Component {
             <p className="work-subheading">{i18n.t(k.SOME_OF_OUR_WORK)}</p>
             <hr className="work-red-line"></hr>
             <div className="row work-text">
-              <strong><p className="text-center lorem">{i18n.t(k.INTELLIGENCE_HEAD)}</p></strong>
+              <strong><p className="text-center lorem">{i18n.t(k.ELECTRIC_HEAD)}</p></strong>
             </div>
           </div>
 
@@ -36,8 +36,6 @@ class Electric extends Component {
                 <p className="electric-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.ELECTRIC2)}</p>
                 <p className="electric-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.ELECTRIC3)}</p>
                 <p className="electric-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.ELECTRIC4)}</p>
-                <p className="electric-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.ELECTRIC5)}</p>
-                <p className="electric-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.ELECTRIC6)}</p>
                   </div>
             </div>
           </div>

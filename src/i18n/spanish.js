@@ -408,29 +408,22 @@ const spanish = {
                         Intelligent services allows the OEMs to securely start challenging
                         projects with the support of our package of Intelligence solutions.
                         An overview of the Pointer Automotive Intelligence Services are bellow:`,
-[k.ELECTRI1]: `Recall Management: Save millions of dollars in Recall advertising
-                    and management by direct communication with your relevant vehicle
-                    owners in case of Recalls, structuring digital reports about recall
-                    evolution and customer acknowledges.`,
-[k.ELECTRI2]: `Collision and theft rate per region, medical / breakdown
-                    service utilization rate per region, among other intelligence report services.`,
-[k.ELECTRI3]: `Business Intelligence: Customized BI development for operations and business management.`,
-[k.ELECTRI4]: `Electric Vehicle Management: Keep customers updated about charging
-                    location (private and and OEM partners updated about key location
-                    for charging installation. Notify customer about charging remaining time.`,
-[k.ELECTRI5]: `Warranty Management: Deep analysis of vehicle diagnosis information drives to
-                    efficient mechanisms of informing customers, dealers and save a considerable
-                    ammout of resources.`,
-[k.ELECTRI6]: `Marketing Management: Helps the OEMs to manage leads, vehicle
-                    conditions for negotiations of a new one, send real-time information
-                    to customers based on driving behavior, region of driving, promotions on
-                    important items for the vehicle, etc. Ex: Vehicle reaching oil / tires usage limit - inform
-                    customers about promotions or benefits of replacing it on time in a dealer site.`,
-[k.ELECTRI7]: ``,
-[k.ELECTRI8]: ``,
-[k.ELECTRI9]: ``,
-[k.ELECTRI10]: ``,
-[k.ELECTRI11]: ``,
+[k.ELECTRIC1]: `Monitoring Hardware and software failures. Electronic systems fail due to false sensors,
+               noise in signals and software errors. Electric vehicles will certainly have failures that
+               could cause crashes, Pointer Automotive can analyze data and take quick actions to avoid
+               risk situations.`,
+[k.ELECTRIC2]: `Electric Vehicle Management: Keep customers updated about charging
+               location (private and and OEM partners updated about key location
+               for charging installation. Notify customer about charging remaining time`,
+[k.ELECTRIC3]: ``,
+[k.ELECTRIC4]: ``,
+[k.ELECTRIC5]: ``,
+[k.ELECTRIC6]: ``,
+[k.ELECTRIC7]: ``,
+[k.ELECTRIC8]: ``,
+[k.ELECTRIC9]: ``,
+[k.ELECTRIC10]: ``,
+[k.ELECTRIC11]: ``,
 
 };
 export { spanish };

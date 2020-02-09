@@ -28,7 +28,7 @@ class Hero extends Component {
                       <span className="title">{i18n.t(k.POINTER)}</span><img alt="Pointer Logo" className='logo' src={logo_notext} /><span className="title"> {i18n.t(k.AUTOMOTIVE)}</span>
                     <hr className="white-line"></hr>
                     <div className="learn-more-div row">
-                      <a className="learn-more" href="/">{i18n.t(k.LEARN_MORE)}</a>
+                      <a className="learn-more" href="#contact">{i18n.t(k.LEARN_MORE)}</a>
                     </div>
                   </div>
                 </div>
@@ -42,7 +42,7 @@ class Hero extends Component {
                       <span className="title"> {i18n.t(k.AUTOMOTIVE)}</span>
                     <hr className="white-line"></hr>
                     <div className="learn-more-div row">
-                      <a className="learn-more" href="/">{i18n.t(k.LEARN_MORE)}</a>
+                      <a className="learn-more" href="#contact">{i18n.t(k.LEARN_MORE)}</a>
                     </div>
                   </div>
                 </div>
@@ -56,7 +56,7 @@ class Hero extends Component {
                       <span className="title"> {i18n.t(k.AUTOMOTIVE)}</span>
                     <hr className="white-line"></hr>
                     <div className="learn-more-div row">
-                      <a className="learn-more" href="/">{i18n.t(k.LEARN_MORE)}</a>
+                      <a className="learn-more" href="#contact">{i18n.t(k.LEARN_MORE)}</a>
                     </div>
                   </div>
                 </div>
@@ -70,7 +70,7 @@ class Hero extends Component {
                       <span className="title"> {i18n.t(k.AUTOMOTIVE)}</span>
                     <hr className="white-line"></hr>
                     <div className="learn-more-div row">
-                      <a className="learn-more" href="/">{i18n.t(k.LEARN_MORE)}</a>
+                      <a className="learn-more" href="#contact">{i18n.t(k.LEARN_MORE)}</a>
                     </div>
                   </div>
                 </div>

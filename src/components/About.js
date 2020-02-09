@@ -10,8 +10,6 @@ import React, { Component } from 'react';
 
 // ============ Image Imports =============
 
-
-import vehicle1 from '../assets/image_about_2.jpeg';
 import about from '../assets/about_image_2.png';
 // ============ About Component ==========
 
@@ -79,7 +77,7 @@ class About extends Component {
                   {i18n.t(k.POWERFLEET_IS_A_WORLDWIDE_LEAD)}
                 </p>
               </div>
-              
+
             </div>
           </div>
           <hr/>
