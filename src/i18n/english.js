@@ -333,15 +333,15 @@ const english = {
                         Automotive Customers. The Connected Vehicle Service
                         should come together with Customer Care Services for
                         Support and Emergency during working hours or 24 x 7 hs.`,
-[k.PROFESSIONAL1]: `PROFESSIONAL 1`,
-[k.PROFESSIONAL2]: `PROFESSIONAL 2`,
-[k.PROFESSIONAL3]: `PROFESSIONAL 3`,
-[k.PROFESSIONAL4]: `PROFESSIONAL 4`,
-[k.PROFESSIONAL5]: `PROFESSIONAL 5`,
-[k.PROFESSIONAL6]: `PROFESSIONAL 6`,
-[k.PROFESSIONAL7]: `PROFESSIONAL 7`,
-[k.PROFESSIONAL8]: `PROFESSIONAL 8`,
-[k.PROFESSIONAL9]: `PROFESSIONAL 9`,
+[k.PROFESSIONAL1]: `App Support and Training for OEM Apps and use the best of your App resources.`,
+[k.PROFESSIONAL2]: `Medical Emergencies: Support you and connect you with your parents in case of medical emergency or accidents.`,
+[k.PROFESSIONAL3]: `Breakdown Emergencies: Help your customers to get support in case of vehicle problem. The vehicle can be quickly in your dealers, not in other 3rd part repair centers. `,
+[k.PROFESSIONAL4]: `Stolen Vehicle Recovery: In countries with high theft rates, we provide 24 x 7 hs vehicle recovery service in case of robbery or stolen vehicle. Active risk assessment in boarders or theft risk areas can be an important service to reduce insurance policy price.`,
+[k.PROFESSIONAL5]: `Marketing Campaigns: Support OEM Customers with questions during marketing campaigns directed to OEM Customers Apps.`,
+[k.PROFESSIONAL6]: `Mobility Services: Support customer mobility services field emergency as a 24 x 7 hs emergency center.`,
+[k.PROFESSIONAL7]: `Concierge: Concierge for OEM customers during working hours or 24 x 7 hs.`,
+[k.PROFESSIONAL8]: ``,
+[k.PROFESSIONAL9]: ``,
 
 }
 export { english };

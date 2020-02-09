@@ -767,6 +767,24 @@ html {
   margin-left: auto;
   margin-right: auto; }
 
+.professional-textarea {
+  font-family: "DIN W01 Bold";
+  font-size: 1.4em;
+  color: #394e6f;
+  border: 1px solid transparent;
+  width: 95%;
+  margin-left: 20px; }
+
+@media only screen and (max-width: 1440px) {
+  .professional-textarea {
+    font-size: 1em; } }
+
+.professional-tablets {
+  width: 96%;
+  margin-left: 20px;
+  padding: 5px 0 0px 20px;
+  box-shadow: 1px 1px 10px #394e6f; }
+
 .grid-what-item0 {
   grid-area: text1; }
 
