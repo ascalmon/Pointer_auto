@@ -28,12 +28,11 @@ import Testimonial from './components/Testimonial';
 import Work from './components/Work';
 import Professional from './components/Professional';
 import Intelligence from './components/Intelligence';
+import Electric from './components/Electric';
 import ArtificialIntelligence from './components/ArtificialIntelligence';
 import MachineLearning from './components/MachineLearning';
 import Telematics from './components/Telematics';
 import Contact from './components/Contact';
-import Certifications from './components/Certifications';
-import Electricals from './components/Electricals';
 import Bar from './components/Bar';
 import Footer from './components/Footer';
 // ============ CSS =============
@@ -80,11 +79,9 @@ function App() {
         <Bar />
         <Intelligence />
         <Bar />
-        <Electricals/>
+        <Electric/>
         <Bar />
         <Telematics />
-        <Bar />
-        <Certifications/>
         <Bar />
         <Contact />
         <Footer/>

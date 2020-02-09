@@ -34,7 +34,7 @@ class Intelligence extends Component {
                 <img className="img-fluid card intelligence-tablets-image" src={intelligence1}  alt="iPad" />
               </div>
               <div className="card intelligence-tablets ">
-                <p className="intelligence-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.INTELLIGENCE1)}Teste</p>
+                <p className="intelligence-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.INTELLIGENCE1)}</p>
                 <p className="intelligence-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.INTELLIGENCE2)}</p>
                 <p className="intelligence-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.INTELLIGENCE3)}</p>
                 <p className="intelligence-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.INTELLIGENCE4)}</p>

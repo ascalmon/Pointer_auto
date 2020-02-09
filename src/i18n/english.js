@@ -404,6 +404,36 @@ const english = {
 [k.INTELLIGENCE9]: ``,
 [k.INTELLIGENCE10]: ``,
 [k.INTELLIGENCE11]: ``,
+[k.ELECTRIC_HEAD]: `Pointer Automotive Intelligence Services, connects the existing
+                        and future 5G wireless networks that enables vehicles and
+                        smart devices, installed by the OEMs, to communicate in intelligent
+                        mode and analyses real-time data to optimize vehicle experience.
+                        Intelligent services allows the OEMs to securely start challenging
+                        projects with the support of our package of Intelligence solutions.
+                        An overview of the Pointer Automotive Intelligence Services are bellow:`,
+[k.ELECTRI1]: `Recall Management: Save millions of dollars in Recall advertising
+                    and management by direct communication with your relevant vehicle
+                    owners in case of Recalls, structuring digital reports about recall
+                    evolution and customer acknowledges.`,
+[k.ELECTRI2]: `Collision and theft rate per region, medical / breakdown
+                    service utilization rate per region, among other intelligence report services.`,
+[k.ELECTRI3]: `Business Intelligence: Customized BI development for operations and business management.`,
+[k.ELECTRI4]: `Electric Vehicle Management: Keep customers updated about charging
+                    location (private and and OEM partners updated about key location
+                    for charging installation. Notify customer about charging remaining time.`,
+[k.ELECTRI5]: `Warranty Management: Deep analysis of vehicle diagnosis information drives to
+                    efficient mechanisms of informing customers, dealers and save a considerable
+                    ammout of resources.`,
+[k.ELECTRI6]: `Marketing Management: Helps the OEMs to manage leads, vehicle
+                    conditions for negotiations of a new one, send real-time information
+                    to customers based on driving behavior, region of driving, promotions on
+                    important items for the vehicle, etc. Ex: Vehicle reaching oil / tires usage limit - inform
+                    customers about promotions or benefits of replacing it on time in a dealer site.`,
+[k.ELECTRI7]: ``,
+[k.ELECTRI8]: ``,
+[k.ELECTRI9]: ``,
+[k.ELECTRI10]: ``,
+[k.ELECTRI11]: ``,
 
 
 }

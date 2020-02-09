@@ -12,9 +12,7 @@ import React, { Component } from 'react';
 
 
 import vehicle1 from '../assets/image_about_2.jpeg';
-import about from '../assets/about_image_2.jpeg';
-//import logo from '../assets/pointer_logo_notext.svg'
-//import pointer_map from '../assets/pointer_map.png';
+import about from '../assets/about_image_2.png';
 // ============ About Component ==========
 
 class About extends Component {
@@ -81,13 +79,7 @@ class About extends Component {
                   {i18n.t(k.POWERFLEET_IS_A_WORLDWIDE_LEAD)}
                 </p>
               </div>
-                <div className="row justify-content-between about-images">
-                  <div className="overlay-div">
-
-                  <img className="col-md-4 img-fluid image-page" src={vehicle1} alt="Vehicle 2" />
-
-                </div>
-              </div>
+              
             </div>
           </div>
           <hr/>

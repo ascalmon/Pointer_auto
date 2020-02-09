@@ -364,21 +364,66 @@ const portuguese =  {
 [k.CONSULTING9]: `Customer Service / Subscription engagement .`,
 [k.CONSULTING10]: `Customized Design of OEMs App.`,
 [k.CONSULTING11]: `Vehicle data harmonization and much more .............`,
-[k.INTELLIGENCE_HEAD]: `Pointer team has experience to help OEMs in the whole process
-                      of designing a 'Connected Vehicle' and Mobility Services Strategy.
-                      Design and development support until project rollout.
-                      Below services we can offer to OEMs:`,
-[k.INTELLIGENCE1]: `Connected Vehicle and Mobility Service Package Definition and Customization.`,
-[k.INTELLIGENCE2]: `Manufacturing Automotive TCU activation procedures and connectivity validation with Cloud Services.`,
-[k.INTELLIGENCE3]: `Integration with Legacy Systems.`,
-[k.INTELLIGENCE4]: `SIM Card data package definition and SIM management.`,
-[k.INTELLIGENCE5]: `Business Monetization - Vehicle high speed data embedded.`,
-[k.INTELLIGENCE6]: `Vehicle Service Activation, update and upgrade methologies.`,
-[k.INTELLIGENCE7]: `Automotive ecosystem development & integration.`,
-[k.INTELLIGENCE8]: `3rd Part Platform Integration.`,
-[k.INTELLIGENCE9]: `Customer Service / Subscription engagement .`,
-[k.INTELLIGENCE10]: `Customized Design of OEMs App.`,
-[k.INTELLIGENCE11]: `Vehicle data harmonization and much more .............`,
+[k.INTELLIGENCE_HEAD]: `Pointer Automotive Intelligence Services, connects the existing
+                        and future 5G wireless networks that enables vehicles and
+                        smart devices, installed by the OEMs, to communicate in intelligent
+                        mode and analyses real-time data to optimize vehicle experience.
+                        Intelligent services allows the OEMs to securely start challenging
+                        projects with the support of our package of Intelligence solutions.
+                        An overview of the Pointer Automotive Intelligence Services are bellow:`,
+[k.INTELLIGENCE1]: `Recall Management: Save millions of dollars in Recall advertising
+                    and management by direct communication with your relevant vehicle
+                    owners in case of Recalls, structuring digital reports about recall
+                    evolution and customer acknowledges.`,
+[k.INTELLIGENCE2]: `Collision and theft rate per region, medical / breakdown
+                    service utilization rate per region, among other intelligence report services.`,
+[k.INTELLIGENCE3]: `Business Intelligence: Customized BI development for operations and business management.`,
+[k.INTELLIGENCE4]: `Electric Vehicle Management: Keep customers updated about charging
+                    location (private and and OEM partners updated about key location
+                    for charging installation. Notify customer about charging remaining time.`,
+[k.INTELLIGENCE5]: `Warranty Management: Deep analysis of vehicle diagnosis information drives to
+                    efficient mechanisms of informing customers, dealers and save a considerable
+                    ammout of resources.`,
+[k.INTELLIGENCE6]: `Marketing Management: Helps the OEMs to manage leads, vehicle
+                    conditions for negotiations of a new one, send real-time information
+                    to customers based on driving behavior, region of driving, promotions on
+                    important items for the vehicle, etc. Ex: Vehicle reaching oil / tires usage limit - inform
+                    customers about promotions or benefits of replacing it on time in a dealer site.`,
+[k.INTELLIGENCE7]: ``,
+[k.INTELLIGENCE8]: ``,
+[k.INTELLIGENCE9]: ``,
+[k.INTELLIGENCE10]: ``,
+[k.INTELLIGENCE11]: ``,
+[k.ELECTRIC_HEAD]: `Pointer Automotive Intelligence Services, connects the existing
+                        and future 5G wireless networks that enables vehicles and
+                        smart devices, installed by the OEMs, to communicate in intelligent
+                        mode and analyses real-time data to optimize vehicle experience.
+                        Intelligent services allows the OEMs to securely start challenging
+                        projects with the support of our package of Intelligence solutions.
+                        An overview of the Pointer Automotive Intelligence Services are bellow:`,
+[k.ELECTRI1]: `Recall Management: Save millions of dollars in Recall advertising
+                    and management by direct communication with your relevant vehicle
+                    owners in case of Recalls, structuring digital reports about recall
+                    evolution and customer acknowledges.`,
+[k.ELECTRI2]: `Collision and theft rate per region, medical / breakdown
+                    service utilization rate per region, among other intelligence report services.`,
+[k.ELECTRI3]: `Business Intelligence: Customized BI development for operations and business management.`,
+[k.ELECTRI4]: `Electric Vehicle Management: Keep customers updated about charging
+                    location (private and and OEM partners updated about key location
+                    for charging installation. Notify customer about charging remaining time.`,
+[k.ELECTRI5]: `Warranty Management: Deep analysis of vehicle diagnosis information drives to
+                    efficient mechanisms of informing customers, dealers and save a considerable
+                    ammout of resources.`,
+[k.ELECTRI6]: `Marketing Management: Helps the OEMs to manage leads, vehicle
+                    conditions for negotiations of a new one, send real-time information
+                    to customers based on driving behavior, region of driving, promotions on
+                    important items for the vehicle, etc. Ex: Vehicle reaching oil / tires usage limit - inform
+                    customers about promotions or benefits of replacing it on time in a dealer site.`,
+[k.ELECTRI7]: ``,
+[k.ELECTRI8]: ``,
+[k.ELECTRI9]: ``,
+[k.ELECTRI10]: ``,
+[k.ELECTRI11]: ``,
 
 };
 export { portuguese };
