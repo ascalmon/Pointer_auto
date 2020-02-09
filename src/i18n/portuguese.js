@@ -3,26 +3,45 @@ const k = require('./keys');
 const portuguese =  {
   [k.WHAT_WE_DO]: `O que Fazemos`,
   [k.STORY_ABOUT_US]: `Nossa História`,
-  [k.ABOUT_PART_1]: `Mais de 25 anos reescrevendo regras MRM.`,
-  [k.ABOUT_PART_2]: `Mais de 25 anos reescrevendo regras MRM.
-                  Nossa inovadora e confiável plataforma de software, baseada em nuvem, extrai e captura
-                  todos os dados de pontos de críticos da sua organização - do seu escritório, motoristas,
-                  rotas, pontos de interesse, rede logística, veículos, reboques, contêineres,
-                  e carga. Em seguida, executa um importante passo de analisa e
-                  converter dados brutos em informações valiosas. O que você recebe é valioso e intuitivo
-                  . O tipo de informação que afeta substancialmente seus resultados, para ajudá-lo a não
-                  apenas sustentar o seu negócio, mas aumenta-lo lucrativamente.`,
-  [k.ABOUT_PART_3]: `Entendemos que não existem duas frotas iguais. E que cada cliente nosso é
-                   único e tratado como tal. São nossos parceiros e recebem seus próprios
-                   analistas dedicados a tarefa singular que é aumentar o valor de seus
-                   negócios. Isso nos permite fornecer com precisão as informações necessárias
-                   e isso causa um impacto real e positivo.`,
-  [k.ABOUT_PART_4]: `É o nosso compromisso e abordagem focada no mercado
-                  que nos permite ajudar nossos clientes a reduzirem custos,
-                  proteger ativos, ganhar eficiência, melhorar recursos na
-                  utilização, minimizar fraudes e, o mais importante: salvar vidas, impedindo
-                  acidentes.`,
-  [k.ABOUT_PART_5]: `ABOUT_PART_5`,
+  [k.ABOUT_PART_1]: `A Pointer Automotive faz parte da PowerFleet, líder mundial
+                    e provedor de IoT sem fio com base em assinatura e Machine-to-Machine
+                    soluções para proteger, controlar, rastrear e gerenciar ativos
+                    da empresa.`,
+  [k.ABOUT_PART_2]: `Power Fleet e Pointer têm mais de 25 anos de experiência 
+                    fornecendo produtos e soluções inovadores e confiáveis ​​para
+                    diferentes segmentos. A Pointer Automotive fornece soluções
+                    especializadas e personalizadas e serviços para OEMs na
+                    indústria automotiva, com foco em Veículos conectados e
+                    serviços de mobilidade.`,
+  [k.ABOUT_PART_3]: `Entendemos que não há duas frotas iguais. E que cada cliente nosso é 
+                    único e tratado como tal. Eles são nossos parceiros e recebem seus próprios 
+                    analistas dedicados à tarefa singular que é aumentar o valor de seu negócio.
+                    Isso nos permite fornecer com precisão as informações necessárias e isso
+                    causa um impacto real.`,
+  [k.ABOUT_PART_4]: `É nosso compromisso uma abordagem focada no mercado que nos permita
+                    ajudar nossos clientes a reduzir custos, proteger ativos,
+                    obter eficiência, melhorar a utilização de recursos, minimizar
+                    a fraude e, o mais importante: salvar vidas prevenindo acidentes.`,
+  [k.ABOUT_PART_5]: `• Serviços digitais do cliente, por meio de um pacote abrangente
+                    de serviços para cobrir a saúde do veículo, automação de
+                    lembretes de manutenção do veículo, informações de "recalls",
+                    manual digital do veículo, suporte ao cliente 24 horas por dia,
+                    7 dias por semana, em caso de acidente, recuperação de veículos
+                    roubados e outros serviços de suporte ao cliente.`,
+  [k.ABOUT_PART_6]: `• Experiência de conectividade do cliente através
+                    acesso à internet de alta velocidade já incorporado no veículo, permitindo a
+                    extensão de serviços e entretenimento on-line durante viagens individuais e familiares.`,
+  [k.ABOUT_PART_7]: `• Marketing no veículo, permitindo que os OEMs fabricantes de
+                    veículos expandam seu acesso ao mercado por meio da tecnologia
+                    de veículos conectados.`,
+  [k.ABOUT_PART_8]:  `• Lealdade do cliente, permitindo uma nova criação de ecossistema
+                      de serviços automotivos, conectando fornecedores de serviços
+                      terceirizados em uma única plataforma.`,
+  [k.ABOUT_PART_9]: `• Gerenciamento de frota privada dos OEM automáticamente, capturando da
+                      base instalada de veículos, dados de diagnóstico do veículo em tempo real,
+                      ajudando os OEMs a gerenciar insights ​​que substancialmente
+                      impactem os negócios, no tempo de colocação no mercado de soluções e a
+                      melhoria no desenvolvimento de futuros veículos e soluções.`,
   [k.POINTER_IS_PART_OF_THE_GLOBAL]: `Pointer faz parte da empresa global de Internet Industrial das Coisas
                 PowerFleet ® Inc (NASDAQ: PWFL).`,
   [k.POWERFLEET_IS_A_WORLDWIDE_LEAD]: `A PowerFleet é líder e fornecedora mundial de sistemas sem fio baseados

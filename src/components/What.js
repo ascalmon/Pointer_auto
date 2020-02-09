@@ -20,9 +20,9 @@ class What extends Component {
         <div className="container-wrap">
           <p className="what-subheading">{i18n.t(k.CONNECTED_VEHICLES)}</p>
           <img className="img-fluid what-image" src={what1} alt="Man in Office"></img>
-          <hr className="what-red-line"></hr>
+          <p className="work-subheading">{i18n.t(k.SOME_OF_OUR_WORK)}</p>
+          <hr className="work-red-line"></hr>
           <p className="text-center lorem">{i18n.t(k.CONNECTED_HEADER)}</p>
-          <hr className="what-red-line"></hr>
           <div className="grid-what-container">
             <div className="grid-what-item1">
             <div>

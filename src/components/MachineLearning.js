@@ -1,4 +1,4 @@
-import i18n from 'i18next';import k from "./../i18n/keys"; // React Component - Artificial Intelligence
+import i18n from 'i18next';import k from "./../i18n/keys"; // React Component - Machine Learning
 
 // ============ React Dependencies ========
 
@@ -6,16 +6,11 @@ import React, { Component } from 'react';
 
 // ============ Image Imports =============
 
-// import ml_header from '../assets/ml_image_header.jpeg';
-// import ml1 from '../assets/ml_image_1.jpeg';
-//import ml2 from '../assets/ml_image_2.jpeg';
 import ml2 from '../assets/ml_image_6.jpg';
-// import ml3 from '../assets/ml_image_3.jpeg';
-//import ml4 from '../assets/ml_image_4.jpeg';
 import ml4 from '../assets/ml_image_5.jpg';
 import arrow_up from '../assets/up-arrow.svg';
 import focus from '../assets/focus.svg';
-//import arrow_up1 from '../assets/arrow_up_blue.png';
+
 // ============ About Component ==========
 
 class Machine_learning extends Component {
@@ -30,17 +25,11 @@ class Machine_learning extends Component {
               <img src={ml4} style={{width: '50%'}} alt="Machine Learning" />
               <p className="what-subheading">{i18n.t(k.MACHINE_LEARNING)}</p>
             </div>
-
             <hr className="about-red-line"></hr>
-
-
               <p className="text-center lorem"><strong>
                 {i18n.t(k.IN_THE_AUTOMOTIVE_INDUSTRY_MA)}
                 </strong>
               </p>
-
-              <hr className="about-red-line"></hr>
-
               <div className="grid-what-container">
                 <div className="grid-what-item1">
                   <div>

@@ -6,12 +6,7 @@ import React, { Component } from 'react';
 
 // ============ Image Imports =============
 
-//import ai_header from '../assets/ia_image_header.jpeg';
 import ai_header from '../assets/ia_image_header1.jpg';
-// import ai1 from '../assets/ia_image_1.jpeg';
-// import ai2 from '../assets/ia_image_2.jpeg';
-// import ai3 from '../assets/ia_image_3.jpeg';
-//import ai4 from '../assets/ia_image_4.jpeg';
 import ai4 from '../assets/ia_image_5.jpg';
 import focus from '../assets/focus.svg';
 
@@ -27,7 +22,7 @@ class Artificial_intelligence extends Component {
             <div className="about">
             <div className="topic-header">
               <p className="what-subheading">{i18n.t(k.TECHNOLOGY)}</p>
-              <img src={ai_header} style={{width: '40%'}} alt="Artificial Intelligence" />
+              <img src={ai_header} style={{width: '50%'}} alt="Artificial Intelligence" />
               <p className="what-subheading">{i18n.t(k.ARTIFICIAL_INTELLIGENCE)}</p>
             </div>
               <hr className="about-red-line"></hr>
@@ -36,7 +31,6 @@ class Artificial_intelligence extends Component {
                   {i18n.t(k.SOFTWARE_HARDWARE_AND_SERVIC)}
                   </strong>
                 </p>
-                <hr className="about-red-line"></hr>
                 <div className="grid-what-container">
                   <div className="grid-what-item1">
                     <div>
