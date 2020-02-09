@@ -295,41 +295,41 @@ const spanish = {
                   of driver-centric features. Connected-car technology make vehicles
                   more attractive with features like car health-check, vehicle status
                   indicators, smartphone Apps,and other convenient features.`,
-                  [k.TELEMATICS_HEADER]: `The Pointer Automotive cloud based platform is called Pointer Connect™
-                                          and is an Intelligent Cloud Based SW Platform that normalizes different
-                                          sources of raw data into a well-structured information center,
-                                          generating insights and formatted information to feed OEMs, Dealer´s
-                                          network, OEM´ customers and key business partners as insurance companies,
-                                          financial groups and other relevant automotive players.`,
-                  [k.TELEMATICS1]: `Flexible architecture ready to integrate with OEM´s Manufacturing,
-                                    Marketing, Sales, Planning and other specific applications.`,
-                  [k.TELEMATICS2]: `powerful tool to enable OEMs to customize and develop unique
-                                    features, implemented smoothly, in phases, unlocking hidden
-                                    data information in the new Digital Automotive Environment.
-                                    System flexibility allows development from Fleet & Mobility
-                                    Service Applications, customized to your needs, to
-                                    Machine Learning and Artificial Intelligence.`,
-                  [k.TELEMATICS3]: `Manages secure links to professional databases, created specifically
-                                    to store OEM´s customer data in a secure environment guaranteeing
-                                    privacy of the user´s data.`,
-                  [k.TELEMATICS4]: `Business improvements by harmonizing, structuring and correlating
-                                    vehicle raw data into relevant information, your entire business
-                                    can be enhanced, enabling significant improvements in a new vehicle launching`,
-                  [k.TELEMATICS5]: `Build your own App in a customized and scalable way to generate new revenue business
-                                    opportunities for data monetization and digital service implementation.`,
-                  [k.TELEMATICS6]: `Full integration with vehicle's electronic modules through devices that
-                                    sense changes in the vehicle behavior and feed the PConnect™ with
-                                    information for the driver and the OEMs.`,
-                  [k.TELEMATICS7]: ``,
-                  [k.TELEMATICS8]: ``,
-[k.TCU1]: `TCU 1`,
-[k.TCU2]: `TCU 2`,
-[k.TCU3]: `TCU 3`,
-[k.TCU4]: `TCU 4`,
-[k.TCU5]: `TCU 5`,
-[k.TCU6]: `TCU 6`,
-[k.TCU7]: `TCU 7`,
-[k.TCU8]: `TCU 8`,
+[k.TELEMATICS_HEADER]: `The Pointer Automotive cloud based platform is called Pointer Connect™
+                        and is an Intelligent Cloud Based SW Platform that normalizes different
+                        sources of raw data into a well-structured information center,
+                        generating insights and formatted information to feed OEMs, Dealer´s
+                        network, OEM´ customers and key business partners as insurance companies,
+                        financial groups and other relevant automotive players.`,
+[k.TELEMATICS1]: `Flexible architecture ready to integrate with OEM´s Manufacturing,
+                  Marketing, Sales, Planning and other specific applications.`,
+[k.TELEMATICS2]: `powerful tool to enable OEMs to customize and develop unique
+                  features, implemented smoothly, in phases, unlocking hidden
+                  data information in the new Digital Automotive Environment.
+                  System flexibility allows development from Fleet & Mobility
+                  Service Applications, customized to your needs, to
+                  Machine Learning and Artificial Intelligence.`,
+[k.TELEMATICS3]: `Manages secure links to professional databases, created specifically
+                  to store OEM´s customer data in a secure environment guaranteeing
+                  privacy of the user´s data.`,
+[k.TELEMATICS4]: `Business improvements by harmonizing, structuring and correlating
+                  vehicle raw data into relevant information, your entire business
+                  can be enhanced, enabling significant improvements in a new vehicle launching`,
+[k.TELEMATICS5]: `Build your own App in a customized and scalable way to generate new revenue business
+                  opportunities for data monetization and digital service implementation.`,
+[k.TELEMATICS6]: `Full integration with vehicle's electronic modules through devices that
+                  sense changes in the vehicle behavior and feed the PConnect™ with
+                  information for the driver and the OEMs.`,
+[k.TELEMATICS7]: ``,
+[k.TELEMATICS8]: ``,
+[k.TCU1]: `High performance quad core processor.`,
+[k.TCU2]: `Bluetooth 4.1 (Low Energy).`,
+[k.TCU3]: `USB, Ethernet,WiFi (802.11 a/b/g/n) 2.4 GHz with Hotspot.`,
+[k.TCU4]: `Scalable NAD 4G Cat12 to 5G`,
+[k.TCU5]: `Scalable eMMC - 512MB to 1GB and RAM - 4GB to 16GB`,
+[k.TCU6]: `Embedded LINUX Operating System `,
+[k.TCU7]: `Options to DSRC.`,
+[k.TCU8]: `Options to Ethernet switch and C-V2X`,
 [k.DONGLES1]: `High performance quad core Qualcomm processor.`,
 [k.DONGLES2]: `Bluetooth 4.1 (Low Energy), 4G/LTE.`,
 [k.DONGLES3]: `USB, Ethernet,WiFi (802.11 a/b/g/n) 2.4 GHz with Hotspot.`,
