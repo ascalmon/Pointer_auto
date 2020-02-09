@@ -26,6 +26,7 @@ import Counter from './components/Counter';
 import What from './components/What';
 import Testimonial from './components/Testimonial';
 import Work from './components/Work';
+import Professional from './components/Professional';
 import ArtificialIntelligence from './components/ArtificialIntelligence';
 import MachineLearning from './components/MachineLearning';
 import Telematics from './components/Telematics';
@@ -66,21 +67,23 @@ function App() {
         </div>
         <Counter />
         <Design />
-        <Bar text="Design"/>
+        <Bar />
         <ArtificialIntelligence />
         <MachineLearning />
-        <Bar text="Technology"/>
+        <Bar />
         <What />
-        <Bar text="Connected Vehicles"/>
+        <Bar />
         <Testimonial />
         <Work />
-        <Bar text="Features"/>
+        <Bar />
+        <Professional />
+        <Bar />
         <Electricals/>
-        <Bar text="Eletrical Vehicles"/>
+        <Bar />
         <Telematics />
-        <Bar text="Telematics"/>
+        <Bar />
         <Certifications/>
-        <Bar text="Certifications"/>
+        <Bar />
         <Contact />
         <Footer/>
       </div>);

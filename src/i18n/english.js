@@ -311,6 +311,37 @@ const english = {
 [k.DONGLES7]: `DONGLES 7`,
 [k.DONGLES8]: `DONGLES 8`,
 [k.SELECT_ONE]: `Select One`,
+[k.QUOTE]: 'Project Quote',
+[k.NEW_PROJECT]: 'New Project',
+[k.SUGGESTIONS]: 'Suggestions',
+[k.TECHNICAL_SUPPORT]: 'Technical Support',
+[k.FEEDBACK]: 'Feedback',
+[k.FLEET_MNGT]: `Fleet Management`,
+[k.DRIVER_BEHAVIOR]: `Driver behavior`,
+[k.ROAD]: `Road Conditions`,
+[k.SMART_APPS]: `Smart Apps`,
+[k.PREDICTIVE]: `Predictive Maintenance`,
+[k.CAR_SHARING]: `Car Sharing`,
+[k.PROFESSIONAL_HEAD]: `In the digital Era, Services need to be simple, friendly
+                        and automatized. New technologies bring new kind of customers,
+                        who expect quick answers. Customers are more connected with
+                        technology and expect to have everything in a toutch of a button.
+
+                        Pointer Professional Services is a 24 x 7 hs Support Center
+                        available to attend OEM's customers based on established procedures,
+                        with a relyable Service Level Agreement (SLA) and scripts defined with
+                        Automotive Customers. The Connected Vehicle Service
+                        should come together with Customer Care Services for
+                        Support and Emergency during working hours or 24 x 7 hs.`,
+[k.PROFESSIONAL1]: `PROFESSIONAL 1`,
+[k.PROFESSIONAL2]: `PROFESSIONAL 2`,
+[k.PROFESSIONAL3]: `PROFESSIONAL 3`,
+[k.PROFESSIONAL4]: `PROFESSIONAL 4`,
+[k.PROFESSIONAL5]: `PROFESSIONAL 5`,
+[k.PROFESSIONAL6]: `PROFESSIONAL 6`,
+[k.PROFESSIONAL7]: `PROFESSIONAL 7`,
+[k.PROFESSIONAL8]: `PROFESSIONAL 8`,
+[k.PROFESSIONAL9]: `PROFESSIONAL 9`,
 
 }
 export { english };

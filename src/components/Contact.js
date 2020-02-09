@@ -71,11 +71,11 @@ class Contact extends Component {
                       <label className="contact-label" htmlFor="sel1">{i18n.t(k.REASON_FOR_YOUR_CONTACT)}</label>
                       <select className="form-control contact-select" id="sel1">
                         <option className="contact-input" active="true">{i18n.t(k.SELECT_ONE)}</option>
-                        <option className="contact-input">Quotation</option>
-                        <option className="contact-input">New Project</option>
-                        <option className="contact-input">Suggestions</option>
-                        <option className="contact-input">Technical Support</option>
-                        <option className="contact-input">Feedback</option>
+                        <option className="contact-input">{i18n.t(k.QUOTE)}</option>
+                        <option className="contact-input">{i18n.t(k.NEW_PROJECT)}</option>
+                        <option className="contact-input">{i18n.t(k.SUGGESTIONS)}</option>
+                        <option className="contact-input">{i18n.t(k.TECHNICAL_SUPPORT)}</option>
+                        <option className="contact-input">{i18n.t(k.FEEDBACK)}</option>
                       </select>
                       <label className="contact-label" htmlFor="message">{i18n.t(k.YOUR_MESSAGE)}</label>
                       <textarea className="contact-textarea" id="message" name="message"></textarea>

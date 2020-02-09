@@ -6,11 +6,13 @@ import React, { Component } from 'react';
 
 // ============ Image Imports =============
 
-import ai_header from '../assets/ia_image_header.jpeg';
+//import ai_header from '../assets/ia_image_header.jpeg';
+import ai_header from '../assets/ia_image_header1.jpg';
 // import ai1 from '../assets/ia_image_1.jpeg';
 // import ai2 from '../assets/ia_image_2.jpeg';
 // import ai3 from '../assets/ia_image_3.jpeg';
-import ai4 from '../assets/ia_image_4.jpeg';
+//import ai4 from '../assets/ia_image_4.jpeg';
+import ai4 from '../assets/ia_image_5.jpg';
 import focus from '../assets/focus.svg';
 
 

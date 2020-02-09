@@ -8,10 +8,11 @@ import React, { Component } from 'react';
 
 // import ml_header from '../assets/ml_image_header.jpeg';
 // import ml1 from '../assets/ml_image_1.jpeg';
-import ml2 from '../assets/ml_image_2.jpeg';
+//import ml2 from '../assets/ml_image_2.jpeg';
+import ml2 from '../assets/ml_image_6.jpg';
 // import ml3 from '../assets/ml_image_3.jpeg';
-import ml4 from '../assets/ml_image_4.jpeg';
-
+//import ml4 from '../assets/ml_image_4.jpeg';
+import ml4 from '../assets/ml_image_5.jpg';
 import arrow_up from '../assets/up-arrow.svg';
 import focus from '../assets/focus.svg';
 //import arrow_up1 from '../assets/arrow_up_blue.png';
@@ -26,7 +27,7 @@ class Machine_learning extends Component {
 
             <div className="topic-header">
               <p className="what-subheading">{i18n.t(k.TECHNOLOGY)}</p>
-              <img src={ml4} style={{width: '40%'}} alt="Machine Learning" />
+              <img src={ml4} style={{width: '50%'}} alt="Machine Learning" />
               <p className="what-subheading">{i18n.t(k.MACHINE_LEARNING)}</p>
             </div>
 

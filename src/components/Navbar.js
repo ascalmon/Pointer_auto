@@ -79,8 +79,8 @@ function Navbar() {
                 <div className="dropdown">
                   <button className="nav-link dropdown-nav" data-toggle="dropdown">{i18n.t(k.SERVICES)}</button>
                   <div className="dropdown-menu">
-                    <a className="dropdown-item drop-item" href="#service">{i18n.t(k.PROFESSIONAL)}</a>
-                    <a className="dropdown-item drop-item" href="#design">{i18n.t(k.CONSULTING)}</a>
+                    <a className="dropdown-item drop-item" href="#professional">{i18n.t(k.PROFESSIONAL)}</a>
+                    <a className="dropdown-item drop-item" href="#work">{i18n.t(k.CONSULTING)}</a>
                     <a className="dropdown-item drop-item" href="#electricals">{i18n.t(k.INTELLIGENCE)}</a>
                     <a className="dropdown-item drop-item" href="#artificial_intelligence">{i18n.t(k.CORPORATE_FLEET)}</a>
                   </div>

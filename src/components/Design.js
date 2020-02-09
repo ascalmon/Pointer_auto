@@ -10,6 +10,8 @@ import React, { Component } from 'react';
 
 import iPhone from '../assets/hpe_app.png';
 import connectedCar from '../assets/design_image_1.png';
+//import design from '../assets/design_image_3.jpg';
+import design from '../assets/design_image_4.png';
 //import connectedCar1 from '../assets/design_image_2.png';
 import focus from '../assets/focus.svg';
 // ============ Design Component ==========
@@ -23,8 +25,11 @@ class Design extends Component {
       <React.Fragment>
         <section id="design">
         <div className="container-wrap">
+          <p className=" design-subheading">{i18n.t(k.UNIQUE_DESIGN)}</p>
+          <img className="img-fluid design-image" src={design} alt="Man in Office"></img>
           <div className="grid-design-container">
-            <p className="grid-design-item0 design-subheading">{i18n.t(k.FOR_ALL_DEVICES)} - {i18n.t(k.UNIQUE_DESIGN)}</p>
+            <p className="grid-design-item0 design-subheading">{i18n.t(k.FOR_ALL_DEVICES)}</p>
+            <hr className="what-red-line"></hr>
             <div className="grid-design-item2">
               <div className="card design-tablets">
                 <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.HEADUNITS)}</p>
