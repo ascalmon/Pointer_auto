@@ -23,6 +23,8 @@ class Footer extends Component {
       <React.Fragment>
         <section id="footer">
           <div className="row">
+            <hr />
+            <hr />
             <div className="row about-text">
               <span className="title-footer">{i18n.t(k.POINTER)}&nbsp;</span>
               <img className="logo-footer" alt="Pointer Logo" src={logo_notext} width="100" />
@@ -30,9 +32,9 @@ class Footer extends Component {
             </div>
             <div className="footer">
             <div className="footer-text">
-              <p> <a className="nav-link" href="#about">{i18n.t(k.ABOUT_US)}</a> </p>
-              <p> <a className="nav-link" href="#home">{i18n.t(k.INDUSTRIES)}</a> </p>
-              <p> <a className="nav-link" href="#service">{i18n.t(k.SOLUTIONS)}</a> </p>
+              <p> <a className="nav-link " href="#about">{i18n.t(k.ABOUT_US)}</a> </p>
+              <p> <a className="nav-link " href="#home">{i18n.t(k.INDUSTRIES)}</a> </p>
+              <p> <a className="nav-link " href="#service">{i18n.t(k.SOLUTIONS)}</a> </p>
             </div>
             <div className="footer-text">
               <p> <a className="nav-link" href="#home">{i18n.t(k.INVESTOR_RELATIONS)}</a> </p>
@@ -41,25 +43,25 @@ class Footer extends Component {
             </div>
             <div className="footer-text">
               <p> <a className="nav-link"
-               href="https://www.pointer.com/privacy-policy/">Privacy Policy>
+               href="https://www.pointer.com/privacy-policy/">
                {i18n.t(k.PRIVACY_POLICY)}</a> </p>
               <p> <a className="nav-link" href="#home">{i18n.t(k.COOKIES_POLICY)}</a> </p>
               <p> <a className="nav-link" href="#home">{i18n.t(k.TERMS_OF_SERVICE)}</a> </p>
             </div>
             <div></div>
-            <div>
-            <a href="https://www.youtube.com/watch?v=eL9iHmtv5fw" className="youtube social">
-               <FontAwesomeIcon icon={faYoutube} size="2x"/>
-            </a>
-            <a href="https://www.facebook.com/" className="facebook social">
-              <FontAwesomeIcon icon={faFacebook} size="2x" />
-            </a>
-            <a href="https://www.twitter.com" className="twitter social">
-              <FontAwesomeIcon icon={faTwitter} size="2x" />
-            </a>
-            <a href="https://www.instagram.com" className="instagram social">
-              <FontAwesomeIcon icon={faInstagram} size="2x" />
-            </a>
+            <div class="footer-social">
+              <a href="https://www.youtube.com/watch?v=eL9iHmtv5fw" className="youtube social">
+                 <FontAwesomeIcon icon={faYoutube} size="2x"/>
+              </a>
+              <a href="https://www.facebook.com/" className="facebook social">
+                <FontAwesomeIcon icon={faFacebook} size="2x" />
+              </a>
+              <a href="https://www.twitter.com" className="twitter social">
+                <FontAwesomeIcon icon={faTwitter} size="2x" />
+              </a>
+              <a href="https://www.instagram.com" className="instagram social">
+                <FontAwesomeIcon icon={faInstagram} size="2x" />
+              </a>
             </div>
 
             </div>
