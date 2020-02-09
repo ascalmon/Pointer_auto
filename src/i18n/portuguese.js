@@ -443,6 +443,32 @@ const portuguese =  {
 [k.ELECTRIC9]: ``,
 [k.ELECTRIC10]: ``,
 [k.ELECTRIC11]: ``,
+[k.MOBILITY_TITLE]: 'Mobilidade',
+[k.MOBILITY_HEAD]: `Automotive industry transformation drives OEM´s to diversified
+                    business offering beyond vehicle sales. Vehicle short and long
+                    term leasing, Car Sharing and other Vehicle Collaborative Use
+                    business model drives OEM to the era of Mobility Services.`,
+[k.MOBILITY1]: `Pointer Connect helps OEM´s to operate and manage Mobility Services
+                in real time, assuring fleet full visibility, security and control.`,
+[k.MOBILITY2]: `Open API´s engage different Mobility Ecosystem partners as Specialized
+                CRM System, Ticket Fine Systems, Car Sharing Platform, Fuel Card
+                Companies, financial institution and insurance company partners,
+                among others to consume and make available valuable data.
+                Pointer Connect harmonize all the data in a single customized Mobility
+                 Service Business Intelligence (BI) Dashboard.`,
+[k.MOBILITY3]: `Machine Learning (ML) engine helps OEM, OEM Dealers Mobility
+                Service Partners and other OEM Mobility Business Partners to
+                use valuable information to have actionable insights to
+                substantially impact bottom line business performance,
+                sustainable business growth and customer satisfaction.`,
+[k.MOBILITY4]: `Building Blocks Service Dashboard in the picture:`,
+[k.MOBILITY5]: ``,
+[k.MOBILITY6]: ``,
+[k.MOBILITY7]: ``,
+[k.MOBILITY8]: ``,
+[k.MOBILITY9]: ``,
+[k.MOBILITY10]: ``,
+[k.MOBILITY11]: ``,
 
 };
 export { portuguese };

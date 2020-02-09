@@ -23,6 +23,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Design from './components/Design';
 import Counter from './components/Counter';
+import Mobility from './components/Mobility';
 import What from './components/What';
 import Testimonial from './components/Testimonial';
 import Work from './components/Work';
@@ -69,6 +70,8 @@ function App() {
         </div>
         <Counter />
         <Design />
+        <Bar />
+        <Mobility />
         <Bar />
         <ArtificialIntelligence />
         <MachineLearning />
