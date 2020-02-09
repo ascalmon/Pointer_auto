@@ -9,10 +9,11 @@ import React, { Component } from 'react';
 
 
 import iPhone from '../assets/hpe_app.png';
+import iPhone1 from '../assets/App2.jpg';
+import iPhone2 from '../assets/App3.jpg';
 import connectedCar from '../assets/design_image_1.png';
-//import design from '../assets/design_image_3.jpg';
 import design from '../assets/design_image_4.png';
-//import connectedCar1 from '../assets/design_image_2.png';
+import connectedCar1 from '../assets/design_image_5.jpg';
 import focus from '../assets/focus.svg';
 // ============ Design Component ==========
 
@@ -48,7 +49,7 @@ class Design extends Component {
 
             <div className="grid-design-item3">
               <div>
-                <img className="img-fluid card  design-tablets-image" src={connectedCar}  alt="iPad" />
+                <img className="img-fluid card  design-tablets-image" src={connectedCar1}  alt="iPad" />
               </div>
               <div className=" card design-tablets">
                 <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.DESIGN_APP1)}</p>
@@ -75,8 +76,8 @@ class Design extends Component {
               </div>
               <div>
                 <img className="img-fluid card our-app" src={iPhone}  alt="iPad" />
-                <img className="img-fluid card our-app" src={iPhone}  alt="iPad" />
-                <img className="img-fluid card our-app" src={iPhone}  alt="iPad" />
+                <img className="img-fluid card our-app" src={iPhone1}  alt="iPad" />
+                <img className="img-fluid card our-app" src={iPhone2}  alt="iPad" />
               </div>
             </div>
           </div>

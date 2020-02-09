@@ -45,7 +45,6 @@ class Corporate extends Component {
                       <p className="corporate-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.CORPORATE3)}</p>
                       <p className="corporate-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.CORPORATE4)}</p>
                       <p className="corporate-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.CORPORATE5)}</p>
-
                         </div>
                   </div>
                 </div>

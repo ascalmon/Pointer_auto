@@ -10,6 +10,8 @@ import React, { Component } from 'react';
 
 
 import iPhone from '../assets/hpe_app.png';
+import iPhone1 from '../assets/App2.jpg';
+import iPhone2 from '../assets/App3.jpg';
 import pconnect from '../assets/Pconnect.jpg';
 import tcu from '../assets/TCU.jpg';
 import dongles from '../assets/Dongles.jpg';
@@ -42,8 +44,8 @@ class Telematics extends Component {
               <div>
                 <img className="img-fluid card design-tablets-image" src={pconnect}  alt="iPad" />
                 <img className="img-fluid card our-app" src={iPhone}  alt="iPad" />
-                <img className="img-fluid card our-app" src={iPhone}  alt="iPad" />
-                <img className="img-fluid card our-app" src={iPhone}  alt="iPad" />
+                <img className="img-fluid card our-app" src={iPhone1}  alt="iPad" />
+                <img className="img-fluid card our-app" src={iPhone2}  alt="iPad" />
               </div>
 
             </div>
