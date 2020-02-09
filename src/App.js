@@ -43,6 +43,8 @@ import './App.scss';
 
 // ============ APP =============
 //
+//
+//
 
 function App() {
   if ('lng' in localStorage){

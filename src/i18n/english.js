@@ -408,9 +408,10 @@ const english = {
                         and future 5G wireless networks that enables vehicles and
                         smart devices, installed by the OEMs, to communicate in intelligent
                         mode and analyses real-time data to optimize vehicle experience.
-                        Intelligent services allows the OEMs to securely start challenging
-                        projects with the support of our package of Intelligence solutions.
-                        An overview of the Pointer Automotive Intelligence Services are bellow:`,
+                        Electrical, semi-autonomous and autonomous vehicles need close
+                        supervision to offer a reliable and enjoyable experience to the users.
+                        Pointer Automotive is ready to play this role in this new and exciting segment.
+                        An overview of the Pointer Automotive Electrical vehicles Services are bellow:`,
 [k.ELECTRIC1]: `Monitoring Hardware and software failures. Electronic systems fail due to false sensors,
                noise in signals and software errors. Electric vehicles will certainly have failures that
                could cause crashes, Pointer Automotive can analyze data and take quick actions to avoid

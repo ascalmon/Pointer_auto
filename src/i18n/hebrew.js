@@ -390,9 +390,10 @@ const hebrew = {
                         and future 5G wireless networks that enables vehicles and
                         smart devices, installed by the OEMs, to communicate in intelligent
                         mode and analyses real-time data to optimize vehicle experience.
-                        Intelligent services allows the OEMs to securely start challenging
-                        projects with the support of our package of Intelligence solutions.
-                        An overview of the Pointer Automotive Intelligence Services are bellow:`,
+                        Electrical, semi-autonomous and autonomous vehicles need close
+                        supervision to offer a reliable and enjoyable experience to the users.
+                        Pointer Automotive is ready to play this role in this new and exciting segment.
+                        An overview of the Pointer Automotive Electrical vehicles Services are bellow:`,
 [k.ELECTRIC1]: `Monitoring Hardware and software failures. Electronic systems fail due to false sensors,
                noise in signals and software errors. Electric vehicles will certainly have failures that
                could cause crashes, Pointer Automotive can analyze data and take quick actions to avoid
@@ -400,8 +401,14 @@ const hebrew = {
 [k.ELECTRIC2]: `Electric Vehicle Management: Keep customers updated about charging
                location (private and and OEM partners updated about key location
                for charging installation. Notify customer about charging remaining time`,
-[k.ELECTRIC3]: ``,
-[k.ELECTRIC4]: ``,
+[k.ELECTRIC3]: `Services provided by Pointer Automotive: Battery reports, Remaining range
+                Driver data analytics, DTCs notifications, Customized alerts, Mileage reports,
+                Remote diagnoses, Warranty management monitoring, OTA / FOTA, Charger status,
+                Charging Public / Private locations, Remote charger resets, Smart charging,
+                Best route based on charger locations, etc.`,
+[k.ELECTRIC4]: `Integration with the Battery Monitoring System. BMS provides status information in real
+                time to vehicle owners and send that information to the cloud to be processed
+                and trigger actions to provide the best user experience to the vehicle owners.`,
 [k.ELECTRIC5]: ``,
 [k.ELECTRIC6]: ``,
 [k.ELECTRIC7]: ``,
