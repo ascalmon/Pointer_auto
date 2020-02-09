@@ -133,7 +133,7 @@ html {
 
 @media screen and (max-width: 1024px) {
   .nav-link {
-    font-size: 3vh;
+    font-size: 2.3vh;
     margin: 0 0.6vh; } }
 
 @media screen and (max-width: 768px) {
@@ -1210,6 +1210,30 @@ button.dropdown-nav {
   color: #394e6f;
   font-size: 1.5em; }
 
+.contact-submit {
+  width: 100%; }
+
+@media screen and (max-width: 375px) {
+  .contact-submit {
+    text-align: center;
+    width: 60%; } }
+
+.contact-textarea {
+  width: 100%; }
+
+@media screen and (max-width: 375px) {
+  .contact-textarea {
+    text-align: center;
+    width: 60%; } }
+
+.contact-select {
+  width: 100%; }
+
+@media screen and (max-width: 375px) {
+  .contact-select {
+    text-align: center;
+    width: 60%; } }
+
 .contact-greeting {
   font-family: "DIN W01 Bold";
   font-size: 44px;
@@ -1229,19 +1253,43 @@ p.contact-header {
   color: #394e6f;
   text-align: left; }
 
+@media screen and (max-width: 768px) {
+  p.contact-header {
+    text-align: center; } }
+
+@media screen and (max-width: 375px) {
+  p.contact-header {
+    font-size: 1.4em;
+    text-align: left; } }
+
 .contact-input {
   border: solid 1px #394e6f;
-  width: 100%; }
+  width: 500px;
+  width: 100%;
+  color: #394e6f !important; }
+
+@media screen and (max-width: 1024px) {
+  .contact-input {
+    width: 100%; } }
 
 @media screen and (max-width: 768px) {
   .contact-input {
-    width: 360px;
-    margin-left: 20px; } }
+    width: 100%; } }
+
+@media screen and (max-width: 375px) {
+  .contact-input {
+    width: 300px;
+    margin-left: 10px; } }
 
 .grid-contact-item1 {
   grid-area: form;
   display: grid;
   grid-template-columns: auto auto; }
+
+@media only screen and (max-width: 1024px) {
+  .grid-contact-item1 {
+    display: grid;
+    grid-template-columns: 1fr; } }
 
 .grid-contact-item2 {
   grid-area: address; }
@@ -1255,9 +1303,14 @@ p.contact-header {
   grid-template-areas: "form" "address" "bottom";
   grid-gap: 15px; }
 
+@media only screen and (max-width: 1024px) {
+  .grid-contact-container {
+    display: grid;
+    grid-template-columns: 1fr; } }
+
 .contact-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr; }
+  grid-template-columns: 1fr; }
 
 @media screen and (max-width: 1400px) {
   .contact-grid {
@@ -1266,6 +1319,10 @@ p.contact-header {
 
 .contact-text {
   text-align: center; }
+
+@media screen and (max-width: 375px) {
+  .contact-text {
+    text-align: left; } }
 
 hr {
   width: 50%; }
@@ -1291,9 +1348,9 @@ hr {
   margin: -1vh;
   color: #394e6f; }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 375px) {
   .title-footer {
-    font-size: 40px;
+    font-size: 30px;
     margin-left: auto;
     margin-right: auto; } }
 

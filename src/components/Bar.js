@@ -1,18 +1,12 @@
-import i18n from 'i18next';import k from "./../i18n/keys"; // React Component - Testimonial
-
 // ============ React Dependencies ========
 
 import React, { Component } from 'react';
 
 // ============ Image Imports =============
 
-// import speechbubble from '../assets/speechbubble.png';
 
 
-// ============ Testimonial Component =====
-
-import end from '../assets/bar_image_1.png';
-
+// ============ Bar Component =====
 
 class Bar extends Component {
 
@@ -27,6 +21,5 @@ class Bar extends Component {
 
   }
 }
-
 
 export default Bar;

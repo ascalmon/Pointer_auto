@@ -203,7 +203,7 @@ $pointer: #394e6f;
 
 @media screen and (max-width: 1024px) {
   .nav-link {
-    font-size: 3vh;
+    font-size: 2.3vh;
     margin: 0 0.6vh;
   }
 }
@@ -1622,12 +1622,45 @@ button.dropdown-nav {
   margin-right: auto;
   margin-top: 70px;
   background-color: transparent;
-
 }
+
 
 .contact-label {
   color: $pointer;
   font-size: 1.5em;
+}
+
+.contact-submit {
+  width: 100%;
+}
+
+@media screen and (max-width: 375px) {
+  .contact-submit {
+  text-align: center;
+  width: 60%;
+  }
+}
+
+.contact-textarea {
+  width: 100%;
+}
+
+@media screen and (max-width: 375px) {
+  .contact-textarea{
+  text-align: center;
+  width: 60%;
+  }
+}
+
+.contact-select {
+  width: 100%;
+}
+
+@media screen and (max-width: 375px) {
+  .contact-select{
+  text-align: center;
+  width: 60%;
+  }
 }
 
 
@@ -1649,26 +1682,50 @@ div.contact-header {
 	text-align: center;
 }
 
-p.contact-header {
+p.contact-header{
 	font-size: 1.7em;
 	font-family: $powerfleet_font;
-	//margin: 0 auto;
-	//margin-top: 30px;
 	width: auto;
 	color: $pointer;
 	text-align: left;
 }
 
+@media screen and (max-width: 768px) {
+  p.contact-header {
+  text-align: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  p.contact-header {
+    font-size: 1.4em;
+    text-align: left;
+  }
+}
+
 .contact-input {
   border: solid 1px $pointer;
-  //width: 500px;
+  width: 500px;
   width: 100%;
+  color: $pointer !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .contact-input {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .contact-input {
-    width: 360px;
-    margin-left: 20px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .contact-input {
+    width: 300px;
+    margin-left: 10px;
   }
 }
 
@@ -1678,6 +1735,13 @@ p.contact-header {
   grid-template-columns: auto auto;
 }
 
+@media only screen and (max-width: 1024px) {
+  .grid-contact-item1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
 .grid-contact-item2 {
   grid-area: address;
 }
@@ -1685,6 +1749,7 @@ p.contact-header {
 .grid-contact-item3 {
   grid-area: bottom;
 }
+
 
 .grid-contact-container {
   display: grid;
@@ -1696,11 +1761,16 @@ p.contact-header {
   grid-gap: 15px;
 }
 
-
+@media only screen and (max-width: 1024px) {
+  .grid-contact-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
 
 .contact-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 
 @media screen and (max-width: 1400px) {
@@ -1713,8 +1783,13 @@ p.contact-header {
 }
 
 .contact-text {
-  //background: url('./assets/forest.png') no-repeat center center / cover;
   text-align: center;
+}
+
+@media screen and (max-width: 375px) {
+  .contact-text {
+  text-align: left;
+  }
 }
 
 hr {
@@ -1738,6 +1813,8 @@ hr {
   padding: 20px 0 0 20px;
 }
 
+
+
 .footer-social {
   padding-bottom: 20px;
 }
@@ -1754,9 +1831,9 @@ hr {
   color: $pointer;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 375px) {
   .title-footer {
-    font-size: 40px;
+    font-size: 30px;
     margin-left: auto;
     margin-right: auto;
   }

@@ -69,7 +69,7 @@ class Contact extends Component {
                 <div className="grid-contact-container">
                     <div className="form-group">
                       <label className="contact-label" htmlFor="sel1">{i18n.t(k.REASON_FOR_YOUR_CONTACT)}</label>
-                      <select className="form-control" id="sel1">
+                      <select className="form-control contact-select" id="sel1">
                         <option className="contact-input" active="true">{i18n.t(k.SELECT_ONE)}</option>
                         <option className="contact-input">Quotation</option>
                         <option className="contact-input">New Project</option>
@@ -78,14 +78,14 @@ class Contact extends Component {
                         <option className="contact-input">Feedback</option>
                       </select>
                       <label className="contact-label" htmlFor="message">{i18n.t(k.YOUR_MESSAGE)}</label>
-                      <textarea id="message" name="message"></textarea>
-                      <input type="submit" value={i18n.t(k.SEND_MESSAGE)} />
+                      <textarea className="contact-textarea" id="message" name="message"></textarea>
+                      <input className="contact-submit" type="submit" value={i18n.t(k.SEND_MESSAGE)} />
                     </div>
                   </div>
               </form>
 
 
-              <div className="card contact-card" style={{width: '35rem', height: '50rem'}}>
+              <div className="card contact-card contact-grid" style={{width: '35rem', height: '50rem'}}>
                 <img className="card-img-top" src={office_image} alt="Company address"/>
                 <div className="card-body">
                   <div className="contact-text">

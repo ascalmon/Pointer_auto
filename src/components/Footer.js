@@ -49,7 +49,7 @@ class Footer extends Component {
               <p> <a className="nav-link" href="#home">{i18n.t(k.TERMS_OF_SERVICE)}</a> </p>
             </div>
             <div></div>
-            <div class="footer-social">
+            <div className="footer-social">
               <a href="https://www.youtube.com/watch?v=eL9iHmtv5fw" className="youtube social">
                  <FontAwesomeIcon icon={faYoutube} size="2x"/>
               </a>
