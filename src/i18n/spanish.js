@@ -281,6 +281,7 @@ const spanish = {
                   of driver-centric features. Connected-car technology make vehicles
                   more attractive with features like car health-check, vehicle status
                   indicators, smartphone Apps,and other convenient features.`,
+[k.TELEMATICS_HEADER]: `Telematics Header`,
 [k.TELEMATICS1]: `Telematics 1`,
 [k.TELEMATICS2]: `Telematics 2`,
 [k.TELEMATICS3]: `Telematics 3`,

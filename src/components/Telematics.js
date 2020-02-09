@@ -10,6 +10,7 @@ import React, { Component } from 'react';
 
 // import iPhone from '../assets/hpe_app.png';
 // import connectedCar from '../assets/design_image_1.png';
+import iPhone from '../assets/hpe_app.png';
 import pconnect from '../assets/Pconnect.jpg';
 import tcu from '../assets/TCU.jpg';
 import dongles from '../assets/Dongles.jpg';
@@ -29,7 +30,7 @@ class Telematics extends Component {
         <p className="grid-design-item0 design-subheading">{i18n.t(k.TELEMATICS_TITLE)}</p>
         <hr className="what-red-line"></hr>
           <div className="grid-design-container">
-          <p className="text-center lorem">{i18n.t(k.CONNECTED_HEADER)}</p>
+          <strong><p className="text-center lorem">{i18n.t(k.TELEMATICS_HEADER)}</p></strong>
             <div className="grid-design-item2">
               <div className="card design-tablets">
                 <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.TELEMATICS1)}</p>
@@ -38,12 +39,14 @@ class Telematics extends Component {
                 <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.TELEMATICS4)}</p>
                 <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.TELEMATICS5)}</p>
                 <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.TELEMATICS6)}</p>
-                <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.TELEMATICS7)}</p>
-                <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.TELEMATICS8)}</p>
               </div>
               <div>
                 <img className="img-fluid card design-tablets-image" src={pconnect}  alt="iPad" />
+                <img className="img-fluid card our-app" src={iPhone}  alt="iPad" />
+                <img className="img-fluid card our-app" src={iPhone}  alt="iPad" />
+                <img className="img-fluid card our-app" src={iPhone}  alt="iPad" />
               </div>
+
             </div>
 
             <div className="grid-design-item3">

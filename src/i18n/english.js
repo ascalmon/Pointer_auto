@@ -284,14 +284,33 @@ const english = {
                   of driver-centric features. Connected-car technology make vehicles
                   more attractive with features like car health-check, vehicle status
                   indicators, smartphone Apps,and other convenient features.`,
-[k.TELEMATICS1]: `Telematics 1`,
-[k.TELEMATICS2]: `Telematics 2`,
-[k.TELEMATICS3]: `Telematics 3`,
-[k.TELEMATICS4]: `Telematics 4`,
-[k.TELEMATICS5]: `Telematics 5`,
-[k.TELEMATICS6]: `Telematics 6`,
-[k.TELEMATICS7]: `Telematics 7`,
-[k.TELEMATICS8]: `Telematics 8`,
+[k.TELEMATICS_HEADER]: `The Pointer Automotive cloud based platform is called Pointer Connect™
+                        and is an Intelligent Cloud Based SW Platform that normalizes different
+                        sources of raw data into a well-structured information center,
+                        generating insights and formatted information to feed OEMs, Dealer´s
+                        network, OEM´ customers and key business partners as insurance companies,
+                        financial groups and other relevant automotive players.`,
+[k.TELEMATICS1]: `Flexible architecture ready to integrate with OEM´s Manufacturing,
+                  Marketing, Sales, Planning and other specific applications.`,
+[k.TELEMATICS2]: `powerful tool to enable OEMs to customize and develop unique
+                  features, implemented smoothly, in phases, unlocking hidden
+                  data information in the new Digital Automotive Environment.
+                  System flexibility allows development from Fleet & Mobility
+                  Service Applications, customized to your needs, to
+                  Machine Learning and Artificial Intelligence.`,
+[k.TELEMATICS3]: `Manages secure links to professional databases, created specifically
+                  to store OEM´s customer data in a secure environment guaranteeing
+                  privacy of the user´s data.`,
+[k.TELEMATICS4]: `Business improvements by harmonizing, structuring and correlating
+                  vehicle raw data into relevant information, your entire business
+                  can be enhanced, enabling significant improvements in a new vehicle launching`,
+[k.TELEMATICS5]: `Build your own App in a customized and scalable way to generate new revenue business
+                  opportunities for data monetization and digital service implementation.`,
+[k.TELEMATICS6]: `Full integration with vehicle's electronic modules through devices that
+                  sense changes in the vehicle behavior and feed the PConnect™ with
+                  information for the driver and the OEMs.`,
+[k.TELEMATICS7]: ``,
+[k.TELEMATICS8]: ``,
 [k.TCU1]: `TCU 1`,
 [k.TCU2]: `TCU 2`,
 [k.TCU3]: `TCU 3`,
