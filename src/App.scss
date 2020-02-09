@@ -1049,6 +1049,41 @@ $pointer: #394e6f;
   margin-right: auto;
 }
 
+// ============ CONSULTING SERVICES ===============
+//
+//
+.consulting-tablets-image {
+  //display: block;
+  //margin-left: 20px;
+  margin-left:20px;
+  margin-right: 20px;
+  width: 99%;
+  height:  auto;
+  box-shadow: 1px 1px 10px $pointer;
+}
+
+.consulting-textarea {
+  font-family: $powerfleet_font;
+  font-size: 1.4em;
+  color: $pointer;
+  border: 1px solid transparent;
+  width: 95%;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .consulting-textarea {
+    font-size: 1em;
+  }
+}
+
+.consulting-tablets {
+  width: 96%;
+  margin-left: 20px;
+  padding: 5px 0 0px 20px;
+
+  box-shadow: 1px 1px 10px $pointer;
+}
 
 // ============ PROFESSIONAL SERVICES =============
 //
@@ -1410,6 +1445,12 @@ button.dropdown-nav {
   align-items: center;
   display: flex;
   height: 250px;
+}
+
+@media screen and (max-width: 1440px) {
+  .carousel-testimonial {
+    height: 200px;
+  }
 }
 
 .testimonial-inner {

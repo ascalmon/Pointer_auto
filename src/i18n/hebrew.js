@@ -182,6 +182,7 @@ const hebrew = {
   [k.TECHNOLOGY]: 'טכנולוגיה',
   [k.CUSTOMIZATION]: 'התאמות אישיות',
   [k.TELEMATICS]: 'טלמטיקה',
+  [k.TELEMATICS_TITLE]: 'הכוח של הפיתרון שלנו מקצה לקצה',
   [k.HEADUNITS]: 'Integration with OEM Head units - Infotainment devices.',
   [k.TABLETS]: 'Tablets for professional monitoring of your vehicles.',
   [k.SPECIAL]: 'Special devices and OS integration to support your project.',
@@ -252,6 +253,43 @@ const hebrew = {
 [k.ML7]: ``,
 [k.ML8]: ``,
 [k.ML9]: ``,
+[k.TESTIMONIAL1]: `Automakers and dealers want their customers to return to them
+                  so they can raise customer retention throughout a car’s
+                  lifecycle. To accomplish that, they need to know more about
+                  their customers. Dealers can make personalized offers or even send
+                  important push notifications when they need to through a 'Connected car'.`,
+[k.TESTIMONIAL2]: `An added benefit for dealers who rent or lend cars is that they
+                  can quickly locate and monitor mileage on those connected vehicles.
+                  They can also receive alerts when specific vehicles enter —
+                  or leave — pre-set geographic regions.`,
+[k.TESTIMONIAL3]: `Car buyers can get greater value from their investment with a host
+                  of driver-centric features. Connected-car technology make vehicles
+                  more attractive with features like car health-check, vehicle status
+                  indicators, smartphone Apps,and other convenient features.`,
+[k.TELEMATICS1]: `Telematics 1`,
+[k.TELEMATICS2]: `Telematics 2`,
+[k.TELEMATICS3]: `Telematics 3`,
+[k.TELEMATICS4]: `Telematics 4`,
+[k.TELEMATICS5]: `Telematics 5`,
+[k.TELEMATICS6]: `Telematics 6`,
+[k.TELEMATICS7]: `Telematics 7`,
+[k.TELEMATICS8]: `Telematics 8`,
+[k.TCU1]: `TCU 1`,
+[k.TCU2]: `TCU 2`,
+[k.TCU3]: `TCU 3`,
+[k.TCU4]: `TCU 4`,
+[k.TCU5]: `TCU 5`,
+[k.TCU6]: `TCU 6`,
+[k.TCU7]: `TCU 7`,
+[k.TCU8]: `TCU 8`,
+[k.DONGLES1]: `DONGLES 1`,
+[k.DONGLES2]: `DONGLES 2`,
+[k.DONGLES3]: `DONGLES 3`,
+[k.DONGLES4]: `DONGLES 4`,
+[k.DONGLES5]: `DONGLES 5`,
+[k.DONGLES6]: `DONGLES 6`,
+[k.DONGLES7]: `DONGLES 7`,
+[k.DONGLES8]: `DONGLES 8`,
 [k.SELECT_ONE]: `תבחר אחד`,
 [k.QUOTE]: 'ציטוט לפרויקט',
 [k.NEW_PROJECT]: 'פרוייקט חדש',
@@ -274,6 +312,14 @@ const hebrew = {
 [k.PROFESSIONAL7]: `PROFESSIONAL 7`,
 [k.PROFESSIONAL8]: `PROFESSIONAL 8`,
 [k.PROFESSIONAL9]: `PROFESSIONAL 9`,
+[k.CONSULTING1]: `CONSULTING 1`,
+[k.CONSULTING2]: `CONSULTING 2`,
+[k.CONSULTING3]: `CONSULTING 3`,
+[k.CONSULTING4]: `CONSULTING 4`,
+[k.CONSULTING5]: `CONSULTING 5`,
+[k.CONSULTING6]: `CONSULTING 6`,
+[k.CONSULTING7]: `CONSULTING 7`,
+[k.CONSULTING8]: `CONSULTING 8`,
 
 };
 export { hebrew };

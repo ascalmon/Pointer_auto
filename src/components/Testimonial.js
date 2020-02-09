@@ -16,7 +16,7 @@ class Testimonial extends Component {
     return (
       <React.Fragment>
         <div className="testimonial-div">
-          <div className="container">
+          <div className="container-wrap">
             <div id="carouselTestimonialControls" className="carousel slide carousel-testimonial" data-ride="carousel">
               <div className="carousel-inner">
                 <div className="carousel-item active">

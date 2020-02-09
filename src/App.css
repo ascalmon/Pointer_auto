@@ -767,6 +767,31 @@ html {
   margin-left: auto;
   margin-right: auto; }
 
+.consulting-tablets-image {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 99%;
+  height: auto;
+  box-shadow: 1px 1px 10px #394e6f; }
+
+.consulting-textarea {
+  font-family: "DIN W01 Bold";
+  font-size: 1.4em;
+  color: #394e6f;
+  border: 1px solid transparent;
+  width: 95%;
+  margin-left: 20px; }
+
+@media only screen and (max-width: 1440px) {
+  .consulting-textarea {
+    font-size: 1em; } }
+
+.consulting-tablets {
+  width: 96%;
+  margin-left: 20px;
+  padding: 5px 0 0px 20px;
+  box-shadow: 1px 1px 10px #394e6f; }
+
 .professional-textarea {
   font-family: "DIN W01 Bold";
   font-size: 1.4em;
@@ -1027,6 +1052,10 @@ button.dropdown-nav {
   align-items: center;
   display: flex;
   height: 250px; }
+
+@media screen and (max-width: 1440px) {
+  .carousel-testimonial {
+    height: 200px; } }
 
 .testimonial-inner {
   align-items: center;

@@ -13,7 +13,10 @@ import image4 from '../assets/work_image_4.jpeg';
 import image5 from '../assets/work_image_5.jpeg';
 import image6 from '../assets/work_image_6.jpeg';
 
+import consulting from '../assets/consulting_image_1.jpeg';
+
 import work from '../assets/work_image_9.jpg';
+import focus from '../assets/focus.svg';
 
 // ============ Work Component ==========
 
@@ -28,7 +31,28 @@ class Work extends Component {
             <p className="work-subheading">{i18n.t(k.SOME_OF_OUR_WORK)}</p>
             <hr className="work-red-line"></hr>
             <div className="row work-text">
-              <p className="text-center lorem">{i18n.t(k.LOREM_IPSUM_DOLOR_SIT_AMET_CO)}</p>
+              <strong><p className="text-center lorem">{i18n.t(k.CONSULTING_HEAD)}</p></strong>
+            </div>
+          </div>
+
+          <div className="grid-what-container">
+            <div className="grid-what-item1">
+              <div>
+                <img className="img-fluid card consulting-tablets-image" src={consulting}  alt="iPad" />
+              </div>
+              <div className="card consulting-tablets ">
+                <p className="consulting-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.CONSULTING1)}</p>
+                <p className="consulting-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.CONSULTING2)}</p>
+                <p className="consulting-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.CONSULTING3)}</p>
+                <p className="consulting-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.CONSULTING4)}</p>
+                <p className="consulting-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.CONSULTING5)}</p>
+                <p className="consulting-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.CONSULTING6)}</p>
+                <p className="consulting-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.CONSULTING7)}</p>
+                <p className="consulting-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.CONSULTING8)}</p>
+                <p className="consulting-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.CONSULTING9)}</p>
+                <p className="consulting-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.CONSULTING10)}</p>
+                <p className="consulting-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.CONSULTING11)}</p>
+                  </div>
             </div>
           </div>
 

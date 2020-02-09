@@ -72,7 +72,6 @@ function App() {
         <MachineLearning />
         <Bar />
         <What />
-        <Bar />
         <Testimonial />
         <Work />
         <Bar />

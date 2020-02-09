@@ -24,10 +24,12 @@ class Telematics extends Component {
       <React.Fragment>
         <section id="telematics">
         <div className="container-wrap">
-
+        <p className="grid-design-item0 design-subheading">{i18n.t(k.TELEMATICS)}</p>
+        <img className="img-fluid what-image" src={telematics} alt="Man in Office"></img>
+        <p className="grid-design-item0 design-subheading">{i18n.t(k.TELEMATICS_TITLE)}</p>
+        <hr className="what-red-line"></hr>
           <div className="grid-design-container">
-            <p className="grid-design-item0 design-subheading">{i18n.t(k.TELEMATICS)}</p>
-            <img className="img-fluid what-image" src={telematics} alt="Man in Office"></img>
+          <p className="text-center lorem">{i18n.t(k.CONNECTED_HEADER)}</p>
             <div className="grid-design-item2">
               <div className="card design-tablets">
                 <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.TELEMATICS1)}</p>

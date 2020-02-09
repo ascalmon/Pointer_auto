@@ -199,7 +199,8 @@ const english = {
   [k.DESIGN_TECHNOLOGY]: 'Design & Technology',
   [k.TECHNOLOGY]: 'Technology',
   [k.CUSTOMIZATION]: 'Customizations',
-  [k.TELEMATICS]: 'Telematics',
+  [k.TELEMATICS]: `Telematics`,
+  [k.TELEMATICS_TITLE]: `The power of our end-to-end solution`,
   [k.HEADUNITS]: 'Integration with OEM Head units - Infotainment devices.',
   [k.TABLETS]: 'Tablets for professional monitoring of your vehicles.',
   [k.SPECIAL]: 'Special devices and OS integration to support your project.',
@@ -273,19 +274,16 @@ const english = {
 [k.TESTIMONIAL1]: `Automakers and dealers want their customers to return to them
                   so they can raise customer retention throughout a car’s
                   lifecycle. To accomplish that, they need to know more about
-                  their customers. So dealers need to stay in touch with them,
-                  ” Phil said. “With a connected car, dealers can make personalized
-                   offers or even send important push notifications when they need to.`,
+                  their customers. Dealers can make personalized offers or even send
+                  important push notifications when they need to through a 'Connected car'.`,
 [k.TESTIMONIAL2]: `An added benefit for dealers who rent or lend cars is that they
                   can quickly locate and monitor mileage on those connected vehicles.
                   They can also receive alerts when specific vehicles enter —
                   or leave — pre-set geographic regions.`,
-
 [k.TESTIMONIAL3]: `Car buyers can get greater value from their investment with a host
                   of driver-centric features. Connected-car technology make vehicles
-                  more attractive with features like remote car control, car health-check,
-                  vehicle status indicators, smartphone Apps, mobile payments,
-                  and other convenient features.`,
+                  more attractive with features like car health-check, vehicle status
+                  indicators, smartphone Apps,and other convenient features.`,
 [k.TELEMATICS1]: `Telematics 1`,
 [k.TELEMATICS2]: `Telematics 2`,
 [k.TELEMATICS3]: `Telematics 3`,
@@ -342,6 +340,22 @@ const english = {
 [k.PROFESSIONAL7]: `Concierge: Concierge for OEM customers during working hours or 24 x 7 hs.`,
 [k.PROFESSIONAL8]: ``,
 [k.PROFESSIONAL9]: ``,
+[k.CONSULTING_HEAD]: `Pointer team has experience to help OEMs in the whole process
+                      of designing a 'Connected Vehicle' and Mobility Services Strategy.
+                      Design and development support until project rollout.
+                      Below services we can offer to OEMs:`,
+[k.CONSULTING1]: `Connected Vehicle and Mobility Service Package Definition and Customization.`,
+[k.CONSULTING2]: `Manufacturing Automotive TCU activation procedures and connectivity validation with Cloud Services.`,
+[k.CONSULTING3]: `Integration with Legacy Systems.`,
+[k.CONSULTING4]: `SIM Card data package definition and SIM management.`,
+[k.CONSULTING5]: `Business Monetization - Vehicle high speed data embedded.`,
+[k.CONSULTING6]: `Vehicle Service Activation, update and upgrade methologies.`,
+[k.CONSULTING7]: `Automotive ecosystem development & integration.`,
+[k.CONSULTING8]: `3rd Part Platform Integration.`,
+[k.CONSULTING9]: `Customer Service / Subscription engagement .`,
+[k.CONSULTING10]: `Customized Design of OEMs App.`,
+[k.CONSULTING11]: `Vehicle data harmonization and much more .............`,
+
 
 }
 export { english };
