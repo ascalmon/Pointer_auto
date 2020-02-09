@@ -281,15 +281,33 @@ const spanish = {
                   of driver-centric features. Connected-car technology make vehicles
                   more attractive with features like car health-check, vehicle status
                   indicators, smartphone Apps,and other convenient features.`,
-[k.TELEMATICS_HEADER]: `Telematics Header`,
-[k.TELEMATICS1]: `Telematics 1`,
-[k.TELEMATICS2]: `Telematics 2`,
-[k.TELEMATICS3]: `Telematics 3`,
-[k.TELEMATICS4]: `Telematics 4`,
-[k.TELEMATICS5]: `Telematics 5`,
-[k.TELEMATICS6]: `Telematics 6`,
-[k.TELEMATICS7]: `Telematics 7`,
-[k.TELEMATICS8]: `Telematics 8`,
+                  [k.TELEMATICS_HEADER]: `The Pointer Automotive cloud based platform is called Pointer Connect™
+                                          and is an Intelligent Cloud Based SW Platform that normalizes different
+                                          sources of raw data into a well-structured information center,
+                                          generating insights and formatted information to feed OEMs, Dealer´s
+                                          network, OEM´ customers and key business partners as insurance companies,
+                                          financial groups and other relevant automotive players.`,
+                  [k.TELEMATICS1]: `Flexible architecture ready to integrate with OEM´s Manufacturing,
+                                    Marketing, Sales, Planning and other specific applications.`,
+                  [k.TELEMATICS2]: `powerful tool to enable OEMs to customize and develop unique
+                                    features, implemented smoothly, in phases, unlocking hidden
+                                    data information in the new Digital Automotive Environment.
+                                    System flexibility allows development from Fleet & Mobility
+                                    Service Applications, customized to your needs, to
+                                    Machine Learning and Artificial Intelligence.`,
+                  [k.TELEMATICS3]: `Manages secure links to professional databases, created specifically
+                                    to store OEM´s customer data in a secure environment guaranteeing
+                                    privacy of the user´s data.`,
+                  [k.TELEMATICS4]: `Business improvements by harmonizing, structuring and correlating
+                                    vehicle raw data into relevant information, your entire business
+                                    can be enhanced, enabling significant improvements in a new vehicle launching`,
+                  [k.TELEMATICS5]: `Build your own App in a customized and scalable way to generate new revenue business
+                                    opportunities for data monetization and digital service implementation.`,
+                  [k.TELEMATICS6]: `Full integration with vehicle's electronic modules through devices that
+                                    sense changes in the vehicle behavior and feed the PConnect™ with
+                                    information for the driver and the OEMs.`,
+                  [k.TELEMATICS7]: ``,
+                  [k.TELEMATICS8]: ``,
 [k.TCU1]: `TCU 1`,
 [k.TCU2]: `TCU 2`,
 [k.TCU3]: `TCU 3`,
@@ -318,24 +336,56 @@ const spanish = {
 [k.SMART_APPS]: `Smart Apps`,
 [k.PREDICTIVE]: `Mantenimiento predictivo`,
 [k.CAR_SHARING]: `Car Sharing`,
-[k.PROFESSIONAL_HEAD]: `PROFESSIONAL HEAD`,
-[k.PROFESSIONAL1]: `PROFESSIONAL 1`,
-[k.PROFESSIONAL2]: `PROFESSIONAL 2`,
-[k.PROFESSIONAL3]: `PROFESSIONAL 3`,
-[k.PROFESSIONAL4]: `PROFESSIONAL 4`,
-[k.PROFESSIONAL5]: `PROFESSIONAL 5`,
-[k.PROFESSIONAL6]: `PROFESSIONAL 6`,
-[k.PROFESSIONAL7]: `PROFESSIONAL 7`,
-[k.PROFESSIONAL8]: `PROFESSIONAL 8`,
-[k.PROFESSIONAL9]: `PROFESSIONAL 9`,
-[k.CONSULTING1]: `CONSULTING 1`,
-[k.CONSULTING2]: `CONSULTING 2`,
-[k.CONSULTING3]: `CONSULTING 3`,
-[k.CONSULTING4]: `CONSULTING 4`,
-[k.CONSULTING5]: `CONSULTING 5`,
-[k.CONSULTING6]: `CONSULTING 6`,
-[k.CONSULTING7]: `CONSULTING 7`,
-[k.CONSULTING8]: `CONSULTING 8`,
+[k.PROFESSIONAL_HEAD]: `In the digital Era, Services need to be simple, friendly
+                        and automatized. New technologies bring new kind of customers,
+                        who expect quick answers. Customers are more connected with
+                        technology and expect to have everything in a toutch of a button.
+
+                        Pointer Professional Services is a 24 x 7 hs Support Center
+                        available to attend OEM's customers based on established procedures,
+                        with a relyable Service Level Agreement (SLA) and scripts defined with
+                        Automotive Customers. The Connected Vehicle Service
+                        should come together with Customer Care Services for
+                        Support and Emergency during working hours or 24 x 7 hs.`,
+[k.PROFESSIONAL1]: `App Support and Training for OEM Apps and use the best of your App resources.`,
+[k.PROFESSIONAL2]: `Medical Emergencies: Support you and connect you with your parents in case of medical emergency or accidents.`,
+[k.PROFESSIONAL3]: `Breakdown Emergencies: Help your customers to get support in case of vehicle problem. The vehicle can be quickly in your dealers, not in other 3rd part repair centers. `,
+[k.PROFESSIONAL4]: `Stolen Vehicle Recovery: In countries with high theft rates, we provide 24 x 7 hs vehicle recovery service in case of robbery or stolen vehicle. Active risk assessment in boarders or theft risk areas can be an important service to reduce insurance policy price.`,
+[k.PROFESSIONAL5]: `Marketing Campaigns: Support OEM Customers with questions during marketing campaigns directed to OEM Customers Apps.`,
+[k.PROFESSIONAL6]: `Mobility Services: Support customer mobility services field emergency as a 24 x 7 hs emergency center.`,
+[k.PROFESSIONAL7]: `Concierge: Concierge for OEM customers during working hours or 24 x 7 hs.`,
+[k.PROFESSIONAL8]: ``,
+[k.PROFESSIONAL9]: ``,
+[k.CONSULTING_HEAD]: `Pointer team has experience to help OEMs in the whole process
+                      of designing a 'Connected Vehicle' and Mobility Services Strategy.
+                      Design and development support until project rollout.
+                      Below services we can offer to OEMs:`,
+[k.CONSULTING1]: `Connected Vehicle and Mobility Service Package Definition and Customization.`,
+[k.CONSULTING2]: `Manufacturing Automotive TCU activation procedures and connectivity validation with Cloud Services.`,
+[k.CONSULTING3]: `Integration with Legacy Systems.`,
+[k.CONSULTING4]: `SIM Card data package definition and SIM management.`,
+[k.CONSULTING5]: `Business Monetization - Vehicle high speed data embedded.`,
+[k.CONSULTING6]: `Vehicle Service Activation, update and upgrade methologies.`,
+[k.CONSULTING7]: `Automotive ecosystem development & integration.`,
+[k.CONSULTING8]: `3rd Part Platform Integration.`,
+[k.CONSULTING9]: `Customer Service / Subscription engagement .`,
+[k.CONSULTING10]: `Customized Design of OEMs App.`,
+[k.CONSULTING11]: `Vehicle data harmonization and much more .............`,
+[k.INTELLIGENCE_HEAD]: `Pointer team has experience to help OEMs in the whole process
+                      of designing a 'Connected Vehicle' and Mobility Services Strategy.
+                      Design and development support until project rollout.
+                      Below services we can offer to OEMs:`,
+[k.INTELLIGENCE1]: `Connected Vehicle and Mobility Service Package Definition and Customization.`,
+[k.INTELLIGENCE2]: `Manufacturing Automotive TCU activation procedures and connectivity validation with Cloud Services.`,
+[k.INTELLIGENCE3]: `Integration with Legacy Systems.`,
+[k.INTELLIGENCE4]: `SIM Card data package definition and SIM management.`,
+[k.INTELLIGENCE5]: `Business Monetization - Vehicle high speed data embedded.`,
+[k.INTELLIGENCE6]: `Vehicle Service Activation, update and upgrade methologies.`,
+[k.INTELLIGENCE7]: `Automotive ecosystem development & integration.`,
+[k.INTELLIGENCE8]: `3rd Part Platform Integration.`,
+[k.INTELLIGENCE9]: `Customer Service / Subscription engagement .`,
+[k.INTELLIGENCE10]: `Customized Design of OEMs App.`,
+[k.INTELLIGENCE11]: `Vehicle data harmonization and much more .............`,
 
 };
 export { spanish };

@@ -27,6 +27,7 @@ import What from './components/What';
 import Testimonial from './components/Testimonial';
 import Work from './components/Work';
 import Professional from './components/Professional';
+import Intelligence from './components/Intelligence';
 import ArtificialIntelligence from './components/ArtificialIntelligence';
 import MachineLearning from './components/MachineLearning';
 import Telematics from './components/Telematics';
@@ -76,6 +77,8 @@ function App() {
         <Work />
         <Bar />
         <Professional />
+        <Bar />
+        <Intelligence />
         <Bar />
         <Electricals/>
         <Bar />
