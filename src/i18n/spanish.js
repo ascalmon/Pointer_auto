@@ -470,6 +470,80 @@ const spanish = {
 [k.MOBILITY9]: ``,
 [k.MOBILITY10]: ``,
 [k.MOBILITY11]: ``,
+[k.CUSTOMIZATIONS_TITLE]: 'Personalizaciones',
+[k.CUSTOMIZATIONS_HEAD]: `The new Era of Connected Vehicles and Services is
+                          transforming customer behavior in an unprecedent
+                          speed. The way you communicate and interact with
+                          you customers makes all difference to continue being
+                          relevant in the future. Our Mobility & Customized
+                          Services helps you to build your own App
+                          (Mobile Applications) in a customized and scalable
+                          way to generate new revenue business opportunities for
+                          data monetization and digital service implementation.`,
+[k.CUSTOMIZATIONS1]: `Some services that can be generated to your customers:`,
+[k.CUSTOMIZATIONS2]: `Vehicle Health: Daily vehicle checklist. Your customer
+                      know vehicle is safety for next trip.`,
+[k.CUSTOMIZATIONS3]: `Curfew: Get alerts if your vehicle starts moving in
+                      forbidden hours independent where you are.`,
+[k.CUSTOMIZATIONS4]: `Driver Behavior: Enhance yearly customer insurance policies
+                      price. Help your customers and families to have safety in
+                      their heart. Provide them last trip drive behavior and
+                      smart drive feedback.`,
+[k.CUSTOMIZATIONS5]: `Estimated Time of Arrival: Calculate your arrival time and
+                      share with your parents or friends using best routing system.`,
+[k.CUSTOMIZATIONS6]: `Preventive Maintenance:  Maintenance Remind. Digital
+                      Vehicle Maintenance Schedule with the Dealers.`,
+[k.CUSTOMIZATIONS7]: `Anchor: Protect your vehicle! Get real time alerts if your
+                      car  start moving. Your insurance know you care about your
+                      assets. `,
+[k.CUSTOMIZATIONS8]: `Group Interaction: Share defined notification to your family
+                      or friend group about you and your car during your trips. `,
+[k.CUSTOMIZATIONS9]: `Internet & Entertainment: Be updated! Extend Customer
+                      connectivity experience from the house and office to the car.
+                      Offer them high speed internet (Wi-Fi, BT, LTE, 5G)
+                      embedded in the vehicle. `,
+[k.CUSTOMIZATIONS10]: `Recall Management: Save time and resources in Recall
+                      advertising by direct communication with your relevant
+                      vehicle owners in case of Recalls.`,
+[k.CUSTOMIZATIONS11]: `Keyless backup: Open your car with your App with security
+                      code in case you lose it.`,
+[k.CUSTOMIZATIONS12]: `Market Place: Let your customer get all from your App.
+                      Engage them with fuel, parking, parts & pieces promotions
+                      using real time data informations. `,
+[k.CUSTOMIZATIONS13]: `Colision Notification: Let your customer program automatic notification in case of collision! `,
+[k.CUSTOMIZATIONS14]: `Electric Vehicle Management: Keep customers updated about
+                      charging location, vehicle autonomy.`,
+[k.CUSTOMIZATIONS15]: `Everything that you think that can be explored
+                      about vehicle information. Our expertize in customizations
+                      let you dream with the App your customers deserve.`,
+[k.CORPORATE_TITLE]: 'Flota corporativa',
+[k.CORPORATE_HEAD]: `The new Era of Connected Vehicles and Services is
+                          transforming customer behavior in an unprecedent
+                          speed. The way you communicate and interact with
+                          you customers makes all difference to continue being
+                          relevant in the future. Our Mobility & Customized
+                          Services helps you to build your own App
+                          (Mobile Applications) in a customized and scalable
+                          way to generate new revenue business opportunities for
+                          data monetization and digital service implementation.`,
+[k.CORPORATE1]: `Some services that can be generated to your customers:`,
+[k.CORPORATE2]: `Vehicle Health: Daily vehicle checklist. Your customer
+                      know vehicle is safety for next trip.`,
+[k.CORPORATE3]: `Curfew: Get alerts if your vehicle starts moving in
+                      forbidden hours independent where you are.`,
+[k.CORPORATE4]: `Driver Behavior: Enhance yearly customer insurance policies
+                      price. Help your customers and families to have safety in
+                      their heart. Provide them last trip drive behavior and
+                      smart drive feedback.`,
+[k.CORPORATE5]: `Estimated Time of Arrival: Calculate your arrival time and
+                      share with your parents or friends using best routing system.`,
+[k.CORPORATE6]: `Preventive Maintenance:  Maintenance Remind. Digital
+                      Vehicle Maintenance Schedule with the Dealers.`,
+[k.CORPORATE7]: `Anchor: Protect your vehicle! Get real time alerts if your
+                      car  start moving. Your insurance know you care about your
+                      assets. `,
+[k.CORPORATE8]: `Group Interaction: Share defined notification to your family
+                      or friend group about you and your car during your trips. `,
 
 };
 export { spanish };

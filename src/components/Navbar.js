@@ -70,7 +70,7 @@ function Navbar() {
                   <a className="dropdown-item drop-item" href="#mobility">{i18n.t(k.MOBILITY_SERVICES)}</a>
                   <a className="dropdown-item drop-item" href="#design">{i18n.t(k.DESIGN)}</a>
                   <a className="dropdown-item drop-item" href="#artificial_intelligence">{i18n.t(k.TECHNOLOGY)}</a>
-                  <a className="dropdown-item drop-item" href="#artificial_intelligence">{i18n.t(k.CUSTOMIZATION)}</a>
+                  <a className="dropdown-item drop-item" href="#customizations">{i18n.t(k.CUSTOMIZATION)}</a>
                   <a className="dropdown-item drop-item" href="#telematics">{i18n.t(k.TELEMATICS)}</a>
                 </div>
               </div>
@@ -82,7 +82,7 @@ function Navbar() {
                     <a className="dropdown-item drop-item" href="#professional">{i18n.t(k.PROFESSIONAL)}</a>
                     <a className="dropdown-item drop-item" href="#work">{i18n.t(k.CONSULTING)}</a>
                     <a className="dropdown-item drop-item" href="#intelligence">{i18n.t(k.INTELLIGENCE)}</a>
-                    <a className="dropdown-item drop-item" href="#artificial_intelligence">{i18n.t(k.CORPORATE_FLEET)}</a>
+                    <a className="dropdown-item drop-item" href="#corporate">{i18n.t(k.CORPORATE_FLEET)}</a>
                   </div>
                 </div>
               </li>

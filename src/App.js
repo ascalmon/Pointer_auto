@@ -24,6 +24,8 @@ import About from './components/About';
 import Design from './components/Design';
 import Counter from './components/Counter';
 import Mobility from './components/Mobility';
+import Customizations from './components/Customizations';
+import Corporate from './components/Corporate';
 import What from './components/What';
 import Testimonial from './components/Testimonial';
 import Work from './components/Work';
@@ -73,6 +75,8 @@ function App() {
         <Bar />
         <Mobility />
         <Bar />
+        <Customizations />
+        <Bar />
         <ArtificialIntelligence />
         <MachineLearning />
         <Bar />
@@ -87,6 +91,8 @@ function App() {
         <Electric/>
         <Bar />
         <Telematics />
+        <Bar />
+        <Corporate />
         <Bar />
         <Contact />
         <Footer/>
