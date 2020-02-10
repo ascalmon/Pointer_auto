@@ -20,15 +20,16 @@ import React from 'react';
 
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+//import Hero1 from './components/Hero1';
 import About from './components/About';
 import Design from './components/Design';
 import Counter from './components/Counter';
 import Mobility from './components/Mobility';
 import Customizations from './components/Customizations';
 import Corporate from './components/Corporate';
-import What from './components/What';
+import Connected from './components/Connected';
 import Testimonial from './components/Testimonial';
-import Work from './components/Work';
+import Consulting from './components/Consulting';
 import Professional from './components/Professional';
 import Intelligence from './components/Intelligence';
 import Electric from './components/Electric';
@@ -80,9 +81,9 @@ function App() {
         <ArtificialIntelligence />
         <MachineLearning />
         <Bar />
-        <What />
+        <Connected />
         <Testimonial />
-        <Work />
+        <Consulting />
         <Bar />
         <Professional />
         <Bar />

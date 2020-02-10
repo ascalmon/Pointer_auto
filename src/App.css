@@ -23,10 +23,9 @@ html {
 
 .app-header {
   background: url("./assets/front-page.jpg") no-repeat center center/cover;
-  background-color: #FFFFFF;
   display: block;
   font-family: "DIN W01 Bold";
-  height: 100vh;
+  height: auto;
   position: relative;
   background-attachment: fixed;
   background-position: center;
@@ -131,7 +130,7 @@ html {
 
 @media screen and (max-width: 1024px) {
   .nav-menu {
-    font-size: 2.7vh !important;
+    font-size: 2.3vh !important;
     margin: 0 0.6vh !important; } }
 
 @media screen and (max-width: 768px) {
@@ -226,6 +225,9 @@ html {
   .icon {
     font-size: 25px;
     margin: 0 .5vh; } }
+
+.hero1 {
+  width: 100%; }
 
 .carousel-hero {
   background-color: none;
@@ -739,13 +741,6 @@ html {
 .grid-design-cointainer > div {
   text-align: center; }
 
-.connected-car {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  z-index: 8; }
-
 .grid-our-app {
   width: auto;
   display: inline-block; }
@@ -772,7 +767,6 @@ html {
   font-family: "DIN W01 Bold";
   color: #394e6f;
   font-size: 1.5em;
-  border: 1px solid transparent;
   width: 80%;
   margin-left: 20px; }
 
@@ -784,22 +778,19 @@ html {
   width: 99%;
   margin-left: 20px;
   margin-right: 20px;
-  padding: 25px;
-  box-shadow: 1px 1px 10px #394e6f; }
+  padding: 25px; }
 
 .design-tablets-image {
   margin-left: 20px;
   margin-right: 20px;
   width: 99%;
-  height: auto;
-  box-shadow: 1px 1px 10px #394e6f; }
+  height: auto; }
 
 .design-our-app {
   width: 99%;
   margin-left: 20px;
   margin-right: 20px;
-  padding: 25px;
-  box-shadow: 1px 1px 10px #394e6f; }
+  padding: 25px; }
 
 .design-image {
   width: 60%;
@@ -811,14 +802,12 @@ html {
   margin-left: 20px;
   margin-right: 20px;
   width: 99%;
-  height: auto;
-  box-shadow: 1px 1px 10px #394e6f; }
+  height: auto; }
 
 .corporate-textarea {
   font-family: "DIN W01 Bold";
   font-size: 1.2em;
   color: #394e6f;
-  border: 1px solid transparent;
   width: 95%;
   margin-left: 20px; }
 
@@ -829,8 +818,7 @@ html {
 .corporate-tablets {
   width: 96%;
   margin-left: 20px;
-  padding: 5px 0 0px 20px;
-  box-shadow: 1px 1px 10px #394e6f; }
+  padding: 5px 0 0px 20px; }
 
 .corporate-pconnect {
   display: block;
@@ -841,14 +829,12 @@ html {
   margin-left: 20px;
   margin-right: 20px;
   width: 99%;
-  height: auto;
-  box-shadow: 1px 1px 10px #394e6f; }
+  height: auto; }
 
 .customizations-textarea {
   font-family: "DIN W01 Bold";
   font-size: 1.2em;
   color: #394e6f;
-  border: 1px solid transparent;
   width: 95%;
   margin-left: 20px; }
 
@@ -859,21 +845,18 @@ html {
 .customizations-tablets {
   width: 96%;
   margin-left: 20px;
-  padding: 5px 0 0px 20px;
-  box-shadow: 1px 1px 10px #394e6f; }
+  padding: 5px 0 0px 20px; }
 
 .mobility-tablets-image {
   margin-left: 20px;
   margin-right: 20px;
   width: 99%;
-  height: auto;
-  box-shadow: 1px 1px 10px #394e6f; }
+  height: auto; }
 
 .mobility-textarea {
   font-family: "DIN W01 Bold";
   font-size: 1.4em;
   color: #394e6f;
-  border: 1px solid transparent;
   width: 95%;
   margin-left: 20px; }
 
@@ -884,21 +867,18 @@ html {
 .mobility-tablets {
   width: 96%;
   margin-left: 20px;
-  padding: 5px 0 0px 20px;
-  box-shadow: 1px 1px 10px #394e6f; }
+  padding: 5px 0 0px 20px; }
 
 .electric-tablets-image {
   margin-left: 20px;
   margin-right: 20px;
   width: 99%;
-  height: auto;
-  box-shadow: 1px 1px 10px #394e6f; }
+  height: auto; }
 
 .electric-textarea {
   font-family: "DIN W01 Bold";
   font-size: 1.4em;
   color: #394e6f;
-  border: 1px solid transparent;
   width: 95%;
   margin-left: 20px; }
 
@@ -909,19 +889,40 @@ html {
 .electric-tablets {
   width: 96%;
   margin-left: 20px;
-  padding: 5px 0 0px 20px;
-  box-shadow: 1px 1px 10px #394e6f; }
+  padding: 5px 0 0px 20px; }
+
+.telematics-textarea {
+  font-family: "DIN W01 Bold";
+  color: #394e6f;
+  font-size: 1.5em;
+  width: 80%;
+  margin-left: 20px; }
+
+@media only screen and (max-width: 1440px) {
+  .telematics-textarea {
+    font-size: 1em; } }
+
+.telematics-tablets {
+  width: 99%;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 25px; }
+
+.telematics-tablets-image {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 99%;
+  height: auto; }
 
 .intelligence-tablets-image {
-  margin-left: 200px;
+  margin-left: 20px;
   margin-right: 20px;
-  width: 80%;
-  height: auto;
-  box-shadow: 1px 1px 10px #394e6f; }
+  width: 99%;
+  height: auto; }
 
 .intelligence-textarea {
   font-family: "DIN W01 Bold";
-  font-size: 1.4em;
+  font-size: 1.2em;
   color: #394e6f;
   border: 1px solid transparent;
   width: 95%;
@@ -934,21 +935,21 @@ html {
 .intelligence-tablets {
   width: 96%;
   margin-left: 20px;
-  padding: 5px 0 0px 20px;
-  box-shadow: 1px 1px 10px #394e6f; }
+  padding: 5px 0 0px 20px; }
+
+.card {
+  border: none; }
 
 .consulting-tablets-image {
   margin-left: 20px;
   margin-right: 20px;
   width: 99%;
-  height: auto;
-  box-shadow: 1px 1px 10px #394e6f; }
+  height: auto; }
 
 .consulting-textarea {
   font-family: "DIN W01 Bold";
   font-size: 1.4em;
   color: #394e6f;
-  border: 1px solid transparent;
   width: 95%;
   margin-left: 20px; }
 
@@ -959,14 +960,34 @@ html {
 .consulting-tablets {
   width: 96%;
   margin-left: 20px;
-  padding: 5px 0 0px 20px;
-  box-shadow: 1px 1px 10px #394e6f; }
+  padding: 5px 0 0px 20px; }
+
+.connected-tablets-image {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 99%;
+  height: auto; }
+
+.connected-textarea {
+  font-family: "DIN W01 Bold";
+  font-size: 1.4em;
+  color: #394e6f;
+  width: 95%;
+  margin-left: 20px; }
+
+@media only screen and (max-width: 1440px) {
+  .connected-textarea {
+    font-size: 1em; } }
+
+.connected-tablets {
+  width: 96%;
+  margin-left: 20px;
+  padding: 5px 0 0px 20px; }
 
 .professional-textarea {
   font-family: "DIN W01 Bold";
   font-size: 1.4em;
   color: #394e6f;
-  border: 1px solid transparent;
   width: 95%;
   margin-left: 20px; }
 
@@ -977,8 +998,13 @@ html {
 .professional-tablets {
   width: 96%;
   margin-left: 20px;
-  padding: 5px 0 0px 20px;
-  box-shadow: 1px 1px 10px #394e6f; }
+  padding: 5px 0 0px 20px; }
+
+.professional-tablets-image {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 99%;
+  height: auto; }
 
 .grid-what-item0 {
   grid-area: text1; }
@@ -1061,14 +1087,12 @@ html {
 .ai-tablets {
   width: 99%;
   margin-left: 20px;
-  padding: 5px 0 0px 20px;
-  box-shadow: 1px 1px 10px #394e6f; }
+  padding: 5px 0 0px 20px; }
 
 .ai-textarea {
   font-family: "DIN W01 Bold";
   font-size: 1.4em;
   color: #394e6f;
-  border: 1px solid transparent;
   width: 80%;
   margin-left: 20px; }
 
@@ -1076,23 +1100,33 @@ html {
   .ai-textarea {
     font-size: 1em; } }
 
+.ai-tablets-image {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 99%;
+  height: auto; }
+
 .ml-tablets {
   width: 99%;
   margin-left: 20px;
-  padding: 5px 0 0px 20px;
-  box-shadow: 1px 1px 10px #394e6f; }
+  padding: 5px 0 0px 20px; }
 
 .ml-textarea {
   font-family: "DIN W01 Bold";
   font-size: 1.4em;
   color: #394e6f;
-  border: 1px solid transparent;
   width: 80%;
   margin-left: 20px; }
 
 @media only screen and (max-width: 1440px) {
   .ml-textarea {
     font-size: 1em; } }
+
+.ml-tablets-image {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 99%;
+  height: auto; }
 
 .what-we-do {
   align-items: center;
@@ -1156,13 +1190,6 @@ html {
   background: none;
   border: none;
   font-family: "DIN W01 Bold"; }
-
-button.dropdown-nav {
-  background: none;
-  border: none;
-  outline-style: none;
-  outline-color: none;
-  outline-width: 0; }
 
 .contact-image {
   width: 35%;
@@ -1574,7 +1601,7 @@ hr {
 
 .title-footer {
   font-family: "DIN W01 Bold";
-  font-size: 90px;
+  font-size: 8vh;
   font-weight: bold;
   margin: -1vh;
   color: #394e6f; }

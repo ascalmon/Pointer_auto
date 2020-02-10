@@ -7,7 +7,7 @@ import React, { Component } from 'react';
 // ============ Image Imports =============
 
 //import work from '../assets/work_image_9.jpg';
-import intelligence1 from '../assets/intelligence_image_gif_1.gif';
+import intelligence1 from '../assets/intelligence_image_2.jpg';
 
 import intelligence from '../assets/intelligence_image_1.jpg';
 import focus from '../assets/focus.svg';

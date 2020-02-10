@@ -13,7 +13,6 @@ import {
 // ============ Image Imports =============
 
 import logo_notext from '../assets/pointer_logo_notext.svg';
-import footer from '../assets/footer_image_1.jpg';
 
 // ============ Footer Component ==========
 

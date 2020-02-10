@@ -6,7 +6,6 @@ import React, { Component } from 'react';
 
 // ============ Image Imports =============
 
-//import mobility from '../assets/mobility_image_1.jpg';
 import customizations from '../assets/customizations_image_gif_1.gif';
 import customizations1 from '../assets/design_image_5.jpg';
 import customizations2 from '../assets/customizations_image_1.jpg';

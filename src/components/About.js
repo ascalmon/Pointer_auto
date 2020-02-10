@@ -11,7 +11,7 @@ import React, { Component } from 'react';
 // ============ Image Imports =============
 
 import about from '../assets/about_image_2.png';
-import logo from '../assets/pointer_logo.svg';
+
 // ============ About Component ==========
 
 class About extends Component {

@@ -57,17 +57,17 @@ $pointer: #394e6f;
 
 .app-header {
   background: url('./assets/front-page.jpg') no-repeat center center / cover;
-  background-color: $white;
+  //background-color: $white;
   display: block;
   font-family: $powerfleet_font;
-  height: 100vh;
+  height: auto;
   position: relative;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
+
 
 .header-inner {
   height: 100vh;
@@ -209,7 +209,7 @@ $pointer: #394e6f;
 
 @media screen and (max-width: 1024px) {
   .nav-menu{
-    font-size: 2.7vh !important;
+    font-size: 2.3vh !important;
     margin: 0 0.6vh !important;
   }
 }
@@ -344,7 +344,11 @@ $pointer: #394e6f;
 }
 
 // ============ HERO =============
-
+//
+//
+.hero1 {
+  width: 100%;
+}
 .carousel-hero {
   background-color: none;
   color: $white;
@@ -1019,14 +1023,14 @@ $pointer: #394e6f;
 }
 
 
-.connected-car {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  z-index: 8;
-  //border-radius: 15px 15px;
-}
+// .connected-car {
+//   display: block;
+//   margin-left: auto;
+//   margin-right: auto;
+//   width: 90%;
+//   z-index: 8;
+//   //border-radius: 15px 15px;
+// }
 
 .grid-our-app {
   width: auto;
@@ -1058,11 +1062,15 @@ $pointer: #394e6f;
   box-sizing: border-box;
 }
 
+// ================= DESIGN ======================
+//
+//
+
 .design-textarea {
   font-family: $powerfleet_font;
   color: $pointer;
   font-size: 1.5em;
-  border: 1px solid transparent;
+  //border: 1px solid transparent;
   width: 80%;
   margin-left: 20px;
 }
@@ -1078,7 +1086,7 @@ $pointer: #394e6f;
   margin-left: 20px;
   margin-right: 20px;
   padding: 25px;
-  box-shadow: 1px 1px 10px $pointer;
+  //box-shadow: 1px 1px 10px $pointer;
 }
 
 
@@ -1089,7 +1097,7 @@ $pointer: #394e6f;
   margin-right: 20px;
   width: 99%;
   height:  auto;
-  box-shadow: 1px 1px 10px $pointer;
+  //box-shadow: 1px 1px 10px $pointer;
 }
 
 .design-our-app {
@@ -1097,7 +1105,7 @@ $pointer: #394e6f;
   margin-left: 20px;
   margin-right: 20px;
   padding: 25px;
-  box-shadow: 1px 1px 10px $pointer;
+  //box-shadow: 1px 1px 10px $pointer;
   //height: 45vh;
 }
 
@@ -1119,14 +1127,14 @@ $pointer: #394e6f;
   margin-right: 20px;
   width: 99%;
   height:  auto;
-  box-shadow: 1px 1px 10px $pointer;
+  //box-shadow: 1px 1px 10px $pointer;
 }
 
 .corporate-textarea {
   font-family: $powerfleet_font;
   font-size: 1.2em;
   color: $pointer;
-  border: 1px solid transparent;
+  //border: 1px solid transparent;
   width: 95%;
   margin-left: 20px;
 }
@@ -1142,7 +1150,7 @@ $pointer: #394e6f;
   margin-left: 20px;
   padding: 5px 0 0px 20px;
 
-  box-shadow: 1px 1px 10px $pointer;
+  //box-shadow: 1px 1px 10px $pointer;
 }
 
 .corporate-pconnect {
@@ -1162,14 +1170,14 @@ $pointer: #394e6f;
   margin-right: 20px;
   width: 99%;
   height:  auto;
-  box-shadow: 1px 1px 10px $pointer;
+  //box-shadow: 1px 1px 10px $pointer;
 }
 
 .customizations-textarea {
   font-family: $powerfleet_font;
   font-size: 1.2em;
   color: $pointer;
-  border: 1px solid transparent;
+  //border: 1px solid transparent;
   width: 95%;
   margin-left: 20px;
 }
@@ -1185,7 +1193,7 @@ $pointer: #394e6f;
   margin-left: 20px;
   padding: 5px 0 0px 20px;
 
-  box-shadow: 1px 1px 10px $pointer;
+  //box-shadow: 1px 1px 10px $pointer;
 }
 
 // ============ MOBILITY ==========================
@@ -1199,14 +1207,14 @@ $pointer: #394e6f;
   margin-right: 20px;
   width: 99%;
   height:  auto;
-  box-shadow: 1px 1px 10px $pointer;
+  //box-shadow: 1px 1px 10px $pointer;
 }
 
 .mobility-textarea {
   font-family: $powerfleet_font;
   font-size: 1.4em;
   color: $pointer;
-  border: 1px solid transparent;
+  //border: 1px solid transparent;
   width: 95%;
   margin-left: 20px;
 }
@@ -1222,7 +1230,7 @@ $pointer: #394e6f;
   margin-left: 20px;
   padding: 5px 0 0px 20px;
 
-  box-shadow: 1px 1px 10px $pointer;
+  //box-shadow: 1px 1px 10px $pointer;
 }
 
 
@@ -1236,14 +1244,14 @@ $pointer: #394e6f;
   margin-right: 20px;
   width: 99%;
   height:  auto;
-  box-shadow: 1px 1px 10px $pointer;
+  //box-shadow: 1px 1px 10px $pointer;
 }
 
 .electric-textarea {
   font-family: $powerfleet_font;
   font-size: 1.4em;
   color: $pointer;
-  border: 1px solid transparent;
+  //border: 1px solid transparent;
   width: 95%;
   margin-left: 20px;
 }
@@ -1259,8 +1267,47 @@ $pointer: #394e6f;
   margin-left: 20px;
   padding: 5px 0 0px 20px;
 
-  box-shadow: 1px 1px 10px $pointer;
+  //box-shadow: 1px 1px 10px $pointer;
 }
+
+// ============ TELEMATICS ========================
+//
+//
+
+.telematics-textarea {
+  font-family: $powerfleet_font;
+  color: $pointer;
+  font-size: 1.5em;
+  //border: 1px solid transparent;
+  width: 80%;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .telematics-textarea {
+    font-size: 1em;
+  }
+}
+
+.telematics-tablets {
+  width: 99%;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 25px;
+  //box-shadow: 1px 1px 10px $pointer;
+}
+
+
+.telematics-tablets-image {
+  //display: block;
+  //margin-left: 20px;
+  margin-left:20px;
+  margin-right: 20px;
+  width: 99%;
+  height:  auto;
+  //box-shadow: 1px 1px 10px $pointer;
+}
+
 
 // ============ INTELLIGNECE SERVICES =============
 //
@@ -1268,16 +1315,16 @@ $pointer: #394e6f;
 .intelligence-tablets-image {
   //display: block;
   //margin-left: 20px;
-  margin-left:200px;
+  margin-left:20px;
   margin-right: 20px;
-  width: 80%;
+  width: 99%;
   height:  auto;
-  box-shadow: 1px 1px 10px $pointer;
+  //box-shadow: 1px 1px 10px $pointer;
 }
 
 .intelligence-textarea {
   font-family: $powerfleet_font;
-  font-size: 1.4em;
+  font-size: 1.2em;
   color: $pointer;
   border: 1px solid transparent;
   width: 95%;
@@ -1295,7 +1342,11 @@ $pointer: #394e6f;
   margin-left: 20px;
   padding: 5px 0 0px 20px;
 
-  box-shadow: 1px 1px 10px $pointer;
+  //box-shadow: 1px 1px 10px $pointer;
+}
+
+.card {
+  border: none;
 }
 
 // ============ CONSULTING SERVICES ===============
@@ -1308,14 +1359,14 @@ $pointer: #394e6f;
   margin-right: 20px;
   width: 99%;
   height:  auto;
-  box-shadow: 1px 1px 10px $pointer;
+  //box-shadow: 1px 1px 10px $pointer;
 }
 
 .consulting-textarea {
   font-family: $powerfleet_font;
   font-size: 1.4em;
   color: $pointer;
-  border: 1px solid transparent;
+  //border: 1px solid transparent;
   width: 95%;
   margin-left: 20px;
 }
@@ -1331,8 +1382,45 @@ $pointer: #394e6f;
   margin-left: 20px;
   padding: 5px 0 0px 20px;
 
-  box-shadow: 1px 1px 10px $pointer;
+  //box-shadow: 1px 1px 10px $pointer;
 }
+
+// ============ CONNECTED VEHICLES ================
+//
+//
+.connected-tablets-image {
+  //display: block;
+  //margin-left: 20px;
+  margin-left:20px;
+  margin-right: 20px;
+  width: 99%;
+  height:  auto;
+  //box-shadow: 1px 1px 10px $pointer;
+}
+
+.connected-textarea {
+  font-family: $powerfleet_font;
+  font-size: 1.4em;
+  color: $pointer;
+  //border: 1px solid transparent;
+  width: 95%;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .connected-textarea {
+    font-size: 1em;
+  }
+}
+
+.connected-tablets {
+  width: 96%;
+  margin-left: 20px;
+  padding: 5px 0 0px 20px;
+
+  //box-shadow: 1px 1px 10px $pointer;
+}
+
 
 // ============ PROFESSIONAL SERVICES =============
 //
@@ -1341,7 +1429,7 @@ $pointer: #394e6f;
   font-family: $powerfleet_font;
   font-size: 1.4em;
   color: $pointer;
-  border: 1px solid transparent;
+  //border: 1px solid transparent;
   width: 95%;
   margin-left: 20px;
 }
@@ -1357,7 +1445,17 @@ $pointer: #394e6f;
   margin-left: 20px;
   padding: 5px 0 0px 20px;
 
-  box-shadow: 1px 1px 10px $pointer;
+  //box-shadow: 1px 1px 10px $pointer;
+}
+
+.professional-tablets-image{
+  //display: block;
+  //margin-left: 20px;
+  margin-left:20px;
+  margin-right: 20px;
+  width: 99%;
+  height:  auto;
+  //box-shadow: 1px 1px 10px $pointer;
 }
 
 
@@ -1470,19 +1568,21 @@ $pointer: #394e6f;
   box-shadow: 1px 1px 10px $pointer;
 }
 
+// ================= ARTIFICIAL INTELLIGENCE =================
+
 .ai-tablets {
   width: 99%;
   margin-left: 20px;
   padding: 5px 0 0px 20px;
 
-  box-shadow: 1px 1px 10px $pointer;
+  //box-shadow: 1px 1px 10px $pointer;
 }
 
 .ai-textarea {
   font-family: $powerfleet_font;
   font-size: 1.4em;
   color: $pointer;
-  border: 1px solid transparent;
+  //border: 1px solid transparent;
   width: 80%;
   margin-left: 20px;
 }
@@ -1493,19 +1593,31 @@ $pointer: #394e6f;
   }
 }
 
+.ai-tablets-image{
+  //display: block;
+  //margin-left: 20px;
+  margin-left:20px;
+  margin-right: 20px;
+  width: 99%;
+  height:  auto;
+  //box-shadow: 1px 1px 10px $pointer;
+}
+
+// ================ MACHINE LEARNING ===================
+
 .ml-tablets {
   width: 99%;
   margin-left: 20px;
   padding: 5px 0 0px 20px;
 
-  box-shadow: 1px 1px 10px $pointer;
+  //box-shadow: 1px 1px 10px $pointer;
 }
 
 .ml-textarea {
   font-family: $powerfleet_font;
   font-size: 1.4em;
   color: $pointer;
-  border: 1px solid transparent;
+  //border: 1px solid transparent;
   width: 80%;
   margin-left: 20px;
 }
@@ -1515,6 +1627,18 @@ $pointer: #394e6f;
     font-size: 1em;
   }
 }
+
+.ml-tablets-image{
+  //display: block;
+  //margin-left: 20px;
+  margin-left:20px;
+  margin-right: 20px;
+  width: 99%;
+  height:  auto;
+  //box-shadow: 1px 1px 10px $pointer;
+}
+
+// ==========================================
 
 .what-we-do {
   align-items: center;
@@ -1604,30 +1728,12 @@ $pointer: #394e6f;
   font-family: $powerfleet_font;
 }
 
-
-button.dropdown-nav {
-  //padding-top: 8px;
-  background: none;
-  border: none;
-  outline-style: none;
-  outline-color: none;
-  outline-width: 0;
-}
-
-@media screen and (max-width: 768px) {
-  button.dropdown-nav {
-    //padding-top: 6px;
-  }
-}
-
-
 .contact-image {
   width: 35%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
 
 .card-header {
   background-color: transparent;
@@ -2169,7 +2275,7 @@ hr {
 
 .title-footer {
   font-family: $powerfleet_font;
-  font-size: 90px;
+  font-size: 8vh;
   font-weight: bold;
   margin: -1vh;
   color: $pointer;

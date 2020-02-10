@@ -5,11 +5,10 @@ import i18n from 'i18next';import k from "./../i18n/keys"; // React Component - 
 import React, { Component } from 'react';
 
 // ============ Image Imports =============
-
-//import mobility from '../assets/mobility_image_1.jpg';
+//
 import corporate from '../assets/corporate_image_gif_1.gif';
 import corporate1 from '../assets/corporate_image_1.jpeg';
-import pconnect from '../assets/Pconnect.png';
+import pconnect from '../assets/Pconnect_logo.svg';
 import focus from '../assets/focus.svg';
 
 

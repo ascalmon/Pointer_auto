@@ -7,7 +7,6 @@ import React, { Component } from 'react';
 // ============ Image Imports =============
 
 import mobility from '../assets/mobility_image_1.jpg';
-//import mobility1 from '../assets/mobility_image_2.jpg';
 import mobility1 from '../assets/mobility_image_3.jpg';
 import focus from '../assets/focus.svg';
 
@@ -22,9 +21,9 @@ class Mobility extends Component {
           <div className="container-wrap">
             <div className="about">
             <div className="topic-header">
-              <p className="what-subheading">{i18n.t(k.MOBILITY_TITLE)}</p>
+              <p className="what-subheading">{i18n.t(k.MOBILITY_SERVICES)}</p>
               <img src={mobility} style={{width: '50%'}} alt="Artificial Intelligence" />
-              <p className="what-subheading">{i18n.t(k.SOME_OF_OUR_WORK)}</p>
+              <p className="what-subheading">{i18n.t(k.MOBILITY_TITLE)}</p>
             </div>
               <hr className="about-red-line"></hr>
 

@@ -6,9 +6,7 @@ import React, { Component } from 'react';
 
 // ============ Image Imports =============
 
-//import work from '../assets/work_image_9.jpg';
 import professional1 from '../assets/professional_image_2.jpg';
-
 import professional from '../assets/professional_image_1.jpg';
 import focus from '../assets/focus.svg';
 // ============ Work Component ==========
@@ -31,7 +29,7 @@ class Professional extends Component {
           <div className="grid-what-container">
             <div className="grid-what-item1">
               <div>
-                <img className="img-fluid card design-tablets-image" src={professional1}  alt="iPad" />
+                <img className="img-fluid card professional-tablets-image" src={professional1}  alt="iPad" />
               </div>
               <div className="card professional-tablets ">
                 <p className="professional-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.PROFESSIONAL1)}</p>

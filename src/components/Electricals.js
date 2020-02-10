@@ -8,10 +8,6 @@ import React, { Component } from 'react';
 // ============ Image Imports =============
 
 
-// import vehicle1 from '../assets/electricals_image_2.jpeg';
-// import vehicle2 from '../assets/electricals_image_3.jpeg';
-// import vehicle3 from '../assets/electricals_image_4.jpeg';
-
 import electrical from '../assets/electricals_image_1.png';
 
 // ============ About Component ==========
@@ -36,7 +32,7 @@ class Electricals extends Component {
                 </p>
 
               </div>
-                
+
             </div>
           </div>
         </section>

@@ -6,7 +6,6 @@ import React, { Component } from 'react';
 
 // ============ Image Imports =============
 
-// import speechbubble from '../assets/speechbubble.png';
 import chat from '../assets/chat.svg';
 
 // ============ Testimonial Component =====

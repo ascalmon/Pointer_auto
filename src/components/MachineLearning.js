@@ -33,7 +33,7 @@ class Machine_learning extends Component {
               <div className="grid-what-container">
                 <div className="grid-what-item1">
                   <div>
-                    <img className="img-fluid card design-tablets-image" src={ml2}  alt="iPad" />
+                    <img className="img-fluid card ml-tablets-image" src={ml2}  alt="iPad" />
                   </div>
                   <div className="card ml-tablets ">
                     <p className="ml-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.ML1)}</p>

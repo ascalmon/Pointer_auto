@@ -228,6 +228,7 @@ const english = {
   [k.DESIGN_OUR_APP6]: "Group information for safety, information and fun.",
   [k.DESIGN_OUR_APP7]: "Service support at your service.",
   [k.DESIGN_OUR_APP8]: "Breakdown, Medical, Safety Emergencies.",
+  [k.CONNECTED_TITLE]: `Pointer Automotive - Your partner for a 'Connected Solution'`,
   [k.CONNECTED_HEADER]: `Pointer Automotive is working hard in the process of
                         contibute for the Universal definition of 'Connected Vehicle'.
                         Technology is at the heart of the OEM Automotive Industry
@@ -435,7 +436,7 @@ const english = {
 [k.ELECTRIC9]: ``,
 [k.ELECTRIC10]: ``,
 [k.ELECTRIC11]: ``,
-[k.MOBILITY_TITLE]: 'Mobility',
+[k.MOBILITY_TITLE]: 'Mobility - Opportunities for automotive OEMs',
 [k.MOBILITY_HEAD]: `Automotive industry transformation drives OEM´s to diversified
                     business offering beyond vehicle sales. Vehicle short and long
                     term leasing, Car Sharing and other Vehicle Collaborative Use

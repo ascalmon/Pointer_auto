@@ -34,7 +34,7 @@ class Artificial_intelligence extends Component {
                 <div className="grid-what-container">
                   <div className="grid-what-item1">
                     <div>
-                      <img className="img-fluid card design-tablets-image" src={ai4}  alt="iPad" />
+                      <img className="img-fluid card ai-tablets-image" src={ai4}  alt="iPad" />
                     </div>
                     <div className="card ai-tablets ">
                       <p className="ai-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.AI1)}</p>
