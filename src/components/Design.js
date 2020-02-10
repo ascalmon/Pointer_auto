@@ -74,7 +74,7 @@ class Design extends Component {
                 <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.DESIGN_OUR_APP7)}</p>
                 <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.DESIGN_OUR_APP8)}</p>
               </div>
-              <div>
+              <div className="grid-our-app">
                 <img className="img-fluid card our-app" src={iPhone}  alt="iPad" />
                 <img className="img-fluid card our-app" src={iPhone1}  alt="iPad" />
                 <img className="img-fluid card our-app" src={iPhone2}  alt="iPad" />

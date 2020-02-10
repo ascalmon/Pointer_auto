@@ -6,6 +6,7 @@ import React, { Component } from 'react';
 
 import logo_notext from '../assets/pointer_logo_notext.svg';
 
+
 // ============ Hero Component ==========
 
 class Hero extends Component {

@@ -23,6 +23,7 @@ html {
 
 .app-header {
   background: url("./assets/front-page.jpg") no-repeat center center/cover;
+  background-color: #FFFFFF;
   display: block;
   font-family: "DIN W01 Bold";
   height: 100vh;
@@ -619,7 +620,7 @@ html {
     font-size: 40px; } }
 
 .design-div {
-  background: url("./assets/front-page.jpg") no-repeat center center/cover;
+  background-image: url("./assets/front-page.jpg") no-repeat center center/cover;
   display: block;
   font-family: "DIN W01 Bold";
   height: auto;
@@ -744,6 +745,17 @@ html {
   margin-right: auto;
   width: 90%;
   z-index: 8; }
+
+.grid-our-app {
+  width: auto;
+  display: inline-block; }
+
+@media only screen and (max-width: 375px) {
+  .grid-our-app {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    align-items: center; } }
 
 .our-app {
   display: inline-block;
