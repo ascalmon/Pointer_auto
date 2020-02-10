@@ -60,11 +60,11 @@ function Navbar() {
           <div className="collapse navbar-collapse navbar-center" id="navbarSupportedContent">
             <ul className="navbar-nav flex-row ml-auto justify-content-between">
               <li className="nav-item active">
-                <a className="nav-link" href="#about">{i18n.t(k.ABOUT)}</a>
+                <a className="nav-link nav-menu" href="#about">{i18n.t(k.ABOUT)}</a>
               </li>
               <li className="nav-item">
               <div className="dropdown">
-                <button className="nav-link dropdown-nav" data-toggle="dropdown">{i18n.t(k.SOLUTIONS)}</button>
+                <button className="nav-link nav-menu dropdown-nav" data-toggle="dropdown">{i18n.t(k.SOLUTIONS)}</button>
                 <div className="dropdown-menu">
                   <a className="dropdown-item drop-item" href="#service">{i18n.t(k.CONNECTED_VEHICLES)}</a>
                   <a className="dropdown-item drop-item" href="#mobility">{i18n.t(k.MOBILITY_SERVICES)}</a>
@@ -77,7 +77,7 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <div className="dropdown">
-                  <button className="nav-link dropdown-nav" data-toggle="dropdown">{i18n.t(k.SERVICES)}</button>
+                  <button className="nav-link nav-menu dropdown-nav" data-toggle="dropdown">{i18n.t(k.SERVICES)}</button>
                   <div className="dropdown-menu">
                     <a className="dropdown-item drop-item" href="#professional">{i18n.t(k.PROFESSIONAL)}</a>
                     <a className="dropdown-item drop-item" href="#work">{i18n.t(k.CONSULTING)}</a>
@@ -87,7 +87,7 @@ function Navbar() {
                 </div>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#contact">{i18n.t(k.CONTACT)}</a>
+                <a className="nav-link nav-menu" href="#contact">{i18n.t(k.CONTACT)}</a>
               </li>
               <li className="nav-item">
                 <a href="#Search">

@@ -37,7 +37,7 @@ class About extends Component {
                 {i18n.t(k.ABOUT_PART_1)}
               </p>
               <hr className="about-red-line"></hr>
-              <img className="pointer-map" src={about} alt="About us" />
+              <img className="img-fluid design-image" src={about} alt="About us" />
               <p className="about-subheading">{i18n.t(k.WHAT_WE_DO)}</p>
 
             </div>

@@ -13,6 +13,7 @@ import {
 // ============ Image Imports =============
 
 import logo_notext from '../assets/pointer_logo_notext.svg';
+import footer from '../assets/footer_image_1.jpg';
 
 // ============ Footer Component ==========
 
@@ -27,8 +28,8 @@ class Footer extends Component {
             <hr />
             <div className="row about-text">
               <span className="title-footer">{i18n.t(k.POINTER)}&nbsp;</span>
-              <img className="logo-footer" alt="Pointer Logo" src={logo_notext} width="100" />
-              <span className="title-footer"> &nbsp;{i18n.t(k.AUTO)}</span>
+              <img className="logo-footer" alt="Pointer Logo" src={logo_notext} style={{width: "8%"}} />
+              <span className="title-footer"> &nbsp;{i18n.t(k.AUTOMOTIVE)}</span>
             </div>
             <div className="footer">
             <div className="footer-text">

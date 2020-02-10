@@ -46,7 +46,14 @@ $pointer: #394e6f;
 .container-wrap {
   padding-left: 40px;
   padding-right: 40px;
-  scroll-behavior: smooth;
+  //scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 768px) {
+  .container-wrap {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 
 .app-header {
@@ -153,34 +160,77 @@ $pointer: #394e6f;
 @media screen and (max-width: 1024px) {
   .navbar-brand {
     width: 30%;
-    margin-left: 0;
-    margin-right: 0;
+
   }
 }
 
 @media screen and (max-width: 768px) {
   .navbar-brand {
     width: 30%;
-    margin-left: 0;
-    margin-right: 0;
+
   }
 }
 
 @media screen and (max-width: 472px) {
   .navbar-brand {
     width: 40%;
-    margin-left: 0;
-    margin-right: 0;
+
   }
 }
 
 @media screen and (max-width: 375px) {
   .navbar-brand {
-    width: 70%;
-    margin-left: 0;
-    margin-right: 0;
+    width: 80%;
+
   }
 }
+
+.nav-link .nav-menu{
+  border-bottom: 3px solid transparent;
+  color: $white !important;
+  display: block;
+  font-size: 20px;
+  margin: 0 12px;
+  padding: 5px 5px 5px;
+  text-transform: uppercase;
+  width: inherit;
+  font-family: $powerfleet_font;
+  font-weight: normal;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+
+  &:hover {
+    //border-bottom: 4px solid $white;
+    color: $yellow !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-menu{
+    font-size: 2.7vh !important;
+    margin: 0 0.6vh !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-menu{
+    font-size: 2vh !important;
+    margin: 0 1.3vh !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+    .nav-menu{
+      padding: 5px 5px 5px;
+      font-size: 1.4vh !important;
+      margin: 0 .3vh !important;
+    }
+
+}
+
+
+
+
+
 
 
 .nav-link {
@@ -219,7 +269,7 @@ $pointer: #394e6f;
 @media screen and (max-width: 375px) {
   .nav-link {
     padding: 5px 5px 5px;
-    font-size: 2.0vh;
+    font-size: 1.3vh;
     margin: 0 .4vh;
   }
 }
@@ -381,19 +431,19 @@ $pointer: #394e6f;
 
 @media screen and (max-width: 1024px) {
   .title {
-    font-size: 11vh;
+    font-size: 8vh;
   }
 }
 
 @media screen and (max-width: 768px) {
   .title {
-    font-size: 10vh;
+    font-size: 8vh;
   }
 }
 
 @media screen and (max-width: 375px) {
   .title {
-    font-size: 5.5vh;
+    font-size: 4.5vh;
   }
 }
 
@@ -2104,9 +2154,16 @@ hr {
   color: $pointer;
 }
 
+@media screen and (max-width: 768px) {
+  .title-footer {
+    font-size: 6vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 @media screen and (max-width: 375px) {
   .title-footer {
-    font-size: 30px;
+    font-size: 4vh;
     margin-left: auto;
     margin-right: auto;
   }
