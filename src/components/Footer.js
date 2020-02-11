@@ -26,9 +26,8 @@ class Footer extends Component {
             <hr />
             <hr />
             <div className="row about-text">
-              <span className="title-footer">{i18n.t(k.POINTER)}&nbsp;</span>
+              <span className="title-footer">{i18n.t(k.POINTER_AUTOMOTIVE)}&nbsp;</span>
               <img className="logo-footer" alt="Pointer Logo" src={logo_notext} style={{width: "8%"}} />
-              <span className="title-footer"> &nbsp;{i18n.t(k.AUTOMOTIVE)}</span>
             </div>
             <div className="footer">
             <div className="footer-text">

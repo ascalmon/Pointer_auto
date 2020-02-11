@@ -106,6 +106,7 @@ const portuguese =  {
   [k.CREATIVE_AUTO_SOLUTIONS]: `Soluções Criativas Auto`,
   [k.POINTER]: `Pointer`,
   [k.AUTO]: `AUTO`,
+  [k.POINTER_AUTOMOTIVE]: `Pointer Automotive`,
   [k.LEARN_MORE]: `Learn More`,
   [k.CLOUD_BASED_SERVICES]: `Serviços Baseados na Nuvem`,
   [k.OEM]: `OEM`,

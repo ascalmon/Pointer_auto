@@ -101,6 +101,7 @@ const hebrew = {
   [k.CREATIVE_AUTO_SOLUTIONS]: `פתרונות אוטומטיים יצירתיים`,
   [k.POINTER]: `Pointer`,
   [k.AUTO]: `AUTO`,
+  [k.POINTER_AUTOMOTIVE]: `Pointer Automotive`,
   [k.LEARN_MORE]: `למד עוד`,
   [k.CLOUD_BASED_SERVICES]: `שירותים מבוססי ענן`,
   [k.OEM]: `OEM`,

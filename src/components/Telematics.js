@@ -40,7 +40,7 @@ class Telematics extends Component {
               </div>
               <div>
                 <img className="img-fluid card telematics-tablets-image" src={pconnect}  alt="iPad" />
-                <img className="img-fluid card our-app" src={iPhone}  alt="iPad" />
+                <img className="img-fluid card our-app-first" src={iPhone}  alt="iPad" />
                 <img className="img-fluid card our-app" src={iPhone1}  alt="iPad" />
                 <img className="img-fluid card our-app" src={iPhone2}  alt="iPad" />
               </div>

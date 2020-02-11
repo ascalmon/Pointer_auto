@@ -1,13 +1,15 @@
 
 // ============ FONTS =============
-@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat|Montserrat:200i,700|Roboto&display=swap');
+//@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat|Montserrat:200i,700|Roboto&display=swap');
 
 // ============ GENERAL =============
 body,
 html {
   -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
+
+  //overflow: hidden;
 }
 
 // Text VARIABLES
@@ -301,17 +303,17 @@ $pointer: #394e6f;
   width: inherit;
 
   &:hover {
-    color: $yellow;
+    color: $pointer;
   }
 }
 
-.shopping-cart-icon {
-  content: url('https://api.iconify.design/ant-design:shopping-cart-outline.svg?color=%23ffffff&width=20px');
-
-  &:hover {
-    content: url('https://api.iconify.design/ant-design:shopping-cart-outline.svg?color=%23fbe28f&width=20px');
-  }
-}
+// .shopping-cart-icon {
+//   content: url('https://api.iconify.design/ant-design:shopping-cart-outline.svg?color=%23ffffff&width=20px');
+//
+//   &:hover {
+//     content: url('https://api.iconify.design/ant-design:shopping-cart-outline.svg?color=%23fbe28f&width=20px');
+//   }
+// }
 
 .search-icon {
   content: url('https://api.iconify.design/octicon-search.svg?color=%23ffffff&width=18px');
@@ -698,14 +700,12 @@ $pointer: #394e6f;
 	width:30px;
 	height:30px;
 	bottom:20px;
-	right:20px;
+	right:0px;
 	background-color: transparent;
-	//color:#000;
-	//border-radius:10px;
+  z-index: 100;
 	display: none;
 	text-align:center;
 
-	//box-shadow: 2px 2px 3px #999;
   &:hover{
     box-shadow: 2px 2px 6px #999;
   }
@@ -1049,6 +1049,15 @@ $pointer: #394e6f;
 }
 
 .our-app {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: auto;
+  width: 30%;
+  z-index: 8;
+  box-shadow: 1px 1px 10px $pointer;
+  //border-radius: 15px 15px;
+}
+.our-app-first {
   display: inline-block;
   margin-left: 20px;
   margin-right: auto;
@@ -2062,10 +2071,14 @@ $pointer: #394e6f;
 }
 
 
-// Contact
+// ==================== Contact Form =======================
 //
 //
-//
+
+.message-error {
+  color: red;
+}
+
 .contact-card {
   display: block;
   margin-left: auto;
@@ -2218,6 +2231,11 @@ p.contact-header{
   }
 }
 
+.grid-contact-container-submit {
+  display: grid;
+  grid-template-columns: auto;
+}
+
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -2355,36 +2373,6 @@ a.instagram {
 	100% {margin-left: 100%;}
 }
 
-// .fish{
-// 	background-image: url('http://www.geertjanhendriks.nl/codepen/form/fish.png');
-// 	width: 235px;
-// 	height: 104px;
-// 	margin-left: -235px;
-// 	position: absolute;
-// 	animation: myfirst 24s;
-// 	-webkit-animation: myfirst 24s;
-// 	animation-iteration-count: infinite;
-// 	-webkit-animation-iteration-count: infinite;
-// 	animation-timing-function: linear;
-// 	-webkit-animation-timing-function: linear;
-// }
-//
-// #fish{
-// 	top: 120px;
-// }
-//
-// #fish2{
-// 	top: 260px;
-// 	animation-delay: 12s;
-// 	-webkit-animation-delay: 12s;
-// }
-
-
-// header{
-// 	height: 160px;
-// 	background: url('http://www.geertjanhendriks.nl/codepen/form/golf.png') repeat-x bottom;
-// }
-
 #form{
 
 	background-color: transparent;
@@ -2459,25 +2447,3 @@ label{
 	margin-top: 20px;
 	padding-left: 20px;
 }
-// .formgroup, .formgroup-active, .formgroup-error{
-// 	background-repeat: no-repeat;
-// 	background-position: right bottom;
-// 	background-size: 10.5%;
-// 	transition: background-image 0.7s;
-// 	-webkit-transition: background-image 0.7s;
-// 	-moz-transition: background-image 0.7s;
-// 	-o-transition: background-image 0.7s;
-// 	width: 566px;
-// 	padding-top: 2px;
-// }
-
-// .formgroup{
-// 	background-image: url('http://www.geertjanhendriks.nl/codepen/form/pixel.gif');
-// }
-// .formgroup-active{
-// 	background-image: url('http://www.geertjanhendriks.nl/codepen/form/octo.png');
-// }
-// .formgroup-error{
-// 	background-image: url('http://www.geertjanhendriks.nl/codepen/form/octo-error.png');
-// 	color: red;
-// }

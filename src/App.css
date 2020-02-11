@@ -1,9 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat|Montserrat:200i,700|Roboto&display=swap");
 body,
 html {
   -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
-  scroll-behavior: smooth; }
+  scroll-behavior: auto; }
 
 .bar {
   height: 2vh;
@@ -199,12 +198,7 @@ html {
   padding: 10px 2px 5px;
   width: inherit; }
   .icon:hover {
-    color: #fbe28f; }
-
-.shopping-cart-icon {
-  content: url("https://api.iconify.design/ant-design:shopping-cart-outline.svg?color=%23ffffff&width=20px"); }
-  .shopping-cart-icon:hover {
-    content: url("https://api.iconify.design/ant-design:shopping-cart-outline.svg?color=%23fbe28f&width=20px"); }
+    color: #394e6f; }
 
 .search-icon {
   content: url("https://api.iconify.design/octicon-search.svg?color=%23ffffff&width=18px"); }
@@ -507,8 +501,9 @@ html {
   width: 30px;
   height: 30px;
   bottom: 20px;
-  right: 20px;
+  right: 0px;
   background-color: transparent;
+  z-index: 100;
   display: none;
   text-align: center; }
   .float:hover {
@@ -753,6 +748,14 @@ html {
     align-items: center; } }
 
 .our-app {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: auto;
+  width: 30%;
+  z-index: 8;
+  box-shadow: 1px 1px 10px #394e6f; }
+
+.our-app-first {
   display: inline-block;
   margin-left: 20px;
   margin-right: auto;
@@ -1457,6 +1460,9 @@ html {
   margin-left: auto;
   margin-right: auto; }
 
+.message-error {
+  color: red; }
+
 .contact-card {
   display: block;
   margin-left: auto;
@@ -1565,6 +1571,10 @@ p.contact-header {
   .grid-contact-container {
     display: grid;
     grid-template-columns: 1fr; } }
+
+.grid-contact-container-submit {
+  display: grid;
+  grid-template-columns: auto; }
 
 .contact-grid {
   display: grid;

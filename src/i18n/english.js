@@ -102,6 +102,7 @@ const english = {
   [k.CREATIVE_AUTO_SOLUTIONS]: `Creative Auto Solutions`,
   [k.POINTER]: `Pointer`,
   [k.AUTO]: `AUTO`,
+  [k.POINTER_AUTOMOTIVE]: `Pointer Automotive`,
   [k.LEARN_MORE]: `Learn More`,
   [k.CLOUD_BASED_SERVICES]: `Cloud Based Services`,
   [k.OEM]: `OEM`,
