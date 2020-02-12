@@ -90,11 +90,6 @@ function Navbar() {
                 <a className="nav-link nav-menu" href="#contact">{i18n.t(k.CONTACT)}</a>
               </li>
               <li className="nav-item">
-                <a href="#Search">
-                  <span className="iconify icon-nav icon search-icon" data-inline="false"></span>
-                </a>
-              </li>
-              <li className="nav-item">
                 <div className="dropdown">
                   <a className="nav-link dropdown-nav dropdown-lang" href="about:blank" data-toggle="dropdown">{i18n.t(k.LANGUAGES)} {localStorage.getItem('flag')}</a>
                   <div className="dropdown-menu">

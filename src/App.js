@@ -20,7 +20,6 @@ import React from 'react';
 
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-//import Hero1 from './components/Hero1';
 import About from './components/About';
 import Design from './components/Design';
 import Counter from './components/Counter';
