@@ -15,6 +15,11 @@
 
 import React from 'react';
 
+import ReactGA from 'react-ga';
+//import auth from './auth.ts'; // Sample authentication provider
+
+import { createBrowserHistory } from 'history';
+
 
 // ============ Components =============
 
@@ -55,6 +60,22 @@ function App() {
     localStorage.setItem('lng', 'en');
   }
 
+  const trackingId = "UA-158317482-1"; // Replace with your Google Analytics tracking ID
+  ReactGA.initialize(trackingId);
+  ReactGA.set({
+    userId: 'ascalmon',
+    // any data that is relevant to the user session
+    // that you would like to track with google analytics
+  })
+
+  const history = createBrowserHistory();
+  // Initialize google analytics page view tracking
+  history.listen(location => {
+    ReactGA.set({ page: location.pathname }); // Update the user's current page
+    ReactGA.pageview(location.pathname); // Record a pageview for the given page
+  });
+
+
   return (
     <div className="App" id="home">
         <header className="app-header" >
@@ -94,7 +115,7 @@ function App() {
         <Bar />
         <Corporate />
         <Bar />
-        <Contact />
+        <Contact history={history}/>
         <Footer/>
       </div>);
 

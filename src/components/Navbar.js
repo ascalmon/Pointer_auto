@@ -3,6 +3,7 @@ import i18n from 'i18next';import k from "./../i18n/keys"; // React Component - 
 // ============ React Dependencies ========
 
 import React from 'react';
+import ReactGA from 'react-ga';
 
 
 import logo from '../assets/pointer_logo.svg';
@@ -42,9 +43,22 @@ function Navbar() {
     localStorage.setItem('flag', current_flag);
 
   function handleClick(lang){
+    ReactGA.event({
+    category: "Language",
+    action: `Changed language to ${lang}`,
+    labels: 'Pointer Automotive'
+    });
     i18n.changeLanguage(lang);
     localStorage.setItem('lng', lang);
     window.location.reload();
+  }
+
+  function handleMenuChange(item){
+    ReactGA.event({
+    category: "Menu",
+    action: `User selected ${item}`,
+    labels: 'Pointer Automotive'
+    });
   }
 
 
@@ -66,12 +80,12 @@ function Navbar() {
               <div className="dropdown">
                 <a className="nav-link nav-menu dropdown-nav" href="about:blank" data-toggle="dropdown">{i18n.t(k.SOLUTIONS)}</a>
                 <div className="dropdown-menu">
-                  <a className="dropdown-item drop-item" href="#connected_car">{i18n.t(k.CONNECTED_VEHICLES)}</a>
-                  <a className="dropdown-item drop-item" href="#mobility">{i18n.t(k.MOBILITY_SERVICES)}</a>
-                  <a className="dropdown-item drop-item" href="#design">{i18n.t(k.DESIGN)}</a>
-                  <a className="dropdown-item drop-item" href="#artificial_intelligence">{i18n.t(k.TECHNOLOGY)}</a>
-                  <a className="dropdown-item drop-item" href="#customizations">{i18n.t(k.CUSTOMIZATION)}</a>
-                  <a className="dropdown-item drop-item" href="#telematics">{i18n.t(k.TELEMATICS)}</a>
+                  <a className="dropdown-item drop-item" onClick={()=>handleMenuChange('Connected Vehicles')} href="#connected_car">{i18n.t(k.CONNECTED_VEHICLES)}</a>
+                  <a className="dropdown-item drop-item" onClick={()=>handleMenuChange('Mobility')} href="#mobility">{i18n.t(k.MOBILITY_SERVICES)}</a>
+                  <a className="dropdown-item drop-item" onClick={()=>handleMenuChange('design')} href="#design">{i18n.t(k.DESIGN)}</a>
+                  <a className="dropdown-item drop-item" onClick={()=>handleMenuChange('Technology')} href="#artificial_intelligence">{i18n.t(k.TECHNOLOGY)}</a>
+                  <a className="dropdown-item drop-item" onClick={()=>handleMenuChange('Customizations')} href="#customizations">{i18n.t(k.CUSTOMIZATION)}</a>
+                  <a className="dropdown-item drop-item" onClick={()=>handleMenuChange('Telematics')} href="#telematics">{i18n.t(k.TELEMATICS)}</a>
                 </div>
               </div>
               </li>
@@ -79,10 +93,10 @@ function Navbar() {
                 <div className="dropdown">
                   <a className="nav-link nav-menu dropdown-nav" href="about:blank" data-toggle="dropdown">{i18n.t(k.SERVICES)}</a>
                   <div className="dropdown-menu">
-                    <a className="dropdown-item drop-item" href="#professional">{i18n.t(k.PROFESSIONAL)}</a>
-                    <a className="dropdown-item drop-item" href="#work">{i18n.t(k.CONSULTING)}</a>
-                    <a className="dropdown-item drop-item" href="#intelligence">{i18n.t(k.INTELLIGENCE)}</a>
-                    <a className="dropdown-item drop-item" href="#corporate">{i18n.t(k.CORPORATE_FLEET)}</a>
+                    <a className="dropdown-item drop-item" onClick={()=>handleMenuChange('Professional Services')} href="#professional">{i18n.t(k.PROFESSIONAL)}</a>
+                    <a className="dropdown-item drop-item" onClick={()=>handleMenuChange('Consulting Services')} href="#work">{i18n.t(k.CONSULTING)}</a>
+                    <a className="dropdown-item drop-item" onClick={()=>handleMenuChange('Intelligence')} href="#intelligence">{i18n.t(k.INTELLIGENCE)}</a>
+                    <a className="dropdown-item drop-item" onClick={()=>handleMenuChange('Corporate Fleet')} href="#corporate">{i18n.t(k.CORPORATE_FLEET)}</a>
                   </div>
                 </div>
               </li>

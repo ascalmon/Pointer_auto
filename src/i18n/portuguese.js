@@ -7,22 +7,24 @@ const portuguese =  {
                     em soluções Machine-toMachine e provedor de IoT sem fio com base
                     em assinatura de serviços para proteger, controlar, rastrear e
                     gerenciar ativos de empresas.`,
-  [k.ABOUT_PART_2]: `Power Fleet e Pointer têm mais de 25 anos de experiência 
-                    fornecendo produtos e soluções inovadores confiáveis ​​para
-                    diferentes segmentos. A Pointer Automotive fornece soluções
-                    especializadas e personalizadas em serviços para OEMs da
-                    indústria automotiva, com foco em Veículos conectados e
-                    serviços de mobilidade.`,
-  [k.ABOUT_PART_3]: `Entendemos que não há duas empresas com ativos de frota iguais.
-                    E que cada cliente nosso é único e tratado como tal. São
-                    nossos parceiros e dedicamos analistas especializados
-                    na tarefa singular que é aumentar o valor de seus negócios.
-                    Isso nos permite fornecer com precisão as informações necessárias
-                    ã gestão do negócio e isso causa um impacto real.`,
-  [k.ABOUT_PART_4]: `É nosso compromisso uma abordagem focada no mercado que nos permita
-                    ajudar nossos clientes a reduzir custos, proteger ativos,
-                    obter eficiência, melhorar a utilização de recursos, minimizar
-                    a fraude e, o mais importante: salvar vidas prevenindo acidentes.`,
+  [k.ABOUT_PART_2]: `Power Fleet e Pointer têm mais de 25 anos de experiência
+                    fornecendo produtos e soluções inovadores e confiáveis
+                    para diferentes indústrias. A Pointer Automotive fornece
+                    soluções e serviços especializados e personalizados para os OEMs
+                    na indústria automotiva com foco em 'Veículos Conectados'
+                    e 'Serviços de Mobilidade'.`,
+  [k.ABOUT_PART_3]: `O portfólio profissional de serviços abrange Automotive CBS
+                    (Cloud Based Services), aplicativos automotivos personalizados
+                    para clientes finais, mineração de dados, análise de dados,
+                    inteligência artificial, plataforma de business intelligence
+                    para diagnóstico de veículos, gerenciamento de frotas e serviços
+                    de mobilidade. Todo o portfólio é entregue com altos padrões de
+                    disponibilidade, escalabilidade e proteção de dados.`,
+  [k.ABOUT_PART_4]: `As soluções profissionais da Pointer Automotive ajudam os OEMs
+                    na indústria automotiva para entrar na nova era digital de
+                    veículos conectados e serviços de mobilidade que fornecem serviços
+                    perfeitamente adequado para os desenvolvimentos presentes e
+                    futuros, cobrindo os seguintes segmentos:`,
   [k.ABOUT_PART_5]: `• Serviços digitais do cliente, por meio de um pacote abrangente
                     de serviços para cobrir a saúde do veículo, automação de
                     lembretes de manutenção do veículo, informações de "recalls",
@@ -49,11 +51,7 @@ const portuguese =  {
                 PowerFleet ® Inc (NASDAQ: PWFL).`,
   [k.POWERFLEET_IS_A_WORLDWIDE_LEAD]: `A PowerFleet é líder e fornecedora mundial de sistemas sem fio baseados
                   em subscrição de serviços IoT e soluções Machine to Machine para proteger, controlar, rastrear,
-                  e gerenciar ativos corporativos de alto valor, como caminhões industriais,
-                  reboques para caminhões, contêineres, carga, veículos e frotas de caminhões.
-                  As tecnologias patenteadas da PowerFleet atendem às necessidades das organizações
-                  nas ações de monitorar e analisar seus ativos para aumentar a eficiência a produtividade,
-                  reduzir custos e melhorar a lucratividade.`,
+                  e gerenciar ativos corporativos de alto valor.`,
   [k.WHAT_WE_DO1]: `O que Fazemos`,
   [k.ARTIFICIAL_INTELLIGENCE]: `Inteligência Artificial`,
   [k.SOFTWARE_HARDWARE_AND_SERVIC]: `Software, hardware e serviços para

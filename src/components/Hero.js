@@ -15,6 +15,8 @@ class Hero extends Component {
   //  super(props);
   // }
   //
+
+
   render() {
 
     return (
@@ -26,8 +28,8 @@ class Hero extends Component {
                 <div className="hero">
                   <div className="greeting">
                     <h1 className="description" >{i18n.t(k.CREATIVE_AUTO_SOLUTIONS)}</h1>
-                      <span className="title">{i18n.t(k.POINTER_AUTOMOTIVE)} </span>
-                      <img alt="Pointer Logo" className='logo' src={logo_notext} />
+                      <span className="title">{i18n.t(k.POINTER_AUTOMOTIVE)}  </span>
+                      <img alt="Pointer Logo" className="logo" src={logo_notext} />
                     <hr className="white-line"></hr>
                     <div className="learn-more-div row">
                       <a className="learn-more" href="#contact">{i18n.t(k.LEARN_MORE)}</a>
@@ -97,7 +99,7 @@ class Hero extends Component {
                 <div className="progress-bar" role="progressbar" style={{ width: '100%' }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
                 <span className="inner-number">{"03"}</span>
-                <span className="inner-text">{i18n.t(k.APPS)}</span>
+                <span className="inner-text">{i18n.t(k.APPS)}&nbsp;&nbsp;&nbsp;</span>
               </li>
               <li className=" carousel-indicators-numbers " data-target="#carouselIndicator" data-slide-to="3">
               <div className="progress">

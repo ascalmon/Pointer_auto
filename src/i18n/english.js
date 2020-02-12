@@ -4,25 +4,28 @@ const k = require('./keys');
 const english = {
   [k.WHAT_WE_DO]: `What We Do`,
   [k.STORY_ABOUT_US]: `STORY ABOUT US`,
-  [k.ABOUT_PART_1]: `Pointer Automotive is part of PowerFleet, a worldwide leader
-                  and provider of subscription-based wireless IoT and Machine-to-Machine
-                  solutions for securing, controlling, tracking, and managing
-                  enterprise assets.`,
+  [k.ABOUT_PART_1]: `Pointer Automotive is part of Power Fleet, a worldwide leader
+                     and provider of subscription-based wireless IoT and Machine-to-Machine
+                     solutions for securing, controlling, tracking, and managing
+                     enterprise assets.`,
   [k.ABOUT_PART_2]: `Power Fleet and Pointer have over 25 years of experience
-                  delivering innovative and reliable products and solutions for
-                  different industries.
-                  Pointer Automotive provides specialized and customized solutions
-                  and services to the OEMs in the Automotive Industry with focus
-                  in Connected Vehicles and Mobility Services.`,
-  [k.ABOUT_PART_3]: `We understand that no two fleets are alike. And that every customer of ours is
-                   unique and treated as such. They are our partners and assigned their own
-                   dedicate analyst whose singular task is to enhance the value of their
-                   business. That enables us to deliver precisely the information they require
-                   and that makes a real impact.`,
-  [k.ABOUT_PART_4]: `It’s our commitment and market-focused approach that allows us to help our
-                  customers reduce costs, protect assets, gain efficiencies, improve resource
-                  utilization, minimize fraud and most importantly: save lives by preventing
-                  accidents.`,
+                     delivering innovative and reliable products and solutions
+                     for different industries. Pointer Automotive provides
+                     specialized and customized solutions and services to the OEMs
+                      in the Automotive Industry with focus in Connected Vehicles
+                      and Mobility Services.`,
+  [k.ABOUT_PART_3]: `Professional portfolio of services covers Automotive CBS
+                    (Cloud Based Services), Customized Automotive App´s for end
+                    customers, Data Mining, Data Analytics, Artificial Intelligence,
+                    Business Intelligence Platform for Vehicle Diagnosis, Fleet
+                    Management and Mobility Services. The whole portfolio is
+                    delivered with high standards of availability, scalability
+                    and data protection.`,
+  [k.ABOUT_PART_4]: `Pointer Automotive professional solutions help the OEMs
+                     in the Automotive Industry to enter in the new digital era
+                     of Connected Vehicles & Mobility Services providing services
+                     perfectly adequate for present and future developments,
+                     covering the following segments:`,
   [k.ABOUT_PART_5]: `•	Customer Digital Services through a comprehensive package
                   of services to cover vehicle health, vehicle maintenance remind
                   automation, recalls information, digital vehicle manual,
@@ -40,15 +43,11 @@ const english = {
                   helping OEMs to manage actionable insights that substantially
                   impact the business, the time to market for solutions and the
                   enhancement of future vehicle´s development.`,
-  [k.POINTER_IS_PART_OF_THE_GLOBAL]: `Pointer is part of the global Industrial Internet of Things company
-                PowerFleet ® Inc (NASDAQ: PWFL).`,
-  [k.POWERFLEET_IS_A_WORLDWIDE_LEAD]: `PowerFleet is a worldwide leader and provider of subscription-based wireless
-                  IoT and Machine to Machine solutions for securing, controlling, tracking,
-                  and managing high-value enterprise assets such as industrial trucks,
-                  tractor trailers, containers, cargo, and vehicles and truck fleets.
-                  PowerFleet’s patented technologies address the needs of organizations to
-                  monitor and analyze their assets to increase efficiency and productivity,
-                  reduce costs, and improve profitability.`,
+  [k.POINTER_IS_PART_OF_THE_GLOBAL]: `Pointer is part of the global Industrial
+                  Internet of Things company PowerFleet ® Inc (NASDAQ: PWFL).`,
+  [k.POWERFLEET_IS_A_WORLDWIDE_LEAD]: `PowerFleet is a worldwide leader and provider
+                  of subscription-based wireless IoT and Machine to Machine solutions for securing, controlling, tracking,
+                  and managing high-value enterprise assets.`,
   [k.WHAT_WE_DO1]: `What we do`,
   [k.ARTIFICIAL_INTELLIGENCE]: `Artificial Intelligence`,
   [k.SOFTWARE_HARDWARE_AND_SERVIC]: `Software, Hardware, and Services for Monitoring Autonomous
@@ -220,7 +219,7 @@ const english = {
   [k.DESIGN_APP3]: "App Identity - Classic, Sports, Family, Service, Fleet vehicles, etc.",
   [k.DESIGN_APP4]: "App usage - B2B - Service Private fleet.",
   [k.DESIGN_APP5]: "App usage - B2C - Customers users of the vehicles and services.",
-  [k.DESIGN_APP6]: "App Packages: Several packages available to stisfy OEM users",
+  [k.DESIGN_APP6]: "App Packages: Several packages available to satisfy OEM users",
   [k.DESIGN_APP7]: "App Features for the OEMs - Intelligence Services.",
   [k.DESIGN_APP8]: `App Features for the consumers - Hundreds of different functionalities
                     in several afforadable packages.`,
@@ -235,27 +234,26 @@ const english = {
   [k.DESIGN_OUR_APP8]: "Breakdown, Medical, Safety Emergencies.",
   [k.CONNECTED_TITLE]: `Your partner for a 'Connected Solution'`,
   [k.CONNECTED_HEADER]: `Pointer Automotive is working hard in the process of
-                        contibute for the Universal definition of 'Connected Vehicle'.
+                        contribute for the Universal definition of 'Connected Vehicle'.
                         Technology is at the heart of the OEM Automotive Industry
-                        and the it grows at a pace that is not yet clear where
+                        and it grows at a pace that is not yet clear where
                         'Connected car' definition will end.
-                        Automotive manufacturers are selling ‘Connected cars’
-                        from a simply connected to the internet
-                        cellular connection, with limited feature set, to a fully
-                        connected vehicle necessary in all stages of Autonomous-driving
-                        technology.
+                        Automotive manufacturers are selling ‘Connected Vehicles’
+                        from a simply connected to the internet cellular connection,
+                        with limited feature set, to a fully connected vehicle
+                        necessary in all stages of Autonomous-driving technology.
                         A real Connected Car, must be much more than a simple
-                        WiFi hotspot and become part of peoples life, conneted
+                        WiFi hotspot and become part of peoples life, connected
                         all times, and sharing information as it is desired
-                        in a real connecte world.`,
+                        in a real connected world.`,
 [k.WHAT1]: `For the Vehicle users:`,
 [k.WHAT2]: `   -  Connected to Internet All times.`,
-[k.WHAT3]: `   -  Smooth transition - House / Office lifestyle to 'Connected car'.`,
+[k.WHAT3]: `   -  Smooth transition - House / Office lifestyle to 'Connected Cars'.`,
 [k.WHAT4]: `   -  User interaction with Digital world in a seamless way.`,
 [k.WHAT5]: `For the Vehicle manufacturers:`,
 [k.WHAT6]: `   -  Reliable Telematics Units for a seamless connection.`,
-[k.WHAT7]: `   -  Easy installation with 'Plug and Play' connection to Cloud.`,
-[k.WHAT8]: `   -  Diagnosis, BI, Data analysis, FOTA/OTA in one tool.`,
+[k.WHAT7]: `   -  Easy installation with 'Plug and Play' connection to Cloud Services.`,
+[k.WHAT8]: `   -  Diagnosis, BI, Data analysis, FOTA/OTA in a single software platform.`,
 [k.AI1]: `Data & algorithms mimic the cognitive functions of the human mind.`,
 [k.AI2]: `Ability to learn and solve problems independently.`,
 [k.AI3]: `Deployed across a variety of industries and use cases.`,
@@ -452,21 +450,21 @@ const english = {
 [k.MOBILITY_HEAD]: `Automotive industry transformation drives the OEM´s to a diversified
                     business in the offering beyond vehicle sales. Vehicle's
                     leasing at short and long terms, Car Sharing and other Vehicle
-                     Collaborative Uses create new businesses models that drives
+                     Collaborative Uses create new business models that drives
                      the OEMs to the era of Mobility Services.`,
-[k.MOBILITY1]: `Pointer Connect helps OEM´s to operate and manage Mobility Services
-                in real time, assuring fleet full visibility, security and control.`,
+[k.MOBILITY1]: `Pointer Automotive Cloud Platform - PConnect™, helps OEM´s to operate
+                and manage Mobility Services in real time, assuring fleet full
+                visibility, security and control.`,
 [k.MOBILITY2]: `Open API´s engage different Mobility Ecosystem partners as Specialized
                 CRM System, Ticket Fine Systems, Car Sharing Platform, Fuel Card
                 Companies, financial institution and insurance company partners,
                 among others to consume and make available valuable data.
                 Pointer Connect harmonize all the data in a single customized Mobility
                  Service Business Intelligence (BI) Dashboard.`,
-[k.MOBILITY3]: `Machine Learning (ML) engine helps OEM, OEM Dealers Mobility
-                Service Partners and other OEM Mobility Business Partners to
-                use valuable information to have actionable insights to
-                substantially impact bottom line business performance,
-                sustainable business growth and customer satisfaction.`,
+[k.MOBILITY3]: `Machine Learning (ML) engine helps OEMs from automotive industry,
+                Dealers and other OEM's Mobility Service Partners to use valuable
+                information to have actionable insights to substantially impact bottom
+                 line business performance, sustainable business growth and customer satisfaction.`,
 [k.MOBILITY4]: `Building Blocks Service Dashboard in the picture:`,
 [k.MOBILITY5]: ``,
 [k.MOBILITY6]: ``,

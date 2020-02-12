@@ -4,7 +4,7 @@ import i18n from 'i18next';import k from "./../i18n/keys"; // React Component - 
 
 import React, { Component } from 'react';
 import emailjs from 'emailjs-com';
-
+import ReactGA from 'react-ga';
 // ============ Image Imports =============
 
 
@@ -26,11 +26,19 @@ class Contact extends Component {
       reason: '',
       message: ''
     }
+
+    console.log(this.props.history)
   }
 
+
+
   handleSubmit(event){
+    event.preventDefault();
     const { name, lastname, title, company, email, phone, reason, message } = this.state
-    console.log( name, lastname, title, company, email, phone, reason, message );
+    ReactGA.event({
+    category: "Contact Email",
+    action: "User sent an email",
+    });
     var template_params = {
      title: title,
      name: `<h1>${name}</h1>`,
@@ -48,7 +56,7 @@ class Contact extends Component {
     var template_id = "pointer";
     var user_id = 'user_7kPkOhEo0c6N7DHtmJ9o7'
 
-    event.preventDefault();
+
     if ((this.state.name === '') || (this.state.lastname === '') || (this.state.email === '')){
       document.getElementById('message-error').innerHTML = "Please enter mandatory data!";
     } else {
