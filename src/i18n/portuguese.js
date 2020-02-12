@@ -374,13 +374,22 @@ const portuguese =  {
                         O serviço de 'Veículo Conectado' deve se unir aos Serviços de
                         Atendimento ao Cliente para suporte e emergência durante o
                         horário de trabalho ou 24 x 7 hs.`,
-[k.PROFESSIONAL1]: `App Support and Training for OEM Apps and use the best of your App resources.`,
-[k.PROFESSIONAL2]: `Medical Emergencies: Support you and connect you with your parents in case of medical emergency or accidents.`,
-[k.PROFESSIONAL3]: `Breakdown Emergencies: Help your customers to get support in case of vehicle problem. The vehicle can be quickly in your dealers, not in other 3rd part repair centers. `,
-[k.PROFESSIONAL4]: `Stolen Vehicle Recovery: In countries with high theft rates, we provide 24 x 7 hs vehicle recovery service in case of robbery or stolen vehicle. Active risk assessment in boarders or theft risk areas can be an important service to reduce insurance policy price.`,
-[k.PROFESSIONAL5]: `Marketing Campaigns: Support OEM Customers with questions during marketing campaigns directed to OEM Customers Apps.`,
-[k.PROFESSIONAL6]: `Mobility Services: Support customer mobility services field emergency as a 24 x 7 hs emergency center.`,
-[k.PROFESSIONAL7]: `Concierge: Concierge for OEM customers during working hours or 24 x 7 hs.`,
+[k.PROFESSIONAL1]: `Suporte e treinamento dos usuários na utilização dos Apps
+                    para otimização no uso dos recursos disponíveis.`,
+[k.PROFESSIONAL2]: `Emergências Médicas: Suporte ao usuário conectando-se aos seus
+                    familiares em caso de situacões médicas inesperadas ou acidentes.`,
+[k.PROFESSIONAL3]: `Emergências Mecânicas: Suport aos clientes em caso de problemas
+                    mecânicos com o veículo. Veículos nas concessionárias ao invés de
+                    terceiros não qualificados.`,
+[k.PROFESSIONAL4]: `Recuperação de veículos roubados: em paises com altas taxas de
+                    roubos de veículos, oferecemos serviço de recuperação 24 x 7 hs.
+                    Serviços de prevenção podem informar sobre fronteiras ou áreas
+                    de risco e trazem importante redução no custo das apólices de seguro.`,
+[k.PROFESSIONAL5]: `Campanhas de Marketing: Suporte aos clientes dos OEMs  durante
+                    campanhas de Marketing enviadas ao App dos usuários.`,
+[k.PROFESSIONAL6]: `Serviços de Mobilidade: Suporte aos clientes dos serviços de mobilidade
+                    24 x 7 hs - Centro de emergências.`,
+[k.PROFESSIONAL7]: `Concierge: Serviço para os clientes durante horário comercial ou 24 x 7 hs.`,
 [k.PROFESSIONAL8]: ``,
 [k.PROFESSIONAL9]: ``,
 [k.CONSULTING_TITLE]: `O melhor caminho para seu 'Veículo Conectado'`,
