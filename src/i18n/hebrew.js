@@ -345,6 +345,7 @@ const hebrew = {
 [k.SMART_APPS]: `אפליקציות חכמות`,
 [k.PREDICTIVE]: `תחזוקה חזויה`,
 [k.CAR_SHARING]: `שיתוף רכב`,
+[k.PROFESSIONAL_TITLE]: `Professional services available to your customers`,
 [k.PROFESSIONAL_HEAD]: `In the digital Era, Services need to be simple, friendly
                         and automatized. New technologies bring new kind of customers,
                         who expect quick answers. Customers are more connected with
@@ -365,6 +366,7 @@ const hebrew = {
 [k.PROFESSIONAL7]: `Concierge: Concierge for OEM customers during working hours or 24 x 7 hs.`,
 [k.PROFESSIONAL8]: ``,
 [k.PROFESSIONAL9]: ``,
+[k.CONSULTING_TITLE]: `Best way to your 'Connected Vehicle'`,
 [k.CONSULTING_HEAD]: `Pointer team has experience to help OEMs in the whole process
                       of designing a 'Connected Vehicle' and Mobility Services Strategy.
                       Design and development support until project rollout.
@@ -512,7 +514,8 @@ const hebrew = {
 [k.CUSTOMIZATIONS15]: `Everything that you think that can be explored
                       about vehicle information. Our expertize in customizations
                       let you dream with the App your customers deserve.`,
-[k.CORPORATE_TITLE]: `צי חברות`,
+[k.CORPORATE]: 'צי חברות',
+[k.CORPORATE_TITLE]: `Partner of Corporate Fleet Managers`,
 [k.CORPORATE_HEAD]: `Pointer Connect provides secure interface with other
                      Automotive Partners to aggregate different source of raw
                      information and build a comprehensive customer service

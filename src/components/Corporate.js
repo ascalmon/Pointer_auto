@@ -22,9 +22,9 @@ class Corporate extends Component {
           <div className="container-wrap">
             <div className="about">
             <div className="topic-header">
-              <p className="what-subheading">{i18n.t(k.CORPORATE_TITLE)}</p>
+              <p className="what-subheading">{i18n.t(k.CORPORATE)}</p>
               <img src={corporate} style={{width: '50%'}} alt="Corporate Fleet" />
-              <p className="what-subheading">{i18n.t(k.SOME_OF_OUR_WORK)}</p>
+              <p className="what-subheading">{i18n.t(k.CORPORATE_TITLE)}</p>
             </div>
               <hr className="about-red-line"></hr>
 

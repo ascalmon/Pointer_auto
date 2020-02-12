@@ -19,7 +19,7 @@ class Professional extends Component {
           <div className="container-wrap">
             <p className="work-subheading">{i18n.t(k.PROFESSIONAL)}</p>
             <img className="img-fluid work-image" src={professional} alt="Consulting Services"></img>
-            <p className="work-subheading">{i18n.t(k.SOME_OF_OUR_WORK)}</p>
+            <p className="work-subheading">{i18n.t(k.PROFESSIONAL_TITLE)}</p>
             <hr className="work-red-line"></hr>
             <div className="row work-text">
               <strong><p className="text-center lorem">{i18n.t(k.PROFESSIONAL_HEAD)}</p></strong>

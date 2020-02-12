@@ -304,12 +304,14 @@ const portuguese =  {
                   of driver-centric features. Connected-car technology make vehicles
                   more attractive with features like car health-check, vehicle status
                   indicators, smartphone Apps,and other convenient features.`,
-[k.TELEMATICS_HEADER]: `The Pointer Automotive cloud based platform is called Pointer Connect™
-                        and is an Intelligent Cloud Based SW Platform that normalizes different
-                        sources of raw data into a well-structured information center,
-                        generating insights and formatted information to feed OEMs, Dealer´s
-                        network, OEM´ customers and key business partners as insurance companies,
-                        financial groups and other relevant automotive players.`,
+[k.TELEMATICS_HEADER]: `A plataforma baseada em nuvem da Pointer Automotive chama-se
+                  PConnect™ - plataforma de software inteligente baseada
+                  em nuvem que normaliza diferentes fontes de dados brutos em um
+                  centro de informações bem estruturado, gerando insights e informações
+                  formatadas para alimentar os OEMs da indústria automotiva,
+                  a rede de revendedores , Clientes OEM e principais parceiros
+                  de negócios como seguradoras, grupos financeiros e outros players
+                  automotivos relevantes.`,
 [k.TELEMATICS1]: `Flexible architecture ready to integrate with OEM´s Manufacturing,
                   Marketing, Sales, Planning and other specific applications.`,
 [k.TELEMATICS2]: `powerful tool to enable OEMs to customize and develop unique
@@ -359,17 +361,19 @@ const portuguese =  {
 [k.SMART_APPS]: `Smart Apps`,
 [k.PREDICTIVE]: `Manutenção Preditiva`,
 [k.CAR_SHARING]: `Car Sharing`,
-[k.PROFESSIONAL_HEAD]: `In the digital Era, Services need to be simple, friendly
-                        and automatized. New technologies bring new kind of customers,
-                        who expect quick answers. Customers are more connected with
-                        technology and expect to have everything in a toutch of a button.
-
-                        Pointer Professional Services is a 24 x 7 hs Support Center
-                        available to attend OEM's customers based on established procedures,
-                        with a relyable Service Level Agreement (SLA) and scripts defined with
-                        Automotive Customers. The Connected Vehicle Service
-                        should come together with Customer Care Services for
-                        Support and Emergency during working hours or 24 x 7 hs.`,
+[k.PROFESSIONAL_TITLE]: `Serviços Profissionais para seus clientes`,
+[k.PROFESSIONAL_HEAD]: `Na era digital, os serviços precisam ser simples, amigáveis
+                        e automatizados. Novas tecnologias trazem novos tipos de clientes,
+                        que esperam respostas rápidas. Os clientes estão mais conectados
+                        à tecnologia e esperam ter tudo ao alcance de um botão.
+                        O Serviço 'Pointer Professional Services' é um centro de
+                        suporte 24 horas por dia, 7 dias por semana disponível para
+                        atender o cliente do OEM da indústria automotiva com base
+                        em procedimentos estabelecidos, com um SLA (Service Level Agreement)
+                        confiável e scripts definidos com os clientes automotivos.
+                        O serviço de 'Veículo Conectado' deve se unir aos Serviços de
+                        Atendimento ao Cliente para suporte e emergência durante o
+                        horário de trabalho ou 24 x 7 hs.`,
 [k.PROFESSIONAL1]: `App Support and Training for OEM Apps and use the best of your App resources.`,
 [k.PROFESSIONAL2]: `Medical Emergencies: Support you and connect you with your parents in case of medical emergency or accidents.`,
 [k.PROFESSIONAL3]: `Breakdown Emergencies: Help your customers to get support in case of vehicle problem. The vehicle can be quickly in your dealers, not in other 3rd part repair centers. `,
@@ -379,10 +383,13 @@ const portuguese =  {
 [k.PROFESSIONAL7]: `Concierge: Concierge for OEM customers during working hours or 24 x 7 hs.`,
 [k.PROFESSIONAL8]: ``,
 [k.PROFESSIONAL9]: ``,
-[k.CONSULTING_HEAD]: `Pointer team has experience to help OEMs in the whole process
-                      of designing a 'Connected Vehicle' and Mobility Services Strategy.
-                      Design and development support until project rollout.
-                      Below services we can offer to OEMs:`,
+[k.CONSULTING_TITLE]: `O melhor caminho para seu 'Veículo Conectado'`,
+[k.CONSULTING_HEAD]: `A equipe 'Pointer Automotive' tem o conhecimento e a
+                      experiência para ajudar os OEMs da indústria automotiva
+                      em todo o processo de projetar uma estratégia de 'Serviços
+                      Conectados' e Serviços de Mobilidade. Suporte de design e
+                      desenvolvimento até a implantação do projeto. Abaixo os
+                      serviços que podemos oferecer aos OEMs da indústria automotiva:`,
 [k.CONSULTING1]: `Connected Vehicle and Mobility Service Package Definition and Customization.`,
 [k.CONSULTING2]: `Manufacturing Automotive TCU activation procedures and connectivity validation with Cloud Services.`,
 [k.CONSULTING3]: `Integration with Legacy Systems.`,
@@ -394,13 +401,17 @@ const portuguese =  {
 [k.CONSULTING9]: `Customer Service / Subscription engagement .`,
 [k.CONSULTING10]: `Customized Design of OEMs App.`,
 [k.CONSULTING11]: `Vehicle data harmonization and much more .............`,
-[k.INTELLIGENCE_HEAD]: `Pointer Automotive Intelligence Services, connects the existing
-                        and future 5G wireless networks that enables vehicles and
-                        smart devices, installed by the OEMs, to communicate in intelligent
-                        mode and analyses real-time data to optimize vehicle experience.
-                        Intelligent services allows the OEMs to securely start challenging
-                        projects with the support of our package of Intelligence solutions.
-                        An overview of the Pointer Automotive Intelligence Services are bellow:`,
+[k.INTELLIGENCE_TITLE]: `Levam veículos e dispositivos inteligentes a uma 'Experiência Digital'`,
+[k.INTELLIGENCE_HEAD]: `'Pointer Automotive' - 'Intelligence Services', conecta as
+                        redes sem fio existentes e a futura rede 5G que permite que
+                        veículos e dispositivos inteligentes, instalados pelos OEMs
+                        da indústria automotiva, se comuniquem em modo inteligente
+                        e analisem dados em tempo real para otimizar a experiência
+                        do veículo. Os 'Serviços de Inteligência' permitem que os
+                        OEMs iniciem com segurança projetos desafiadores com o
+                        suporte do nosso pacote de soluções de Inteligência.
+                        A seguir, é apresentada uma visão geral dos serviços da
+                        Pointer Automotive - 'Intelligence Services':`,
 [k.INTELLIGENCE1]: `Recall Management: Save millions of dollars in Recall advertising
                     and management by direct communication with your relevant vehicle
                     owners in case of Recalls, structuring digital reports about recall
@@ -482,15 +493,16 @@ const portuguese =  {
 [k.MOBILITY10]: ``,
 [k.MOBILITY11]: ``,
 [k.CUSTOMIZATIONS_TITLE]: 'Customizações',
-[k.CUSTOMIZATIONS_HEAD]: `The new Era of Connected Vehicles and Services is
-                          transforming customer behavior in an unprecedent
-                          speed. The way you communicate and interact with
-                          you customers makes all difference to continue being
-                          relevant in the future. Our Mobility & Customized
-                          Services helps you to build your own App
-                          (Mobile Applications) in a customized and scalable
-                          way to generate new revenue business opportunities for
-                          data monetization and digital service implementation.`,
+[k.CUSTOMIZATIONS_HEAD]: `A nova era dos veículos e serviços conectados está
+                          transformando o comportamento do cliente em uma
+                          velocidade sem precedentes. A maneira como você se
+                          comunica e interage com seus clientes faz toda a
+                          diferença para continuar sendo relevante no futuro.
+                          Nossos serviços personalizados e de mobilidade ajudam
+                          você a criar seu próprio aplicativo (aplicativos móveis)
+                          de maneira personalizada e escalável para gerar novas
+                          oportunidades de negócios de receita para monetização
+                          de dados e implementação de serviços digitais.`,
 [k.CUSTOMIZATIONS1]: `Some services that can be generated to your customers:`,
 [k.CUSTOMIZATIONS2]: `Vehicle Health: Daily vehicle checklist. Your customer
                       know vehicle is safety for next trip.`,
@@ -527,11 +539,13 @@ const portuguese =  {
 [k.CUSTOMIZATIONS15]: `Everything that you think that can be explored
                       about vehicle information. Our expertize in customizations
                       let you dream with the App your customers deserve.`,
-[k.CORPORATE_TITLE]: 'Frota Corporativa',
-[k.CORPORATE_HEAD]: `Pointer Connect provides secure interface with other
-                     Automotive Partners to aggregate different source of raw
-                     information and build a comprehensive customer service
-                     package via APIs (Cloud interfaces between Service Platforms).`,
+[k.CORPORATE]: `Frota Corporativa`,
+[k.CORPORATE_TITLE]: 'Parceiro dos Gestores de Frotas Corporativas',
+[k.CORPORATE_HEAD]: `Pointer Connect - PConnect™ fornece interface segura com outros
+                    parceiros automotivos para agregar diferentes fontes de
+                    informações não tratadas e criar um pacote abrangente de
+                    atendimento ao cliente por meio de APIs (interfaces em nuvem
+                    entre plataformas de serviço).`,
 [k.CORPORATE1]: `Brand, Image and reputation are a long journey to be settled by
                 OEM by in customer mind. It’s a key business success in
                 Automotive segment.`,

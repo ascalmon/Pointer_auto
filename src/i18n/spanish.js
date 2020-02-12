@@ -357,6 +357,7 @@ const spanish = {
 [k.SMART_APPS]: `Smart Apps`,
 [k.PREDICTIVE]: `Mantenimiento predictivo`,
 [k.CAR_SHARING]: `Car Sharing`,
+[k.PROFESSIONAL_TITLE]: `Servicios profesionales para sus clientes`,
 [k.PROFESSIONAL_HEAD]: `In the digital Era, Services need to be simple, friendly
                         and automatized. New technologies bring new kind of customers,
                         who expect quick answers. Customers are more connected with
@@ -377,6 +378,7 @@ const spanish = {
 [k.PROFESSIONAL7]: `Concierge: Concierge for OEM customers during working hours or 24 x 7 hs.`,
 [k.PROFESSIONAL8]: ``,
 [k.PROFESSIONAL9]: ``,
+[k.CONSULTING_TITLE]: `El mejor camino al su 'Vehículo Conectado'`,
 [k.CONSULTING_HEAD]: `Pointer team has experience to help OEMs in the whole process
                       of designing a 'Connected Vehicle' and Mobility Services Strategy.
                       Design and development support until project rollout.
@@ -392,6 +394,7 @@ const spanish = {
 [k.CONSULTING9]: `Customer Service / Subscription engagement .`,
 [k.CONSULTING10]: `Customized Design of OEMs App.`,
 [k.CONSULTING11]: `Vehicle data harmonization and much more .............`,
+[k.INTELLIGENCE_TITLE]: `Traiga vehículos y dispositivos inteligentes a una 'Experiencia Digital'`,
 [k.INTELLIGENCE_HEAD]: `Pointer Automotive Intelligence Services, connects the existing
                         and future 5G wireless networks that enables vehicles and
                         smart devices, installed by the OEMs, to communicate in intelligent
@@ -524,7 +527,8 @@ const spanish = {
 [k.CUSTOMIZATIONS15]: `Everything that you think that can be explored
                       about vehicle information. Our expertize in customizations
                       let you dream with the App your customers deserve.`,
-[k.CORPORATE_TITLE]: 'Flota corporativa',
+[k.CORPORATE]: 'Flota corporativa',
+[k.CORPORATE_TITLE]: 'Socio de gerentes de flotas corporativas',
 [k.CORPORATE_HEAD]: `Pointer Connect provides secure interface with other
                      Automotive Partners to aggregate different source of raw
                      information and build a comprehensive customer service
