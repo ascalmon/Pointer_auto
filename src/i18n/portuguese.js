@@ -423,24 +423,29 @@ const portuguese =  {
                         suporte do nosso pacote de soluções de Inteligência.
                         A seguir, é apresentada uma visão geral dos serviços da
                         Pointer Automotive - 'Intelligence Services':`,
-[k.INTELLIGENCE1]: `Recall Management: Save millions of dollars in Recall advertising
-                    and management by direct communication with your relevant vehicle
-                    owners in case of Recalls, structuring digital reports about recall
-                    evolution and customer acknowledges.`,
-[k.INTELLIGENCE2]: `Collision and theft rate per region, medical / breakdown
-                    service utilization rate per region, among other intelligence report services.`,
-[k.INTELLIGENCE3]: `Business Intelligence: Customized BI development for operations and business management.`,
-[k.INTELLIGENCE4]: `Electric Vehicle Management: Keep customers updated about charging
-                    location (private and and OEM partners updated about key location
-                    for charging installation. Notify customer about charging remaining time.`,
-[k.INTELLIGENCE5]: `Warranty Management: Deep analysis of vehicle diagnosis information drives to
-                    efficient mechanisms of informing customers, dealers and save a considerable
-                    ammout of resources.`,
-[k.INTELLIGENCE6]: `Marketing Management: Helps the OEMs to manage leads, vehicle
-                    conditions for negotiations of a new one, send real-time information
-                    to customers based on driving behavior, region of driving, promotions on
-                    important items for the vehicle, etc. Ex: Vehicle reaching oil / tires usage limit - inform
-                    customers about promotions or benefits of replacing it on time in a dealer site.`,
+[k.INTELLIGENCE1]:  `Gerenciamento de Recall: Economize tempo e dinheiro gastos com
+                     anúncios e gestão de 'Recalls' através de comunicação direta com
+                     os clientes envolvidos. Estruturação de relatórios de acompanhamento e
+                     aceitação digital dos clientes.`,
+[k.INTELLIGENCE2]: `Taxas de roubos e colisões por região assim como taxa de utilização de
+                    serviços de emergências médicas e mecânicas por região dentre outros
+                    serviços de relatórios inteligentes.`,
+[k.INTELLIGENCE3]: `Business Intelligence: Desenvolvimento de BIs customizados para
+                    operações e gerenciamento do negócio.`,
+[k.INTELLIGENCE4]: `Gestão veículos elétricos: Mantenha os clientes informados sobre as
+                    próximas estações (privadas ou públicas) de recarga da bateria.
+                    Noticar os clientes sobre autonomia e tempo da carga.`,
+[k.INTELLIGENCE5]: `Gerenciamento de Garantias: Analise da diagnose do veículo para
+                    mecanismos eficientes de alerta de situações críticas aos condutores,
+                    concessionárias e montadora de veículos economizando desta forma enormes
+                    recursos.`,
+[k.INTELLIGENCE6]: `Gestão de Marketing: Suporte aos OEMs na gestão de 'leads',
+                    analise das condições de veículos para valorização nas trocas,
+                    informação de sugestões na direção do veículo, regiões de uso do
+                    veículo, promoções de items importantes para o veículo, etc.
+                    Ex: Troca de óleo / pneus baseado na kilometragem - informa
+                    aos clientes sobre promotioções ou benefícios da troca no prazo
+                    e em uma concessionária.`,
 [k.INTELLIGENCE7]: ``,
 [k.INTELLIGENCE8]: ``,
 [k.INTELLIGENCE9]: ``,
