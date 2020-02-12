@@ -212,6 +212,11 @@ const spanish = {
   [k.CUSTOMIZATION]: 'Personalizaciones',
   [k.TELEMATICS]: `Telemática`,
   [k.TELEMATICS_TITLE]: `El poder de nuestra solución integral`,
+  [k.DESIGN_HEAD]: `Pointer Automotive tiene experiencia en desarrollo
+                    soluciones personalizadas para su 'Vehículo conectado',
+                    independientemente del dispositivo que elija: Sistemas
+                    'Infotainment', 'Headunits', 'Smartphones', 'Tablets' para
+                    principales sistemas operativos disponibles.`,
   [k.HEADUNITS]: 'Integration with OEM Head units - Infotainment devices.',
   [k.TABLETS]: 'Tablets for professional monitoring of your vehicles.',
   [k.SPECIAL]: 'Special devices and OS integration to support your project.',
@@ -239,7 +244,7 @@ const spanish = {
   [k.DESIGN_OUR_APP6]: "Group information for safety, information and fun.",
   [k.DESIGN_OUR_APP7]: "Service support at your service.",
   [k.DESIGN_OUR_APP8]: "Breakdown, Medical, Safety Emergencies.",
-  [k.CONNECTED_TITLE]: `Pointer Automotive - Su socio en 'Soluciones Conectadas'`,
+  [k.CONNECTED_TITLE]: `Su socio en 'Soluciones Conectadas'`,
   [k.CONNECTED_HEADER]: `Pointer Automotive is working hard in the process of
                         contibute for the Universal definition of 'Connected Vehicle'.
                         Technology is at the heart of the OEM Automotive Industry

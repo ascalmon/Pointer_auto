@@ -202,6 +202,10 @@ const english = {
   [k.CUSTOMIZATION]: 'Customizations',
   [k.TELEMATICS]: `Telematics`,
   [k.TELEMATICS_TITLE]: `The power of our end-to-end solution`,
+  [k.DESIGN_HEAD]: `Pointer Automotive has in-house expertise in the development
+                    of customized solutions for your 'Connected Vehicle', no matter the
+                    device you have choosen: Headunits, Smartphones, tablets for
+                    the top available OS vendors.`,
   [k.HEADUNITS]: 'Integration with OEM Head units - Infotainment devices.',
   [k.TABLETS]: 'Tablets for professional monitoring of your vehicles.',
   [k.SPECIAL]: 'Special devices and OS integration to support your project.',
@@ -229,12 +233,12 @@ const english = {
   [k.DESIGN_OUR_APP6]: "Group information for safety, information and fun.",
   [k.DESIGN_OUR_APP7]: "Service support at your service.",
   [k.DESIGN_OUR_APP8]: "Breakdown, Medical, Safety Emergencies.",
-  [k.CONNECTED_TITLE]: `Pointer Automotive - Your partner for a 'Connected Solution'`,
+  [k.CONNECTED_TITLE]: `Your partner for a 'Connected Solution'`,
   [k.CONNECTED_HEADER]: `Pointer Automotive is working hard in the process of
                         contibute for the Universal definition of 'Connected Vehicle'.
                         Technology is at the heart of the OEM Automotive Industry
                         and the it grows at a pace that is not yet clear where
-                        'Connected car' definition will be defined.
+                        'Connected car' definition will end.
                         Automotive manufacturers are selling ‘Connected cars’
                         from a simply connected to the internet
                         cellular connection, with limited feature set, to a fully
@@ -438,10 +442,11 @@ const english = {
 [k.ELECTRIC10]: ``,
 [k.ELECTRIC11]: ``,
 [k.MOBILITY_TITLE]: 'Mobility - Opportunities for automotive OEMs',
-[k.MOBILITY_HEAD]: `Automotive industry transformation drives OEM´s to diversified
-                    business offering beyond vehicle sales. Vehicle short and long
-                    term leasing, Car Sharing and other Vehicle Collaborative Use
-                    business model drives OEM to the era of Mobility Services.`,
+[k.MOBILITY_HEAD]: `Automotive industry transformation drives the OEM´s to a diversified
+                    business in the offering beyond vehicle sales. Vehicle's
+                    leasing at short and long terms, Car Sharing and other Vehicle
+                     Collaborative Uses create new businesses models that drives
+                     the OEMs to the era of Mobility Services.`,
 [k.MOBILITY1]: `Pointer Connect helps OEM´s to operate and manage Mobility Services
                 in real time, assuring fleet full visibility, security and control.`,
 [k.MOBILITY2]: `Open API´s engage different Mobility Ecosystem partners as Specialized

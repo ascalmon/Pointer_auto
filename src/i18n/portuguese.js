@@ -4,20 +4,21 @@ const portuguese =  {
   [k.WHAT_WE_DO]: `O que Fazemos`,
   [k.STORY_ABOUT_US]: `Nossa História`,
   [k.ABOUT_PART_1]: `A Pointer Automotive faz parte da PowerFleet, líder mundial
-                    e provedor de IoT sem fio com base em assinatura e Machine-to-Machine
-                    soluções para proteger, controlar, rastrear e gerenciar ativos
-                    da empresa.`,
+                    em soluções Machine-toMachine e provedor de IoT sem fio com base
+                    em assinatura de serviços para proteger, controlar, rastrear e
+                    gerenciar ativos de empresas.`,
   [k.ABOUT_PART_2]: `Power Fleet e Pointer têm mais de 25 anos de experiência 
-                    fornecendo produtos e soluções inovadores e confiáveis ​​para
+                    fornecendo produtos e soluções inovadores confiáveis ​​para
                     diferentes segmentos. A Pointer Automotive fornece soluções
-                    especializadas e personalizadas e serviços para OEMs na
+                    especializadas e personalizadas em serviços para OEMs da
                     indústria automotiva, com foco em Veículos conectados e
                     serviços de mobilidade.`,
-  [k.ABOUT_PART_3]: `Entendemos que não há duas frotas iguais. E que cada cliente nosso é 
-                    único e tratado como tal. Eles são nossos parceiros e recebem seus próprios 
-                    analistas dedicados à tarefa singular que é aumentar o valor de seu negócio.
-                    Isso nos permite fornecer com precisão as informações necessárias e isso
-                    causa um impacto real.`,
+  [k.ABOUT_PART_3]: `Entendemos que não há duas empresas com ativos de frota iguais.
+                    E que cada cliente nosso é único e tratado como tal. São
+                    nossos parceiros e dedicamos analistas especializados
+                    na tarefa singular que é aumentar o valor de seus negócios.
+                    Isso nos permite fornecer com precisão as informações necessárias
+                    ã gestão do negócio e isso causa um impacto real.`,
   [k.ABOUT_PART_4]: `É nosso compromisso uma abordagem focada no mercado que nos permita
                     ajudar nossos clientes a reduzir custos, proteger ativos,
                     obter eficiência, melhorar a utilização de recursos, minimizar
@@ -29,19 +30,21 @@ const portuguese =  {
                     7 dias por semana, em caso de acidente, recuperação de veículos
                     roubados e outros serviços de suporte ao cliente.`,
   [k.ABOUT_PART_6]: `• Experiência de conectividade do cliente através
-                    acesso à internet de alta velocidade já incorporado no veículo, permitindo a
-                    extensão de serviços e entretenimento on-line durante viagens individuais e familiares.`,
+                    acesso à internet de alta velocidade já incorporado no veículo,
+                    permitindo a extensão de serviços e entretenimento on-line
+                    durante viagens individuais e familiares.`,
   [k.ABOUT_PART_7]: `• Marketing no veículo, permitindo que os OEMs fabricantes de
                     veículos expandam seu acesso ao mercado por meio da tecnologia
                     de veículos conectados.`,
   [k.ABOUT_PART_8]:  `• Lealdade do cliente, permitindo uma nova criação de ecossistema
                       de serviços automotivos, conectando fornecedores de serviços
                       terceirizados em uma única plataforma.`,
-  [k.ABOUT_PART_9]: `• Gerenciamento de frota privada dos OEM automáticamente, capturando da
-                      base instalada de veículos, dados de diagnóstico do veículo em tempo real,
-                      ajudando os OEMs a gerenciar insights ​​que substancialmente
-                      impactem os negócios, no tempo de colocação no mercado de soluções e a
-                      melhoria no desenvolvimento de futuros veículos e soluções.`,
+  [k.ABOUT_PART_9]: `• Gerenciamento de frota privada dos OEM automáticamente,
+                      capturando da base instalada de veículos, dados de diagnóstico
+                      do veículo em tempo real, ajudando os OEMs a gerenciar insights
+                      ​​ que substancialmente impactem os negócios, no tempo de colocação
+                      no mercado de soluções e a melhoria no desenvolvimento de
+                      futuros veículos e soluções.`,
   [k.POINTER_IS_PART_OF_THE_GLOBAL]: `Pointer faz parte da empresa global de Internet Industrial das Coisas
                 PowerFleet ® Inc (NASDAQ: PWFL).`,
   [k.POWERFLEET_IS_A_WORLDWIDE_LEAD]: `A PowerFleet é líder e fornecedora mundial de sistemas sem fio baseados
@@ -211,6 +214,11 @@ const portuguese =  {
   [k.CUSTOMIZATION]: 'Customizações',
   [k.TELEMATICS]: 'Telemática',
   [k.TELEMATICS_TITLE]: 'O poder de nossa solução fim-a-fim',
+  [k.DESIGN_HEAD]: `A Pointer Automotive possui expertise no desenvolvimento
+                    de soluções personalizadas para o seu 'Veículo Conectado',
+                    independentemente do dispositivo que você escolheu: Sistemas
+                    de 'Infotainment', 'Headunits', 'Smartphones', 'Tablets' para
+                    os principais sistemas operacionais disponíveis.`,
   [k.HEADUNITS]: 'Integration with OEM Head units - Infotainment devices.',
   [k.TABLETS]: 'Tablets for professional monitoring of your vehicles.',
   [k.SPECIAL]: 'Special devices and OS integration to support your project.',
@@ -238,21 +246,21 @@ const portuguese =  {
   [k.DESIGN_OUR_APP6]: "Group information for safety, information and fun.",
   [k.DESIGN_OUR_APP7]: "Service support at your service.",
   [k.DESIGN_OUR_APP8]: "Breakdown, Medical, Safety Emergencies.",
-  [k.CONNECTED_TITLE]: `Pointer Automotive - Seu Parceiro em 'soluções connectadas'`,
-  [k.CONNECTED_HEADER]: `Pointer Automotive is working hard in the process of
-                        contibute for the Universal definition of 'Connected Vehicle'.
-                        Technology is at the heart of the OEM Automotive Industry
-                        and the it grows at a pace that is not yet clear where
-                        'Connected car' definition will be defined.
-                        Automotive manufacturers are selling ‘Connected cars’
-                        from a simply connected to the internet
-                        cellular connection, with limited feature set, to a fully
-                        connected vehicle necessary in all stages of self-driving
-                        technology.
-                        A real Connected Car, must be much more than a simple
-                        WiFi hotspot and become part of peoples life, conneted
-                        all times, and sharing information as it is desired
-                        in a real connecte world.`,
+  [k.CONNECTED_TITLE]: `Seu Parceiro em 'Soluções Connectadas'`,
+  [k.CONNECTED_HEADER]: `A Pointer Automotive está seriamente trabalhando no processo
+                        de definição universal de 'Veículo Conectado'.
+                        A tecnologia está no coração dos OEMs da indústria automotiva
+                        e cresce a um ritmo que ainda não está claro onde
+                        a definição de 'carro conectado' será concluída.
+                        Fabricantes de automóveis vendem "Carros Conectados"
+                        que vão desde um simples conectado à internet
+                        através de conexão celular, com conjunto limitado de recursos,
+                        a um veículo totalmente conectado necessário em todas as etapas
+                        da tecnologia de 'Autonomous-driving'.
+                        Um verdadeiro carro conectado deve ser muito mais do que um simples
+                        Hotspot WiFi e se tornar parte da vida das pessoas, conectada
+                        o tempo todo e compartilhar informações conforme desejado
+                        em um mundo real de conexão.`,
 [k.WHAT1]: `For the Vehicle users:`,
 [k.WHAT2]: `   -  Connected to Internet All times.`,
 [k.WHAT3]: `   -  Smooth transition - House / Office lifestyle to 'Connected car'.`,
@@ -447,10 +455,11 @@ const portuguese =  {
 [k.ELECTRIC10]: ``,
 [k.ELECTRIC11]: ``,
 [k.MOBILITY_TITLE]: 'Mobilidade - Oportunidades para os OEMs automotivos',
-[k.MOBILITY_HEAD]: `Automotive industry transformation drives OEM´s to diversified
-                    business offering beyond vehicle sales. Vehicle short and long
-                    term leasing, Car Sharing and other Vehicle Collaborative Use
-                    business model drives OEM to the era of Mobility Services.`,
+[k.MOBILITY_HEAD]: `A transformação da indústria automotiva leva os OEMs a diversificar
+                    a oferta de negócios além da venda de veículos. Financiamentos de
+                    Veículo de curto e longo prazo, compartilhamento de carros e
+                    outros usos colaborativos de veículos criam novos modelos de negócios
+                    e levam os OEMs à era dos serviços de mobilidade.`,
 [k.MOBILITY1]: `Pointer Connect helps OEM´s to operate and manage Mobility Services
                 in real time, assuring fleet full visibility, security and control.`,
 [k.MOBILITY2]: `Open API´s engage different Mobility Ecosystem partners as Specialized

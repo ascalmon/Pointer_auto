@@ -201,6 +201,10 @@ const hebrew = {
   [k.CUSTOMIZATION]: 'התאמות אישיות',
   [k.TELEMATICS]: 'טלמטיקה',
   [k.TELEMATICS_TITLE]: 'הכוח של הפיתרון שלנו מקצה לקצה',
+  [k.DESIGN_HEAD]: `Pointer Automotive has in-house expertise in the development
+                    of customized solutions for your 'Connected Vehicle', no matter the
+                    device you have choosen: Headunits, Smartphones, tablets for
+                    the top available OS vendors.`,
   [k.HEADUNITS]: 'Integration with OEM Head units - Infotainment devices.',
   [k.TABLETS]: 'Tablets for professional monitoring of your vehicles.',
   [k.SPECIAL]: 'Special devices and OS integration to support your project.',
@@ -228,7 +232,7 @@ const hebrew = {
   [k.DESIGN_OUR_APP6]: "Group information for safety, information and fun.",
   [k.DESIGN_OUR_APP7]: "Service support at your service.",
   [k.DESIGN_OUR_APP8]: "Breakdown, Medical, Safety Emergencies.",
-  [k.CONNECTED_TITLE]: `Pointer Automotive - השותף שלך בפתרונות מחוברים`,
+  [k.CONNECTED_TITLE]: `השותף שלך בפתרונות מחוברים`,
   [k.CONNECTED_HEADER]: `Pointer Automotive is working hard in the process of
                         contibute for the Universal definition of 'Connected Vehicle'.
                         Technology is at the heart of the OEM Automotive Industry

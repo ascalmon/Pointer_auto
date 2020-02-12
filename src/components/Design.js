@@ -20,6 +20,7 @@ import focus from '../assets/focus.svg';
 class Design extends Component {
 
 
+
   render() {
 
     return (
@@ -28,9 +29,10 @@ class Design extends Component {
         <div className="container-wrap">
           <p className=" design-subheading">{i18n.t(k.UNIQUE_DESIGN)}</p>
           <img className="img-fluid design-image" src={design} alt="Man in Office"></img>
+          <p className="design-subheading">{i18n.t(k.FOR_ALL_DEVICES)}</p>
+          <hr className="what-red-line"></hr>
           <div className="grid-design-container">
-            <p className="grid-design-item0 design-subheading">{i18n.t(k.FOR_ALL_DEVICES)}</p>
-            <hr className="what-red-line"></hr>
+            <strong><p className="grid-design-item0 text-center lorem">{i18n.t(k.DESIGN_HEAD)}</p></strong>
             <div className="grid-design-item2">
               <div className="card design-tablets">
                 <p className="design-textarea"><img className="img-fluid focus-icon" src={focus}  alt="Target" />{i18n.t(k.HEADUNITS)}</p>
