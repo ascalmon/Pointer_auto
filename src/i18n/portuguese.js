@@ -261,14 +261,14 @@ const portuguese =  {
                         Hotspot WiFi e se tornar parte da vida das pessoas, conectada
                         o tempo todo e compartilhar informações conforme desejado
                         em um mundo real de conexão.`,
-[k.WHAT1]: `For the Vehicle users:`,
-[k.WHAT2]: `   -  Connected to Internet All times.`,
-[k.WHAT3]: `   -  Smooth transition - House / Office lifestyle to 'Connected car'.`,
-[k.WHAT4]: `   -  User interaction with Digital world in a seamless way.`,
-[k.WHAT5]: `For the Vehicle manufacturers:`,
-[k.WHAT6]: `   -  Reliable Telematics Units for a seamless connection.`,
-[k.WHAT7]: `   -  Easy installation with 'Plug and Play' connection to Cloud.`,
-[k.WHAT8]: `   -  Diagnosis, BI, Data analysis, FOTA/OTA in one tool.`,
+[k.WHAT1]: `Para os usuários de veículos:`,
+[k.WHAT2]: `   -  Conectados à Internet 100% do tempo.`,
+[k.WHAT3]: `   -  Transição suave - do estilo de vida Casa / Escritório para o 'Connected car'.`,
+[k.WHAT4]: `   -  Interação do usuário com o mundo digital de forma integrada.`,
+[k.WHAT5]: `Para os fabricantes de veículos:`,
+[k.WHAT6]: `   -  Dispositivos Telemáticos confiáveis para uma conexão segura e integrada.`,
+[k.WHAT7]: `   -  Instalação, configuração e conexão a nuvem simples tipo 'Plug and Play'.`,
+[k.WHAT8]: `   -  Diagnoses, BI, Análise de dados, FOTA/OTA em único ambiente.`,
 [k.AI1]: `Data & algorithms mimic the cognitive functions of the human mind.`,
 [k.AI2]: `Ability to learn and solve problems independently.`,
 [k.AI3]: `Deployed across a variety of industries and use cases.`,
@@ -390,17 +390,19 @@ const portuguese =  {
                       Conectados' e Serviços de Mobilidade. Suporte de design e
                       desenvolvimento até a implantação do projeto. Abaixo os
                       serviços que podemos oferecer aos OEMs da indústria automotiva:`,
-[k.CONSULTING1]: `Connected Vehicle and Mobility Service Package Definition and Customization.`,
-[k.CONSULTING2]: `Manufacturing Automotive TCU activation procedures and connectivity validation with Cloud Services.`,
-[k.CONSULTING3]: `Integration with Legacy Systems.`,
-[k.CONSULTING4]: `SIM Card data package definition and SIM management.`,
-[k.CONSULTING5]: `Business Monetization - Vehicle high speed data embedded.`,
-[k.CONSULTING6]: `Vehicle Service Activation, update and upgrade methologies.`,
-[k.CONSULTING7]: `Automotive ecosystem development & integration.`,
-[k.CONSULTING8]: `3rd Part Platform Integration.`,
-[k.CONSULTING9]: `Customer Service / Subscription engagement .`,
-[k.CONSULTING10]: `Customized Design of OEMs App.`,
-[k.CONSULTING11]: `Vehicle data harmonization and much more .............`,
+[k.CONSULTING1]: `Customização e definição dos pacotes de serviços de 'Connected Vehicle'
+                  e 'Mobility Service'.`,
+[k.CONSULTING2]: `Procedimentos de ativação de TCUs em ambiente da fábrica e validação
+                  e testes de connectividade com a Nuvem.`,
+[k.CONSULTING3]: `Integração com sistemas legados das montadoras de veículos.`,
+[k.CONSULTING4]: `Definição do pacote de dados dos SIM Card com gerenciamento dos mesmos.`,
+[k.CONSULTING5]: `Monetização do negócio de 'Connected Vehicle' - Dados embarcados disponíveis em tempo real.`,
+[k.CONSULTING6]: `Metodologias de ativação, atualização, melhorias dos serviços do veículo.`,
+[k.CONSULTING7]: `Desenvolvimento e integração com o eco sistema automotivo.`,
+[k.CONSULTING8]: `Integração de plataformas de serviços de terceiros - Eco sistema.`,
+[k.CONSULTING9]: `Serviço ao cliente / Assinatura de serviços.`,
+[k.CONSULTING10]: `Desenho e desenvolvimento de Apps customizadas.`,
+[k.CONSULTING11]: `Harmonização dos dados do veículo e muito mais ....`,
 [k.INTELLIGENCE_TITLE]: `Levam veículos e dispositivos inteligentes a uma 'Experiência Digital'`,
 [k.INTELLIGENCE_HEAD]: `'Pointer Automotive' - 'Intelligence Services', conecta as
                         redes sem fio existentes e a futura rede 5G que permite que

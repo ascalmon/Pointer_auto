@@ -367,10 +367,11 @@ const hebrew = {
 [k.PROFESSIONAL8]: ``,
 [k.PROFESSIONAL9]: ``,
 [k.CONSULTING_TITLE]: `Best way to your 'Connected Vehicle'`,
-[k.CONSULTING_HEAD]: `Pointer team has experience to help OEMs in the whole process
+[k.CONSULTING_HEAD]: `Pointer Automotive' team has the expertise and experience
+                      to help OEMs of the automotive industry in the whole process
                       of designing a 'Connected Vehicle' and Mobility Services Strategy.
-                      Design and development support until project rollout.
-                      Below services we can offer to OEMs:`,
+                      Design and development's support until project rollout.
+                      Below services we can offer to OEMs of the automotive industry:`,
 [k.CONSULTING1]: `Connected Vehicle and Mobility Service Package Definition and Customization.`,
 [k.CONSULTING2]: `Manufacturing Automotive TCU activation procedures and connectivity validation with Cloud Services.`,
 [k.CONSULTING3]: `Integration with Legacy Systems.`,
