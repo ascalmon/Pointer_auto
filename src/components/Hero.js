@@ -3,22 +3,54 @@ import i18n from 'i18next';import k from "./../i18n/keys"; // React Component - 
 // ============ React Dependencies ======
 
 import React, { Component } from 'react';
+import ReactGA from 'react-ga';
 
 import logo_notext from '../assets/pointer_logo_notext.svg';
-
+import axios from 'axios';
 
 // ============ Hero Component ==========
 
 class Hero extends Component {
 
-  // constructor(props) {
-  //  super(props);
-  // }
-  //
+  constructor(props) {
+   super(props);
+   this.state = {
+     countryName: '',
+     region: '',
+     city: '',
+     ip: '',
+   }
+  }
+
+  getGeoInfo = () => {
+    axios.get('https://ipapi.co/json/').then((response) => {
+        let data = response.data;
+        this.setState({
+            countryName: data.country_name,
+            region: data.region,
+            city: data.city,
+            ip: data.ip
+        });
+    }).catch((error) => {
+        console.log(error);
+    });
+  };
+
+  componentDidMount(){
+    this.getGeoInfo();
+  }
+
+
 
 
   render() {
-
+    const { countryName, region, city, ip} = this.state;
+    console.log(countryName, region, city, ip);
+    ReactGA.event({
+    category: "From",
+    action: `Access from ${countryName}, - ${city} - ${region} - IP:${ip}`,
+    labels: 'Pointer Automotive'
+    });
     return (
       <React.Fragment>
         <div className="container" >
