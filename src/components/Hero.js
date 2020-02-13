@@ -40,9 +40,6 @@ class Hero extends Component {
     this.getGeoInfo();
   }
 
-
-
-
   render() {
     const { countryName, region, city, ip} = this.state;
     console.log(countryName, region, city, ip);
