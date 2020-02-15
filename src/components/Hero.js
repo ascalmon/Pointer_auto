@@ -51,7 +51,7 @@ class Hero extends Component {
     return (
       <React.Fragment>
         <div className="container" >
-          <div id="carouselIndicator" className="carousel slide carousel-hero" data-ride="carousel">
+          <div id="carouselIndicator" className="carousel slide carousel-hero carousel-fade" data-ride="carousel">
             <div className="carousel-inner">
               <div className="carousel-item item active">
                 <div className="hero">

@@ -251,7 +251,7 @@ const english = {
 [k.WHAT3]: `   -  Smooth transition - House / Office lifestyle to 'Connected Cars'.`,
 [k.WHAT4]: `   -  User interaction with Digital world in a seamless way.`,
 [k.WHAT5]: `For the Vehicle manufacturers:`,
-[k.WHAT6]: `   -  Reliable Telematics Units for a seamless connection.`,
+[k.WHAT6]: `   -  Reliable Units for a seamless connection.`,
 [k.WHAT7]: `   -  Easy installation with 'Plug and Play' connection to Cloud Services.`,
 [k.WHAT8]: `   -  Diagnosis, BI, Data analysis, FOTA/OTA in a single software platform.`,
 [k.AI1]: `Data & algorithms mimic the cognitive functions of the human mind.`,
@@ -292,10 +292,9 @@ const english = {
 [k.TELEMATICS_HEADER]: `The Pointer Automotive cloud based platform is called PConnect™
                   - Intelligent Cloud Based SW Platform that normalizes
                   different  sources of raw data into a well-structured information
-                  center, generating insights and formatted information to feed OEMs
-                  of the automotive industry, Dealer´s  network, OEM´ customers
-                  and key business partners as insurance companies,  financial
-                  groups and other relevant automotive players.`,
+                  center, generating insights and formatted information to feed OEMs,
+                  Dealer´s, OEM´ customers and key business partners as insurance
+                  companies,  financial groups and other relevant automotive players.`,
 [k.TELEMATICS1]: `Flexible architecture ready to integrate with OEM´s Manufacturing,
                   Marketing, Sales, Planning and other specific applications.`,
 [k.TELEMATICS2]: `powerful tool to enable OEMs to customize and develop unique
@@ -308,8 +307,9 @@ const english = {
                   to store OEM´s customer data in a secure environment guaranteeing
                   privacy of the user´s data.`,
 [k.TELEMATICS4]: `Business improvements by harmonizing, structuring and correlating
-                  vehicle raw data into relevant information, your entire business
-                  can be enhanced, enabling significant improvements in a new vehicle launching`,
+                  vehicle raw data into relevant information, enabling significant
+                  improvements in a new vehicle launching, enhancing your business performance
+                  vehicle quality customer perception.`,
 [k.TELEMATICS5]: `Build your own App in a customized and scalable way to generate new revenue business
                   opportunities for data monetization and digital service implementation.`,
 [k.TELEMATICS6]: `Full integration with vehicle's electronic modules through devices that
