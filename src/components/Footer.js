@@ -12,7 +12,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 // ============ Image Imports =============
 
-import logo_notext from '../assets/pointer_logo_notext.svg';
+
 
 // ============ Footer Component ==========
 
@@ -27,7 +27,7 @@ class Footer extends Component {
             <hr />
             <div className="row about-text">
               <span className="title-footer">{i18n.t(k.POINTER_AUTOMOTIVE)}&nbsp;</span>
-              <img className="logo-footer" alt="Pointer Logo" src={logo_notext} style={{width: "8%"}} />
+
             </div>
             <div className="footer">
             <div className="footer-text">

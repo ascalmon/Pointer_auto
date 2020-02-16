@@ -58,7 +58,7 @@ class Hero extends Component {
                   <div className="greeting">
                     <h1 className="description" >{i18n.t(k.CREATIVE_AUTO_SOLUTIONS)}</h1>
                       <span className="title">{i18n.t(k.POINTER_AUTOMOTIVE)}  </span>
-                      <img alt="Pointer Logo" className="logo" src={logo_notext} />
+
                     <hr className="white-line"></hr>
                     <div className="learn-more-div row">
                       <a className="learn-more" href="#contact">{i18n.t(k.LEARN_MORE)}</a>
@@ -71,7 +71,7 @@ class Hero extends Component {
                   <div className="greeting">
                     <h1 className="description">{i18n.t(k.CLOUD_BASED_SERVICES)}</h1>
                       <span className="title">{i18n.t(k.POINTER_AUTOMOTIVE)} </span>
-                      <img alt="Pointer Logo" className='logo' src={logo_notext}  />
+
                     <hr className="white-line"></hr>
                     <div className="learn-more-div row">
                       <a className="learn-more" href="#contact">{i18n.t(k.LEARN_MORE)}</a>
@@ -84,7 +84,7 @@ class Hero extends Component {
                   <div className="greeting">
                     <h1 className="description">{i18n.t(k.APP_TAYLORED_TO_YOUR_VEHICLE)}</h1>
                       <span className="title">{i18n.t(k.POINTER_AUTOMOTIVE)} </span>
-                      <img alt="Pointer Logo" className='logo' src={logo_notext} />
+
                     <hr className="white-line"></hr>
                     <div className="learn-more-div row">
                       <a className="learn-more" href="#contact">{i18n.t(k.LEARN_MORE)}</a>
@@ -97,7 +97,7 @@ class Hero extends Component {
                   <div className="greeting">
                     <h1 className="description">{i18n.t(k.THIRD_PARTIES_INTEGRATION)}</h1>
                       <span className="title">{i18n.t(k.POINTER_AUTOMOTIVE)} </span>
-                      <img alt="Pointer Logo" className='logo' src={logo_notext}/>
+                      
                     <hr className="white-line"></hr>
                     <div className="learn-more-div row">
                       <a className="learn-more" href="#contact">{i18n.t(k.LEARN_MORE)}</a>
